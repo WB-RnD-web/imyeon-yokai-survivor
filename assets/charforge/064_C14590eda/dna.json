@@ -1,0 +1,80 @@
+{
+ "id": "C14590eda",
+ "name": "하데스-바나 (Hades-Vana)",
+ "quote": "무너진 도시의 흙 아래, 영원한 꽃이 피어나리라.",
+ "race": "언데드",
+ "subrace": "다족형 사체",
+ "body_structure": "여섯 개의 팔을 가진 기괴한 인형형 인체",
+ "head_ratio": "3등신",
+ "job": "수도승",
+ "culture": "현대 폐허 문명",
+ "personality": [
+  "초연함",
+  "경건함",
+  "기괴한 자애로움"
+ ],
+ "face": "부서진 도자기 질감의 창백한 마스크",
+ "eyes": "빛나지 않는 탁한 갈색 눈동자",
+ "hair": "거친 흙색의 짧은 헝클어진 머리",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "말라붙은 흙과 먼지가 덮인 회갈색 피부",
+ "outfit": "현대적인 테크웨어 스타일의 낡은 갈색 승복",
+ "gloves": "낡은 가죽 붕대가 감긴 여섯 개의 손",
+ "shoes": "먼지 묻은 캔버스 운동화",
+ "accessories": [
+  "부서진 현대식 헤드셋"
+ ],
+ "bag": "찢어진 캔버스 백팩",
+ "weapon": "꽃잎이 휘날리는 거대한 흙빛 염주",
+ "sub_gear": "부서진 스마트폰 화면 조각",
+ "special_item": "마법의 씨앗",
+ "palette": [
+  "#4B3621",
+  "#8B7355",
+  "#D2B48C",
+  "#F4A460",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "말라붙은 진흙",
+  "부식된 금속",
+  "낡은 천"
+ ],
+ "silhouette": "여섯 개의 팔이 방사형으로 뻗어 무기를 감싸고 있으며, 거대한 염주가 몸 주위를 휘감고 있는 복잡한 형태",
+ "signature_motion": "여섯 개의 팔이 동시에 염주를 휘둘러 꽃잎 폭풍을 일으킴",
+ "signature_vfx": "짙은 황토색 꽃잎들이 소용돌이치며 터져 나오는 효과",
+ "unique_features": [
+  "여섯 개의 팔",
+  "도자기 파편 마스크",
+  "떠다니는 흙빛 염주",
+  "현대적 테크웨어 승복"
+ ],
+ "micro_features": [
+  "헤드셋의 깨진 틈",
+  "손가락에 감긴 낡은 붕대",
+  "가방에 매달린 마른 꽃송이"
+ ],
+ "visual_en": "A porcelain-fragmented mask with dull brown eyes sits atop messy earth-colored hair. Six spindly, earth-toned arms emerge from a decaying, grey-brown torso, each wrapped in weathered leather bandages. The character wears a dusty, dark brown techwear-style monk robe, heavily stained with mud. A massive, glowing ochre-colored prayer bead necklace floats around the body, partially obscuring a tattered canvas backpack adorned with dried flower petals. The feet are clad in dirty, light tan canvas sneakers. The entire silhouette is surrounded by swirling, vivid orange-brown flower petals that contrast with the heavy, dark brown textures of the limbs and clothing.",
+ "features_en": [
+  "Six arms",
+  "Porcelain fragment mask",
+  "Floating earth-colored prayer beads",
+  "Modern techwear monk robe"
+ ],
+ "pose_en": "Standing still in a meditative posture, with all six arms symmetrically arranging the floating beads.",
+ "vfx_en": "Swirling torrent of vivid ochre and burnt orange flower petals.",
+ "weapon_en": "Giant earthen prayer beads",
+ "item_en": "Tattered canvas backpack",
+ "motion_en": "Simultaneous multi-arm sweeping motion",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "add_anims": [
+  "idle"
+ ],
+ "colors": 16,
+ "indexed": true
+}

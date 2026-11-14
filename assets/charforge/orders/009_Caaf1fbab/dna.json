@@ -1,0 +1,90 @@
+{
+ "id": "Caaf1fbab",
+ "name": "할드",
+ "quote": "상처는 맺힘에서 치유되리라.",
+ "race": "물령 (Water Spirit)",
+ "subrace": "응축된 이슬 요괴",
+ "body_structure": "액체 상태의 핵을 품은 유기적 형태",
+ "head_ratio": "2등신",
+ "job": "치유사 (Healer)",
+ "culture": "심연의 웅덩이 부족",
+ "personality": [
+  "차분함",
+  "이타적임",
+  "정적인"
+ ],
+ "face": "감정이 없는 무표정",
+ "eyes": "발광하는 연두색 눈",
+ "hair": "흐물거리는 진한 자주색 액체 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "물방울이 맺힌 짙은 청록색 꼬리",
+ "wings": "없음",
+ "skin": "짙은 청록색의 반투명한 피부",
+ "outfit": "자주색 무늬가 새겨진 흰색 띠",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "머리 위에 떠 있는 작은 연두색 빛의 구체"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "치유의 이슬방울",
+ "palette": [
+  "#004D40",
+  "#4A148C",
+  "#FFFFFF",
+  "#CCFF00",
+  "#00695C"
+ ],
+ "materials": [
+  "액체",
+  "반투명",
+  "발광"
+ ],
+ "silhouette": "둥근 머리, 흐물거리는 머리카락 실루엣, 끝에 커다란 물방울이 달린 꼬리, 머리 위 떠 있는 작은 구체",
+ "signature_motion": "주변을 천천히 회전하며 빛을 퍼뜨림",
+ "signature_vfx": "주변으로 퍼져나가는 연두색 파동과 작은 이슬 입자",
+ "unique_features": [
+  "머리 위 떠 있는 연두색 빛의 구체",
+  "끝에 큰 물방울이 달린 짙은 청록색 꼬리",
+  "자주색 액체 머리카락",
+  "발광하는 연두색 눈"
+ ],
+ "micro_features": [
+  "몸 표면의 작은 기포",
+  "흰색 띠의 자주색 무늬",
+  "꼬리 끝의 반짝임"
+ ],
+ "visual_en": "A small 2-head tall creature facing right, featuring a deep teal translucent body and flowing dark purple liquid hair. A bright lime-green glowing orb floats above its head. The creature has glowing lime-green eyes and a thick dark teal tail ending in a large, heavy water droplet. A simple white band with purple patterns wraps around its torso. Tiny air bubbles are visible within its teal skin, and small lime-green sparkles drift from the tail's tip.",
+ "features_en": [
+  "Glowing lime-green orb above head",
+  "Thick dark teal tail with large droplet",
+  "Dark purple liquid hair",
+  "Glowing lime-green eyes"
+ ],
+ "pose_en": "Floating calmly while emitting a soft pulse.",
+ "vfx_en": "Expanding concentric ripples of lime-green light.",
+ "weapon_en": "None",
+ "item_en": "Dewdrop Essence",
+ "motion_en": "Slowly orbiting nearby allies.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "8-0",
+ "lore": "플레이어와 거리를 두고, 2.2초마다 주변 몹을 치유한다.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "skill",
+  "vfx"
+ ],
+ "anim_notes": {
+  "skill": "healing nearby allies with a soft glowing light",
+  "vfx": "a soft round healing glow"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

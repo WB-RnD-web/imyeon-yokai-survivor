@@ -1,0 +1,109 @@
+{
+ "id": "Cf7d653ce",
+ "name": "설화",
+ "quote": "차가운 숨결이 닿는 곳에 생명은 멈추리라.",
+ "race": "반요",
+ "subrace": "눈 요괴",
+ "body_structure": "작고 가냮은 체구이나 신성한 오라로 인해 부풀어 보이는 실루엣",
+ "head_ratio": "2등신",
+ "job": "빙결술사",
+ "culture": "한국 설화 기반의 신령스러운 요괴 문화",
+ "personality": [
+  "냉정함",
+  "신비로움",
+  "고결함"
+ ],
+ "face": "창백하지만 생기 있는 푸른 빛이 도는 얼굴",
+ "eyes": "빛나는 하늘색 눈동자",
+ "hair": "눈송이처럼 하얗고 층이 진 단발머리",
+ "ears": "끝이 살짝 뾰족한 인간형 귀",
+ "horns": "머리 위로 떠 있는 작은 얼음 결정 뿔",
+ "tail": "없음",
+ "wings": "등 뒤에 떠 있는 반투명한 얼음 조각 날개",
+ "skin": "매우 밝은 미색(Pale Ivory)",
+ "outfit": "남색과 하늘색이 섞인 화려한 한복 스타일의 신령 의복",
+ "gloves": "반투명한 얼음 결정 장식이 된 흰색 소매",
+ "shoes": "하늘색 꽃 문양이 새겨진 흰 꽃신",
+ "accessories": [
+  "머리 위의 얼음 결정 뿔",
+  "등 뒤의 얼기 섞인 날개",
+  "주변을 떠다니는 빛나는 눈송이"
+ ],
+ "bag": "없음",
+ "weapon": "얼음 부채",
+ "sub_gear": "얼음 결정 장식",
+ "special_item": "신성한 얼음 결정",
+ "palette": [
+  "#FFFFFF (Snow White)",
+  "#87CEEB (Sky Blue)",
+  "#191970 (Midnight Blue)",
+  "#E0FFFF (Light Cyan)",
+  "#FFD700 (Divine Gold)"
+ ],
+ "materials": [
+  "얼음",
+  "비단",
+  "빛나는 결정"
+ ],
+ "silhouette": "떠 있는 얼음 날개, 펼쳐진 부채, 머리 위 결정 뿔, 둥근 머리와 작은 몸체",
+ "signature_motion": "부채를 크게 펼치며 차가운 냉기를 뿜어내는 동작",
+ "signature_vfx": "부채 끝에서 퍼져나가는 눈부신 금빛과 하늘색의 냉기 파동",
+ "unique_features": [
+  "머리 위 떠 있는 얼음 결정 뿔",
+  "반투명한 얼음 날개",
+  "주변을 떠다니는 빛나는 눈송이"
+ ],
+ "micro_features": [
+  "부채의 금색 문양",
+  "소매 끝의 얼음 결정",
+  "발등의 꽃 문양"
+ ],
+ "visual_en": "A 2-head tall chibi character facing right. The character has snow-white layered short hair and glowing sky-blue eyes. Floating small ice crystal horns rest above the head. Translucent ice shard wings float behind the back. The character wears a midnight blue and light cyan hanbok-style outfit with white sleeves decorated with tiny ice crystals. The character holds an open ice fan decorated with divine gold patterns. Floating bright white snowflakes surround the body. The feet are adorned with white flower shoes featuring light cyan patterns. The overall silhouette is distinct with bright light cyan and gold accents against the dark clothing.",
+ "features_en": [
+  "Floating ice crystal horns",
+  "Translucent ice shard wings",
+  "Floating glowing snowflakes"
+ ],
+ "pose_en": "Standing gracefully while spreading an icy fan to release frost.",
+ "vfx_en": "A few sharp pale blue ice shards flying forward and small snowflakes",
+ "weapon_en": "Ice Fan with golden ornaments",
+ "item_en": "Divine Ice Crystal",
+ "motion_en": "Sweeping the fan to create a freezing blizzard effect",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "51-0",
+ "lore": "눈 요괴 반요 — 차가운 숨으로 적을 느리게 만든다. 무기 얼음 부채.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "idle"
+ ],
+ "indexed": true,
+ "game_name": "설화",
+ "contrast": "both",
+ "concept": "이 게임 세계(요괴 · 이면 — 한국 설화) 영웅. 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "frame_notes": {
+  "entrance_2": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible",
+  "skill_0": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible",
+  "skill_1": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible",
+  "skill_2": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible",
+  "ultimate_0": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible",
+  "ultimate_1": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible",
+  "ultimate_2": "Thin sharp pale blue ice shards and a few small snowflakes fly around it in a loose ring, the whole body and face clearly visible"
+ },
+ "no_halo": true,
+ "anchor_edits": [
+  "Remove the glowing halo ring floating above the head completely. Keep everything else exactly the same: face, hair, horns, ears, outfit, colors, weapon, pose and size."
+ ],
+ "body_plan": {
+  "body": "A small, chibi-style humanoid character with white hair, blue eyes, and white wings, wearing a blue and white outfit.",
+  "legs": true,
+  "arms": true,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "c37e1be14278cc9b39de7fdedf0a21b1"
+ },
+ "vfx_en_old": "A radiating wave of dazzling gold and sky blue frost particles."
+}

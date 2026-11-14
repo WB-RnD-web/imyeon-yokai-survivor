@@ -1,0 +1,85 @@
+{
+ "id": "C95fcf44f",
+ "name": "발룸",
+ "quote": "나를 베어라, 나는 둘이 되어 너를 덮칠 테니.",
+ "race": "이형(畸形) 요괴",
+ "subrace": "분열형 수생 요괴",
+ "body_structure": "액체처럼 흐물거리는 반투명한 신체",
+ "head_ratio": "2등신",
+ "job": "분열하는 포식자",
+ "culture": "심해 유적의 파수꾼",
+ "personality": [
+  "끈질긴",
+  "기괴한",
+  "군집적인"
+ ],
+ "face": "입이 얼굴 전체를 차지하는 거대한 구멍",
+ "eyes": "눈이 없는 대신 빛나는 발광 유기체",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "양옆으로 갈라진 두 갈래의 촉수 꼬리",
+ "wings": "없음",
+ "skin": "형광 청록색의 끈적이는 점액질 피부",
+ "outfit": "몸을 감싸는 뼈 조각 갑주",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "머리 위에 떠 있는 빛나는 마법 핵"
+ ],
+ "bag": "없음",
+ "weapon": "자신의 몸을 찢어 만드는 날카로운 뼈 칼날",
+ "sub_gear": "없음",
+ "special_item": "분열 시 생성되는 작은 파편들",
+ "palette": [
+  "#00FFC3",
+  "#005F52",
+  "#E0F7FA",
+  "#2C3E50",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "반투명 점액",
+  "단단한 뼈",
+  "발광하는 에너지"
+ ],
+ "silhouette": "머리 부분에 떠 있는 큰 구체, 양옆으로 갈라진 거대한 두 갈래 꼬리, 몸체에서 뻗어 나온 날카로운 뼈 돌기",
+ "signature_motion": "몸이 좌우로 크게 흔들리며 분열할 준비를 하는 움직임",
+ "signature_vfx": "몸이 갈라질 때 터져 나오는 형광 청록색의 액체 파편과 빛의 잔상",
+ "unique_features": [
+  "분열 가능한 두 갈래 꼬리",
+  "머리 위의 떠 있는 마법 핵",
+  "입 자체가 얼굴인 구조",
+  "몸 곳곳에 박힌 하얀 뼈 조각"
+ ],
+ "micro_features": [
+  "뼈 조각에 박힌 작은 기포",
+  "꼬리 끝의 미세한 점액 방울",
+  "핵 주변의 작은 빛의 입자"
+ ],
+ "visual_en": "A small 2-head tall creature facing right, featuring a large floating luminous cyan magic core above its head. The face is a massive, dark teal gaping mouth without eyes. The body is made of translucent cyan slime with sharp white bone fragments embedded throughout. Two large, thick tentacles split from the lower body to form a bifurcated tail. The creature's skin glows with a bright neon cyan light, contrasting against dark bone armor pieces. Small bubbles and glowing particles drift around the central core and the split tail tips.",
+ "features_en": [
+  "Bifurcated tail",
+  "Floating magic core",
+  "Mouth-centric face",
+  "Embedded bone fragments"
+ ],
+ "pose_en": "A writhing, unstable stance as if about to split in half.",
+ "vfx_en": "Splashing neon cyan liquid droplets and bright white light bursts.",
+ "weapon_en": "Sharp, jagged bone blades protruding from the body.",
+ "item_en": "Glowing magical nucleus.",
+ "motion_en": "A violent, rhythmic splitting motion.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "18-0",
+ "lore": "쓰러지면 늘 둘로 갈라진다.",
+ "px": 52,
+ "colors": 16,
+ "extra_px": [
+  36
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

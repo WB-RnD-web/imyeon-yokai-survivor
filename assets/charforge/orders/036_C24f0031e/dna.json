@@ -1,0 +1,98 @@
+{
+ "id": "C24f0031e",
+ "name": "도깨비불",
+ "quote": "푸른 불꽃이 일렁이면 저승길이 열린다.",
+ "race": "요괴 (Yokai)",
+ "subrace": "원소 요괴 (Elemental)",
+ "body_structure": "불덩이 형태의 단일체",
+ "head_ratio": "2등신",
+ "job": "잡몹 (Minion)",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "변덕스러운",
+  "공격적인",
+  "예측 불가능한"
+ ],
+ "face": "화염 속에 일렁이는 단순한 눈매",
+ "eyes": "밝은 하늘색의 빛나는 눈",
+ "hair": "푸른 불꽃 모양의 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "짙은 남색의 불꽃 본체",
+ "outfit": "없음",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "없음"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#0A0E14",
+  "#1A2A40",
+  "#4A90E2",
+  "#A0E6FF",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "연기",
+  "푸른 불꽃",
+  "빛나는 잔상"
+ ],
+ "silhouette": "둥글고 불규칙하게 일렁이는 불꽃 덩어리, 위로 솟구친 불꽃 머리카락",
+ "signature_motion": "웅크린 채 머뭇거리다 갑자기 튀어나가며 적에게 돌진함",
+ "signature_vfx": "사망 시 밝은 하늘색 불꽃 파편이 사방으로 튀며 폭발함",
+ "unique_features": [
+  "불꽃 머리카락",
+  "단일 불덩이 몸체",
+  "밝은 하늘색 눈"
+ ],
+ "micro_features": [
+  "일렁이는 불꽃 끝단",
+  "작은 불꽃 잔상",
+  "어두운 연기 덩어리"
+ ],
+ "visual_en": "A small, spherical core of deep navy blue flame. The top of the body features flickering, upward-reaching flame hair in shades of bright sky blue and white. Two simple, bright sky blue glowing eyes are embedded within the dark flame mass. The entire silhouette is composed of an unstable, undulating flame shape with small, trailing embers of light blue and white floating around the edges of the dark navy core.",
+ "features_en": [
+  "Flame hair",
+  "Single flame body",
+  "Bright sky blue eyes"
+ ],
+ "pose_en": "Crouched low and suddenly lunging forward.",
+ "vfx_en": "Exploding shards of bright sky blue and white sparks.",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Bursting forward with a sudden jump.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "35-0",
+ "lore": "웅크렸다 튀어 나가고, 일부는 쓰러질 때 터진다. 보스 졸개(px20)와 정예 판(px40)으로도 나온다.",
+ "px": 28,
+ "colors": 16,
+ "add_anims": [
+  "charge"
+ ],
+ "extra_px": [
+  20,
+  40
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "도깨비불",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A small, dark blue, humanoid creature with blue flame-like hair and glowing eyes.",
+  "legs": true,
+  "arms": true,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "bbc8e086bf669e33cea9fbbc81106ad7"
+ }
+}

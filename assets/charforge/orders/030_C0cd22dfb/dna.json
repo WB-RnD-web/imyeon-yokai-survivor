@@ -1,0 +1,87 @@
+{
+ "id": "C0cd22dfb",
+ "name": "소환수",
+ "quote": "작은 돌진, 거대한 군단.",
+ "race": "기계 정령 (Mechanical Spirit)",
+ "subrace": "에너지 결정체 (Energy Crystal)",
+ "body_structure": "구체형 (Orbital)",
+ "head_ratio": "SD",
+ "job": "돌격 보조 (Assault Support)",
+ "culture": "마법 공학 (Magitech)",
+ "personality": [
+  "충성스러운",
+  "단순한",
+  "맹목적인"
+ ],
+ "face": "표정이 없는 매끄러운 금속면",
+ "eyes": "중앙에 빛나는 단 하나의 푸른 보석",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "매끄러운 청동 질감",
+ "outfit": "마법 각인이 새겨진 금속 외피",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "부유하는 마법 링"
+ ],
+ "bag": "없음",
+ "weapon": "에너지 코어",
+ "sub_gear": "없음",
+ "special_item": "얼음 정령의 파편 (융합용)",
+ "palette": [
+  "Bronze",
+  "Deep Teal",
+  "Electric Cyan",
+  "White Gold"
+ ],
+ "materials": [
+  "Polished Bronze",
+  "Glowing Crystal"
+ ],
+ "silhouette": "둥근 구체 형태, 주변을 회전하는 얇은 고리, 하단에 떠 있는 작은 파편들",
+ "signature_motion": "적을 향해 직선으로 빠르게 돌진했다가 튕겨져 나옴",
+ "signature_vfx": "돌진 경로를 따라 남는 밝은 하늘색 잔상과 작은 빛의 파편",
+ "unique_features": [
+  "중앙의 거대한 푸른 보석",
+  "주변을 도는 마법 고리",
+  "하단에 떠 있는 마법 파편"
+ ],
+ "micro_features": [
+  "표면의 미세한 마법 각인",
+  "고리에 달린 작은 빛의 점",
+  "금속 표면의 광택"
+ ],
+ "visual_en": "A small, spherical bronze orb floating mid-air, facing right. At its center, a large, glowing Electric Cyan crystal serves as a single eye. Encircling the sphere is a thin, rotating White Gold magic ring. Tiny, sharp bronze fragments hover just beneath the main body. The surface of the bronze orb is etched with intricate, dark Deep Teal magical runes. The entire entity radiates a faint, pulsing light from its central core.",
+ "features_en": [
+  "Large central blue gem",
+  "Rotating magic ring",
+  "Floating magic fragments"
+ ],
+ "pose_en": "Floating steadily while spinning slowly toward the right.",
+ "vfx_en": "A bright Electric Cyan light trail following the orb's path.",
+ "weapon_en": "Energy Core Impact",
+ "item_en": "Ice Elemental Fragment",
+ "motion_en": "Rapid linear dash and bounce",
+ "genre": "survivor",
+ "role": "펫",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "29-0",
+ "lore": "플레이어 편 소환수. 적을 쫓아가 부딪쳐 공격한다. 레벨이 오르면 수가 늘어난다. 얼음 정령과 함께 키우면 '군단'으로 합쳐져 얼음탄을 쏜다.",
+ "px": 32,
+ "colors": 16,
+ "add_anims": [
+  "skill",
+  "attack"
+ ],
+ "ranged": true,
+ "anim_notes": {
+  "skill": "ramming into an enemy",
+  "attack": "shooting an ice bolt"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

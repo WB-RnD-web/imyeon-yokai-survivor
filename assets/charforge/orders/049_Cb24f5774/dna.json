@@ -1,0 +1,119 @@
+{
+ "id": "Cb24f5774",
+ "name": "저승 판관",
+ "quote": "명부에 기록된 네 운명은 여기까지다.",
+ "race": "신령 (Divine Arbiter)",
+ "subrace": "명부의 관리자 (Underworld Administrator)",
+ "body_structure": "단단하고 위엄 있는 체형",
+ "head_ratio": "3등신",
+ "job": "판관 (Judge)",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "냉혹함",
+  "엄격함",
+  "흔들림 없는"
+ ],
+ "face": "창백하고 감정이 없는 무표정",
+ "eyes": "형광빛이 도는 밝은 금색 눈",
+ "hair": "뒤로 깔끔하게 묶은 흑발",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "매우 창백한 백색",
+ "outfit": "화려한 금색 자수가 놓인 붉은색 관복과 긴 망토",
+ "gloves": "금색 장식의 흰색 소매",
+ "shoes": "검은색 장화",
+ "accessories": [
+  "황금색 관모",
+  "허리에 찬 명부 두루마리"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 영력 붓",
+ "sub_gear": "명부 두루마리",
+ "special_item": "황금빛 인장",
+ "palette": [
+  "#FF0000 (Crimson)",
+  "#FFD700 (Golden)",
+  "#FFFFFF (Bright White)",
+  "#2C2C2C (Dark Charcoal)",
+  "#8B0000 (Deep Red)"
+ ],
+ "materials": [
+  "비단",
+  "황금",
+  "종이"
+ ],
+ "silhouette": "머리의 높은 관모, 휘날리는 긴 망토, 거대한 붓의 실루엣, 허리 뒤로 튀어나온 두루마리",
+ "signature_motion": "붓을 허공에 휘둘러 글자를 새기는 동작",
+ "signature_vfx": "붓 끝에서 뿜어져 나오는 밝은 금색 영적 글자와 흩날리는 붉은 꽃잎",
+ "unique_features": [
+  "황금빛으로 빛나는 눈",
+  "거대한 영력 붓",
+  "허리 뒤에 떠 있는 명부 두락",
+  "금색 자수가 수놓아진 붉은 관복",
+  "주변을 감싸는 밝은 황금색 오라"
+ ],
+ "micro_features": [
+  "관모의 금색 장식",
+  "붓 끝에 맺힌 빛나는 먹물",
+  "관복 소매의 구름 문양"
+ ],
+ "visual_en": "A 3-head tall figure wearing a brilliant crimson official robe with heavy golden embroidery. On the head, a tall black traditional Korean hat (Gwanmo) with golden ornaments stands out. The eyes glow with a piercing, radiant golden light. The character holds a massive, glowing calligraphy brush that emits bright white ink particles. Floating behind the waist is a large, ancient scroll (Myeongbu) partially unfurled. A long, flowing crimson cape with golden edges drifts upwards, accompanied by a strong, radiant golden aura. The skin is deathly pale white, contrasting sharply with the deep red and bright gold elements.",
+ "features_en": [
+  "Radiant golden eyes",
+  "Massive spiritual brush",
+  "Floating Myeongbu scroll",
+  "Crimson robe with gold embroidery",
+  "Strong golden radiant aura"
+ ],
+ "pose_en": "Standing tall and imposing, holding the brush ready to strike the air.",
+ "vfx_en": "A few bold red ink brush strokes slashing through the air in front of it and small red sparks",
+ "weapon_en": "Giant Spiritual Calligraphy Brush",
+ "item_en": "The Scroll of Judgement",
+ "motion_en": "Swiping the brush to summon ghostly spirits",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "48-0",
+ "lore": "저승길 중간보스. 사라졌다가 플레이어 곁에 나타나 따라오는 탄 세 발을 쏘고, 망혼을 불러낸다(시울처럼).",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge",
+  "attack",
+  "ultimate",
+  "portrait"
+ ],
+ "anim_notes": {
+  "attack": "firing three homing ink orbs",
+  "ultimate": "summoning small white wandering spirits around it",
+  "entrance": "appearing out of a swirl of dark mist"
+ },
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "저승 판관",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A small, humanoid character wearing a large black hat and a flowing red robe with gold patterns.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "a53638d69b95069fbceb7dd92a88706c"
+ },
+ "frame_notes": {
+  "entrance_0": "Only a few thin dark crimson ink brush strokes near its brush and feet; most of the picture around the character stays empty and dark, the red robe clearly visible",
+  "entrance_1": "Only a few thin dark crimson ink brush strokes near its brush and feet; most of the picture around the character stays empty and dark, the red robe clearly visible",
+  "ultimate_2": "Only a few thin dark crimson ink brush strokes near its brush and feet; most of the picture around the character stays empty and dark, the red robe clearly visible"
+ },
+ "vfx_en_old": "Bright golden calligraphy characters and glowing red particles swirling around the brush.",
+ "frame_text": {
+  "entrance_0": "stepping into view with a few small sparks at its feet, its whole body solid and clearly drawn",
+  "entrance_1": "landing dramatically, anything loose on its body (cloth, hair, fur) still flowing, a few small sparks at its feet",
+  "ultimate_2": "at the peak of its ultimate ability, a bold effect in front of it and small sparks around it"
+ }
+}

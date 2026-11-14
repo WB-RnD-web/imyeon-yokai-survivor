@@ -1,0 +1,96 @@
+{
+ "id": "Ce112c059",
+ "name": "브란드",
+ "quote": "스치는 그림자조차 놓치지 않는다.",
+ "race": "기동형 요괴",
+ "subrace": "족제비 요괴",
+ "body_structure": "낮고 긴 짐승형",
+ "head_ratio": "2등신",
+ "job": "급습병 (Raider)",
+ "culture": "부족의 추격자",
+ "personality": [
+  "민첩한",
+  "기회주의적인",
+  "예민한"
+ ],
+ "face": "뾰족한 주둥이와 날카로운 눈매",
+ "eyes": "빛나는 에메랄드빛 눈",
+ "hair": "없음",
+ "ears": "작고 쫑긋한 삼각형 귀",
+ "horns": "없음",
+ "tail": "길고 유연하며 끝이 뭉툭한 꼬리",
+ "wings": "없음",
+ "skin": "밝은 오렌지색 털",
+ "outfit": "가벼운 청록색 가죽 보호구",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "목에 두른 작은 뼈 장식"
+ ],
+ "bag": "없음",
+ "weapon": "날카로운 발톱",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "Bright Orange",
+  "Teal",
+  "Emerald Green",
+  "Cream White",
+  "Deep Brown"
+ ],
+ "materials": [
+  "부드러운 털",
+  "단단한 가죽",
+  "뼈"
+ ],
+ "silhouette": "낮고 긴 족제비 형태, 뾰족한 주둥이, 길게 뻗은 꼬리, 날카로운 발톱 실루엣",
+ "signature_motion": "지면을 낮게 깔며 빠르게 대각선으로 돌진하는 움직임",
+ "signature_vfx": "돌진 경로를 따라 남는 에메랄드빛 잔상",
+ "unique_features": [
+  "낮고 긴 족제비 체형",
+  "에메랄드빛으로 빛나는 눈",
+  "길고 유연한 꼬리",
+  "날카로운 발톱"
+ ],
+ "micro_features": [
+  "목의 작은 뼈 장식",
+  "청록색 가죽 보호구 테두리",
+  "코 끝의 밝은 점"
+ ],
+ "visual_en": "A low-profile, elongated weasel-like creature facing right. The body is covered in bright orange fur that stands out against dark backgrounds. It has a sharp, pointed snout with a small cream-white dot on the nose and glowing emerald green eyes. A thin, flexible tail extends backward. Around its neck, a small bone accessory is visible. The creature wears minimal teal leather guards on its front limbs, featuring a fine cream-colored trim. Its sharp, clawed paws are poised for a sudden spring.",
+ "features_en": [
+  "Low and long weasel body type",
+  "Glowing emerald eyes",
+  "Long, flexible tail",
+  "Sharp claws"
+ ],
+ "pose_en": "Crouched low to the ground, ready to spring forward instantly.",
+ "vfx_en": "A swift streak of emerald green light following the dash path.",
+ "weapon_en": "Sharp, piercing claws",
+ "item_en": "None",
+ "motion_en": "Rapid low-altitude dashing",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "11-0",
+ "lore": "아주 빠르게 파고드는 급습형.",
+ "px": 40,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true,
+ "frame_notes": {
+  "walk_0": "It walks on all four legs with its long body held low and horizontal, exactly like the reference; it never stands up on its hind legs",
+  "walk_1": "It walks on all four legs with its long body held low and horizontal, exactly like the reference; it never stands up on its hind legs",
+  "walk_2": "It walks on all four legs with its long body held low and horizontal, exactly like the reference; it never stands up on its hind legs",
+  "walk_3": "It walks on all four legs with its long body held low and horizontal, exactly like the reference; it never stands up on its hind legs"
+ },
+ "body_plan": {
+  "body": "An orange fox-like creature with four legs and a bushy tail.",
+  "legs": false,
+  "arms": false,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "da53f828e3d595338e1d472c3454c162"
+ }
+}

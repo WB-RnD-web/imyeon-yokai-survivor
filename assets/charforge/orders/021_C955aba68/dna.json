@@ -1,0 +1,105 @@
+{
+ "id": "C955aba68",
+ "name": "한 획의 나기",
+ "quote": "단 한 번의 궤적이 운명을 가른다.",
+ "race": "신수 (Divine Beast)",
+ "subrace": "백호 (White Tiger Spirit)",
+ "body_structure": "강인한 맹수형",
+ "head_ratio": "2등신",
+ "job": "심판자 (Judge)",
+ "culture": "동양 신화 (Oriental Mythology)",
+ "personality": [
+  "위엄 있는",
+  "압도적인",
+  "냉혹한"
+ ],
+ "face": "날카롭고 위엄 있는 표정",
+ "eyes": "빛나는 금색 안광",
+ "hair": "하얀 털과 금색 장식",
+ "ears": "둥글고 짧은 백호의 귀",
+ "horns": "없음",
+ "tail": "거대하고 화려한 꼬리",
+ "wings": "없음",
+ "skin": "눈부신 흰색 털",
+ "outfit": "황금색 갑주와 붉은 비단 장식",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "황금색 귀걸이",
+  "붉은색 매듭 장식"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 붓 (Great Calligraphy Brush)",
+ "sub_gear": "흩날리는 먹물 입자",
+ "special_item": "황금빛 보주",
+ "palette": [
+  "Pure White",
+  "Royal Gold",
+  "Crimson Red",
+  "Ink Black",
+  "Glowing Amber"
+ ],
+ "materials": [
+  "Silk",
+  "Gold",
+  "Fur",
+  "Ink"
+ ],
+ "silhouette": "거대한 붓을 옆으로 든 웅크린 맹수, 길게 뻗은 꼬리, 흩날리는 붉은색 매듭 장식",
+ "signature_motion": "웅크렸다가 화면을 가로지르며 돌진하는 궤적",
+ "signature_vfx": "바닥에 새겨지는 붉은색 붓글씨 문양과 황금빛 폭발",
+ "unique_features": [
+  "거대한 붓 무기",
+  "황금색 갑주",
+  "붉은색 매듭 장식",
+  "빛나는 금색 안광",
+  "거대한 꼬리"
+ ],
+ "micro_features": [
+  "귀 끝의 금색 장식",
+  "붓끝의 맺힌 먹물",
+  "꼬리에 달린 작은 방울"
+ ],
+ "visual_en": "A majestic white tiger-like divine beast facing right, featuring a large glowing amber eye. It wears lavish royal gold armor plates over its pure white fur. A thick crimson red silk ornament flows from its neck, acting as a cape. The beast holds a massive, heavy calligraphy brush with ink-black bristles tipped with glowing amber light. Its enormous, thick tail is decorated with small golden bells and red tassels. A radiant golden aura surrounds its entire body, with black ink particles floating around the brush tip.",
+ "features_en": [
+  "Massive calligraphy brush",
+  "Royal gold armor",
+  "Crimson red silk ornaments",
+  "Glowing amber eyes",
+  "Enormous flowing tail"
+ ],
+ "pose_en": "Crouching low in a predatory stance, ready to pounce forward.",
+ "vfx_en": "Glowing crimson calligraphy strokes appearing on the ground with golden sparks.",
+ "weapon_en": "Great Ink Brush",
+ "item_en": "Golden Orb of Judgement",
+ "motion_en": "A sudden, high-speed dash leaving a trail of red ink.",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "20-0",
+ "lore": "던전 스테이지 보스. 붉게 웅크렸다가 돌진, 탄막, 플레이어 발밑에 예고 장판, 졸개 소환을 한다.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward. The character's body stays exactly the same size and in the same place as in the input image: same head size, same height, feet on the same line. Draw the effect around it, smaller if needed, and never shrink the character",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions. The character's body stays exactly the same size and in the same place as in the input image: same head size, same height, feet on the same line. Draw the effect around it, smaller if needed, and never shrink the character",
+  "vfx": "a glowing red warning circle on the ground",
+  "entrance": "The character's body stays exactly the same size and in the same place as in the input image: same head size, same height, feet on the same line. Draw the effect around it, smaller if needed, and never shrink the character"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "vfx": "black and crimson ink brush strokes splashed flat across the ground like calligraphy inside a thin red circle, no fire, no flames"
+ },
+ "body_plan": {
+  "body": "An anthropomorphic white tiger character wearing golden armor and a red cape.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "anchor_md5": "be0eb91581fd57570fe9f8ba85926cb4"
+ }
+}

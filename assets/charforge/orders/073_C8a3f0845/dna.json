@@ -1,0 +1,128 @@
+{
+ "name": "연 · 저승길 차림",
+ "quote": "아홉 개의 불꽃이 어둠을 가르리라.",
+ "race": "구미호 반요",
+ "subrace": "신화급 영웅",
+ "body_structure": "SD",
+ "head_ratio": "2등신",
+ "job": "여우불 술사",
+ "culture": "한국 설화 (K-Mythology)",
+ "personality": [
+  "고결한",
+  "신비로운",
+  "강력한"
+ ],
+ "face": "날카로우면서도 우아한 눈매",
+ "eyes": "빛나는 금색 눈동자",
+ "hair": "짙은 남색의 긴 머리카락",
+ "ears": "끝이 뾰족한 여우 귀",
+ "horns": "없음",
+ "tail": "아홉 개의 풍성한 꼬리",
+ "wings": "없음",
+ "skin": "중간 밝기의 건강한 피부톤",
+ "outfit": "짙은 청록색과 금색 자수가 놓인 한복풍 의복",
+ "gloves": "없음",
+ "shoes": "금색 장식이 달린 붉은 꽃신",
+ "accessories": [
+  "꼬리 주변을 떠다니는 마법 요소"
+ ],
+ "bag": "없음",
+ "weapon": "떠다니는 아홉 개의 여우불",
+ "sub_gear": "없음",
+ "special_item": "신성한 보주",
+ "palette": [
+  "Deep Navy (머리카락/의복)",
+  "Teal Green (의복 포인트)",
+  "Crimson Red (신발/포인트)",
+  "Vivid Orange (여우불)"
+ ],
+ "materials": [
+  "비단",
+  "신성한 빛",
+  "여우불"
+ ],
+ "silhouette": "아홉 개의 꼬리 뒤로 불꽃이 흩날리는 형태, 큼직한 여우 귀",
+ "signature_motion": "꼬리를 휘두르며 여우불을 방사하는 동작",
+ "signature_vfx": "아홉 개의 밝은 주황색 불꽃이 캐릭터 주변을 회전하며 적을 타격함",
+ "unique_features": [
+  "아홉 개의 꼬리 수만큼 떠다니는 여우불",
+  "몸 주변을 부유하는 마법 입자",
+  "금색으로 빛나는 눈동자"
+ ],
+ "micro_features": [
+  "귀 끝의 금색 문양",
+  "의복의 금색 자수 디테일",
+  "꼬리 끝의 작은 불꽃 잔상"
+ ],
+ "visual_en": "A small 2-head tall chibi fox-demon facing right. The character has deep navy hair and sharp bright gold eyes. They wear a rich teal green traditional hanbok with intricate gold embroidery and crimson red shoes. Behind them, nine large, voluminous tails fan out, each accompanied by a floating, vivid orange fox-fire orb. Tiny magical golden particles drift around the body. The silhouette is distinct with large fox ears and the swirling pattern of nine tails and orbiting flames.",
+ "features_en": [
+  "Nine fox-fire orbs corresponding to each tail",
+  "Floating magical elements around the body",
+  "Brightly glowing gold eyes",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing regally while commanding floating flames with a confident gaze.",
+ "vfx_en": "Nine bright orange and golden flame orbs orbiting the character rapidly.",
+ "weapon_en": "Nine floating Fox-fire orbs",
+ "item_en": "Divine Orb",
+ "motion_en": "Swirling tail motion releasing fox-fire",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "lore": "구미호 반요 — 꼬리 수만큼 여우불을 띄운다. 무기 여우불.",
+ "px": 40,
+ "colors": 16,
+ "indexed": true,
+ "game_name": "연 · 저승길 차림",
+ "contrast": "both",
+ "concept": "이 게임 세계(요괴 · 이면 — 한국 설화) 영웅. 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "no_halo": true,
+ "game_slot": "skin/054_C5a1ff518@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "variant_of": "054_C5a1ff518",
+ "parent_body": {
+  "body": "A humanoid fox character with blue hair, wearing a green and red robe, featuring multiple large orange tails.",
+  "legs": true,
+  "arms": true,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "48570f6db8cd5f8ab6f1b4d94ce09861"
+ },
+ "derive": {
+  "from": "/home/wadi/charforge/orders/imyeon/survivor/054_C5a1ff518/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "C8a3f0845",
+ "body_plan": {
+  "body": "A humanoid fox character with long dark hair, wearing a white robe and a large black hat, featuring multiple orange tails.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "2ae6971fac18bd24bb40d1aea7291168"
+ }
+}

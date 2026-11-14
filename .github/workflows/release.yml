@@ -1,0 +1,91 @@
+name: Build and release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+env:
+  GODOT_VERSION: "4.7.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Godot and export templates
+        run: |
+          base="https://github.com/godotengine/godot-builds/releases/download/$4.7.1-stable"
+          curl -fsSL -o godot.zip "$base/Godot_v$4.7.1-stable_linux.x86_64.zip"
+          unzip -q godot.zip
+          mv "Godot_v$4.7.1-stable_linux.x86_64" "$RUNNER_TEMP/godot"
+          rm godot.zip
+          curl -fsSL -o templates.tpz "$base/Godot_v$4.7.1-stable_export_templates.tpz"
+          tpl="$HOME/.local/share/godot/export_templates/$4.7.1.stable"
+          mkdir -p "$tpl"
+          unzip -q templates.tpz -d "$RUNNER_TEMP/tpl"
+          mv "$RUNNER_TEMP"/tpl/templates/* "$tpl/"
+          rm templates.tpz
+
+      - name: Import
+        run: |
+          "$RUNNER_TEMP/godot" --headless --path . --import || true
+
+      - name: Export Windows
+        run: |
+          mkdir -p build/windows
+          "$RUNNER_TEMP/godot" --headless --path . --export-release "Windows" build/windows/IMYEON.exe
+          test -f build/windows/IMYEON.exe
+          test -f build/windows/IMYEON.pck
+          cp LICENSE THIRD_PARTY_NOTICES.md build/windows/
+
+      - name: Upload unsigned build
+        id: upload-unsigned
+        uses: actions/upload-artifact@v4
+        with:
+          name: imyeon-windows
+          path: build/windows/
+          if-no-files-found: error
+
+      - name: Sign with SignPath
+        if: ${{ vars.SIGNPATH_ORGANIZATION_ID != '' }}
+        uses: signpath/github-action-submit-signing-request@v3
+        with:
+          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+          organization-id: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          project-slug: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          signing-policy-slug: ${{ vars.SIGNPATH_SIGNING_POLICY_SLUG }}
+          artifact-configuration-slug: ${{ vars.SIGNPATH_ARTIFACT_CONFIGURATION_SLUG }}
+          github-artifact-id: ${{ steps.upload-unsigned.outputs.artifact-id }}
+          wait-for-completion: true
+          wait-for-completion-timeout-in-seconds: 21600
+          output-artifact-directory: signed/windows
+
+      - name: Package
+        id: pkg
+        run: |
+          src=build/windows
+          if [ -f signed/windows/IMYEON.exe ]; then src=signed/windows; fi
+          name="IMYEON-${GITHUB_REF_NAME}-windows.zip"
+          (cd "$src" && zip -qr "$GITHUB_WORKSPACE/$name" .)
+          sha256sum "$name" > "$name.sha256"
+          echo "zip=$name" >> "$GITHUB_OUTPUT"
+          if [ "$src" = "signed/windows" ]; then echo "signed=yes" >> "$GITHUB_OUTPUT"; else echo "signed=no" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.pkg.outputs.zip }}
+            ${{ steps.pkg.outputs.zip }}.sha256
+          body: |
+            IMYEON : Yokai Survivor ${{ github.ref_name }} for Windows (x86_64). Unzip and run `IMYEON.exe`.
+
+            Built by GitHub Actions from this tag. Signed: ${{ steps.pkg.outputs.signed }}.
+            Code signing policy: https://github.com/${{ github.repository }}#code-signing-policy

@@ -1,0 +1,83 @@
+{
+ "id": "Cb7c06c22",
+ "name": "너울",
+ "quote": "일렁이는 그림자 속에 몸을 숨긴 채, 하나가 둘이 되어 밀려든다.",
+ "race": "정령",
+ "subrace": "분열하는 그림자 요괴",
+ "body_structure": "액체처럼 흐물거리는 실루엣",
+ "head_ratio": "2등신",
+ "job": "군집형 잡몹",
+ "culture": "정원의 망령",
+ "personality": [
+  "끈질긴",
+  "예측 불가능한",
+  "군집적인"
+ ],
+ "face": "표정이 없는 매끄러운 얼굴",
+ "eyes": "빛나는 연두색 구멍 형태의 눈",
+ "hair": "머리카락 없이 흐르는 듯한 연두색 액체 덩어리",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "끝이 갈라진 액체 꼬리",
+ "wings": "없음",
+ "skin": "짙은 청록색의 반투명한 피부",
+ "outfit": "의복 없이 몸 자체가 흐르는 형태",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "없음"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "분열의 씨앗",
+ "palette": [
+  "#004d40",
+  "#00796b",
+  "#00c853",
+  "#ccff90",
+  "#1a1a1a"
+ ],
+ "materials": [
+  "액체",
+  "반투명",
+  "형광"
+ ],
+ "silhouette": "좌우로 불규칙하게 출렁이는 액체 덩어리, 갈라지기 직전의 갈라진 꼬리 끝",
+ "signature_motion": "좌우로 크게 흔들리며 흐느적거리는 움직임",
+ "signature_vfx": "죽을 때 중심에서 두 개의 작은 연두색 빛덩어리가 튀어나옴",
+ "unique_features": [
+  "좌우로 출렁이는 액체 몸체",
+  "갈라지는 꼬리 끝",
+  "빛나는 연두색 눈"
+ ],
+ "micro_features": [
+  "몸 표면의 작은 기포",
+  "끝단이 흐르는 듯한 잔상",
+  "작은 연두색 점들"
+ ],
+ "visual_en": "A small 28px creature with a dark teal, translucent liquid body. The head is a rounded, featureless mass with two bright neon lime eyes. The body flows downward into a split tail that flickers like a flame. Small lime-colored bubbles float within the dark teal torso. The silhouette is unstable, looking like a wobbling drop of water. The entire entity glows with a subtle lime light at the edges to stand out against dark floors.",
+ "features_en": [
+  "Wobbling liquid body",
+  "Splitting tail tip",
+  "Glowing lime eyes"
+ ],
+ "pose_en": "Swaying side to side rhythmically while drifting forward",
+ "vfx_en": "Two bright lime-green droplets bursting outward upon death",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Erratic side-to-side wobbling",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "2-0",
+ "lore": "좌우로 흔들며 다가온다. 정원에서는 죽으면 둘로 갈라지는 개체가 섞인다.",
+ "px": 28,
+ "colors": 16,
+ "extra_px": [
+  20
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

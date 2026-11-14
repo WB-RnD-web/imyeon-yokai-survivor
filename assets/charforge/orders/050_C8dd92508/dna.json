@@ -1,0 +1,127 @@
+{
+ "id": "C8dd92508",
+ "name": "염라",
+ "quote": "생과 사의 경계는 이미 정해져 있다.",
+ "race": "저승 신 (Underworld Deity)",
+ "subrace": "신령 (Divine Arbiter)",
+ "body_structure": "강건하고 위엄 있는 체형",
+ "head_ratio": "2등신",
+ "job": "명부의 왕 (King of the Underworld)",
+ "culture": "한국 저승 설화 (Korean Underworld Mythology)",
+ "personality": [
+  "냉혹함",
+  "위엄 있는",
+  "불변의"
+ ],
+ "face": "창백하고 엄격한 표정",
+ "eyes": "타오르는 금색 눈동자",
+ "hair": "칠흑 같은 긴 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 백색",
+ "outfit": "화려한 금색 자수가 놓인 검은색 관복",
+ "gloves": "금색 장식이 된 검은 비단 장갑",
+ "shoes": "검은색 비단 신",
+ "accessories": [
+  "금색 면류관",
+  "신성한 후광",
+  "뒤에 떠 있는 거대한 업경"
+ ],
+ "bag": "없음",
+ "weapon": "권위를 상징하는 황금 홀",
+ "sub_gear": "주변을 떠다니는 신성한 불꽃",
+ "special_item": "업경 (거울)",
+ "palette": [
+  "#000000",
+  "#FFFFFF",
+  "#FFD700",
+  "#FF0000",
+  "#4B0082"
+ ],
+ "materials": [
+  "금속",
+  "비단",
+  "유리",
+  "불꽃"
+ ],
+ "silhouette": "머리의 면류관, 손에 든 긴 홀, 등 뒤의 거대한 원형 업경, 몸 주변을 떠다니는 빛의 입자",
+ "signature_motion": "홀을 땅에 내리치며 주변에 붉은 파동을 일으킴",
+ "signature_vfx": "업경에서 뿜어져 나오는 붉은색 안개와 황금빛 불꽃",
+ "unique_features": [
+  "거대한 원형 업경",
+  "황금색 면류관",
+  "신성한 후광",
+  "체력 저하시 붉게 변하는 신체"
+ ],
+ "micro_features": [
+  "면류관의 붉은 구슬",
+  "홀 끝의 보석",
+  "관복의 금색 용 문양",
+  "발밑의 연기"
+ ],
+ "visual_en": "A small-scale 2-head tall deity wearing a black and gold traditional Korean crown (Myeonryugwan) with bright red beads. The character has pale white skin and piercing golden eyes. He wears a heavy black royal robe adorned with intricate gold dragon embroidery and a flowing golden aura around his head. Behind his back, a massive, circular, glowing mirror (Upgyeong) floats, reflecting a divine light. He holds a long, golden ceremonial scepter (Hall) topped with a brilliant jewel. As his health drops, his entire body and the floating mirror glow with a saturated, menacing crimson red, and intense dark purple flames flicker around his feet.",
+ "features_en": [
+  "A large plain round bronze mirror with a smooth undecorated rim and no writing",
+  "Golden Myeonryugwan",
+  "Divine halo",
+  "Red-glowing body phase"
+ ],
+ "pose_en": "Standing upright with immense authority, clutching a golden scepter.",
+ "vfx_en": "Crimson flames rising from the ground at its feet and a few golden embers",
+ "weapon_en": "Golden Sovereign Scepter",
+ "item_en": "Mirror of Karma (Upgyeong)",
+ "motion_en": "Stamping the ground to summon underworld minions",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "49-0",
+ "lore": "저승길 스테이지 보스. 가장 넓은 장판을 깔고 졸개를 쉼 없이 부른다. 체력 절반부터 업경을 띄우고 붉게 바뀐다(네페르 틀 + s1).",
+ "px": 160,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge",
+  "attack",
+  "ultimate",
+  "portrait"
+ ],
+ "stages": [
+  "체력이 절반 아래로 깎인 모습 — 뒤에 둥근 업경(거울)을 띄우고 온몸이 붉게 달아오른다"
+ ],
+ "stage_anims": [
+  "walk",
+  "attack",
+  "hit",
+  "charge",
+  "ultimate",
+  "death"
+ ],
+ "anim_notes": {
+  "attack": "raising its scepter and slamming a wide glowing judgment circle onto the ground",
+  "ultimate": "summoning many small spirits while the mirror behind it glows"
+ },
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "염라",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A humanoid character wearing a black and gold ornate robe and a matching hat, surrounded by a flame-like aura.",
+  "legs": false,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "318c8f596292965d86072d4b61484ea3"
+ },
+ "frame_notes": {
+  "entrance_0": "The round mirror behind it has a smooth plain rim; there is no circle, ring or writing around the character",
+  "entrance_1": "The round mirror behind it has a smooth plain rim; there is no circle, ring or writing around the character",
+  "entrance_2": "The round mirror behind it has a smooth plain rim; there is no circle, ring or writing around the character",
+  "portrait": "The round mirror behind it has a smooth plain rim; there is no circle, ring or writing around the character",
+  "ultimate_2": "The round mirror behind it has a smooth plain rim; there is no circle, ring or writing around the character"
+ },
+ "vfx_en_old": "Expanding crimson shockwaves and swirling golden embers."
+}

@@ -1,0 +1,92 @@
+{
+ "id": "C764fd31e",
+ "name": "열지기 발레르",
+ "quote": "문은 닫혔다. 너의 길은 여기서 끝이다.",
+ "race": "신수 (Divine Beast)",
+ "subrace": "빛의 수호자 (Solar Guardian)",
+ "body_structure": "빛의 잔영을 두른 맹수형",
+ "head_ratio": "2등신",
+ "job": "차원의 문을 지키는 문지기",
+ "culture": "태양의 성소 (Solar Sanctuary)",
+ "personality": [
+  "엄격한",
+  "단호한",
+  "고결한"
+ ],
+ "face": "위엄 있는 맹수의 얼굴",
+ "eyes": "빛을 발하는 금색 안광",
+ "hair": "태양빛처럼 일렁이는 백금색 갈기",
+ "ears": "짧고 둥근 귀",
+ "horns": "머리 위로 솟은 두 개의 빛나는 뿔",
+ "tail": "끝이 불꽃처럼 갈라진 긴 꼬리",
+ "wings": "등 뒤에 떠 있는 빛의 고리 형태의 날개",
+ "skin": "백색의 털과 금빛 갑주",
+ "outfit": "화려한 금색 장식이 박힌 백색 의복",
+ "gloves": "금색 팔찌 형태의 장식",
+ "shoes": "맨발 혹은 털로 덮인 발",
+ "accessories": [
+  "빛의 고리 날개",
+  "황금색 문장 장식",
+  "태양의 파편 목걸이"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 태양의 문장이 새겨진 황금 창",
+ "sub_gear": "빛의 파편",
+ "special_item": "차원의 열쇠",
+ "palette": [
+  "Bright Gold",
+  "Pure White",
+  "Royal Blue",
+  "Deep Amber",
+  "Crimson Red"
+ ],
+ "materials": [
+  "황금",
+  "빛의 결정",
+  "백색 모피"
+ ],
+ "silhouette": "머리 위의 빛나는 뿔, 뒤로 길게 뻗은 불꽃 꼬리, 등 뒤의 거대한 빛의 고리, 거대한 창의 수직 실루엣, 흐르는 듯한 망토",
+ "signature_motion": "창을 바닥에 찍으며 주변으로 충격파를 방출함",
+ "signature_vfx": "황금빛 태양 폭발 효과와 입자",
+ "unique_features": [
+  "빛나는 고리 형태의 날개",
+  "끝이 갈라진 불꽃 꼬리",
+  "거대한 황금 창",
+  "머리 위의 빛나는 뿔"
+ ],
+ "micro_features": [
+  "갈기 끝의 작은 빛 알갱이",
+  "갑주의 붉은 보석",
+  "발목의 금색 고리"
+ ],
+ "visual_en": "A 2-head tall divine beast facing right. The character features brilliant white fur and a flowing platinum mane. On its head, two glowing golden horns protrude upwards. Behind the back, a large, radiant golden ring-shaped wing floats, emitting bright light particles. A long tail with a flame-like split tip sweeps behind. The beast holds a massive golden spear engraved with a sun crest. It wears luxurious gold-plated armor pieces over its white body, accented by small crimson gems. A flowing white cape with gold edges drapes from its shoulders, and small golden rings adorn its ankles. The entire silhouette is defined by high-contrast gold and white against the dark dungeon.",
+ "features_en": [
+  "Radiant ring-shaped wings",
+  "Flame-split tail",
+  "Massive golden spear",
+  "Glowing horns"
+ ],
+ "pose_en": "Standing tall and imposing, pointing the spear towards the ground.",
+ "vfx_en": "Explosive bursts of bright golden solar particles.",
+ "weapon_en": "Great Sun-engraved Golden Spear",
+ "item_en": "Dimensional Key of Light",
+ "motion_en": "Stomping the ground to trigger a massive solar shockwave.",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "26-0",
+ "lore": "보스 공통 패턴만 있다(돌진·탄막·예고 장판·졸개 소환). 생김새와 성격은 자유.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground"
+ },
+ "indexed": true
+}

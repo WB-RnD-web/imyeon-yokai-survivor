@@ -1,0 +1,82 @@
+{
+ "id": "C4e1ef8ba",
+ "name": "무령-비늘 (Muryeong-Bineul)",
+ "quote": "파도에 휩쓸린 강철도 결국 황금의 달을 품는다.",
+ "race": "로봇",
+ "subrace": "기계 도깨비",
+ "body_structure": "장신",
+ "head_ratio": "장신",
+ "job": "해적",
+ "culture": "한국 설화 기반 기계 문명",
+ "personality": [
+  "호탕한",
+  "탐욕스러운",
+  "강인한"
+ ],
+ "face": "금속제 도깨비 가면 형태의 얼굴",
+ "eyes": "황금빛으로 빛나는 단일 렌즈",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "황동색 금속 및 짙은 갈색 도자기 재질",
+ "outfit": "해적의 코트와 한국 전통 갑주가 결합된 형태",
+ "gloves": "금색 장식이 박힌 갈색 가죽 장갑",
+ "shoes": "묵직한 쇠로 된 짚신 형태의 장화",
+ "accessories": [
+  "달 모양의 펜던트",
+  "황금색 닻 장식"
+ ],
+ "bag": "보물 상자가 달린 커다란 궤짝 배낭",
+ "weapon": "거대한 닻 모양의 대검",
+ "sub_gear": "조선식 환도 형태의 단검",
+ "special_item": "달빛을 머금은 황금 나침반",
+ "palette": [
+  "#4B3621",
+  "#8B4513",
+  "#D4AF37",
+  "#FFD700",
+  "#2F2F2F"
+ ],
+ "materials": [
+  "황동",
+  "칠기",
+  "가죽",
+  "강철"
+ ],
+ "silhouette": "거대한 닻 모양의 무기와 뒤로 휘날리는 커다란 궤짝 배낭, 위압적인 장신의 실루엣",
+ "signature_motion": "대검을 바닥에 찍으며 주변으로 황금빛 파동을 일으킴",
+ "signature_vfx": "검은 밤하늘에 떠오르는 황금빛 초승달 형상의 파편",
+ "unique_features": [
+  "닻 모양의 대검",
+  "커다란 보물 궤짝 배낭",
+  "황금색 달빛 오라",
+  "도깨비 가면 얼굴"
+ ],
+ "micro_features": [
+  "가방에 매달린 작은 엽전",
+  "장갑 끝의 톱니바퀴 디테일",
+  "장화의 쇠사슬 장식"
+ ],
+ "visual_en": "A tall robotic figure wearing a dark brown brass mask with a single glowing golden eye. The character wears a heavy, layered dark brown leather pirate coat adorned with lavish golden ornaments and a flowing golden-edged cape. On its back, an oversized wooden treasure chest bag is strapped, decorated with small golden coins. The character holds a massive, heavy anchor-shaped greatsword made of dark iron and gold. The boots are heavy metallic straw-style boots with dangling golden chains. A strong, radiant golden aura flows from the joints, leaving a trail of golden crescent moon particles.",
+ "features_en": [
+  "Anchor-shaped greatsword",
+  "Oversized treasure chest bag",
+  "Golden moonlight aura",
+  "Goblin mask face"
+ ],
+ "pose_en": "Standing tall and imposing, leaning heavily on a massive anchor sword with a wide, confident stance.",
+ "vfx_en": "Swirling shards of golden crescent moons and dark amber dust.",
+ "weapon_en": "Golden Anchor Greatsword",
+ "item_en": "Treasure Chest Backpack",
+ "motion_en": "Heavy anchor slam with golden shockwaves",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "전설",
+ "add_anims": [
+  "idle"
+ ],
+ "colors": 16,
+ "indexed": true
+}

@@ -1,0 +1,84 @@
+{
+ "id": "C7d860e80",
+ "name": "티로",
+ "quote": "좌우로 흔들리며 몰려오는 작은 그림자",
+ "race": "요괴",
+ "subrace": "도깨비 잔등",
+ "body_structure": "작고 민첩한 소형 체구",
+ "head_ratio": "2등신",
+ "job": "졸개",
+ "culture": "볼케 형제의 수하",
+ "personality": [
+  "산만함",
+  "공격적",
+  "충동적"
+ ],
+ "face": "입을 크게 벌리고 혀를 내민 표정",
+ "eyes": "좌우로 번뜩이는 노란 눈",
+ "hair": "삐죽삐죽한 짧은 머리카락",
+ "ears": "작고 뾰족한 귀",
+ "horns": "없음",
+ "tail": "짧고 통통한 꼬리",
+ "wings": "없음",
+ "skin": "밝은 보라색",
+ "outfit": "짙은 청록색의 단순한 가죽 조끼",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "머리 위의 작은 뼈 장식"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#A569BD",
+  "#145A32",
+  "#F4D03F",
+  "#2E4053",
+  "#EBEDEF"
+ ],
+ "materials": [
+  "가죽",
+  "뼈"
+ ],
+ "silhouette": "작은 체구, 삐죽한 머리, 좌우로 흔들리는 듯한 꼬리, 튀어나온 혀",
+ "signature_motion": "좌우로 빠르게 몸을 흔들며 전진함",
+ "signature_vfx": "이동 경로에 남는 짧은 잔상",
+ "unique_features": [
+  "밝은 노란색 눈",
+  "튀어나온 혀",
+  "좌우로 흔들리는 꼬리",
+  "머리의 작은 뼈 장식"
+ ],
+ "micro_features": [
+  "뾰족한 귀 끝",
+  "가죽 조끼의 거친 질감",
+  "작은 발톱"
+ ],
+ "visual_en": "A tiny 2-head tall goblin-like creature facing right. The head features spiky dark purple hair with a small white bone ornament on top and bright yellow glowing eyes with a long pink tongue sticking out. The body is a small, agile frame wearing a simple dark teal leather vest. A short, chubby purple tail sways energetically behind. The overall silhouette is compact and sharp, designed to stand out against dark dungeon floors with its bright yellow eye and light purple skin.",
+ "features_en": [
+  "Bright yellow eyes",
+  "Protruding tongue",
+  "Swaying tail",
+  "Small bone ornament on head"
+ ],
+ "pose_en": "Swaying rapidly from side to side while running forward",
+ "vfx_en": "Short, faint purple motion streaks following the movement",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Rapid side-to-side wobbling dash",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "0-0",
+ "lore": "가장 빠른 떼 몹. 좌우로 흔들며 몰려온다. 보스 볼케 형제가 불러내는 졸개로도 나온다.",
+ "px": 28,
+ "colors": 16,
+ "extra_px": [
+  20
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

@@ -1,0 +1,85 @@
+{
+ "id": "C6f28b79f",
+ "name": "케른",
+ "quote": "빛나는 조각은 나의 허기를 채운다.",
+ "race": "기계 요괴",
+ "subrace": "식성(Eater)형",
+ "body_structure": "소형 금속체",
+ "head_ratio": "2등신",
+ "job": "탄환 포식자",
+ "culture": "연금술 실험실 유출종",
+ "personality": [
+  "탐욕스러운",
+  "무자비한",
+  "기계적인"
+ ],
+ "face": "입 대신 커다란 톱니 구멍이 있는 얼굴",
+ "eyes": "빛나는 에메인(Emerald) 색의 단일 렌즈",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "전선 뭉치로 된 꼬리",
+ "wings": "없음",
+ "skin": "산화된 구리색 금속",
+ "outfit": "탄환을 흡수하기 위해 열린 흉부 장갑",
+ "gloves": "없음",
+ "shoes": "강철 집게 발",
+ "accessories": [
+  "탄환을 담는 자석 그물"
+ ],
+ "bag": "없음",
+ "weapon": "자석식 흡입 드릴",
+ "sub_gear": "없음",
+ "special_item": "탄환 저장용 에너지 코어",
+ "palette": [
+  "#2D3436",
+  "#636E72",
+  "#00B894",
+  "#55E6C1",
+  "#DFE6E9"
+ ],
+ "materials": [
+  "부식된 구리",
+  "에메랄드 빛 에너지",
+  "강철"
+ ],
+ "silhouette": "커다란 톱니 모양 입, 전선 꼬리, 드릴 형태의 무기, 둥근 몸체",
+ "signature_motion": "탄환이 다가오면 몸의 틈새가 벌어지며 빛을 내뿜음",
+ "signature_vfx": "에메랄드빛 소용돌이 에너지가 입으로 빨려 들어가는 효과",
+ "unique_features": [
+  "탄환을 흡수하는 톱니 입",
+  "에메랄드빛 에너지 코어",
+  "전선 뭉치 꼬리",
+  "자석식 드릴 무기"
+ ],
+ "micro_features": [
+  "작은 스파크 효과",
+  "금속 표면의 흠집",
+  "코어 주변의 빛나는 파편"
+ ],
+ "visual_en": "A small 2-head tall metallic creature facing right. It has a large, dark grey circular body with a prominent emerald green glowing core at the center. The head features a massive, jagged gear-shaped mouth lined with sharp metallic teeth. A single, bright emerald lens eye glows intensely. From its rear, a thick bundle of dark grey electric wires serves as a tail. The creature holds a large, rotating drill-shaped weapon that emits a soft green light. Its limbs are heavy, dark steel pincers. Ornate emerald energy flows through the gaps in its oxidized copper armor, creating a striking contrast against its dark metallic frame.",
+ "features_en": [
+  "Gear-shaped mouth for absorbing projectiles",
+  "Glowing emerald energy core",
+  "Bundle of electric wire tail",
+  "Magnetic drill weapon"
+ ],
+ "pose_en": "Hungrily lunging towards an incoming projectile with an open maw.",
+ "vfx_en": "Swirling emerald light particles being sucked into the center of the body.",
+ "weapon_en": "Magnetic suction drill",
+ "item_en": "Energy core storage",
+ "motion_en": "Expanding chest plates to absorb damage",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "16-0",
+ "lore": "탄을 먹는다. 탄 피해를 절반쯤만 받고 그만큼 회복한다.",
+ "px": 52,
+ "colors": 16,
+ "anim_notes": {
+  "hit": "swallowing an incoming bullet with its mouth wide open"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

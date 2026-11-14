@@ -1,0 +1,97 @@
+{
+ "id": "Cbebd4403",
+ "name": "업덩이",
+ "quote": "쌓인 죄업이 다시 너를 덮치리라.",
+ "race": "업보의 결정체 (Karma Mass)",
+ "subrace": "죄업 괴수 (Sin Beast)",
+ "body_structure": "낮게 웅크린 덩어리형",
+ "head_ratio": "2등신",
+ "job": "저승의 추격자",
+ "culture": "한국 저승 설화 (Underworld Folklore)",
+ "personality": [
+  "끈질긴",
+  "무거운",
+  "포식적인"
+ ],
+ "face": "눈이 없는 검은 구멍",
+ "eyes": "없음",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "짙은 보랏빛의 끈적한 살덩이",
+ "outfit": "없음",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "죄업의 파편"
+ ],
+ "bag": "없음",
+ "weapon": "여러 개의 창백한 손",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#1A0025",
+  "#4B0082",
+  "#8A2BE2",
+  "#E0B0FF",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "점성 있는 액체",
+  "반투명한 보라색 결정"
+ ],
+ "silhouette": "낮게 웅크린 불규칙한 덩어리 형태, 사방으로 뻗어 나온 여러 개의 가느다란 팔",
+ "signature_motion": "웅크린 자세에서 갑자기 튀어 오르며 화면을 덮치는 도약",
+ "signature_vfx": "보랏빛 잔상이 남는 검은색 파동",
+ "unique_features": [
+  "죄업이 뭉친 보랏빛 덩어리",
+  "사방으로 뻗어 나온 여러 개의 손",
+  "형체가 불분명한 덩어리 몸체"
+ ],
+ "micro_features": [
+  "손가락 끝의 흰 빛",
+  "몸체 표면의 빛나는 보라색 점",
+  "떨어지는 검은 액체 방울"
+ ],
+ "visual_en": "A low-slung, amorphous mass of deep purple sin, featuring a central dark violet core. Multiple pale, slender arms sprout from the undulating body, each ending in fingers tipped with glowing white light. The body surface is covered in small, luminous violet spots that pulse faintly. A thick, black viscous liquid drips from the underside of the mass. The overall shape is a compact, crouching mound of dark energy, accented by sharp, bright white highlights on the grasping hands to ensure visibility against dark dungeon floors.",
+ "features_en": [
+  "Mass of purple sin",
+  "Multiple protruding hands",
+  "Amorphous body mass"
+ ],
+ "pose_en": "Crouching low, ready to spring forward with sudden violence.",
+ "vfx_en": "A burst of dark purple kinetic energy and shadowy ripples.",
+ "weapon_en": "Multiple pale grasping hands",
+ "item_en": "None",
+ "motion_en": "A sudden, lunging leap towards the player",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "36-0",
+ "lore": "낮게 웅크렸다가 한달음에 덮친다(창랑처럼). 갈라진 판(px28)과 정예 판(px56)으로도 나온다.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "charge"
+ ],
+ "extra_px": [
+  28,
+  56
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "업덩이",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A purple, amorphous, blob-like creature with multiple white-tipped tentacles protruding from its sides and a large dark void in its center.",
+  "legs": false,
+  "arms": false,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "4c2b1ee3607d92919fc7001fd7eaddba"
+ }
+}

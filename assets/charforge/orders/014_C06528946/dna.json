@@ -1,0 +1,87 @@
+{
+ "id": "C06528946",
+ "name": "삼환",
+ "quote": "화살은 눈보다 빠르다.",
+ "race": "천계 요괴",
+ "subrace": "기계식 반인반수",
+ "body_structure": "작고 가벼운 기계 신체",
+ "head_ratio": "2등신",
+ "job": "원거리 저격수",
+ "culture": "하늘 섬의 기계 문명",
+ "personality": [
+  "냉철함",
+  "기계적인 정확성",
+  "감정이 없는"
+ ],
+ "face": "무표정한 금속 마스크",
+ "eyes": "빛나는 형광 하늘색 단일 눈",
+ "hair": "짧게 깎은 은색 금속 파츠",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "매끄러운 청동색 금속",
+ "outfit": "하늘색 빛이 도는 흰색 흉갑과 짧은 망토",
+ "gloves": "왼손은 기계식 관절 손가락",
+ "shoes": "작고 둥근 금속 부츠",
+ "accessories": [
+  "등 뒤에 달린 작은 기계식 탄창 보관함"
+ ],
+ "bag": "없음",
+ "weapon": "화살 대신 빛의 탄환을 발사하는 짧은 기계식 석궁",
+ "sub_gear": "탄환 공급용 튜브",
+ "special_item": "없음",
+ "palette": [
+  "#E0E0E0",
+  "#87CEEB",
+  "#B8860B",
+  "#4682B4",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "광택 있는 청동",
+  "반투명한 에너지",
+  "무광 금속"
+ ],
+ "silhouette": "짧고 둥근 체형, 등 뒤의 작은 튀어나온 탄창, 앞으로 뻗은 짧은 석궁, 펄럭이는 아주 작은 망토",
+ "signature_motion": "석궁을 어깨에 고정하고 몸을 앞뒤로 아주 미세하게 반동시키는 자세",
+ "signature_vfx": "석궁 끝에서 발사되는 눈부신 하늘색 빛의 탄환 궤적",
+ "unique_features": [
+  "형광 하늘색 단일 눈",
+  "기계식 탄창 보관함",
+  "청동색 금속 신체"
+ ],
+ "micro_features": [
+  "눈가에 흐르는 에너지 라인",
+  "손가락 마디의 기계 관절",
+  "망토 끝의 은색 테두리"
+ ],
+ "visual_en": "A 2-head tall mechanical creature facing right. The head features a single glowing sky-blue eye behind a bronze metal mask and short silver metallic hair. The body is made of polished bronze metal with a small white chestplate accented by sky-blue trim. A tiny, stiff white cape flutters behind. On its back, a small mechanical ammunition box is attached with thin tubes connected to the arm. The creature holds a short, compact mechanical crossbow. The left hand shows distinct mechanical finger joints. The overall silhouette is compact and bright, featuring a prominent sky-blue glow that stands out against dark backgrounds.",
+ "features_en": [
+  "Glowing sky-blue single eye",
+  "Mechanical ammunition box",
+  "Bronze metallic body"
+ ],
+ "pose_en": "Standing in a focused, low-profile sniping stance.",
+ "vfx_en": "A bright, rapid streak of sky-blue light shot from the crossbow.",
+ "weapon_en": "Compact mechanical crossbow.",
+ "item_en": "None",
+ "motion_en": "Quick, rhythmic recoil motion of the crossbow.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "13-0",
+ "lore": "빠른 원거리 사수. 도르반과 같은 방식으로 쏜다.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "attack"
+ ],
+ "ranged": true,
+ "anim_notes": {
+  "attack": "firing a glowing projectile"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

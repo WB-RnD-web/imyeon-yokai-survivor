@@ -1,0 +1,84 @@
+{
+ "id": "C6434bfb0",
+ "name": "하글",
+ "quote": "멀리서 다가오는 거대한 그림자, 그것은 충돌의 전조다.",
+ "race": "대지 요괴 (Earth Yokai)",
+ "subrace": "중력의 파편 (Gravity Fragment)",
+ "body_structure": "구체형 (Spherical)",
+ "head_ratio": "2등신",
+ "job": "돌진형 잡몹 (Charger Mob)",
+ "culture": "무게의 규율 (Law of Mass)",
+ "personality": [
+  "단순함",
+  "무게감 있는",
+  "맹목적인"
+ ],
+ "face": "표정 없는 매끄러운 돌면",
+ "eyes": "없음",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "밝은 모래색의 매끄러운 암석",
+ "outfit": "몸을 감싸는 짙은 이끼색의 덩굴 띠",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "빛나는 에메랄드빛 결정 조각"
+ ],
+ "bag": "없음",
+ "weapon": "자체 무게를 이용한 충돌",
+ "sub_gear": "없음",
+ "special_item": "중력 가속 덩어리",
+ "palette": [
+  "#E6D5AC",
+  "#4A5D23",
+  "#2E3B16",
+  "#00FF9D",
+  "#8B4513"
+ ],
+ "materials": [
+  "모래암",
+  "이끼",
+  "발광 결정"
+ ],
+ "silhouette": "둥글고 커다란 구체, 몸 주변을 떠다니는 작은 파편들, 전방으로 튀어나온 뾰족한 결정",
+ "signature_motion": "거대한 크기로 팽창하며 플레이어를 향해 직선으로 돌진함",
+ "signature_vfx": "돌진 시 바닥에 남는 밝은 연두색 잔상과 튀어오르는 모래 먼지",
+ "unique_features": [
+  "거리에 따라 변하는 크기",
+  "몸에 박힌 발광하는 에메랄드 결정",
+  "주변을 부유하는 작은 암석 파편"
+ ],
+ "micro_features": [
+  "결정 끝의 미세한 빛",
+  "덩굴 사이의 작은 이끼 입자",
+  "표면의 미세한 균열"
+ ],
+ "visual_en": "A large, spherical body made of bright sand-colored stone, featuring a prominent glowing emerald crystal embedded in its center. Thick, dark moss-green vines wrap around the sphere, holding small floating rock fragments in orbit. The creature's surface has subtle cracks with a hint of deep brown. The entire silhouette is heavy and dense, with a sharp, glowing green point that stands out clearly against dark dungeon floors. As it moves, it maintains a sturdy, heavy appearance with a slight trail of light-colored dust.",
+ "features_en": [
+  "Size changing with distance",
+  "Glowing emerald crystal embedded in the body",
+  "Floating small rock fragments around the body"
+ ],
+ "pose_en": "Sturdy and heavy, lunging forward with momentum.",
+ "vfx_en": "Bright lime-green light trails and sand dust puffs.",
+ "weapon_en": "Massive kinetic impact",
+ "item_en": "Gravity-dense core",
+ "motion_en": "Expanding and accelerating forward charge",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "9-0",
+ "lore": "멀리 있을수록 커지고 세게 부딪친다. 가까이 오면 작아진다(0.7~1.45배).",
+ "px": 40,
+ "colors": 16,
+ "extra_px": [
+  28,
+  56
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

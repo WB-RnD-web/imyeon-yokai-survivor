@@ -1,0 +1,84 @@
+{
+ "id": "C82de6072",
+ "name": "시나위",
+ "quote": "벽 너머에서 들려오는 기괴한 가락.",
+ "race": "악령",
+ "subrace": "음파 유령",
+ "body_structure": "떠 있는 영체",
+ "head_ratio": "2등신",
+ "job": "졸개",
+ "culture": "전통 악기령",
+ "personality": [
+  "변덕스러운",
+  "소란스러운",
+  "기괴한"
+ ],
+ "face": "표정 없는 하얀 가면",
+ "eyes": "눈 구멍에서 흘러나오는 형광 연두색 빛",
+ "hair": "부유하는 푸른색 연기",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 청보라색",
+ "outfit": "해진 전통 도포",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "공중에 떠 있는 작은 징(Gong)"
+ ],
+ "bag": "없음",
+ "weapon": "음파 진동을 일으키는 작은 징",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#2D1B4E",
+  "#7B5EAD",
+  "#D1B3FF",
+  "#ADFF2F",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "반투명한 연기",
+  "금속 광택"
+ ],
+ "silhouette": "머리 위에 떠 있는 둥근 징, 아래로 길게 늘어진 도포 자락, 발 없이 떠 있는 형태",
+ "signature_motion": "몸이 위아래로 짧게 진동하며 공중에 둥둥 떠다님",
+ "signature_vfx": "징을 칠 때 퍼져나가는 밝은 연두색 동심원 파동",
+ "unique_features": [
+  "가면 형태의 얼굴",
+  "공중에 떠 있는 징",
+  "형광 연두색 눈빛",
+  "흐릿한 도포 끝단"
+ ],
+ "micro_features": [
+  "가면의 균열",
+  "도포에 달린 작은 방울",
+  "발밑의 잔류하는 연기"
+ ],
+ "visual_en": "A small 2-head tall ghost character facing right. The head is a featureless white mask with glowing neon lime eyes. Above the head, a small metallic bronze gong floats. The body is composed of pale bluish-purple translucent smoke wearing a tattered dark indigo traditional robe. The bottom edge of the robe dissolves into wispy mist. A tiny golden bell hangs from the robe's hem. The entire silhouette is centered around the bright neon lime glow of the eyes and the floating gong, ensuring visibility against dark backgrounds.",
+ "features_en": [
+  "Mask-like face",
+  "Floating gong",
+  "Neon lime eyes",
+  "Frayed robe edges"
+ ],
+ "pose_en": "Floating rhythmically as if dancing to an invisible beat.",
+ "vfx_en": "Expanding neon lime circular shockwaves.",
+ "weapon_en": "Small floating ritual gong.",
+ "item_en": "None",
+ "motion_en": "Erratic vertical bobbing.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "7-0",
+ "lore": "벽을 그대로 통과하는 유령. 반투명하게 깜빡이는 건 게임이 한다(그림은 불투명하게). 떠 있는 몸이어도 발밑 기준. 보스 시울이 불러내는 졸개로도 나온다.",
+ "px": 40,
+ "colors": 16,
+ "extra_px": [
+  28
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

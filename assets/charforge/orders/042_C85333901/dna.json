@@ -1,0 +1,103 @@
+{
+ "id": "C85333901",
+ "name": "마면",
+ "quote": "명부의 사슬이 네 영혼을 묶으리라.",
+ "race": "마두나찰 (Demon Stallion)",
+ "subrace": "지옥의 옥졸 (Hellish Jailer)",
+ "body_structure": "말 머리를 한 사람 몸의 옥졸 — 두 발로 선다(네 발 짐승 말이 아니다), 우두의 짝",
+ "head_ratio": "2등신",
+ "job": "옥졸 (Jailer)",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "포악함",
+  "끈질김",
+  "분노에 찬"
+ ],
+ "face": "길쭉하고 거친 말의 주둥이와 찢어진 입",
+ "eyes": "사나운 안광이 서린 붉은 눈",
+ "hair": "헝클어진 거친 갈기",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "쇠사슬이 감긴 꼬리",
+ "wings": "없음",
+ "skin": "채도 높은 붉은색 피부 (체력 저하 시 더욱 붉어짐)",
+ "outfit": "중간 밝기의 붉은색 갑옷과 쇠사슬 장식",
+ "gloves": "없음",
+ "shoes": "쇠사슬로 묶인 발굽",
+ "accessories": [
+  "몸을 휘감은 굵은 쇠사슬"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 쇠사슬 뭉치",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#E63946",
+  "#F1FAEE",
+  "#A8DADC",
+  "#457B9D",
+  "#1D3557"
+ ],
+ "materials": [
+  "거친 털",
+  "빛나는 금속",
+  "녹슨 쇠사슬"
+ ],
+ "silhouette": "길쭉한 말 머리, 헝클어진 갈기, 휘날리는 쇠사슬, 거대한 쇠사슬 무기",
+ "signature_motion": "쇠사슬을 휘두르며 돌진함",
+ "signature_vfx": "붉은 안개와 쇠사슬 파편이 튀는 효과",
+ "unique_features": [
+  "길쭉하고 거친 주둥이",
+  "헝클어진 갈기",
+  "사나운 눈",
+  "붉은 갑옷",
+  "몸을 휘감은 쇠사슬"
+ ],
+ "micro_features": [
+  "갑옷의 금색 테두리",
+  "발목의 쇠사슬 고리",
+  "입가에 흐르는 빛나는 침"
+ ],
+ "visual_en": "A small chibi underworld jailer with a human body standing upright on two legs and the head of a horse, the partner of the ox-headed jailer. Long rugged horse snout, fierce glowing red eyes, a messy dark mane. Bright red lamellar armor with gold trim over its torso, human arms and hands, two legs in armored greaves and boots — not a four-legged horse and no horse body. Heavy iron chains are wrapped around its torso, and it grips a long iron chain with a spiked iron weight as its weapon",
+ "features_en": [
+  "Humanoid body standing on two legs with a horse head",
+  "Long and rugged snout",
+  "Messy mane",
+  "Fierce eyes",
+  "Red armor",
+  "Chains wrapped around the body"
+ ],
+ "pose_en": "Standing upright on two legs, swinging the heavy chain with both hands",
+ "vfx_en": "Sparks of bright red embers and swirling iron chain fragments.",
+ "weapon_en": "Heavy iron chain flail",
+ "item_en": "None",
+ "motion_en": "Violent chain whipping motion",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "41-0",
+ "lore": "다칠수록 붉게 달아올라 빨라진다(우츠로처럼, 체력 절반 아래에서 s1 모습).",
+ "px": 52,
+ "colors": 16,
+ "stages": [
+  "체력이 절반 아래로 깎여 분노한 모습 — 몸이 붉게 달아오르고 더 거칠어 보인다"
+ ],
+ "stage_anims": [
+  "walk"
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "마면",
+ "contrast": "both",
+ "pony": "allow",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "An anthropomorphic horse character wearing red and gold armor.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "335d5e579c26818e28de605457212d64"
+ }
+}

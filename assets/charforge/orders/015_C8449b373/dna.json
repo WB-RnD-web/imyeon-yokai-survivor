@@ -1,0 +1,88 @@
+{
+ "id": "C8449b373",
+ "name": "니오베",
+ "quote": "무너지는 바위조차 나의 의지를 꺾을 수 없다.",
+ "race": "수인",
+ "subrace": "바위 코뿔소 요괴",
+ "body_structure": "단단하고 육중한 체구",
+ "head_ratio": "2등신",
+ "job": "가디언 탱커",
+ "culture": "대지의 요새 부족",
+ "personality": [
+  "흔들림 없는",
+  "느긋한",
+  "둔중한",
+  "든든한"
+ ],
+ "face": "두꺼운 뿔 아래 굳게 다문 입",
+ "eyes": "밝은 에메랄드빛 눈동자",
+ "hair": "짧고 뻣뻣한 짙은 갈색 털",
+ "ears": "작고 둥근 귀",
+ "horns": "거대하고 묵직한 암석 뿔",
+ "tail": "짧고 굵은 꼬리",
+ "wings": "없음",
+ "skin": "거친 질감의 청회색 피부",
+ "outfit": "황금색 테두리가 박힌 짙은 남색 갑옷",
+ "gloves": "금속 판금이 덧대어진 거대한 건틀릿",
+ "shoes": "무거운 바위 장화",
+ "accessories": [
+  "빛나는 에메랄드 보석이 박힌 목걸이",
+  "어깨의 황금 장식"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 육각형 암석 방패",
+ "sub_gear": "방패 중앙의 마법 문양",
+ "special_item": "에메랄드빛 마법 핵",
+ "palette": [
+  "#2C3E50",
+  "#E67E22",
+  "#F1C40F",
+  "#2ECC71",
+  "#BDC3C7"
+ ],
+ "materials": [
+  "암석",
+  "황금",
+  "에메랄드",
+  "무거운 가죽"
+ ],
+ "silhouette": "거대한 뿔, 육각형의 거대 방패, 굵고 짧은 다리, 뭉툭한 꼬리",
+ "signature_motion": "방패를 바닥에 찍어 충격파를 일으키는 동작",
+ "signature_vfx": "방패 주변으로 퍼져나가는 에메랄드색 빛의 동심원",
+ "unique_features": [
+  "거대한 암석 뿔",
+  "육각형 암석 방패",
+  "황금 테두리 갑옷",
+  "에메랄드빛 마법 핵"
+ ],
+ "micro_features": [
+  "방패의 빛나는 균열",
+  "갑옷의 황금 문양",
+  "손등의 흉터"
+ ],
+ "visual_en": "A heavy-set rhino-like creature facing right, featuring massive dark stone horns with golden veins. The head has bright emerald eyes and short dark brown fur. It wears thick navy blue armor decorated with ornate golden trim and a glowing emerald gem at the collar. The character carries an enormous hexagonal stone shield with glowing green cracks. The arms are encased in heavy metallic gauntlets, and the feet are sturdy stone boots. The overall silhouette is squat and extremely sturdy, with a bright emerald glow emanating from its center to stand out against dark dungeon floors.",
+ "features_en": [
+  "massive stone horns",
+  "hexagonal stone shield",
+  "golden trimmed armor",
+  "glowing emerald magic core"
+ ],
+ "pose_en": "Standing firmly with a wide stance, bracing for impact.",
+ "vfx_en": "Expanding emerald green concentric circles of light.",
+ "weapon_en": "Great Hexagonal Stone Shield",
+ "item_en": "Glowing Emerald Core",
+ "motion_en": "Shield Slam",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "14-0",
+ "lore": "느리고 단단한 탱커.",
+ "px": 52,
+ "colors": 16,
+ "extra_px": [
+  72
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

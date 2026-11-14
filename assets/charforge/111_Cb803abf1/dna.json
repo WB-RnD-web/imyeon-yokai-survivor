@@ -1,0 +1,81 @@
+{
+ "id": "Cb803abf1",
+ "name": "휘영 (Hwi-Yeong)",
+ "quote": "바람이 닿는 곳마다 흔적은 사라지리라.",
+ "race": "퍼리",
+ "subrace": "곤충형 수인",
+ "body_structure": "인간형 곤충 (사마귀의 상체와 유연한 사지)",
+ "head_ratio": "3등신",
+ "job": "암살자",
+ "culture": "한국 설화 (도깨비와 바람의 정령)",
+ "personality": [
+  "신비로운",
+  "신속한",
+  "고결한"
+ ],
+ "face": "날카롭고 매끄러운 턱선, 눈매가 긴 도깨비 형상",
+ "eyes": "형광빛 에메랄드색의 커다란 겹눈 형태",
+ "hair": "올리브색의 짧고 빳빳한 털 뭉치",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "마른 사마귀의 꼬리 형태",
+ "wings": "얇고 빛나는 네 개의 날개 조각",
+ "skin": "짙은 카키색의 키틴질 피부",
+ "outfit": "올리브색 쾌자 스타일의 암살복과 헝겊 띠",
+ "gloves": "날카로운 발톱이 드러난 가죽 보호대",
+ "shoes": "발목을 감싸는 짚신 형태의 가죽 장화",
+ "accessories": [
+  "신성한 빛을 내뿜는 금빛 후광(Halo)"
+ ],
+ "bag": "없음",
+ "weapon": "바람을 가르는 투명한 낫(Scythe)",
+ "sub_gear": "허리에 매달린 작은 부적들",
+ "special_item": "공중에 떠 있는 신성한 기류 구슬",
+ "palette": [
+  "#3E442B (Deep Olive)",
+  "#8B9467 (Khaki)",
+  "#D4AF37 (Divine Gold)",
+  "#00FF88 (Emerald Glow)",
+  "#1A1C14 (Dark Shadow)"
+ ],
+ "materials": [
+  "키틴질",
+  "비단",
+  "신성한 빛",
+  "바람의 정수"
+ ],
+ "silhouette": "사마귀의 거대한 낫 형태 무기, 등 뒤에 흩날리는 4개의 날개 파편, 머리 위의 빛나는 후광, 길고 가느다란 꼬리",
+ "signature_motion": "바람처럼 빠르게 회전하며 주변의 적을 베어 넘기는 동작",
+ "signature_vfx": "에메랄드빛 소용돌이가 휘감기는 강한 바람의 칼날",
+ "unique_features": [
+  "신성한 금빛 후광",
+  "4개의 분리된 날개 파편",
+  "에메랄드빛 겹눈",
+  "떠다니는 기류 구슬"
+ ],
+ "micro_features": [
+  "허리에 달린 작은 부적",
+  "날카로운 발톱 끝의 금빛 문양",
+  "올리브색 털 끝의 미세한 빛"
+ ],
+ "visual_en": "A small 40px character featuring a divine golden halo floating above a head with emerald glowing compound eyes. The body is covered in dark khaki chitinous skin and olive-colored fur. Four separate, glowing emerald wing fragments drift behind the back. A slender, insectoid tail extends downwards. The character wears a dark olive traditional Korean assassin's vest with gold-trimmed edges. A floating magical orb of swirling wind orbits the waist. The character holds a large, translucent scythe that glimmers with light.",
+ "features_en": [
+  "Divine golden halo",
+  "Four separate wing fragments",
+  "Emerald glowing compound eyes",
+  "Floating wind orb"
+ ],
+ "pose_en": "Standing in a low, predatory crouch, ready to spring forward.",
+ "vfx_en": "Swirling emerald-colored wind blades and gusts.",
+ "weapon_en": "Translucent wind-scythe",
+ "item_en": "Floating essence orb",
+ "motion_en": "Rapid whirlwind dash",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "add_anims": [
+  "idle"
+ ],
+ "colors": 16,
+ "indexed": true
+}

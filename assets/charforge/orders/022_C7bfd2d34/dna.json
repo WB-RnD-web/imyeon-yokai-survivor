@@ -1,0 +1,110 @@
+{
+ "id": "C7bfd2d34",
+ "name": "네페르",
+ "quote": "하늘의 심판은 결코 빗나가지 않는다.",
+ "race": "천계 신족",
+ "subrace": "태양의 수호자",
+ "body_structure": "신성한 빛의 형상",
+ "head_ratio": "2등신",
+ "job": "천상 정화자",
+ "culture": "태양 문명",
+ "personality": [
+  "엄숙함",
+  "단호함",
+  "자비 없는 심판자"
+ ],
+ "face": "자비로운 듯하나 차가운 표정",
+ "eyes": "눈동자 없이 빛나는 금색 안광",
+ "hair": "흐르는 듯한 백금색 빛의 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "빛의 날개",
+ "skin": "상아색",
+ "outfit": "황금색 장식의 청록색 신관 예복",
+ "gloves": "없음",
+ "shoes": "황금색 발찌가 달린 샌들",
+ "accessories": [
+  "거대한 후광",
+  "떠다니는 태양의 파편",
+  "빛의 고리"
+ ],
+ "bag": "없음",
+ "weapon": "태양의 창",
+ "sub_gear": "떠다니는 마법 보주",
+ "special_item": "심판의 빛 장판",
+ "palette": [
+  "#FFFFFF",
+  "#FFD700",
+  "#008080",
+  "#40E0D0",
+  "#FF4500"
+ ],
+ "materials": [
+  "빛",
+  "금속",
+  "보석"
+ ],
+ "silhouette": "거대한 원형 후광, 머리 뒤로 떠다니는 마법 파편들, 펼쳐진 빛의 날개, 길게 뻗은 태양의 창",
+ "signature_motion": "공중으로 떠올라 빛의 창을 지면에 내리꽂는 돌진",
+ "signature_vfx": "바닥에서 솟구치는 눈부신 금색 빛의 거대한 파동",
+ "unique_features": [
+  "거대한 태양 후광",
+  "주변을 부유하는 마법 파편",
+  "빛의 날개",
+  "태양의 창",
+  "빛나는 안광"
+ ],
+ "micro_features": [
+  "머리 위의 작은 빛의 고리",
+  "예복의 금색 자수",
+  "발목의 빛나는 장식"
+ ],
+ "visual_en": "A small 2-head tall divine figure facing right. The head features glowing golden eyes without pupils and flowing platinum white hair. Behind the head floats a massive, dazzling golden halo-like aura. Floating magical fragments of bright orange light orbit the body. The character wears a deep teal priestly robe adorned with intricate gold embroidery and a small light ring above the head. Large, shimmering wings of pure white light spread from the back. The character holds a long, radiant sun spear made of brilliant gold and white light. Around the ankles, small glowing golden ornaments shine. The overall silhouette is defined by the large circular halo and the sharp, bright spear.",
+ "features_en": [
+  "Massive solar halo",
+  "Floating magical fragments",
+  "Wings of light",
+  "Sun spear",
+  "Glowing eyes"
+ ],
+ "pose_en": "Hovering majestically with a commanding presence.",
+ "vfx_en": "A massive expanding wave of brilliant gold and white light.",
+ "weapon_en": "Solar Spear",
+ "item_en": "Orb of Judgement",
+ "motion_en": "Divine Spear Thrust",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "21-0",
+ "lore": "마지막 스테이지(천상)의 최종 보스. 장판이 더 넓고 졸개를 자주 부른다. 돌진·탄막·장판·소환.",
+ "px": 160,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward. The character's body stays exactly the same size and in the same place as in the input image: same head size, same height, feet on the same line. Draw the effect around it, smaller if needed, and never shrink the character",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions. The character's body stays exactly the same size and in the same place as in the input image: same head size, same height, feet on the same line. Draw the effect around it, smaller if needed, and never shrink the character",
+  "vfx": "a glowing red warning circle on the ground",
+  "entrance": "The character's body stays exactly the same size and in the same place as in the input image: same head size, same height, feet on the same line. Draw the effect around it, smaller if needed, and never shrink the character"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "charge_0": "Every part of the character and every effect ends well inside the picture, with empty background visible along all four edges. The sun is fully visible and round. No black or dark shapes anywhere",
+  "ultimate_1": "Only golden and white light swirls around it. No black, dark or opaque smudges or shapes anywhere"
+ },
+ "pad_frames": {
+  "charge_0": 1.5
+ },
+ "body_plan": {
+  "body": "A small, winged humanoid character wearing a long teal robe with gold patterns, featuring white hair and glowing eyes.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "ab9b3c6959903c2c0daef229cf416491"
+ }
+}

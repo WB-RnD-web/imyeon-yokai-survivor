@@ -1,0 +1,78 @@
+{
+ "id": "Cd726d1a7",
+ "name": "덩기",
+ "quote": "슈슉- 휙-!",
+ "race": "지네 요괴",
+ "subrace": "다리 요괴",
+ "body_structure": "길쭉하고 마디가 많은 형태",
+ "head_ratio": "2등신",
+ "job": "정찰병",
+ "culture": "숲의 그림자 부족",
+ "personality": [
+  "산만함",
+  "민첩함",
+  "겁이 많음"
+ ],
+ "face": "단순한 눈과 짧은 더듬이",
+ "eyes": "밝은 형광 연두색의 큰 눈",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "마디로 이루어진 긴 몸통 끝부분",
+ "wings": "없음",
+ "skin": "짙은 청록색",
+ "outfit": "마디마다 둘러진 얇은 끈",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "없음"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "Dark Teal",
+  "Deep Navy",
+  "Bright Neon Green",
+  "Pale Mint"
+ ],
+ "materials": [
+  "단단한 껍질",
+  "매끄러한 점액"
+ ],
+ "silhouette": "마디가 나뉜 긴 지네 형태, 머리 부분의 튀어나온 두 개의 더듬이, 양옆으로 뻗은 짧은 다리들",
+ "signature_motion": "지그재그로 빠르게 꺾이며 달리기",
+ "signature_vfx": "이동 경로에 남는 밝은 연두색 잔상",
+ "unique_features": [
+  "지그재그로 꺾인 긴 몸통",
+  "형광 연두색 눈",
+  "양옆으로 뻗은 다리 마디"
+ ],
+ "micro_features": [
+  "머리 끝의 짧은 더등이",
+  "마디 사이의 밝은 민트색 선",
+  "작은 발끝의 흰 점"
+ ],
+ "visual_en": "A small 28px centipede-like creature facing right. The head features two prominent bright neon green eyes and short antennae. The body is composed of several segments in dark teal and deep navy, with bright mint-colored lines separating each segment. Numerous small, thin legs protrude from the sides of the body segments. The tail end tapers into a sharp point. The entire silhouette is highlighted by the glowing neon green eyes and mint accents, making it visible against dark backgrounds.",
+ "features_en": [
+  "Zigzagging long body",
+  "Bright neon green eyes",
+  "Sprouting leg segments"
+ ],
+ "pose_en": "Darting sideways in a rapid zigzag pattern",
+ "vfx_en": "A bright neon green motion trail following the zigzag path",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Erratic rapid zigzag dashing",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "3-0",
+ "lore": "아주 빠르고 늘 지그재그로 달린다. 드물게 나온다.",
+ "px": 28,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true
+}

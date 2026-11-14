@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/galmuri/Galmuri9.woff" id="1_g9"]
+
+[resource]
+default_font = ExtResource("1_g9")
+default_font_size = 20

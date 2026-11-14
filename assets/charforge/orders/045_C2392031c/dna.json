@@ -1,0 +1,93 @@
+{
+ "id": "C2392031c",
+ "name": "손각시",
+ "quote": "가지 마세요... 저와 함께 저승으로 가요.",
+ "race": "악령 (Specter)",
+ "subrace": "원혼 (Vengeful Spirit)",
+ "body_structure": "가냮한 체형",
+ "head_ratio": "2등신",
+ "job": "인력 술사 (Gravity Manipulator)",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "집착적인",
+  "애처로운",
+  "강력한 인력을 가진"
+ ],
+ "face": "창백하고 하얀 얼굴",
+ "eyes": "눈가에 붉은 화장이 된 눈",
+ "hair": "길게 늘어진 검은 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 백색",
+ "outfit": "화려한 금색 자수가 놓인 붉은 혼례복",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "하얀 소복 천 조각"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "붉은 명주실",
+ "palette": [
+  "#FFFFFF",
+  "#FF0000",
+  "#FFD700",
+  "#000000",
+  "#8B0000"
+ ],
+ "materials": [
+  "비단",
+  "명주실",
+  "령(Spirit)"
+ ],
+ "silhouette": "길게 늘어진 검은 머리카락, 풍성하게 퍼진 붉은 치마 실루엣, 허공에 떠 있는 듯한 형태",
+ "signature_motion": "양팔을 플레이어 쪽으로 천천히 뻗으며 끌어당기는 동작",
+ "signature_vfx": "캐릭터 중심에서 플레이어 방향으로 뻗어 나가는 붉은색 명주실의 파동",
+ "unique_features": [
+  "붉은 혼례복",
+  "긴 검은 머리카락",
+  "플레이어를 끌어당기는 붉은 명주실 효과",
+  "하얀 소복 조각"
+ ],
+ "micro_features": [
+  "눈가의 붉은 화장",
+  "치마 끝의 금색 자수",
+  "떠다니는 작은 붉은 꽃잎"
+ ],
+ "visual_en": "A small 2-head tall ghost with long, flowing jet-black hair covering part of her pale white face. She wears a vibrant, bright red traditional Korean wedding hanbok decorated with intricate gold embroidery on the edges. Floating around her are thin, glowing red silk threads that extend outwards. Her eyes are marked with distinct red eye makeup, providing a sharp contrast. The hem of her red skirt drifts as if underwater, accompanied by tiny, glowing red flower petals. The overall silhouette is defined by the heavy black hair and the wide, bright red skirt, making her highly visible against dark dungeon floors.",
+ "features_en": [
+  "Red wedding hanbok",
+  "Long black hair",
+  "Red silk thread pulling effect",
+  "White white cloth scraps"
+ ],
+ "pose_en": "Reaching out with both hands towards the player with a longing expression.",
+ "vfx_en": "Expanding waves of glowing red silk threads pulsing from the center.",
+ "weapon_en": "None",
+ "item_en": "Red silk thread",
+ "motion_en": "Pulling motion with outstretched arms",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "44-0",
+ "lore": "가까이 오면 플레이어를 제 쪽으로 끌어당긴다(세케트처럼).",
+ "px": 40,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "손각시",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A humanoid character with long black hair, wearing a red robe, with visible hands but no visible legs.",
+  "legs": false,
+  "arms": true,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "cc02f42d92160aaf99606f046262db8d"
+ }
+}

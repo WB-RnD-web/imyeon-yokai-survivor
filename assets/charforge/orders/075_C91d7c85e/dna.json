@@ -1,0 +1,128 @@
+{
+ "name": "도윤 · 저승길 차림",
+ "quote": "붓 끝에 맺힌 기운이 요괴를 잠재우리라.",
+ "race": "인간 (Human)",
+ "subrace": "퇴마사 (Exorcist)",
+ "body_structure": "단단하고 균형 잡힌 소년 체형",
+ "head_ratio": "2등신",
+ "job": "퇴마 서생",
+ "culture": "한국 설화 (Korean Folklore)",
+ "personality": [
+  "강직함",
+  "정의로움",
+  "침착함"
+ ],
+ "face": "단호한 눈매의 어린 소년",
+ "eyes": "밝은 금색으로 빛나는 눈동자",
+ "hair": "깔끔하게 묶은 검은색 상투 머리",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "건강한 빛의 밝은 살구색",
+ "outfit": "청색과 흰색이 조화된 단정한 한복 도포",
+ "gloves": "없음",
+ "shoes": "하얀색 버선과 검은색 꽃신",
+ "accessories": [
+  "몸 주변을 떠다니는 빛나는 부적 조각들"
+ ],
+ "bag": "없음",
+ "weapon": "신성한 기운이 서린 커다란 붓",
+ "sub_gear": "허리춤에 차고 있는 부적 뭉치",
+ "special_item": "하늘색 빛을 내뿜는 마법 붓",
+ "palette": [
+  "Ivory White",
+  "Deep Navy",
+  "Bright Gold",
+  "Sky Blue",
+  "Crimson Red"
+ ],
+ "materials": [
+  "비단",
+  "종이",
+  "먹물"
+ ],
+ "silhouette": "커다란 붓을 휘두르는 역동적인 자세, 몸 주변에 흩날리는 부적의 파편 실루엣",
+ "signature_motion": "붓으로 허공에 궤적을 그리며 부적을 발사하는 동작",
+ "signature_vfx": "붓이 지나간 자리에 밝은 하늘색 글씨가 나타나며 황금빛 폭발이 일어남",
+ "unique_features": [
+  "주변을 부유하는 빛나는 부적 파편",
+  "하늘색 빛을 내뿜는 마법 붓",
+  "신성한 문양의 도포 자락"
+ ],
+ "micro_features": [
+  "붓 끝에 맺힌 하늘색 마력",
+  "허리춤의 작은 부적 매듭",
+  "도포 소매의 붉은 문양"
+ ],
+ "visual_en": "A 2-head tall chibi exorcist facing right. He has bright gold glowing eyes and black hair tied in a neat topknot. He wears an ivory white and deep navy hanbok robe decorated with crimson red patterns on the sleeves. Several glowing sky blue talisman fragments float around his body. He holds a large, oversized magic brush that emits a brilliant sky blue light at its tip. His feet are clad in white socks and black traditional shoes. The entire character stands out with vivid, saturated colors against dark backgrounds.",
+ "features_en": [
+  "Floating glowing talisman fragments",
+  "Magic brush emitting sky blue light",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing firm with a determined gaze, ready to strike.",
+ "vfx_en": "Sky blue calligraphy strokes exploding into golden sparks.",
+ "weapon_en": "Divine Exorcism Brush",
+ "item_en": "Floating Talisman Array",
+ "motion_en": "Painting explosive talismans in the air",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "lore": "퇴마 서생 — 붓으로 그은 자리에 부적이 터진다. 무기 부적 · 붓(부적에 읽히는 글자는 넣지 않는다).",
+ "px": 40,
+ "colors": 16,
+ "indexed": true,
+ "game_name": "도윤 · 저승길 차림",
+ "contrast": "both",
+ "concept": "이 게임 세계(요괴 · 이면 — 한국 설화) 영웅. 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "no_halo": true,
+ "game_slot": "skin/056_Ce1d37d66@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "variant_of": "056_Ce1d37d66",
+ "parent_body": {
+  "body": "A small, chibi-style humanoid character with black hair, wearing a white and blue robe with red accents.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "a762ec7d28309e99e056787696764514"
+ },
+ "derive": {
+  "from": "/home/wadi/charforge/orders/imyeon/survivor/056_Ce1d37d66/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "C91d7c85e",
+ "body_plan": {
+  "body": "A chibi-style human character wearing a traditional white robe and a large black hat.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "5720d44240f60c1ce15ae3ec1c189b5a"
+ }
+}

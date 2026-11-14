@@ -1,0 +1,83 @@
+{
+ "id": "C3dbd98a0",
+ "name": "카리아",
+ "quote": "점점 커지는 무게를 견뎌낼 수 있겠어?",
+ "race": "식물 요괴",
+ "subrace": "포자 변이종",
+ "body_structure": "부풀어 오르는 포자 주머니 형태",
+ "head_ratio": "2등신",
+ "job": "포자 폭발병 (Spore Bomber)",
+ "culture": "버려진 늪지 유적",
+ "personality": [
+  "팽창 중인",
+  "불안정한",
+  "위험한"
+ ],
+ "face": "눈이 보이지 않는 둥근 포자 덩어리",
+ "eyes": "없음",
+ "hair": "보라색 덩굴 촉수",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "진한 자주색의 팽창된 포자 피부",
+ "outfit": "덩굴로 엮인 포자 주머니",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "빛나는 형광 연두색 포자 가루"
+ ],
+ "bag": "없음",
+ "weapon": "자폭용 포자 구체",
+ "sub_gear": "없음",
+ "special_item": "팽창 중인 포자 주머니",
+ "palette": [
+  "Deep Purple",
+  "Magenta",
+  "Bright Neon Green",
+  "Dark Forest Green",
+  "Creamy White"
+ ],
+ "materials": [
+  "팽창하는 유기물",
+  "발광 포자"
+ ],
+ "silhouette": "머리와 몸통이 하나로 합쳐진 거대한 구체, 위로 솟은 덩굴 촉수, 아래로 늘어진 포자 가루 흐름",
+ "signature_motion": "몸집이 서서히 커지며 진동하다가 팡 터짐",
+ "signature_vfx": "밝은 연두색의 둥근 포자 폭발 파동",
+ "unique_features": [
+  "팽창하는 구체형 몸체",
+  "형광 연두색 발광 포인트",
+  "위로 뻗은 덩굴 촉수"
+ ],
+ "micro_features": [
+  "표면에 붙은 작은 포자 알",
+  "끝단이 말린 덩굴",
+  "바닥에 떨어지는 빛나는 가루"
+ ],
+ "visual_en": "A large, spherical body made of deep purple and magenta organic matter, appearing swollen and heavy. From the top of the sphere, dark forest green vine tentacles protrude upward. The entire surface is covered in small, creamy white spore clusters. A bright neon green glowing light emanates from cracks in the body, acting as a sharp visual accent. Small, glowing neon green particles drift downwards from the bottom of the mass. The character is oriented towards the right, showing a thick, unstable, and expanding silhouette.",
+ "features_en": [
+  "Swelling spherical body",
+  "Bright neon green glowing accent",
+  "Upward reaching vine tentacles"
+ ],
+ "pose_en": "Swaying heavily while expanding with instability",
+ "vfx_en": "A sudden burst of bright neon green circular shockwaves",
+ "weapon_en": "Explosive spore sphere",
+ "item_en": "Expanding spore sac",
+ "motion_en": "Rhythmic expansion and contraction",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "10-0",
+ "lore": "살아 있는 동안 계속 부풀어 오른다(최대 2.2배).",
+ "px": 40,
+ "colors": 16,
+ "extra_px": [
+  64,
+  88
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

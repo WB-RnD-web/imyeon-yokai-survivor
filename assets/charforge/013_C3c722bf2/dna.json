@@ -1,0 +1,80 @@
+{
+ "id": "C3c722bf2",
+ "name": "코스모-크로노 (Cosmo-Chrono)",
+ "quote": "시간의 톱니바퀴가 은하의 궤도와 일치한다.",
+ "race": "요괴",
+ "subrace": "용족",
+ "body_structure": "인간+용",
+ "head_ratio": "3등신",
+ "job": "시계공",
+ "culture": "우주",
+ "personality": [
+  "강박적인",
+  "정교한",
+  "초월적인"
+ ],
+ "face": "무표정한 작은 얼굴",
+ "eyes": "빛나는 황금색 안구",
+ "hair": "은하수색 짧은 머리",
+ "ears": "없음",
+ "horns": "투명한 수정 뿔",
+ "tail": "기계 톱니가 박힌 용 꼬리",
+ "wings": "없음",
+ "skin": "짙은 네이비색 비늘",
+ "outfit": "빛나는 별가루가 박힌 청색 작업복",
+ "gloves": "금색 금속 장갑",
+ "shoes": "무거운 기계식 부츠",
+ "accessories": [
+  "떠다니는 황금빛 후광",
+  "부유하는 톱니바퀴 소용돌이"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 황금 태엽 렌치",
+ "sub_gear": "회전하는 작은 시계 부품들",
+ "special_item": "중력 제어 렌치",
+ "palette": [
+  "#0A0E27 (Deep Space)",
+  "#FFD700 (Divine Gold)",
+  "#E0E0E0 (Starlight Silver)",
+  "#4B0082 (Cosmic Indigo)",
+  "#00FFCC (Aether Cyan)"
+ ],
+ "materials": [
+  "황금",
+  "수정",
+  "성간 가스"
+ ],
+ "silhouette": "머리 위의 거대한 후광과 몸 주변을 휘감는 톱니바퀴 꼬리, 거대한 렌치 실루엣",
+ "signature_motion": "주변의 톱니바퀴가 시계 방향으로 빠르게 회전함",
+ "signature_vfx": "황금빛 바람이 나선형으로 캐릭터를 감싸며 휘몰아침",
+ "unique_features": [
+  "떠다니는 황금빛 후광",
+  "기계 톱니가 박힌 용 꼬리",
+  "부유하는 톱니바퀴 소용돌이"
+ ],
+ "micro_features": [
+  "뿔 끝의 작은 빛줄기",
+  "장갑의 미세한 톱니 무늬",
+  "부츠 밑창의 빛나는 에너지 라인"
+ ],
+ "visual_en": "A small 3-head tall figure with deep navy scaled skin and short starlight silver hair. On top of the head, a large floating golden halo radiates intense light. Transparent crystal horns protrude from the forehead. A long dragon tail embedded with rotating golden gears sweeps behind. The character wears a deep indigo cosmic jumpsuit adorned with glowing star dust, paired with heavy metallic gold gloves and heavy mechanical boots with glowing cyan energy lines. Around the body, several golden clockwork gears float in a swirling motion, creating a divine aura of orbiting mechanical elements.",
+ "features_en": [
+  "Floating golden halo",
+  "Dragon tail with mechanical gears",
+  "Swirling floating clockwork gears"
+ ],
+ "pose_en": "Standing rigidly with a precise, clockwork-like posture.",
+ "vfx_en": "A swirling spiral of golden wind and stardust particles.",
+ "weapon_en": "Colossal Golden Gear Wrench",
+ "item_en": "Gravity-controlling Wrench",
+ "motion_en": "Rapidly rotating clockwork orbit",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "role_before": "잡몹",
+ "add_anims": [
+  "idle"
+ ],
+ "colors": 16,
+ "indexed": true
+}

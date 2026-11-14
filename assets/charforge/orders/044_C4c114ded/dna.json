@@ -1,0 +1,96 @@
+{
+ "id": "C4c114ded",
+ "name": "상여꾼",
+ "quote": "이승의 미련은 버리고, 꽃잎과 함께 떠나거라.",
+ "race": "저승 귀물 (Underworld Apparition)",
+ "subrace": "망령 인도자 (Guide of the Dead)",
+ "body_structure": "거구",
+ "head_ratio": "2등신",
+ "job": "상여꾼 (Pallbearer)",
+ "culture": "한국 저승 설화 (Korean Underworld Lore)",
+ "personality": [
+  "묵직한",
+  "무심한",
+  "압도적인"
+ ],
+ "face": "창백하고 무표정한 얼굴",
+ "eyes": "초점 없는 흐릿한 백색 눈",
+ "hair": "헝클어진 잿빛 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "잿빛이 감도는 창백한 피부",
+ "outfit": "낡고 해진 짙은 남색 도포",
+ "gloves": "없음",
+ "shoes": "짚신 형태의 투박한 신발",
+ "accessories": [
+  "꽃상여",
+  "화려한 금색 장식",
+  "흰색 꽃잎"
+ ],
+ "bag": "없음",
+ "weapon": "상여 (Floral Bier)",
+ "sub_gear": "상여를 지탱하는 긴 나무 막대",
+ "special_item": "산 자의 영혼을 부르는 흰 꽃",
+ "palette": [
+  "#2C2C2C",
+  "#D4AF37",
+  "#FFFFFF",
+  "#4B0082",
+  "#E0E0E0"
+ ],
+ "materials": [
+  "낡은 나무",
+  "빛나는 금속",
+  "말라버린 꽃"
+ ],
+ "silhouette": "거대한 꽃상여를 어깨에 짊어진 육중하고 넓은 상체 실루엣, 상여 끝에서 흘러나오는 화려한 금색 장식의 윤곽",
+ "signature_motion": "상여를 천천히, 하지만 무게감 있게 흔들며 전진함",
+ "signature_vfx": "파괴 시 사방으로 흩뿌려지는 밝은 흰색 꽃잎과 금색 파편",
+ "unique_features": [
+  "꽃상여를 멘 거구",
+  "화려한 금색 장식",
+  "흩날리는 흰 꽃잎"
+ ],
+ "micro_features": [
+  "상여에 달린 작은 방울",
+  "도포 끝의 낡은 솔기",
+  "발치의 흙먼지"
+ ],
+ "visual_en": "A massive, heavy-set figure with a 2-head proportion, carrying a large, ornate floral bier on his shoulders. The bier is decorated with bright golden trims and glowing white flowers that stand out against his dark, navy-colored traditional hanbok-style robe. His skin is a deathly pale grey, and his eyes are featureless, glowing white dots. The edges of the bier feature intricate golden ornaments that catch the light. As he moves, tiny white petals and golden dust fall from the bier. His feet, clad in simple straw sandals, leave faint traces of dust on the dark ground. The entire silhouette is dominated by the wide, heavy shape of the bier and the thick, sturdy frame of the pallbearer.",
+ "features_en": [
+  "Massive frame carrying a floral bier",
+  "Ornate golden trims",
+  "Scattered white petals"
+ ],
+ "pose_en": "Walking with a slow, heavy, and inevitable gait.",
+ "vfx_en": "Exploding shards of white petals and golden light in eight directions.",
+ "weapon_en": "Ornate Floral Bier",
+ "item_en": "Spirit-guiding White Flower",
+ "motion_en": "Heavy, rhythmic swaying of the bier",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "43-0",
+ "lore": "아주 느린 거구. 쓰러질 때 사방 여덟 방향으로 파편을 뿌린다(할덴처럼).",
+ "px": 52,
+ "colors": 16,
+ "anim_notes": {
+  "death": "bursting apart with fragments flying out in eight directions"
+ },
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "상여꾼",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A humanoid character wearing dark robes and a black hat, carrying a large tray of white flowers on its shoulders.",
+  "legs": true,
+  "arms": true,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "133c0fa350a7206afd816581cf92d4a6"
+ }
+}

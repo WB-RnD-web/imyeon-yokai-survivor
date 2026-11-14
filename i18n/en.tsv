@@ -1,0 +1,1233 @@
+# 한글 원문<TAB>영어<TAB>나오는 곳 — python tools/i18n.py build 로 게임에 굽는다
+# 영어 칸이 비어 있으면 게임에서 한글이 그대로 나온다. \n 은 줄바꿈이다.
+평범	Plain	accessories.gd:19
+귀함	Fine	accessories.gd:20
+진귀	Rare	accessories.gd:21
+전설	Legendary	accessories.gd:22,main_cards.gd:424,main_cards.gd:603
+짚신	Straw Sandals	accessories.gd:29
+발이 가벼워진다. 이동 속도 +6%.	Light on your feet. Move speed +6%.	accessories.gd:30
+호패	Hopae Tag	accessories.gd:31
+이름값을 한다. 경험치 획득 +10%.	Your name carries weight. XP gain +10%.	accessories.gd:32
+복주머니	Lucky Pouch	accessories.gd:33
+주머니가 알아서 찬다. 골드 획득 +12% · 자석 +40.	It fills itself. Gold gain +12% · Magnet +40.	accessories.gd:34
+염주	Prayer Beads	accessories.gd:35
+한 알씩 굴린다. 매초 체력 +0.5 · 방어 +1.	One bead at a time. HP +0.5/s · Armor +1.	accessories.gd:36
+옥가락지	Jade Ring	accessories.gd:38
+손끝이 맑아진다. 치명타 확률 +8% · 치명타 배율 +0.25.	Clear fingertips. Crit chance +8% · Crit multiplier +0.25.	accessories.gd:39
+비녀	Binyeo Hairpin	accessories.gd:40
+찌르면 뚫린다. 관통 +1 · 탄속 +12%.	What it pricks, it pierces. Pierce +1 · Bullet speed +12%.	accessories.gd:41
+노리개	Norigae Charm	accessories.gd:42
+복이 따라붙는다. 행운 +10% · 레벨업 리롤 +1.	Fortune follows. Luck +10% · Level-up reroll +1.	accessories.gd:43
+두루마기	Durumagi Coat	accessories.gd:44
+품이 넉넉하다. 최대 체력 +40 · 방어 +2.	Roomy and warm. Max HP +40 · Armor +2.	accessories.gd:45
+은장도	Silver Dagger	accessories.gd:47
+품고 다니는 한 수. 첫 피격을 흘려보내고, 이후 60초마다 다시 채워진다.	A last resort kept close. Shrugs off the first hit, then recharges every 60s.	accessories.gd:48
+갓	Gat Hat	accessories.gd:49
+격이 다르다. 영웅 이상 카드가 뜰 확률 크게 상승 (행운 +25% 상당).	A cut above. Epic-or-better cards show up far more often (about Luck +25%).	accessories.gd:50
+죽부인	Bamboo Bolster	accessories.gd:51
+붙어 있으면 시원하다. 대시 쿨 -25% · 대시 중 무적 시간 연장.	Cool to the touch. Dash cooldown -25% · Longer invulnerability while dashing.	accessories.gd:52
+청동거울	Bronze Mirror	accessories.gd:54
+맞은 것을 되비춘다. 가시 반사 +25 · 받는 피해 -8%.	Reflects what strikes it. Thorns +25 · Damage taken -8%.	accessories.gd:55
+무당 방울	Shaman Bells	accessories.gd:56
+소리가 무기를 부른다. 특수무기 위력 ×1.20 · 소환수를 하나 데리고 시작.	The ringing calls weapons. Special weapon power ×1.20 · Start with one summon.	accessories.gd:57
+탄환직격	Bullet Hit	bullet.gd:339
+착탄폭발	Impact Blast	bullet.gd:391
+감전즉발	Shock Burst	bullet.gd:433
+좌우로 드래그하면 더 많은 영웅	Drag sideways for more heroes	character_select.gd:117
+카드 탭=상세 확인 · 같은 카드 다시 탭=출격	Tap a card for details · Tap it again to deploy	character_select.gd:149
+카드에 마우스를 올리거나 우클릭하면 상세 능력이 표시됩니다 · 클릭=선택	Hover or right-click a card for details · Click to select	character_select.gd:149
+보유 골드:  %d G	Gold:  %d G	character_select.gd:291
+◆ 특수 영웅 ◆	◆ Special Hero ◆	character_select.gd:242
+미해금	Locked	character_select.gd:260
+해금: %s	Unlock: %s	character_select.gd:270
+등급 최대	Max Rank	character_select.gd:576
+즉시 해금 %s G	Unlock now %s G	character_select.gd:584
+%s   등급 %d / %d	%s   Rank %d / %d	character_select.gd:378
+고유: 	Unique: 	character_select.gd:379,character_select.gd:385
+◆ 특수 영웅 (운빨디펜스 콜라보) · 	◆ Special Hero (Luck Defense collab) · 	character_select.gd:409
+해금 조건: %s  (또는 %d G로 바로 해금)	Unlock: %s  (or %d G to unlock now)	character_select.gd:532
+공격력 x%.2f	Attack x%.2f	character_select.gd:538
+공속 x%.2f(간격)	Fire rate x%.2f (interval)	character_select.gd:540
+이속 x%.2f	Move x%.2f	character_select.gd:542
+탄속 x%.2f	Bullet speed x%.2f	character_select.gd:544
+체력 %+d	HP %+d	character_select.gd:546
+방어 %+d	Armor %+d	character_select.gd:548
+자석 %+d	Magnet %+d	character_select.gd:550
+행운 %+d%%	Luck %+d%%	character_select.gd:552
+치명 %+d%%	Crit %+d%%	character_select.gd:554
+관통 %+d	Pierce %+d	character_select.gd:556
+탄환 %+d	Bullets %+d	character_select.gd:558,pause_menu.gd:517
+경험치 x%.2f	XP x%.2f	character_select.gd:560
+기본치 균형 (편차 없음)	Balanced base stats (no bias)	character_select.gd:413
+기본치: 	Base stats: 	character_select.gd:562
+지금 시작 능력치:  공격력 %.1f · 체력 %d · 이동 %d · 방어 %.1f  (상점 강화 포함)	Starting stats:  Attack %.1f · HP %d · Move %d · Armor %.1f  (incl. shop upgrades)	character_select.gd:418
+   몹 체력도 ×%.3f 같이 오른다 →  순이득 ×%.3f	   Enemy HP also rises ×%.3f  →  net gain ×%.3f	character_select.gd:418
+클리어함 · 재도전	Cleared · Retry	character_select.gd:840
+첫 클리어 +%dG	First clear +%dG	character_select.gd:840
+STAGE %d %s · 8분 뒤 보스 처치 시 클리어 · 골드 ×%.1f · %s\n%s	STAGE %d %s · Clear by beating the boss after 8 min · Gold ×%.1f · %s\n%s	character_select.gd:841
+∞ 무한 모드 · 30분 최종 보스까지 생존\n	∞ Endless · Survive to the 30-min final boss\n	character_select.gd:620
+출격 준비	Prepare to Deploy	character_select.gd:86
+∞ 무한	∞ Endless	character_select.gd:80
+아르잔	Arzan	characters.gd:101
+검무 · 움직이는 동안 공격력이 올라 최대 ×1.45	Sword Dance · Attack builds while moving, up to ×1.45	characters.gd:102
+클리어 별 12개 수집	Collect 12 clear stars	characters.gd:105
+톨크	Tolk	characters.gd:108
+무기 카드 한 장에 두 단계 (만렙 6 → 11) · 특수무기 위력 ×1.25	Each weapon card grants two levels (max 6 → 11) · Special weapon power ×1.25	characters.gd:109
+융합 누적 5회 완성	Complete 5 fusions in total	characters.gd:112
+비나리	Binari	characters.gd:115
+염주 · 6초마다 피해 한 번을 흘려보낸다	Prayer Beads · Negates one hit every 6s	characters.gd:116
+보스전 무피격 클리어 1회	Clear a boss fight without taking a hit	characters.gd:119
+리콜	Rikol	characters.gd:122
+매와 함께 싸운다 · 탄이 적 쪽으로 살짝 휜다	Fights with a hawk · Shots curve slightly toward enemies	characters.gd:113
+무한 모드 완주 1회	Complete Endless once	characters.gd:126
+다음 별 ★%d:  공격력 %.1f → %.1f · 체력 %d → %d · 이동 %d → %d · 방어 %.1f → %.1f	Next star ★%d:  Attack %.1f → %.1f · HP %d → %d · Move %d → %d · Armor %.1f → %.1f	characters.gd:30
+울레아	Ulea	characters.gd:39
+고유 능력 없음 · 균형	No unique ability · Balanced	characters.gd:40
+타르한	Tarhan	characters.gd:43
+체력 40% 이하일 때 공격력 x1.5	Attack x1.5 while HP is at 40% or below	characters.gd:44
+누적 800 처치	800 total kills	characters.gd:46
+랑데	Rangde	characters.gd:49
+기본 관통 +1 · 빠른 연사 · 낮은 공격력	Base pierce +1 · Rapid fire · Low attack	characters.gd:50
+한 판 8분 생존	Survive 8 min in one run	characters.gd:52
+바스락	Baseurak	characters.gd:55
+경험치 획득 +30% · 넓은 자석	XP gain +30% · Wide magnet	characters.gd:56
+5판 플레이	Play 5 runs	characters.gd:58
+갈기 셋째 마루	Maru, Third of the Mane	characters.gd:61
+처치 시 체력 소량 회복 · 튼튼하지만 느림	Heals a little on kill · Sturdy but slow	characters.gd:62
+레벨 15 도달	Reach level 15	characters.gd:64
+깃소금	Gitsogeum	characters.gd:67
+레벨업 강화를 4개 중 선택 · 10레벨마다 도박 (크게 오르거나 내린다)	Choose from 4 level-up cards · Gamble every 10 levels (big gain or big loss)	characters.gd:58
+보스 누적 5 처치	Defeat 5 bosses in total	characters.gd:70
+뒷불 새디	Saddie Backfire	characters.gd:74
+대시가 적을 강타(공격력 220%) · 대시 쿨 -40%	Dash rams enemies (220% attack) · Dash cooldown -40%	characters.gd:75
+스테이지 2(도서관) 보통 이상 클리어	Clear Stage 2 (Library) on Normal or higher	characters.gd:77
+열두 마디 베른	Bern of Twelve Knots	characters.gd:80
+화염 오라를 갖고 시작 · 특수무기 위력 ×1.25	Starts with Fire Aura · Special weapon power ×1.25	characters.gd:81
+융합 1회 완성	Complete 1 fusion	characters.gd:83,codex.gd:129
+회풍	Hoepung	characters.gd:86
+대시 후 2초간 치명타 +50%	For 2s after a dash: crit +50%	characters.gd:87
+스테이지 3(정원) 어려움 이상 클리어	Clear Stage 3 (Garden) on Hard or higher	characters.gd:89
+일곱 맹세의 갈덴	Galden of Seven Oaths	characters.gd:93
+소환수를 들고 시작 · 처치하면 %.0f초간 공격력 ×%.2f (처치마다 갱신)	Starts with a summon · Kills grant %.0fs of attack ×%.2f (refreshed on each kill)	characters.gd:94
+이면 요괴 3종 도감 수집	Record 3 Imyeon yokai in the Codex	characters.gd:98
+하쓰바	Hatsuba	codex.gd:10
+꼬리에 불을 단 도마뱀. 웅크렸다가 튀어 나가고, 용암동굴에서는 쓰러질 때 터지는 놈이 섞여 있다	A lizard with a burning tail. It crouches and then darts in, and in the Lava Cave some of them explode as they fall	codex.gd:10
+생존자	Survivor	codex.gd:121
+한 판에서 5분 생존	Survive 5 min in one run	codex.gd:121
+베테랑	Veteran	codex.gd:122
+한 판에서 15분 생존	Survive 15 min in one run	codex.gd:122
+완주자	Finisher	codex.gd:123
+30분 최종 보스까지 도달	Reach the 30-min final boss	codex.gd:123
+성장	Growth	codex.gd:124
+레벨 20 도달	Reach level 20	codex.gd:124
+초월	Transcend	codex.gd:125,main_cards.gd:1228
+레벨 50 도달	Reach level 50	codex.gd:125
+학살자	Slayer	codex.gd:126
+누적 1,000 처치	1,000 total kills	codex.gd:126
+군단 분쇄	Army Crusher	codex.gd:127
+누적 10,000 처치	10,000 total kills	codex.gd:127
+보스 사냥꾼	Boss Hunter	codex.gd:128
+누적 보스 10 처치	Defeat 10 bosses in total	codex.gd:128
+부러진 맹세 도르반	Dorvan the Oathbroken	codex.gd:11
+맹세가 부러진 날부터 활을 들었다. 거리를 두고 돌며 한 발, 부채꼴 세 발, 느린 유도 화살을 번갈아 쏜다	Took up the bow the day the oath broke. Circles at range, firing single shots, three-arrow fans and slow homing arrows	codex.gd:11
+연금술사	Alchemist	codex.gd:129
+융합 대가	Fusion Master	codex.gd:130
+융합 누적 5회	5 fusions in total	codex.gd:130
+잭팟!	Jackpot!	codex.gd:131
+도박 초대박 발동	Hit the gamble jackpot	codex.gd:131
+불굴	Indomitable	codex.gd:132
+10판 플레이	Play 10 runs	codex.gd:132
+몬스터 박사	Monster Scholar	codex.gd:133
+모든 몬스터 도감 수집	Record every monster in the Codex	codex.gd:133
+탐험가	Explorer	codex.gd:134
+모든 맵 방문	Visit every map	codex.gd:134
+첫 정복	First Conquest	codex.gd:136
+스테이지 첫 클리어	Clear a stage for the first time	codex.gd:136
+정복자	Conqueror	codex.gd:137
+스테이지 클리어 5회 (난이도 조합)	Clear 5 stage and difficulty combinations	codex.gd:137
+완전 정복	Total Conquest	codex.gd:138
+모든 스테이지×난이도 클리어 (20)	Clear every stage × difficulty (20)	codex.gd:119
+니오베	Niobe	codex.gd:12
+바위 뿔과 육각 방패를 앞세우고 느릿느릿 밀고 온다. 웬만해선 쓰러지지 않는다	Pushes in slowly behind stone horns and a hexagonal shield. It takes a lot to bring it down	codex.gd:12
+무한의 끝	End of Endless	codex.gd:140
+무한 모드 최종 보스 처치	Defeat the Endless final boss	codex.gd:140
+끝의 끝	The Very End	codex.gd:141
+무한 모드를 '매우어려움'으로 완주	Complete Endless on Very Hard	codex.gd:141
+별을 모으다	Stargazer	codex.gd:142
+클리어 별 20개 획득	Earn 20 clear stars	codex.gd:142
+별하늘	Starry Sky	codex.gd:143
+클리어 별 45개 획득	Earn 45 clear stars	codex.gd:143
+만천의 별	A Sky Full of Stars	codex.gd:144
+모든 조합에서 별 3개 (60개)	3 stars on every combination (60)	codex.gd:125
+그림자도 못 밟는다	Untouchable	codex.gd:145
+보스전에서 한 대도 안 맞고 클리어	Clear a boss fight without taking a single hit	codex.gd:145
+속전속결	Blitz	codex.gd:146
+보스를 등장 60초 안에 처치	Defeat a boss within 60s of its arrival	codex.gd:146
+끊기지 않는다	Unbroken	codex.gd:147
+한 판에서 콤보 300 달성	Reach a 300 combo in one run	codex.gd:147
+삼중 융합	Triple Fusion	codex.gd:148
+한 판에서 융합 3종 완성	Complete 3 fusions in one run	codex.gd:148
+시나위 ◆특수	Sinawi ◆Special	codex.gd:13
+징을 머리 위에 띄운 탈 쓴 원혼. 벽을 그대로 지나오고, 시울이 부르면 떼로 나타난다	A masked wraith with a gong floating over its head. It drifts straight through walls and swarms in when Siul calls	codex.gd:13
+이면을 보다	Beyond the Veil	codex.gd:149
+이면 요괴 도감 전부 수집	Record every Imyeon yokai in the Codex	codex.gd:149
+할드 ◆특수	Hald ◆Special	codex.gd:14
+머리 위 구슬이 차오를 때마다 주변 요괴의 상처를 씻어 낸다. 늘 한발 물러서 있다	Each time the orb above its head fills, it washes the wounds of nearby yokai. It always keeps a step back	codex.gd:14
+할덴 ◆특수	Halden ◆Special	codex.gd:15
+금빛 금이 간 바위 거구. 아주 느리지만 쓰러질 때 몸이 터져 여덟 방향으로 파편을 뿌린다	A boulder giant laced with golden cracks. Very slow, but when it falls it bursts and sprays shards in eight directions	codex.gd:15
+덩기 ◆특수	Deonggi ◆Special	codex.gd:16
+마디마다 다리가 돋은 지네. 지그재그로 꺾으며 내달린다. 좀처럼 보기 어렵다	A centipede with legs on every segment. It races in sharp zigzags. You rarely see one	codex.gd:16
+한 획의 나기	Nagi of One Stroke	codex.gd:17
+커다란 붓을 든 흰 범. 붓끝으로 찍은 자리마다 붉은 불길이 솟아 터지고, 웅크렸다가 단숨에 들이친다	A white tiger with a giant brush. Red flames burst wherever its brush tip lands, and it crouches before lunging in	codex.gd:17
+빈 낯의 시울	Siul the Blank-Faced	codex.gd:18
+책장 날개를 단 얼굴 없는 사서. 사라졌다가 바로 곁에 나타나고, 따라오는 원혼탄 세 발을 쏘며 시나위를 불러낸다	A faceless librarian with wings of pages. It vanishes and reappears right beside you, fires three homing spirit shots and calls up Sinawi	codex.gd:18
+볼케 형제	The Bolke Brothers	codex.gd:19
+형의 어깨에 동생이 올라타 있다. 둘이 한 몸으로 급습해 닿는 대로 기운을 빨아들이고, 티로 떼를 불러낸다	The little brother rides on the big one's shoulder. Together they strike fast, drain life on contact and call up swarms of Tiro	codex.gd:19
+빈 통의 소류	Soryu of the Empty Cask	codex.gd:20
+항아리처럼 부푼 배를 금사슬로 동여맸다. 느리게 밀고 오며 독을 두 겹으로 뿜고, 쓰러지면 배 속에서 작은 창랑 넷이 기어 나온다	A jar-shaped belly bound in golden chains. It pushes in slowly, spews poison in two rings, and when it falls four small Changrang crawl out	codex.gd:20
+아홉널 그로크	Grok of Nine Planks	codex.gd:21
+화면에 몹이 넘치면 모두 뭉쳐 눈알 덩어리로 깨어난다. 밀리지 않고 돌진하며, 닿은 자는 잠시 굳는다	When too many monsters pile up, they all fuse and wake as a mass of eyes. It can't be pushed back, it charges, and its touch stuns	codex.gd:21
+네페르	Nefer	codex.gd:22
+해를 단 지팡이를 든 천상의 주인. 장판이 누구보다 넓고 졸개를 쉴 새 없이 부른다	Ruler of the Celestial Realm, holding a sun-topped staff. Its ground blasts are the widest of all, and it keeps calling minions	codex.gd:22
+하글 ◆이면	Hagl ◆Imyeon	codex.gd:24
+에메랄드 결정이 박힌 돌덩이. 멀리서 달려올수록 크고 무겁게 부딪치고, 가까이 오면 줄어든다	A stone lump studded with emerald crystals. The farther it charges from, the bigger and heavier it hits. Up close it shrinks	codex.gd:24
+카리아 ◆이면	Karia ◆Imyeon	codex.gd:25
+덩굴을 인 보랏빛 열매. 살아 있는 동안 쉬지 않고 부푼다. 오래 둘수록 커진다	A purple fruit crowned with vines. It keeps swelling as long as it lives. The longer you leave it, the bigger it gets	codex.gd:25
+브란드 ◆이면	Brandr ◆Imyeon	codex.gd:26
+길고 날랜 주황 족제비. 눈 깜짝할 새에 파고든다	A long, nimble orange weasel. It darts in before you can blink	codex.gd:26
+케른 ◆이면	Kern ◆Imyeon	codex.gd:27
+톱니 입으로 쇠를 먹는다. 탄에 맞으면 절반만 다치고 그만큼 도로 채운다	Eats metal with its gear-toothed mouth. Shots only deal half damage, and it heals by that much	codex.gd:27
+우츠로 ◆이면	Utsuro ◆Imyeon	codex.gd:28
+끊어진 염주를 건 야차. 다칠수록 붉게 달아올라 빨라진다	A yaksha wearing broken prayer beads. The more it is hurt, the redder and faster it gets	codex.gd:28
+발룸 ◆이면	Vallum ◆Imyeon	codex.gd:29
+꼬리가 두 갈래로 갈라진 요괴. 쓰러지면 꼬리를 따라 늘 둘로 쪼개진다	A yokai with a forked tail. When it falls it always splits in two along the tail	codex.gd:29
+세케트 ◆이면	Seket ◆Imyeon	codex.gd:30
+외눈의 물귀신. 가까이 오면 너를 제 쪽으로 끌어당긴다	A one-eyed water ghost. Up close, it drags you toward itself	codex.gd:30
+삼환 ◆이면	Samhwan ◆Imyeon	codex.gd:31
+등에 탄창을 진 작은 석궁수. 재빨리 자리를 옮기며 한 발, 부채꼴, 유도 화살을 쏜다	A small crossbowman with a magazine on its back. It shifts position quickly, firing single bolts, fans and homing bolts	codex.gd:31
+데벤 ◆이면	Deben ◆Imyeon	codex.gd:32
+금빛 무늬 등껍질을 진 바위 거북. 어떤 큰 한 방도 등껍질이 크게 깎아 낸다	A stone turtle with a gold-patterned shell. The shell blunts even the heaviest blow	codex.gd:32
+스카르비 ◆이면	Skarvi ◆Imyeon	codex.gd:33
+머리 셋이 한 몸에 뭉쳐 있다. 늘 셋씩 몰려와 빠르게 파고든다	Three heads packed into one body. They always come in threes and dart in fast	codex.gd:33
+열지기 발레르	Valer the Rankkeeper	codex.gd:34
+빛 고리를 등에 진 금빛 창잡이. 창끝으로 장판을 긋고, 웅크렸다가 들이친다	A golden spear-bearer with a ring of light on its back. It marks ground blasts with its spear tip and crouches before lunging	codex.gd:34
+봉인의 오르빈	Orvin of the Seal	codex.gd:35
+봉인석 여섯을 거느린 고대 신수. 잠깐씩 숨을 고른 뒤 큰 낫으로 주변을 한 바퀴 베어 낸다	An ancient sacred beast attended by six seal stones. Every so often it pauses, then sweeps everything around it with a great scythe	codex.gd:35
+불씨 이오네	Ione the Ember	codex.gd:36
+해 왕관을 쓴 불의 정령. 손에 든 불덩이를 탄막으로 흩뿌린다	A fire spirit crowned with the sun. It scatters the fireball in its hand as a barrage	codex.gd:36
+던전	Dungeon	codex.gd:68,game.gd:995,main_game.gd:2346
+언데드 소굴. 적 체력↑ · 처치 XP↑.	Den of the undead. Enemy HP↑ · Kill XP↑.	codex.gd:50
+도서관	Library	codex.gd:69,game.gd:995,main_game.gd:2347
+유령 사서의 서고. 적 이동↑ · XP 대폭↑.	A ghost librarian's stacks. Enemy speed↑ · XP↑↑.	codex.gd:51
+생명의 정원	Garden of Life	codex.gd:70
+분열 식물의 낙원. 양측 서서히 재생.	Paradise of splitting plants. Both sides slowly regenerate.	codex.gd:52
+용암동굴	Lava Cave	codex.gd:71,game.gd:995,main_game.gd:2349
+자폭 고블린. 주기적 용암 분출을 피하라.	Exploding goblins. Dodge the periodic lava eruptions.	codex.gd:53
+천상계	Celestial Realm	codex.gd:72,game.gd:995
+빠른 무리가 몰려든다. XP 대폭↑.	Swift swarms pour in. XP↑↑.	codex.gd:54
+지옥불	Hellfire	codex.gd:80,main_cards.gd:57
+화염 오라 + 탄막: 화염	Fire Aura + Rounds: Fire	codex.gd:80
+재료를 흡수해 화염 오라를 초월 강화(Lv11). 화상 부여 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 오라 반경이 눈에 띄게 넓어지고 발밑 룬이 금빛 6갈래로 바뀐다.	Absorbs its materials to transcend Fire Aura (Lv11). Burn level 6 · Attack ×1.25 · Frees 1 slot. The aura widens visibly and the rune underfoot turns into a six-pointed golden star.	codex.gd:81
+절대영도	Absolute Zero	codex.gd:82,main_cards.gd:58
+빙결 파동 + 탄막: 얼음	Frost Pulse + Rounds: Frost	codex.gd:82
+재료를 흡수해 빙결 파동을 초월 강화(Lv11). 얼음 부여 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 장판이 겹겹이 깔리고 발밑 룬이 금빛 6갈래로 바뀐다.	Absorbs its materials to transcend Frost Pulse (Lv11). Frost level 6 · Attack ×1.25 · Frees 1 slot. Fields stack in layers and the rune underfoot turns into a six-pointed golden star.	codex.gd:83
+역병	Plague	codex.gd:84,main_cards.gd:59
+맹독 장판 + 탄막: 맹독	Venom Pool + Rounds: Venom	codex.gd:84
+재료를 흡수해 맹독 장판을 초월 강화(Lv11). 맹독 부여 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 독 장판이 더 넓게 번지고 발밑 룬이 금빛 6갈래로 바뀐다.	Absorbs its materials to transcend Venom Pool (Lv11). Venom level 6 · Attack ×1.25 · Frees 1 slot. Poison pools spread wider and the rune underfoot turns into a six-pointed golden star.	codex.gd:85
+레일건	Railgun	codex.gd:86,main_cards.gd:60
+대구경 캐논 + 거대 탄환	Heavy Cannon + Giant Bullets	codex.gd:86
+두 재료를 만렙까지 강화하면 등장. 포탄이 길게 뻗는 창으로 바뀌어 줄지어 선 적을 통째로 꿰뚫는다(Lv11 · 관통 +8 · 공격력 ×1.25 · 칸 1개 해방).	Appears once both materials are maxed. Shells become long lances that skewer entire lines of enemies (Lv11 · Pierce +8 · Attack ×1.25 · Frees 1 slot).	codex.gd:87
+폭풍군주	Storm Lord	codex.gd:88,main_cards.gd:61
+번개 사슬 + 탄막: 감전	Chain Lightning + Rounds: Shock	codex.gd:88
+창랑	Changrang	codex.gd:7
+낮게 웅크렸다가 한달음에 덮친다. 정원에서는 쓰러지며 둘로 갈라진다	Crouches low, then pounces in one leap. In the Garden it splits in two as it falls	codex.gd:7
+재료를 흡수해 번개 사슬을 초월 강화(Lv11). 감전 부여 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 번개 갈래가 늘고 발밑 룬이 금빛 6갈래로 바뀐다.	Absorbs its materials to transcend Chain Lightning (Lv11). Shock level 6 · Attack ×1.25 · Frees 1 slot. More lightning forks, and the rune underfoot turns into a six-pointed golden star.	codex.gd:89
+군단	Legion	codex.gd:90,main_cards.gd:62
+소환수 + 얼음 정령	Summon + Ice Spirit	codex.gd:90
+두 소환 무기가 하나의 군단으로 합쳐진다(Lv13). 얼음 부여 4단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 소환수가 한 무리로 합쳐지고 발밑 룬이 금빛 6갈래로 바뀐다.	Two summon weapons merge into one legion (Lv13). Frost level 4 · Attack ×1.25 · Frees 1 slot. Summons gather into a single pack and the rune underfoot turns into a six-pointed golden star.	codex.gd:91
+사신의 낫	Reaper's Scythe	codex.gd:92,main_cards.gd:63
+채찍 + 처형	Whip + Execute	codex.gd:92
+재료를 흡수해 채찍을 초월 강화(Lv11). 처형 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 휘두르는 반경이 눈에 띄게 커진다.	Absorbs its materials to transcend Whip (Lv11). Execute level 6 · Attack ×1.25 · Frees 1 slot. Its swing radius grows visibly larger.	codex.gd:93
+초신성	Supernova	codex.gd:94,main_cards.gd:64
+회전 레이저 + 탄막: 화염	Spinning Laser + Rounds: Fire	codex.gd:94
+재료를 흡수해 회전 레이저를 초월 강화(Lv11). 화상 부여 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 레이저 갈래가 늘어난다.	Absorbs its materials to transcend Spinning Laser (Lv11). Burn level 6 · Attack ×1.25 · Frees 1 slot. The laser splits into more beams.	codex.gd:95
+필중의 눈	Deadeye	codex.gd:96,main_cards.gd:65
+속사 기관총 + 치명타	Rapid Gun + Critical	codex.gd:96
+두 재료를 만렙까지 강화하면 등장. 모든 탄이 새하얀 침이 되어 적을 쫓고, 전부 급소에 꽂힌다(Lv11 · 유도 6 · 치명 100% · 공격력 ×1.25).	Appears once both materials are maxed. Every shot becomes a white needle that hunts enemies and strikes a weak point (Lv11 · Homing 6 · Crit 100% · Attack ×1.25).	codex.gd:97
+구미호의 꼬리	Nine Tails	codex.gd:98,main_cards.gd:67
+태극 부채 + 탄막: 연쇄	Taegeuk Fan + Rounds: Chain	codex.gd:98
+티로	Tiro	codex.gd:8
+혀를 빼물고 꼬리를 흔들며 떼로 몰려온다. 볼케 형제가 불러내는 졸개도 이놈들이다	Tongues out and tails wagging, they come in swarms. The Bolke Brothers call these up too	codex.gd:8
+재료를 흡수해 부채를 초월 강화(Lv11). 연쇄 부여 6단계 · 공격력 ×1.25 · 슬롯 1칸 해방. 부챗살이 아홉 갈래로 퍼지고 탄에 금빛 테두리가 생긴다.	Absorbs its materials to transcend Fan (Lv11). Chain level 6 · Attack ×1.25 · Frees 1 slot. The ribs spread into nine and the shots gain a golden rim.	codex.gd:99
+명부	Death Ledger	codex.gd:100,enemy.gd:1067,main_cards.gd:68
+각궁 + 처형	Horn Bow + Execute	codex.gd:100
+이름이 적히면 끝난다. 각궁 초월(Lv11) · 처형 6단계 · 관통 +5 · 공격력 ×1.25. 화살에 금빛 테두리가 생긴다.	Once a name is written, it is over. Horn Bow transcends (Lv11) · Execute level 6 · Pierce +5 · Attack ×1.25. Arrows gain a golden rim.	codex.gd:101
+여의주	Dragon Pearl	codex.gd:102,main_cards.gd:69
+작두 + 흡혈	Jakdu Blade + Lifesteal	codex.gd:102
+여의주를 문 채 벤다. 작두 초월(Lv11) · 흡혈 6단계 · 최대 체력 +60 · 공격력 ×1.25. 베는 궤적이 금빛으로 바뀐다.	Cuts with the dragon pearl in its jaws. Jakdu transcends (Lv11) · Lifesteal level 6 · Max HP +60 · Attack ×1.25. The slash trail turns gold.	codex.gd:103
+너울	Neoul	codex.gd:9
+출렁이는 물 덩어리. 좌우로 흔들리며 다가오고, 정원에서는 꼬리 끝부터 둘로 갈라진다	A sloshing blob of water. It sways side to side as it nears, and in the Garden it splits in two from the tail	codex.gd:9
+오늘의 사냥	Today's Hunt	codex.gd:109
+몬스터 400마리 처치	Kill 400 monsters	codex.gd:109
+희귀 수집가	Rare Collector	codex.gd:110
+특수 개체 3마리 처치	Kill 3 special monsters	codex.gd:110
+오늘의 출격	Today's Sortie	codex.gd:111
+게임 1판 플레이	Play 1 run	codex.gd:111
+주간 학살자	Weekly Slayer	codex.gd:112
+몬스터 3,000마리 처치	Kill 3,000 monsters	codex.gd:112
+주간 보스 헌터	Weekly Boss Hunter	codex.gd:113
+보스 10마리 처치	Defeat 10 bosses	codex.gd:113
+이달의 정복자	Conqueror of the Month	codex.gd:114
+스테이지 8회 클리어	Clear 8 stages	codex.gd:114
+일일 (매일 리셋)	Daily (resets every day)	codex.gd:116
+주간 (매주 리셋)	Weekly (resets every week)	codex.gd:116
+월간 (매달 리셋)	Monthly (resets every month)	codex.gd:116
+퀘스트 (%d)	Quests  %d	codex_screen.gd:142
+수령 완료	Claimed	codex_screen.gd:194
+받기  +%dG	Claim  +%dG	codex_screen.gd:200
+정복  %d / 20      별  %d / 60	Conquest  %d / 20      Stars  %d / 60	codex_screen.gd:207
+수집  %d / %d	Collected  %d / %d	codex_screen.gd:220
+방문  %d / %d	Visited  %d / %d	codex_screen.gd:221
+융합  %d / %d	Fusions  %d / %d	codex_screen.gd:222
+달성  %d / %d	Earned  %d / %d	codex_screen.gd:223
+받을 보상 %d개!	%d rewards to claim!	codex_screen.gd:226
+받을 보상 없음	No rewards to claim	codex_screen.gd:226
+별은 클리어에 1개, 보스전 90초 이내에 1개, 60초 이내 + 보스전 무피격에 1개.	One star for a clear, one for beating the boss within 90s, and one for beating it within 60s without taking a hit.	codex_screen.gd:242
+잠김	Locked	character_select.gd:357,character_select.gd:506,codex_screen.gd:289
+미클리어	Not cleared	codex_screen.gd:292
+최단 보스전 %02d:%02d	Boss best %02d:%02d	codex_screen.gd:296
+최다 처치 %s	Kills %s	codex_screen.gd:297
+아직 발견하지 못했습니다.	Not discovered yet.	codex_screen.gd:378,codex_screen.gd:558
+조합: %s\n%s	Recipe: %s\n%s	codex_screen.gd:382
+조합: %s\n(아직 완성하지 못했습니다)	Recipe: %s\n(Not completed yet)	codex_screen.gd:385,codex_screen.gd:683
+직접 조합해서 발견하세요.	Combine it yourself to discover it.	codex_screen.gd:387,codex_screen.gd:683
+%s 해금 필요	Requires unlocking %s	codex_screen.gd:726
+도감 · 퀘스트	Codex · Quests	codex_screen.gd:45,main_menu.gd:96,main_menu.gd:393
+정복	Conquest	codex_screen.gd:60
+몬스터	Monsters	codex_screen.gd:60
+맵	Maps	codex_screen.gd:60
+융합	Fusion	codex_screen.gd:60,main_cards.gd:363,main_cards.gd:395
+도전과제	Achievements	codex_screen.gd:60
+퀘스트	Quests	codex_screen.gd:60,codex_screen.gd:142
+먹는다	Devour	enemy.gd:1481
+폭발개화	Blast Bloom	enemy.gd:1831
+자폭 폭발	Self-Destruct	enemy.gd:1879
+자폭폭발	Self-Destruct	enemy.gd:1887
+결빙!	Frozen!	enemy.gd:321,enemy.gd:472
+맹독!	Venom!	enemy.gd:339,enemy.gd:471
+원소반응	Elemental Reaction	enemy.gd:397,enemy.gd:551,enemy.gd:564
+파열!	Rupture!	enemy.gd:471,enemy.gd:528
+초전도!	Superconduct!	enemy.gd:471,enemy.gd:538
+역병폭발!	Plague Burst!	enemy.gd:471,enemy.gd:547
+과부하!	Overload!	enemy.gd:472,enemy.gd:559
+부식!	Corrode!	enemy.gd:472,enemy.gd:572
+동상!	Frostbite!	enemy.gd:472,enemy.gd:585
+보스 몸박	Boss Contact	enemy.gd:921
+잡몹 몸박	Mob Contact	enemy.gd:921
+흡혈!	Drain!	enemy.gd:472,enemy.gd:931
+중독도트	Poison DoT	enemy.gd:958
+화상도트	Burn DoT	enemy.gd:977
+보스 돌진	Boss Charge	enemy.gd:1069
+치유!	Heal!	enemy.gd:472,enemy.gd:1145
+적탄	Enemy Shot	enemy_bullet.gd:95
+보너스(콤보/카드/클리어)	Bonus (combo/card/clear)	game.gd:1739,game.gd:1739
+금화 줍기	Gold pickups	game.gd:1853,game.gd:1853
+쉬움	Easy	game.gd:2337
+보통	Normal	game.gd:2337,settings.gd:196,settings.gd:198
+어려움	Hard	game.gd:2337
+매우어려움	Very Hard	game.gd:2337
+적 약함 · 느린 스폰 · 탄막 늦게 · 골드 -30%	Weaker enemies · Slower spawns · Bullet hell later · Gold -30%	game.gd:2340
+표준 밸런스	Standard balance	game.gd:2341
+적 HP 1.7배 · 잦은 스폰 · 탄막 빠름 · 골드 +70%	Enemy HP ×1.7 · Frequent spawns · Earlier bullet hell · Gold +70%	game.gd:2263
+HP 2.6배·공격 2.3배 · 24초부터 탄막 · 골드 +160%	HP ×2.6 · Attack ×2.3 · Bullet hell from 24s · Gold +160%	game.gd:2264
+공격력	Attack	game.gd:2651,meta_shop.gd:12
+공격주기	Interval	game.gd:2651
+범위	Area	game.gd:2651
+개수	Count	game.gd:2651
+관통	Pierce	game.gd:2652
+탄환수	Projectiles	game.gd:2652
+사거리	Range	game.gd:2652
+유도	Homing	game.gd:2652
+타	hit	game.gd:2713,game.gd:2714,game.gd:2716
+초	s	game.gd:2715,game.gd:2721,game.gd:2722
+회전 오브	Orbit Orbs	game.gd:2731,main_cards.gd:1211
+번개 사슬	Chain Lightning	game.gd:2731,main_cards.gd:1212
+화염 오라	Fire Aura	game.gd:2731,main_cards.gd:1213
+서리 장판	Frost Field	game.gd:2041
+독극물 장판	Poison Field	game.gd:2041
+소환수	Summon	game.gd:2732,main_cards.gd:1217
+채찍	Whip	game.gd:2733,main_cards.gd:1207
+착탄 폭발	Impact Blast	game.gd:2759
+포탄이 멈추는 자리에서 터진다	Shells burst where they stop	game.gd:2759
+집탄	Focused Fire	game.gd:2760
+흩어지던 탄이 한 줄기로 모인다	Scattering shots converge into a single stream	game.gd:2760
+총구 폭풍	Muzzle Storm	game.gd:2761,main_game.gd:3921
+갈라지기 전의 한 덩어리가 코앞을 때린다	The full blast hits point-blank before it spreads	game.gd:2761
+검압 잔류	Lingering Edge	game.gd:2762
+벤 자리가 남아 걸어드는 것을 벤다	The cut lingers and slices whatever walks into it	game.gd:2762
+무뎌지지 않는다	Never Dulls	game.gd:2763
+꿰뚫어도 화살이 힘을 잃지 않는다	Arrows keep their power even after piercing	game.gd:2763
+평행 전개	Parallel Spread	game.gd:2764
+부챗살이 벌어지지 않고 나란히 나간다	Fan ribs fire side by side instead of spreading out	game.gd:2764
+회수	Recall	game.gd:2765
+사거리가 다한 칼이 한 번 되돌아온다	A knife that reaches its full range flies back once	game.gd:2765
+끌어당김	Drag In	game.gd:2766
+후려친 것이 밀려나지 않고 딸려온다	What you lash gets pulled in instead of knocked back	game.gd:2766
+선회	Loop	game.gd:2767
+반환점에서 한 바퀴 돌고 온다	Circles once at the turning point before returning	game.gd:2767
+역회전	Counter-Spin	game.gd:2768
+반대로 도는 빔이 한 줄 더 생긴다	Adds a second beam spinning the other way	game.gd:2768
+요격	Intercept	game.gd:2769
+오브가 적의 탄을 쳐낸다	Orbs knock away enemy shots	game.gd:2769
+분기	Branching	game.gd:2770
+번개가 갈라져 선이 아니라 나무가 된다	Lightning forks into a tree instead of a line	game.gd:2770
+전염	Contagion	game.gd:2771
+불타 죽은 것이 옆으로 불을 옮긴다	Whatever burns to death passes the fire on	game.gd:2771
+빙결	Freeze	game.gd:2772
+오래 서 있던 것이 잠시 얼어붙는다	Anything that lingers too long freezes solid for a moment	game.gd:2772
+충격파	Shockwave	game.gd:2773
+때린 자리에 작은 파문이 인다	Each hit sends out a small ripple	game.gd:2773
+파쇄	Shatter	game.gd:2774
+멈춘 얼음탄이 파편으로 흩어진다	Ice shots that stop burst into shards	game.gd:2774
+정원	Garden	game.gd:995,main_game.gd:2348
+부메랑	Boomerang	game.gd:1304,game.gd:2733,main_cards.gd:1208
+던져서 되돌아오는 관통 무기	A piercing weapon that flies back to you	game.gd:1304,main_cards.gd:1208
+한 판 6분 생존	Survive 6 min in one run	game.gd:1304
+얼음 정령	Ice Spirit	game.gd:1305,game.gd:2733,main_cards.gd:1218
+얼음탄을 쏘는 소환수	A summon that fires ice shots	game.gd:1305
+보스 누적 3 처치	Defeat 3 bosses in total	game.gd:1305
+회전 레이저	Spinning Laser	game.gd:1306,game.gd:2734,main_cards.gd:1209
+회전하며 스치는 적을 지짐	Spins and sears every enemy it grazes	game.gd:1306
+누적 3,000 처치	3,000 total kills	game.gd:1306
+각궁	Horn Bow	game.gd:1308,player.gd:47
+멀리·빠르게·꿰뚫는 화살	Long-range, fast, piercing arrows	game.gd:1308,main_cards.gd:1202
+이면 요괴 1종 도감	Record 1 Imyeon yokai in the Codex	game.gd:1308
+태극 부채	Taegeuk Fan	game.gd:1309,player.gd:48
+앞을 넓게 덮는 부채꼴 6발	A wide fan of 6 shots ahead	game.gd:1309,main_cards.gd:674,main_cards.gd:1203
+이면 요괴 4종 도감	Record 4 Imyeon yokai in the Codex	game.gd:1309
+신칼	Spirit Knives	game.gd:1310,player.gd:49
+손이 안 보이는 쌍칼 연격	Twin blades striking faster than the eye can follow	game.gd:1310,main_cards.gd:675,main_cards.gd:1204
+클리어 별 6개	6 clear stars	game.gd:1310
+작두	Jakdu Blade	game.gd:1311,player.gd:50
+몸을 돌려 반원을 베어낸다	Spins to slash a half-circle	game.gd:1311,main_cards.gd:676,main_cards.gd:1205
+클리어 별 15개	15 clear stars	game.gd:1311
+최대 체력       %d	Max HP       %d	game.gd:1440
+공격력          %.0f	Attack          %.0f	game.gd:1441
+이동속도        %.0f	Move Speed        %.0f	game.gd:1442
+자석 범위       +%d	Magnet Range       +%d	game.gd:1443
+행운            +%d%%	Luck            +%d%%	game.gd:1444
+체력 재생       +%.1f/s	HP Regen       +%.1f/s	game.gd:1445
+골드 획득       +%d%%	Gold Gain       +%d%%	game.gd:1446
+체력 %d   ·   공격력 %.0f   ·   이동속도 %.0f\n행운 +%d%%   ·   자석 +%d   ·   재생 +%.1f/s   ·   골드 +%d%%	HP %d   ·   Attack %.0f   ·   Move %.0f\nLuck +%d%%   ·   Magnet +%d   ·   Regen +%.1f/s   ·   Gold +%d%%	game.gd:1459
+만렙	MAX	main_cards.gd:1074
+특성	Trait	main_cards.gd:1074
+피해 %d	Damage %d	main_cards.gd:1104
+초당 %.1f발	%.1f shots/s	main_cards.gd:1113
+부채꼴 %d°	Fan %d°	main_cards.gd:1077
+관통 %d명	Pierces %d	main_cards.gd:1120
+사거리 %d	Range %d	main_cards.gd:1122
+만능 훈련	All-Round Training	main_cards.gd:1133
+공격력·이동·체력 소폭 동시 상승	Small boost to attack, move speed and HP	main_cards.gd:1133
+피의 갈망	Bloodlust	main_cards.gd:1134
+공격력 상승 + 명중 시 흡혈	Attack up + lifesteal on hit	main_cards.gd:1134
+과열 기관	Overheated Engine	main_cards.gd:1135
+연사·탄속 동시 상승	Fire rate and bullet speed up	main_cards.gd:1135
+황금 감각	Golden Instinct	main_cards.gd:1136
+행운·자석 동시 상승	Luck and magnet up	main_cards.gd:1136
+강철 의지	Iron Will	main_cards.gd:1137
+방어·가시·체력 동시 상승	Armor, thorns and HP up	main_cards.gd:1137
+올인	All In	main_cards.gd:1138
+치명타 확률·배율 동시 상승	Crit chance and multiplier up	main_cards.gd:1138
+돌격 나팔	Charge Bugle	main_cards.gd:1140
+대시 쿨 감소 + 공격력 상승	Dash cooldown down + attack up	main_cards.gd:1140
+잉걸 심장	Ember Heart	main_cards.gd:1141
+특수무기 위력 + 화상 부여 상승	Special weapon power + burn up	main_cards.gd:1141
+그림자 걸음	Shadow Step	main_cards.gd:1142
+치명 배율 + 이동속도 상승	Crit multiplier + move speed up	main_cards.gd:1142
+방울 부름	Bell Call	main_cards.gd:1144
+소환수 위력 + 행운 상승	Summon power + luck up	main_cards.gd:1144
+꽃걸음	Flower Step	main_cards.gd:1145
+이동속도 + 검무 지속 상승	Move speed + Sword Dance duration up	main_cards.gd:1145
+담금질	Tempering	main_cards.gd:1146
+특수무기 위력 대폭 상승	Special weapon power greatly up	main_cards.gd:1146
+진언	Mantra	main_cards.gd:1147
+방어·재생 + 염주 회복 가속	Armor and regen + faster Prayer Beads	main_cards.gd:1147
+매의 발톱	Hawk Talon	main_cards.gd:1148
+유도 + 치명타 확률 상승	Homing + crit chance up	main_cards.gd:1148
+공격력 강화	Attack Up	main_cards.gd:1165
+모든 무기에 실리는 영웅 공격력	Hero attack, applied to every weapon	main_cards.gd:1165
+공격속도 강화	Fire Rate Up	main_cards.gd:1166
+발사 간격 감소	Shorter firing interval	main_cards.gd:1166
+이동속도 강화	Move Speed Up	main_cards.gd:1167
+더 빠르게	Faster	main_cards.gd:1167
+무기	Weapons	main_cards.gd:110,main_cards.gd:129,main_cards.gd:312
+회복 포함	Heals too	main_cards.gd:1173
+탄속 강화	Bullet Speed Up	main_cards.gd:1174
+탄환이 빠르게	Faster bullets	main_cards.gd:1174
+치명타 +9%	Crit +9%	main_cards.gd:1175
+치명타 확률 증가	Higher crit chance	main_cards.gd:1175
+치명타 한 방이 더 아프다	Crits hit harder	main_cards.gd:1176
+초당 자동 회복	Regenerate HP every second	main_cards.gd:1177
+받는 피해 감소	Take less damage	main_cards.gd:1178
+경험치 흡수 범위	XP pickup range	main_cards.gd:1179
+행운 +6%	Luck +6%	main_cards.gd:1180
+드랍 확률 (곱연산·희귀)	Drop chance (multiplicative · rare)	main_cards.gd:1180
+경험치 획득 +12%	XP Gain +12%	main_cards.gd:1181
+레벨업이 빨라짐	Level up faster	main_cards.gd:1181
+대시 쿨 단축	Dash Cooldown Down	main_cards.gd:1182
+더 자주 대시	Dash more often	main_cards.gd:1182
+피격 시 주변에 반사 피해	Reflect damage around you when hit	main_cards.gd:1183
+탄막: 얼음	Rounds: Frost	main_cards.gd:1185
+명중한 적을 감속	Slows enemies hit	main_cards.gd:1185
+탄막: 화염	Rounds: Fire	main_cards.gd:1186
+명중한 적을 화상(지속피해)	Sets enemies hit ablaze (damage over time)	main_cards.gd:1186
+탄막: 맹독	Rounds: Venom	main_cards.gd:1187
+명중한 적을 중독(지속피해)	Poisons enemies hit (damage over time)	main_cards.gd:1187
+탄막: 감전	Rounds: Shock	main_cards.gd:1188
+명중 시 추가 번개 피해	Extra lightning damage on hit	main_cards.gd:1188
+탄막: 연쇄	Rounds: Chain	main_cards.gd:1189
+명중 시 주변 적에게 번개 전이	Lightning jumps to nearby enemies on hit	main_cards.gd:1189
+거대 탄환	Giant Bullets	main_cards.gd:1190
+탄환이 커져 판정 범위↑	Bigger bullets, bigger hitbox↑	main_cards.gd:1151
+튕기는 탄환	Bouncing Bullets	main_cards.gd:1191
+적을 맞고 다른 적에게 튕김	Bounces off an enemy to another	main_cards.gd:1191
+처형	Execute	main_cards.gd:1192
+체력 낮은 잔몹을 즉시 처형	Instantly finish off weakened small fry	main_cards.gd:1192
+흡혈	Lifesteal	main_cards.gd:1193
+명중 시 체력을 소량 회복	Recover a little HP on hit	main_cards.gd:1193
+폭발 개화	Blast Bloom	main_cards.gd:1194
+적 사망 시 광역 폭발(연쇄)	Enemies explode on death (chains)	main_cards.gd:1194
+무기: 대구경 캐논	Weapon: Heavy Cannon	main_cards.gd:1196
+강력·관통·느린 원거리	Powerful · piercing · slow, long range	main_cards.gd:1196
+무기: 속사 기관총	Weapon: Rapid Gun	main_cards.gd:1197
+약하지만 초고속 원거리	Weak but ultra-fast, long range	main_cards.gd:1197
+무기: 중거리 산탄	Weapon: Scattershot	main_cards.gd:1198
+근~중거리 4발 산탄	4-pellet spread at close to mid range	main_cards.gd:1198
+무기: 대검(근접)	Weapon: Greatsword (melee)	main_cards.gd:1199
+조준 방향 부채꼴 강타	Fan-shaped smash where you aim	main_cards.gd:1199
+무기: 밸런스 소총	Weapon: Balanced Rifle	main_cards.gd:1200
+표준 원거리(추가 장착)	Standard long range (extra equip)	main_cards.gd:1200
+무기: 각궁	Weapon: Horn Bow	main_cards.gd:1202
+무기: 태극 부채	Weapon: Taegeuk Fan	main_cards.gd:1203
+무기: 신칼	Weapon: Spirit Knives	main_cards.gd:1204
+무기: 작두	Weapon: Jakdu Blade	main_cards.gd:1205
+넓은 부채꼴을 빠르게 후려침(근접)	Quickly lashes a wide fan (melee)	main_cards.gd:1207
+계속 회전하며 스치는 적을 지짐	Spins nonstop, searing every enemy it grazes	main_cards.gd:1209
+주위를 도는 오브가 적을 타격	Orbs circle you and strike enemies	main_cards.gd:1211
+가까운 적들에게 연쇄 번개	Chain lightning between nearby enemies	main_cards.gd:1212
+주위 적을 지속 화상	Burns nearby enemies continuously	main_cards.gd:1213
+빙결 파동	Frost Pulse	game.gd:2732,main_cards.gd:1214
+주위 적 데미지 + 감속	Damages and slows nearby enemies	main_cards.gd:1214
+맹독 장판	Venom Pool	game.gd:2732,main_cards.gd:1215
+가까운 적을 지속 중독	Continuously poisons nearby enemies	main_cards.gd:1215
+적을 쫓아 접촉 타격하는 아군	An ally that chases and rams enemies	main_cards.gd:1217
+적에게 얼음탄을 쏘는 소환수	A summon that fires ice shots at enemies	main_cards.gd:1218
+도박!	Gamble!	main_cards.gd:1220
+무작위 강력 강화	Random powerful upgrade	main_cards.gd:1220
+시간 왜곡	Time Warp	main_cards.gd:1222
+적이 느려지고 내 공격은 강해짐	Enemies slow down and your attacks grow stronger	main_cards.gd:1222
+거인의 탄환	Giant's Bullets	main_cards.gd:1223
+탄환 거대화 · 관통 · 공격력 급증	Giant bullets · Pierce · Attack surge	main_cards.gd:1223
+메아리	Echo	main_cards.gd:1224
+발사가 한 번 더 울림	Shots ring out one more time	main_cards.gd:1224
+종말의 인장	Seal of the End	main_cards.gd:1226
+공격력이 두 배를 넘어섬	Attack more than doubles	main_cards.gd:1226
+불사의 심장	Undying Heart	main_cards.gd:1227
+죽음을 견디고 몸이 단단해짐	Survive death and toughen up	main_cards.gd:1227
+모든 무기가 만렙을 넘어선다 (한계돌파)	Every weapon breaks past max level (limit break)	main_cards.gd:1228
+탄막	Rounds	main_cards.gd:132,main_cards.gd:319,main_cards.gd:506
+패시브	Passive	main_cards.gd:135,main_cards.gd:424,main_cards.gd:507
+고르면  Lv%d 로 시작	Pick to start at  Lv%d	main_cards.gd:229
+고르면  Lv%d   (%d단계)	Pick for  Lv%d   (%d levels)	main_cards.gd:231
+고르면  Lv%d	Pick for  Lv%d	main_cards.gd:232
+강화	Upgrade	main_cards.gd:326,main_game.gd:3607
+\n(%s 를 초월했다)	\n(Transcended %s)	main_cards.gd:366
+신화	Mythic	main_cards.gd:424,main_cards.gd:605,main_game.gd:4842
+휴식 (회복)	Rest (Heal)	main_cards.gd:42,main_game.gd:4123
+체력 30% 회복	Restore 30% HP	main_cards.gd:42
+노다지 (골드)	Bonanza (Gold)	main_cards.gd:45,main_game.gd:4123
+골드를 즉시 획득	Gain gold instantly	main_cards.gd:45
+칸:  무기 %d/%d · 탄막 %d/%d · 패시브 %d/%d   (시작 소총과 스탯 강화는 칸을 안 센다)	Slots:  Weapons %d/%d · Rounds %d/%d · Passives %d/%d   (the starting rifle and stat upgrades don't use slots)	main_cards.gd:478
+무기: 	Weapon: 	main_cards.gd:578,main_game.gd:4458,main_game.gd:5000
+탄막: 	Rounds: 	main_cards.gd:578,main_game.gd:4458,main_game.gd:5000
+일반	Common	main_cards.gd:600,main_game.gd:4836,settings.gd:559
+희귀	Rare	main_cards.gd:601,main_game.gd:4837
+영웅	Epic	main_cards.gd:602,main_game.gd:4838
+고유	Unique	main_cards.gd:604,main_game.gd:4839
+불길이 훨씬 넓게 타올라 닿는 것을 태운다	Flames blaze far wider and burn everything they touch	main_cards.gd:57
+서리 장판이 겹겹이 깔려 얼려 세운다	Frost fields pile up in layers and freeze enemies in place	main_cards.gd:58
+독이 계속 번져 지나간 자리가 썩는다	Poison keeps spreading and rots everything it passes	main_cards.gd:59
+포탄이 긴 창이 되어 줄지어 꿰뚫는다	Shells become long lances that skewer whole lines	main_cards.gd:60
+기본 공격력의 26%를 더한다 (9장이면 +234%)	Adds 26% of base attack (+234% at 9 cards)	main_cards.gd:656
+공격 속도 +12% (더 빠르게)	Attack speed +12% (faster)	main_cards.gd:656
+달리기 속도 +8%	Run speed +8%	main_cards.gd:656
+최대 체력 +18 (즉시 회복도)	Max HP +18 (heals too)	main_cards.gd:657
+탄환이 +14% 빠르게 날아감	Bullet speed +14%	main_cards.gd:658
+치명타 확률 +9% (일반 상한 70%)	Crit chance +9% (normal cap 70%)	main_cards.gd:658
+치명타 배율 +0.30 (기본 1.70배)	Crit multiplier +0.30 (base ×1.70)	main_cards.gd:658
+매초 체력 1.0 자동 회복	Regenerate 1.0 HP per second	main_cards.gd:659
+받는 피해 2 감소 (피해의 30%는 항상 받음)	Take 2 less damage (30% of damage always gets through)	main_cards.gd:659
+아이템 줍는 범위 +55	Item pickup range +55	main_cards.gd:659
+행운 +6% (드랍 확률에 가산 반영)	Luck +6% (added to drop chance)	main_cards.gd:660
+경험치 획득 +12% (레벨↑ 빠르게)	XP gain +12% (level up faster)	main_cards.gd:635
+대시 쿨타임 15% 단축	Dash cooldown -15%	main_cards.gd:660
+번개가 더 멀리·많이 옮겨 붙는다	Lightning jumps farther and to more targets	main_cards.gd:61
+피격 시 주변에 반사 피해 +8	Reflect +8 damage around you when hit	main_cards.gd:661
+맞은 적이 느려짐 (레벨↑ 더 오래)	Enemies hit are slowed (longer at higher levels)	main_cards.gd:637
+맞은 적이 1.4초간 불탄다 (틱당 탄환 피해의 3.5%×레벨)	Enemies hit burn for 1.4s (per tick: 3.5% of bullet damage × level)	main_cards.gd:662
+맞은 적이 3초간 중독된다 (틱당 탄환 피해의 3%×레벨)	Enemies hit are poisoned for 3s (per tick: 3% of bullet damage × level)	main_cards.gd:663
+명중 즉시 탄환 피해의 9%×레벨 추가 · 감전 잔류	Extra 9% of bullet damage × level on hit · Leaves a shock	main_cards.gd:663
+번개가 주변 적으로 튐 (레벨↑ 더 많이)	Lightning leaps to nearby enemies (more at higher levels)	main_cards.gd:639
+탄환이 커져서 잘 맞음	Bigger bullets hit more easily	main_cards.gd:665
+탄환이 적을 맞고 다른 적으로 튕김 (튕길수록 피해 감소)	Bullets bounce from one enemy to another (less damage per bounce)	main_cards.gd:665
+체력 적은 잡몹 즉시 처치 (레벨↑ 기준↑)	Instantly kill low-HP small fry (higher threshold at higher levels)	main_cards.gd:641
+적을 맞히면 체력 회복 (레벨↑ 더)	Heal when you hit enemies (more at higher levels)	main_cards.gd:641
+적이 죽을 때 폭발 (연쇄는 2단계까지, 갈수록 약해짐)	Enemies explode on death (chains up to 2 steps, weakening each time)	main_cards.gd:667
+앞을 넓게 후려치는 근접 (레벨↑ 빠르고 넓게)	Wide sweeping melee ahead (faster and wider at higher levels)	main_cards.gd:643
+던지면 되돌아오며 관통 (레벨↑ 멀리·많이)	Thrown, returns and pierces (farther and more at higher levels)	main_cards.gd:643
+빙글 도는 레이저로 스치는 적을 계속 지짐	A spinning laser that keeps searing whatever it grazes	main_cards.gd:669
+주위를 도는 구슬로 타격 (레벨↑ 수·위력↑)	Orbs circle and strike (more and stronger at higher levels)	main_cards.gd:644
+가까운 적에 번개 연쇄 (레벨↑ 위력↑)	Chain lightning to nearby enemies (stronger at higher levels)	main_cards.gd:645
+몸 주위 화염 오라로 지속 화상 (레벨↑ 넓고 세게)	A fire aura that burns around you (wider and stronger at higher levels)	main_cards.gd:645
+소환수가 정령의 얼음탄을 쏘고 더 멀리까지 나간다	Summons fire the spirit's ice shots and range farther	main_cards.gd:62
+주위를 얼려 피해+둔화 (레벨↑ 넓게)	Freezes the area around you for damage and slow (wider at higher levels)	main_cards.gd:646
+발밑 독장판 (레벨↑ 넓고 세게)	Poison pool at your feet (wider and stronger at higher levels)	main_cards.gd:646
+적을 쫓는 아군 소환 (레벨↑ 수↑)	Summon allies that chase enemies (more at higher levels)	main_cards.gd:647
+얼음탄을 쏘는 정령 소환	Summon a spirit that fires ice shots	main_cards.gd:672
+멀리·빠르게 꿰뚫는 화살	Long-range, fast, piercing arrows	main_cards.gd:673
+무작위로 능력 하나 대폭 강화	Greatly upgrade one random ability	main_cards.gd:677
+최대 체력의 30%를 즉시 회복	Instantly restore 30% of max HP	main_cards.gd:678
+골드 +18~40 (난이도 배수 적용)	Gold +18–40 (scaled by difficulty)	main_cards.gd:678
+공격력 +10% · 이동 +3% · 체력 +8	Attack +10% · Move +3% · HP +8	main_cards.gd:679
+공격력 +16% · 흡혈 +1	Attack +16% · Lifesteal +1	main_cards.gd:679
+공격속도 +10% · 탄속 +8%	Attack speed +10% · Bullet speed +8%	main_cards.gd:680
+행운 드랍 ×1.08 · 자석 +40	Luck drops ×1.08 · Magnet +40	main_cards.gd:680
+휘두르는 반경이 커지고 약한 것은 즉사	Bigger swing radius, and the weak die instantly	main_cards.gd:63
+방어 +3 · 가시 +6 · 체력 +12	Armor +3 · Thorns +6 · HP +12	main_cards.gd:681
+치명 확률 +5% · 배율 +0.2	Crit chance +5% · Multiplier +0.2	main_cards.gd:681
+대시 쿨 -12% · 공격력 +11%	Dash cooldown -12% · Attack +11%	main_cards.gd:682
+특수무기 ×1.10 · 화상 부여 +1	Special weapons ×1.10 · Burn +1	main_cards.gd:682
+치명 배율 +0.25 · 이동 +4%	Crit multiplier +0.25 · Move +4%	main_cards.gd:683
+특수무기 ×1.08 · 행운 +5%	Special weapons ×1.08 · Luck +5%	main_cards.gd:683
+이동 +6% · 검무 지속 +1.5초 · 상승률↑	Move +6% · Sword Dance duration +1.5s · Faster build-up	main_cards.gd:659
+특수무기 위력 ×1.16	Special weapon power ×1.16	main_cards.gd:684
+방어 +2 · 재생 +0.6/s · 염주 쿨 -1초	Armor +2 · Regen +0.6/s · Prayer Beads cooldown -1s	main_cards.gd:685
+유도 +1 · 치명 확률 +6%	Homing +1 · Crit chance +6%	main_cards.gd:685
+적 이동속도 -15% (영구·중첩) · 공격력 +32%	Enemy move speed -15% (permanent · stacks) · Attack +32%	main_cards.gd:686
+탄환 크기 +2 · 관통 +2 · 공격력 +45%	Bullet size +2 · Pierce +2 · Attack +45%	main_cards.gd:686
+발사 시 35% 확률로 한 번 더 발사 · 공격력 +12%	Chance to fire twice: 35% · Attack +12%	main_cards.gd:687
+공격력 +120% · 치명 배율 +0.5	Attack +120% · Crit multiplier +0.5	main_cards.gd:687
+치명상 시 생존(쿨 60초) · 체력 +80 · 방어 +5 · 공격력 +66%	Survive a fatal blow (60s cooldown) · HP +80 · Armor +5 · Attack +66%	main_cards.gd:688
+보유한 모든 무기가 만렙을 3단계 넘어선다(한계돌파) · 공격력 +25%	Every weapon you hold goes 3 levels past max (limit break) · Attack +25%	main_cards.gd:689
+레이저가 여러 갈래로 늘어 사방을 지진다	The laser splits into many beams and sears in all directions	main_cards.gd:64
+모든 탄이 흰 침이 되어 급소에 꽂힌다	Every shot becomes a white needle that strikes a weak point	main_cards.gd:65
+%d장 · 공격력 강화	%d cards · Attack Up	main_cards.gd:705
+%d장 · 공격력 +%d	%d cards · Attack +%d	main_cards.gd:706
+%d장 · 발사 간격 ×%.2f	%d cards · Fire interval ×%.2f	main_cards.gd:709
+%d장 · 초당 %.1f발	%d cards · %.1f shots/s	main_cards.gd:710
+%d장 · 이동속도 ×%.2f	%d cards · Move speed ×%.2f	main_cards.gd:713
+%d장 · 이동속도 %d	%d cards · Move speed %d	main_cards.gd:714
+%d장 · 최대 체력 +%d	%d cards · Max HP +%d	main_cards.gd:716
+%d장 · 탄속 ×%.2f	%d cards · Bullet speed ×%.2f	main_cards.gd:719
+%d장 · 탄속 %d	%d cards · Bullet speed %d	main_cards.gd:720
+부챗살이 아홉 갈래로 퍼지며 번개가 옮는다	The fan spreads into nine ribs and lightning leaps between targets	main_cards.gd:67
+%d장 · 치명타 +%d%%	%d cards · Crit +%d%%	main_cards.gd:722
+%d장 · 치명타 배율 +%.2f	%d cards · Crit multiplier +%.2f	main_cards.gd:724
+%d장 · 재생 +%.1f/s	%d cards · Regen +%.1f/s	main_cards.gd:726
+%d장 · 방어 +%d	%d cards · Armor +%d	main_cards.gd:728
+%d장 · 자석 +%d	%d cards · Magnet +%d	main_cards.gd:730
+화살이 줄지어 꿰뚫고 적힌 것은 끝난다	Arrows skewer in a line, and whatever is written down ends	main_cards.gd:68
+%d장 · 행운 +%d%%	%d cards · Luck +%d%%	main_cards.gd:732
+%d장 · 경험치 +%d%%	%d cards · XP +%d%%	main_cards.gd:734
+%d장 · 대시 쿨 ×%.2f	%d cards · Dash cooldown ×%.2f	main_cards.gd:737
+%d장 · 대시 쿨 %.1f초	%d cards · Dash cooldown %.1fs	main_cards.gd:738
+금빛 궤적으로 베고 벤 만큼 회복한다	Slashes with a golden trail and heals by as much as it cuts	main_cards.gd:69
+%d장 · 반사 +%d	%d cards · Thorns +%d	main_cards.gd:741
+%d장 · 무작위 강화	%d cards · Random upgrade	main_cards.gd:743
+%d장	%d cards	main_cards.gd:745
+공격력 +%d	Attack +%d	main_cards.gd:776,main_cards.gd:915
+공격속도 +%.1f발/초	Attack speed +%.1f shots/s	main_cards.gd:781,main_cards.gd:928
+이동속도 +%d	Move speed +%d	main_cards.gd:783
+치명타 배율 +0.30	Crit multiplier +0.30	main_cards.gd:785,main_cards.gd:1176
+탄속 +%d	Bullet speed +%d	main_cards.gd:787,main_cards.gd:930
+최대체력 +18	Max HP +18	main_cards.gd:790,main_cards.gd:1173
+체력 재생 +1.0/s	HP regen +1.0/s	main_cards.gd:792,main_cards.gd:1177
+방어 +2	Armor +2	main_cards.gd:794,main_cards.gd:1178
+자석 +55	Magnet +55	main_cards.gd:796,main_cards.gd:1179
+가시 반사 +8	Thorns +8	main_cards.gd:798,main_cards.gd:1183
+대시 쿨 -%.1f초	Dash cooldown -%.1fs	main_cards.gd:801,main_cards.gd:925
+피해 %d → %d	Damage %d → %d	main_cards.gd:818
+초당 %.1f발 → %.1f발	%.1f → %.1f shots/s	main_cards.gd:826
+이동 %d → %d	Move %d → %d	main_cards.gd:828
+체력 %d → %d	HP %d → %d	main_cards.gd:830,meta_shop.gd:535
+탄속 %d → %d	Bullet speed %d → %d	main_cards.gd:832
+치명타 %d%% → %d%%	Crit %d%% → %d%%	main_cards.gd:836
+치명타 배율 ×%.2f → ×%.2f	Crit multiplier ×%.2f → ×%.2f	main_cards.gd:839
+재생 %.1f/s → %.1f/s	Regen %.1f/s → %.1f/s	main_cards.gd:841
+방어 %d → %d	Armor %d → %d	main_cards.gd:843
+자석 %d → %d	Magnet %d → %d	main_cards.gd:845
+행운 %d%% → %d%%	Luck %d%% → %d%%	main_cards.gd:847
+경험치 ×%.2f → ×%.2f	XP ×%.2f → ×%.2f	main_cards.gd:849
+대시 쿨 %.1f초 → %.1f초	Dash cooldown %.1fs → %.1fs	main_cards.gd:853
+반사 %d → %d	Thorns %d → %d	main_cards.gd:855
+재료 2종 소멸 → 초월 무기 (칸 1개 해방)	Both materials are consumed → transcendent weapon (frees 1 slot)	main_cards.gd:863
+공격력 +%d%%	Attack +%d%%	main_cards.gd:914
+이동 +%d%%	Move +%d%%	main_cards.gd:918
+이동 +%d	Move +%d	main_cards.gd:918
+대시 쿨 -%d%%	Dash cooldown -%d%%	main_cards.gd:921
+공격속도 +10%	Attack speed +10%	main_cards.gd:926,main_cards.gd:928
+탄속 +8%	Bullet speed +8%	main_cards.gd:929,main_cards.gd:930
+피해 %d/%s	Damage %d/%s	main_cards.gd:946
+주기 %.2f초	Every %.2fs	main_cards.gd:949
+반경 %d	Radius %d	main_cards.gd:950
+\n영웅 %d + 무기 %d	\nHero %d + Weapon %d	main_cards.gd:954,main_cards.gd:1127
+%s  초당 %.1f → %.1f발	%s  %.1f → %.1f shots/s	main_cards.gd:960
+%s  %d → %d명	%s  %d → %d targets	main_cards.gd:1007
+%s  %d → %d발	%s  %d → %d shots	main_cards.gd:1011
+%s  더 자주 판정	%s  hits more often	main_cards.gd:1035
+%s  %.2f초 → %.2f초	%s  %.2fs → %.2fs	main_cards.gd:1037
+▲ 이번 레벨: %s	▲ This level: %s	main_cards.gd:1020,main_game.gd:4213
+해골 왕	Skeleton King	main_game.gd:1026
+유령 군주	Ghost Lord	main_game.gd:1027
+흡혈박쥐 여왕	Vampire Bat Queen	main_game.gd:1028
+맹독 슬라임 킹	Venom Slime King	main_game.gd:1029
+드래곤	Dragon	main_game.gd:1030
+융합체	Fusion Beast	main_game.gd:1031
+구미호	Gumiho	main_game.gd:1032
+저승사자	Jeoseung Saja	main_game.gd:1033
+이무기	Imugi	main_game.gd:1034
+보스	Boss	main_game.gd:1506
+스테이지 보스 출현! 처치하면 클리어	Stage Boss Appears! Defeat it to clear!	main_game.gd:1539
+결정타	Finishing Blow	main_game.gd:1584
+무한 완주  ·  %s	Endless Complete  ·  %s	main_game.gd:1633
+%02d:%02d  ·  처치 %d  ·  레벨 %d  ·  최고 콤보 %d	%02d:%02d  ·  Kills %d  ·  Level %d  ·  Best combo %d	main_game.gd:1634
+최종 보스 격파 %02d:%02d  ·  보스전 피격 %d회 (런 전체 %d회)%s	Final boss down %02d:%02d  ·  Hits taken in boss fight %d (whole run %d)%s	main_game.gd:1636
+   무피격 격파	   Flawless kill	main_game.gd:1638
+획득 골드 %s G  (완주 보너스 +%s)   총 %s G	Gold earned %s G  (completion bonus +%s)   Total %s G	main_game.gd:1457
+◆  완  주  ◆	◆  C O M P L E T E  ◆	main_game.gd:1333
+   ★ 최고 등급 갱신	   ★ New best rating	main_game.gd:1274
+   ⏱ 최단 기록 갱신	   ⏱ New fastest time	main_game.gd:1276
+보스전 %02d:%02d  ·  보스전 피격 %d회 (런 전체 %d회)%s	Boss fight %02d:%02d  ·  Hits taken in boss fight %d (whole run %d)%s	main_game.gd:1282
+획득 골드 %s G%s  별 보너스 +%s   총 %s G	Gold earned %s G%s  Star bonus +%s   Total %s G	main_game.gd:1285
+  첫 클리어 +%s	  First clear +%s	main_game.gd:1286
+새 캐릭터 해금: %s	New hero unlocked: %s	main_game.gd:1820
+새 무기 해금: %s	New weapon unlocked: %s	main_game.gd:1825
+던전 · 언데드 소굴 · 적 체력↑ XP↑	Dungeon · Den of the undead · Enemy HP↑ XP↑	main_game.gd:1824
+도서관 · 유령 사서 · 적 이동↑ XP↑↑	Library · Ghost librarian · Enemy speed↑ XP↑↑	main_game.gd:1829
+생명의 정원 · 분열 식물 · 양측 재생	Garden of Life · Splitting plants · Both sides regenerate	main_game.gd:1834
+용암동굴 · 자폭 고블린 · 용암 분출	Lava Cave · Exploding goblins · Lava eruptions	main_game.gd:1839
+천상계 · 빠른 무리 · XP 대폭↑	Celestial Realm · Swift swarms · XP↑↑	main_game.gd:1844
+천상	Celestial	main_game.gd:2350
+한 번 더?	One More Try?	main_game.gd:3292
+이어서 하기	Continue	main_game.gd:3307
+광고 보고 부활	Watch an ad to revive	main_game.gd:3307
+포기하고 결과 보기	Give up and see results	main_game.gd:3310
+다시 도전	Try Again	main_game.gd:3246,main_game.gd:3394
+다음 스테이지	Next Stage	main_game.gd:3394
+메인 메뉴	Main Menu	main_game.gd:3246,main_game.gd:3395,pause_menu.gd:171
+%s (%s) · 보스전!	%s (%s) · Boss fight!	main_game.gd:3710
+%s (%s) · 보스까지 %02d:%02d	%s (%s) · Boss in %02d:%02d	main_game.gd:3714
+웨이브 %d	Wave %d	main_game.gd:3716
+처치 %d	Kills %d	main_game.gd:2909
+레벨 %d	Level %d	main_game.gd:2719
+골드 %d	Gold %d	main_game.gd:2911
+중간보스 · %s   %d%%	Mini Boss · %s   %d%%	main_game.gd:3767
+도전과제 달성: %s  (+%dG)	Achievement unlocked: %s  (+%dG)	main_game.gd:278
+대시 OK	Dash OK	main_game.gd:3797
+%.1f초	%.1fs	main_game.gd:3801,pause_menu.gd:294
+도전과제: %s  (+%dG)	Achievement: %s  (+%dG)	main_game.gd:280
+%d 콤보!	%d Combo!	main_game.gd:4045
+%d 콤보 최초 돌파! +%dG	First time past a %d combo! +%dG	main_game.gd:4058
+자동 선택: 	Auto: 	main_game.gd:4123
+휴식	Rest	main_game.gd:4255
+노다지	Bonanza	main_game.gd:4255
+보스 상자: 카드 %d장	Boss Chest: %d cards	main_game.gd:4311,main_game.gd:4334
+아무 곳이나 눌러 계속	Press any button to continue	main_game.gd:4411
+LEVEL UP! 강화를 선택하세요	LEVEL UP! Choose an Upgrade	main_game.gd:3396
+◆ 융 합 ◆	◆ F U S I O N ◆	main_game.gd:3673
+  ▲최대	  ▲MAX	main_game.gd:4308
+강화 %d/%d%s	Upgrade %d/%d%s	main_game.gd:4311
+리롤  (%d)	Reroll  (%d)	main_game.gd:3985
+융합: %s	Fusion: %s	main_game.gd:5307
+%s + %s 가 하나로	%s + %s become one	main_game.gd:5300
+초대박	Jackpot	main_game.gd:5706,main_game.gd:5707
+초대박!! 능력 폭증	JACKPOT!! Stats surge	main_game.gd:5712
+폭망	Bust	main_game.gd:5718,main_game.gd:5719
+폭망… 능력 대폭 하락	Bust… Stats plummet	main_game.gd:5722
+소폭 상승	Small gain	main_game.gd:5734,main_game.gd:5735
+도박: 소폭 상승 ▲	Gamble: small gain ▲	main_game.gd:4892
+소폭 하락	Small loss	main_game.gd:5744,main_game.gd:5745
+도박: 소폭 하락 ▽	Gamble: small loss ▽	main_game.gd:4902
+보물상자 출현! (능력 만렙)	Treasure chest appeared! (ability maxed)	main_game.gd:5758
+★ 진화: %s	★ Evolution: %s	main_game.gd:4927
+★ 보물: 능력치 강화	★ Treasure: stats up	main_game.gd:4933
+광고를 불러오는 중…	Loading ad…	main_game.gd:5806
+체력을 모두 채우고 이어서 합니다.	Refills your HP and continues.	main_game.gd:5809
+광고를 끝까지 보면 체력을 모두 채우고 이어서 합니다.	Watch the whole ad to refill your HP and continue.	main_game.gd:5811
+생존 %02d:%02d · 처치 %d · 레벨 %d\n%s\n(판당 1회)\n\n%d초 뒤 자동으로 포기합니다	Survived %02d:%02d · Kills %d · Level %d\n%s\n(once per run)\n\nGiving up automatically in %ds	main_game.gd:5813
+생존 %02d:%02d · 처치 %d · 레벨 %d · 최고 콤보 %d\n획득 골드 %d  (총 %d G)%s\n\n[대시] 또는 화면 탭 → 메인 메뉴	Survived %02d:%02d · Kills %d · Level %d · Best combo %d\nGold earned %d  (total %d G)%s\n\n[Dash] or tap the screen → Main Menu	main_game.gd:4640
+중간보스	Mini Boss	main_game.gd:630,main_game.gd:637,main_game.gd:830
+융합 보스	Fusion Boss	main_game.gd:813
+%s  %d초	%s  %ds	main_game.gd:818
+WAVE %d · 중간보스 출현	WAVE %d · Mini Boss Incoming	main_game.gd:1067
+몰려든다	They're swarming	main_game.gd:1097
+무언가 뭉치고 있다	Something is merging	main_game.gd:1101
+흩어졌다	They scattered	main_game.gd:1114
+⚠ 융합 보스 출현! %d초 안에 처치	⚠ Fusion Boss Appears! Defeat it within %ds!	main_game.gd:913
+⚠ 융합 보스   %d%%   ·   남은 %02d초	⚠ Fusion Boss   %d%%   ·   %02ds left	main_game.gd:928
+융합 보스 처치! 금화 다발 + 경험치	Fusion Boss defeated! A pile of gold + XP	main_game.gd:1234
+융합 보스가 도망쳤다… 공격력 -%d%% (이번 판)	The Fusion Boss escaped… Attack -%d%% (this run)	main_game.gd:1248
+최종 보스 출현! 쓰러뜨리면 완주	Final Boss! Bring it down to finish the run	main_game.gd:1269
+최종 보스  ·  드래곤	Final Boss  ·  Dragon	main_game.gd:1036
+현재 능력치  (영구 강화 반영)	Current Stats  (incl. permanent upgrades)	main_menu.gd:371
+이어하기 (없음)	Continue (none)	main_menu.gd:352
+보유 골드   %d G	Gold   %d G	main_menu.gd:453
+도감 · 퀘스트 (보상 %d)	Codex · Quests   %d rewards!	main_menu.gd:393
+이면 : 요괴 서바이버	IMYEON : Yokai Survivor	main_menu.gd:128,settings.gd:578
+스테이지를 정복하고 · 무한 모드에서 30분을 버텨라	Conquer the stages · Survive 30 minutes in Endless	main_menu.gd:64
+새 게임	New Game	main_menu.gd:88
+새 캐릭터	☆   New Hero	main_menu.gd:89
+이어하기	Continue	main_menu.gd:91,main_menu.gd:397
+상점 (영구 강화)	Shop (Permanent Upgrades)	main_menu.gd:92
+설정	Settings	main_menu.gd:88,settings.gd:61
+종료	Quit	main_menu.gd:89
+최대 체력	Max HP	meta_shop.gd:11
+특수무기 해금	Special Weapon Unlocks	meta_shop.gd:129
+장신구  ·  칸 %d개	Accessories  ·  %d slots	meta_shop.gd:141
+이동속도	Move Speed	meta_shop.gd:13,pause_menu.gd:286
+자석 범위	Magnet Range	meta_shop.gd:14,pause_menu.gd:291
+행운	Luck	meta_shop.gd:15,pause_menu.gd:293
+보유 골드:  %s G	Gold:  %s G	meta_shop.gd:175
+체력 재생	HP Regen	meta_shop.gd:16,pause_menu.gd:290
+골드 획득	Gold Gain	meta_shop.gd:17
+시작 리롤	Starting Rerolls	meta_shop.gd:18
+해금 완료 · 게임 중 카드로 등장	Unlocked · Appears as a card in runs	meta_shop.gd:194
+조건: 	Requires: 	meta_shop.gd:229
+%s G 해금	Unlock for %s G	meta_shop.gd:231
+빈 칸	Empty	meta_shop.gd:273,meta_shop.gd:273
+장착 중	Equipped	meta_shop.gd:329
+%d번 칸에	To slot %d	meta_shop.gd:331
+보유	Owned	meta_shop.gd:334
+누적  %s	Total  %s	meta_shop.gd:440,meta_shop.gd:481
+사면  %s	Buy  %s	meta_shop.gd:442,meta_shop.gd:485
+공격력 %.1f → %.1f	Attack %.1f → %.1f	meta_shop.gd:538
+이동속도 %d → %d	Move Speed %d → %d	meta_shop.gd:540
+자석 +%d → +%d	Magnet +%d → +%d	meta_shop.gd:543
+행운 +%d%% → +%d%%	Luck +%d%% → +%d%%	meta_shop.gd:545
+재생 %.2f/s → %.2f/s	Regen %.2f/s → %.2f/s	meta_shop.gd:547
+골드 +%d%% → +%d%%	Gold +%d%% → +%d%%	meta_shop.gd:549
+시작 리롤 %d회 → %d회	Starting rerolls %d → %d	meta_shop.gd:552
++%d 체력	+%d HP	meta_shop.gd:563
+공격력 %.1f	Attack %.1f	meta_shop.gd:565
++%d%% 골드	+%d%% Gold	meta_shop.gd:567
+이동속도 %d	Move Speed %d	meta_shop.gd:569
++%.1f%% 행운	+%.1f%% Luck	meta_shop.gd:571
+리롤 +%d / Lv	Reroll +%d / Lv	meta_shop.gd:43
++%d 자석	+%d Magnet	meta_shop.gd:573
++%.2f/s 재생	+%.2f/s Regen	meta_shop.gd:575
+시작 리롤 %d회	Starting rerolls %d	meta_shop.gd:578
+영구 강화 상점	Permanent Upgrades	meta_shop.gd:93
+오브요격	Orb Intercept	orbit_weapon.gd:73
+내가 든 것	Your Build	pause_menu.gd:121
+계속하기	Resume	pause_menu.gd:170
+≡  메인 메뉴	≡  Main Menu	pause_menu.gd:170
+위아래로 밀어 더 보기	Swipe up and down to see more	pause_menu.gd:262
+ESC 로 닫기	ESC to close	pause_menu.gd:262
+(캐릭터 없음)	(no hero)	pause_menu.gd:272
+레벨 %d    ·    처치 %d    ·    생존 %02d:%02d    ·    골드 %d	Level %d    ·    Kills %d    ·    Survived %02d:%02d    ·    Gold %d	pause_menu.gd:274
+체력	HP	pause_menu.gd:281
+영웅 공격력	Hero Attack	pause_menu.gd:282
+연사(밸런스)	Fire Rate (Rifle)	pause_menu.gd:281
+%.1f 발/초	%.1f shots/s	pause_menu.gd:281
+멀티샷 / 관통	Multishot / Pierce	pause_menu.gd:284
+탄속	Bullet Speed	pause_menu.gd:285
+치명타	Crit	pause_menu.gd:287
+치명 배율	Crit Multiplier	pause_menu.gd:288
+방어	Armor	pause_menu.gd:289
+드랍 ×%.2f	Drops ×%.2f	pause_menu.gd:293
+대시 쿨	Dash Cooldown	pause_menu.gd:294
+가시 반사	Thorns	main_game.gd:3921,pause_menu.gd:296
+얼음%d	Frost%d	pause_menu.gd:300
+화염%d	Fire%d	pause_menu.gd:302
+맹독%d	Venom%d	pause_menu.gd:304
+감전%d	Shock%d	pause_menu.gd:306
+거대%d	Giant%d	pause_menu.gd:308
+튕김%d	Bounce%d	pause_menu.gd:310
+연쇄%d	Chain%d	pause_menu.gd:314
+처형%d	Execute%d	pause_menu.gd:316
+흡혈%d	Lifesteal%d	pause_menu.gd:318
+개화%d	Bloom%d	pause_menu.gd:320
+유도%d	Homing%d	pause_menu.gd:322
+%s%s Lv%d · 한 발 %d (영웅 %d + 무기 %d)%s	%s%s Lv%d · Per shot %d (Hero %d + Weapon %d)%s	pause_menu.gd:338
+탄막 부여:  	Round mods:  	pause_menu.gd:301
+특수 무기	Special Weapons	pause_menu.gd:306
+   %s%s Lv%d · 한 %s %d%s	   %s%s Lv%d · Per %s %d%s	pause_menu.gd:320
+고유 능력	Unique Ability	pause_menu.gd:368
+융합까지	Fusion Progress	pause_menu.gd:139
+융합 페널티: 공격력 -%d%%	Fusion penalty: Attack -%d%%	pause_menu.gd:381
+아이콘을 누르면 자세히 나옵니다	Select an icon for details	pause_menu.gd:388
+아직 고른 것이 없습니다	Nothing picked yet	pause_menu.gd:393
+레벨업마다 카드 4장 중 선택	Choose from 4 cards every level-up	pause_menu.gd:510
+10레벨마다 도박  (굴린 횟수 %d)	Gamble every 10 levels  (Rolled %d times)	pause_menu.gd:511
+공격력 %+d	Attack %+d	pause_menu.gd:515
+치명타 %+.0f%%	Crit %+.0f%%	pause_menu.gd:519
+공격주기 ×%.2f	Interval ×%.2f	pause_menu.gd:521
+   도박 누적:  	   Gamble total:  	pause_menu.gd:522
+변화 없음	No change	pause_menu.gd:522
+   굴린 순서:  	   Roll history:  	pause_menu.gd:528
+무기 카드 한 장에 두 단계 (그래서 무기 Lv 가 6 을 넘는다)	Each weapon card grants two levels (so weapons go past Lv6)	pause_menu.gd:530
+특수무기 위력 ×1.25	Special weapon power ×1.25	pause_menu.gd:531
+화염 오라를 들고 시작 · 특수무기 위력 ×1.25	Starts with Fire Aura · Special weapon power ×1.25	pause_menu.gd:533
+대시 쿨 %.1f초 · 들이받으면 공격력 ×%.2f (한 방 %d)	Dash cooldown %.1fs · Ramming deals attack ×%.2f (%d per hit)	pause_menu.gd:535
+모든 탄이 조금씩 휘어 적을 찾는다 (유도 1)	Every shot curves slightly toward enemies (Homing 1)	pause_menu.gd:539
+처치할 때마다 체력을 조금 되찾는다	Recover a little HP with each kill	pause_menu.gd:541
+체력 %d 아래에서 공격력 ×%.2f  (%s)	Below %d HP, attack ×%.2f  (%s)	pause_menu.gd:544
+발동 중	Active	pause_menu.gd:546
+대기 (지금 %d)	Standby (now %d)	pause_menu.gd:541
+계속 움직이면 %.0f초에 걸쳐 공격력 ×1.00 → ×%.2f	Keep moving: over %.0fs, attack goes ×1.00 → ×%.2f	pause_menu.gd:548
+   지금 ×%.2f  (%.1f초 쌓임)	   Now ×%.2f  (%.1fs built up)	pause_menu.gd:550
+대시 후 %.0f초간 치명타 확률 +%.0f%%  (%s)	For %.0fs after a dash, crit chance +%.0f%%  (%s)	pause_menu.gd:553
+남은 %.1f초	%.1fs left	pause_menu.gd:555,pause_menu.gd:562
+대기	Standby	pause_menu.gd:555,pause_menu.gd:562
+소환수를 데리고 시작	Starts with a summon	pause_menu.gd:557
+처치하면 %.0f초간 공격력 ×%.2f · 처치마다 다시 채워진다  (%s)	Kills grant %.0fs of attack ×%.2f · Refilled on each kill  (%s)	pause_menu.gd:560
+염주가 피해 한 번을 흘려보낸다  (%s)	Prayer Beads negate one hit  (%s)	pause_menu.gd:564
+준비됨	Ready	pause_menu.gd:565
+%.1f초 뒤 충전	Recharges in %.1fs	pause_menu.gd:565
+일시정지	Paused	pause_menu.gd:66
+몸박	Contact	player.gd:1247
+광전사의 피 (죽을 위기에 순간 무적)	Berserker's Blood (brief invulnerability when near death)	player.gd:1320
+관통 폭풍 (관통·연사·멀티)	Piercing Storm (pierce · fire rate · multishot)	player.gd:1325
+황금 자석 (자석·경험치·행운)	Golden Magnet (magnet · XP · luck)	player.gd:1330
+가시 요새 (반사·방어·재생)	Thorn Fortress (thorns · armor · regen)	player.gd:1338
+잭팟 러시 (치명·감전)	Jackpot Rush (crit · shock)	player.gd:1343
+오버드라이브 (전능력 상승)	Overdrive (all stats up)	player.gd:1351
+공격력 ×%.2f	Attack ×%.2f	player.gd:1728
+밸런스 소총	Balanced Rifle	player.gd:41
+대구경 캐논	Heavy Cannon	player.gd:42
+속사 기관총	Rapid Gun	player.gd:43
+중거리 산탄	Scattershot	player.gd:44
+대검 근접	Greatsword	player.gd:45
+총구폭풍	Muzzle Storm	player.gd:641
+검압	Sword Wake	main_game.gd:3921,player.gd:763
+조준 방식	Aiming	settings.gd:173
+자동 조준	Auto Aim	settings.gd:178
+수동 조준 (마우스)	Manual Aim (Mouse)	settings.gd:178
+인터페이스 크기 (글자·게이지·카드)	Interface Size (text · gauges · cards)	settings.gd:191
+크게	Large	settings.gd:196,settings.gd:198
+아주 크게	Extra Large	settings.gd:196
+화면 확대 (캐릭터·몬스터 크기)	Zoom (hero · monster size)	settings.gd:207
+확대할수록 크게 보이는 대신 시야가 좁아집니다 · 모바일 기본값: 크게	More zoom makes things bigger but narrows your view · Mobile default: Large	settings.gd:220
+조이스틱 자리	Joystick Position	settings.gd:234
+고정	Fixed	settings.gd:241
+따라옴	Follow	settings.gd:241
+고정은 왼쪽 아래 한 자리 · 따라옴은 처음 누른 자리가 가운데	Fixed stays at the bottom left · Follow centers where you first touch	settings.gd:248
+조이스틱 반응	Joystick Response	settings.gd:254
+정밀은 끝까지 밀어야 최고 속도 · 즉각은 살짝만 밀어도 최고 속도	Precise needs a full push for top speed · Instant hits top speed with a light push	settings.gd:268
+창 모드	Window Mode	settings.gd:280
+창	Windowed	settings.gd:285
+전체화면	Fullscreen	settings.gd:285
+F11 또는 Alt+Enter 로도 바꿀 수 있습니다	You can also switch with F11 or Alt+Enter	settings.gd:294
+그래픽 성능	Graphics Performance	settings.gd:332
+절전 30	Power Save 30	settings.gd:337
+표준 60	Standard 60	settings.gd:337
+최대	Max	settings.gd:337
+폰이 뜨거워지면 절전으로 · 절전은 탄환 잔상과 파티클도 함께 줄입니다	If your phone gets hot, use Power Save · It also trims bullet trails and particles	settings.gd:315
+만렙 후 레벨업 카드	Level-up Cards After Max	settings.gd:405
+직접 선택	Choose Myself	settings.gd:410
+자동: 회복	Auto: Heal	settings.gd:410
+자동: 골드	Auto: Gold	settings.gd:410
+자동: 랜덤	Auto: Random	settings.gd:410
+기본 난이도	Default Difficulty	settings.gd:122
+마스터 음량	Master Volume	settings.gd:144
+소환수충격파	Summon Shockwave	summon_weapon.gd:260
+예고 장판	Warning Zone	telegraph_aoe.gd:61
+정밀	Precise	touch_controls.gd:15
+표준	Standard	touch_controls.gd:16
+즉각	Instant	touch_controls.gd:17
+←  뒤로	←  Back	ui_kit.gd:237
+\n%s\n다음 →  %s	\n%s\nNext →  %s	main_cards.gd:1063
+언어	Language	settings.gd:83
+자동	Auto	settings.gd:88
+한국어	한국어	settings.gd:88
+캐릭터 그림 (시범)	Character Art (Trial)	settings.gd:104
+기존 그림	Original	settings.gd:112
+새 에셋	New Art	settings.gd:112
+요괴가 뭉치고 있다	The swarm is fusing	main_game.gd:1158
+몰려드는 요괴	Swarm gathering	main_game.gd:1158
+융합 보스 출현! 도망가기 전에 처치	Fusion Boss! Defeat it before it escapes	main_game.gd:1193
+융합 보스   %d%%	Fusion Boss   %d%%	main_game.gd:1223
+최종 보스 · 쓰러뜨리면 완주	Final Boss · Defeat it to finish	main_game.gd:1268,main_game.gd:1270
+스테이지 보스 · 처치하면 클리어	Stage Boss · Defeat it to clear	main_game.gd:1538,main_game.gd:1540
+강화를 선택하세요	Choose an Upgrade	main_game.gd:3396
+융합 보스 · 도망가기 전에 처치	Fusion Boss · Defeat it before it escapes	main_game.gd:1192,main_game.gd:1194
+달성	Done	codex_screen.gd:808,main_cards.gd:1074
+%s (잠김)	%s (locked)	main_cards.gd:536
+접근성	Accessibility	settings.gd:355
+피해 숫자	Damage numbers	settings.gd:362
+화면 흔들림	Screen shake	settings.gd:375
+번쩍임 줄이기	Reduce flashing	settings.gd:375
+켬	On	settings.gd:389
+끔	Off	settings.gd:389
+새로!	New!	main_game.gd:4465,main_game.gd:5012,main_game.gd:5016
+화상	Burn	main_game.gd:3920
+중독	Poison	main_game.gd:3920
+원소 반응	Reactions	main_game.gd:3920
+대시 돌격	Dash strike	main_game.gd:3920
+자폭	Self-destruct	main_game.gd:3921
+기타	Other	main_game.gd:3921
+피해	Damage	main_game.gd:3977,main_game.gd:3982
+비율	Share	main_game.gd:3977,main_game.gd:3982
+초당	Per sec	main_game.gd:3977,main_game.gd:3982
+한 발 %d (영웅 %d + 무기 %d)	%d per shot (hero %d + weapon %d)	pause_menu.gd:340
+한 %s %d	Per %s %d	pause_menu.gd:360
+등급 올리기	Rank up	character_select.gd:242
+출격	Deploy	character_select.gd:245,main_menu.gd:82
+영웅을 누르면 상세 · 출격 버튼 또는 같은 영웅을 한 번 더 누르면 출격	Select a hero for details · press Deploy or select the same hero again to start	character_select.gd:249,character_select.gd:249
+등급 %d / %d	Rank %d / %d	character_select.gd:506
+★ 등급 올리기  %s G	★ Rank up  %s G	character_select.gd:473
+줄을 누르면 설명이 나옵니다	Select a row for details	codex_screen.gd:637
+영구 강화	Upgrades	main_menu.gd:85
+사기  %s G	Buy  %s G	meta_shop.gd:443
+화면	Display	settings.gd:559
+소리	Sound	settings.gd:559,settings.gd:586
+조작	Controls	settings.gd:559
+마루	Maru	character_select.gd:391
+새디	Saddie	character_select.gd:391
+베른	Bern	character_select.gd:391
+갈덴	Galden	character_select.gd:391
+다음 별 ★%d	Next ★%d	character_select.gd:307
+도감	Codex	codex_screen.gd:48,main_menu.gd:86,main_menu.gd:459
+처치 %s	Kills %s	codex_screen.gd:540
+칸:  무기 %d/%d · 탄막 %d/%d · 패시브 %d/%d	Slots:  Weapons %d/%d · Rounds %d/%d · Passives %d/%d	main_cards.gd:504
+최고 등급	Best grade	main_game.gd:1745
+최단 기록	Fastest	main_game.gd:1747
+무피격	No hit	main_game.gd:1749
+획득 엽전 %s%s  ·  별 보너스 +%s  ·  총 %s	Coins %s%s  ·  Star bonus +%s  ·  Total %s	main_game.gd:1399
+  ·  첫 클리어 +%s	  ·  First clear +%s	main_game.gd:1541
+처치	Kills	main_game.gd:2938,main_game.gd:3822
+엽전	Coins	main_game.gd:2489
+대시	Dash	main_game.gd:3055
+시간	Time	main_game.gd:3822
+레벨	Level	main_game.gd:3822
+최고 콤보	Best combo	main_game.gd:3822
+새로 열림	Unlocked	main_game.gd:3851
+다시 뽑기	Reroll	main_game.gd:4666
+건너뛰기	Skip	main_game.gd:4668
+봉인	Banish	main_game.gd:4670,meta_shop.gd:19
+다시 뽑기 %d	Reroll %d	main_game.gd:5211
+봉인할 카드 고르기	Pick a card to banish	main_game.gd:5214
+봉인 %d	Banish %d	main_game.gd:5214
+획득 엽전 %s  ·  총 %s	Coins %s  ·  Total %s	main_game.gd:5071
+무한	Endless	character_select.gd:112,main_menu.gd:396
+도감 (보상 %d)	Codex (%d rewards)	main_menu.gd:459
+해금됨	Unlocked	meta_shop.gd:226
+봉인 +%d / Lv	Banish +%d / Lv	meta_shop.gd:45
+봉인 %d회 → %d회	Banish %d → %d	meta_shop.gd:554
+봉인 %d회	Banish %d	meta_shop.gd:580
+손끝이 날카로워진다. 치명타 확률 +8% · 치명타 배율 +0.25.	Sharper at the fingertips. Crit chance +8% · Crit multiplier +0.25.	accessories.gd:39
+도르반 궁수와 니오베 방패병이 지키는 지하. 적 체력↑ · 처치 XP↑.	Underground halls held by Dorvan archers and Niobe shieldbearers. Enemy HP↑ · Kill XP↑.	codex.gd:50
+쓰러지면 둘로 갈라지는 창랑과 너울의 정원. 양쪽 모두 서서히 회복.	A garden where Changrang and Neoul split in two as they fall. Both sides slowly regenerate.	codex.gd:70
+쓰러지며 터지는 하쓰바와 주기적인 용암 분출을 피하라.	Dodge Hatsuba that burst as they fall, and the regular lava eruptions.	codex.gd:71
+연사  초당 %.1f → %.1f발	Fire rate  %.1f → %.1f shots/s	main_cards.gd:999
+획득 골드 %s%s  ·  별 보너스 +%s  ·  총 %s	Gold %s%s  ·  Star bonus +%s  ·  Total %s	main_game.gd:1540
+던전 · 적 체력↑ XP↑	Dungeon · Enemy HP↑ XP↑	main_game.gd:1824
+생명의 정원 · 양쪽 모두 재생	Garden of Life · Both sides regenerate	main_game.gd:2206
+용암동굴 · 터지는 하쓰바 · 용암 분출	Lava Cave · Bursting Hatsuba · Lava eruptions	main_game.gd:2211
+골드	Gold	main_game.gd:2938
+획득 골드 %s  ·  총 %s	Gold %s  ·  Total %s	main_game.gd:5935
+스테이지를 정복하고, 무한 모드에서 30분을 버텨라	Conquer the stages, then survive 30 minutes in Endless	main_menu.gd:67
+다음 별	Next	character_select.gd:401
+특수 영웅 · 	Special Hero · 	character_select.gd:510
+등급 올리기  %s G	Rank up  %s G	character_select.gd:580
+차림	Outfit	character_select.gd:615
+기본	Default	character_select.gd:621
+저승길	Underworld Road	character_select.gd:621,codex.gd:73,game.gd:995
+스테이지 6(저승길) 클리어로 열림	Unlocks by clearing Stage 6 (Underworld Road)	character_select.gd:631
+무한 모드 · 30분 최종 보스까지 생존\n	Endless · Survive to the final boss at 30 min\n	character_select.gd:847
+강림	Gangrim	characters.gd:130
+채찍을 들고 시작 · 처치하면 체력을 조금 되찾는다	Starts with the Whip · Recovers a little HP on each kill	characters.gd:131
+스테이지 6(저승길) 클리어	Clear Stage 6 (Underworld Road)	characters.gd:133
+설화	Seolhwa	characters.gd:136
+서리 장판을 들고 시작 · 특수무기 위력 ×1.15	Starts with Frost Field · Special weapon power ×1.15	characters.gd:127
+누적 20,000 처치	20,000 total kills	characters.gd:139
+두두	Dudu	characters.gd:142
+대검을 들고 시작 · 튼튼하지만 느리다	Starts with the Greatsword · Tough but slow	characters.gd:143
+레벨 40 도달	Reach level 40	characters.gd:145
+연	Yeon	characters.gd:148
+회전 오브를 들고 시작 · 행운과 치명타가 조금 높다	Starts with Orbit Orbs · Slightly higher luck and crit	characters.gd:149
+보스 누적 30 처치	Defeat 30 bosses in total	characters.gd:151
+물결	Mulgyeol	characters.gd:154
+각궁을 들고 시작 · 관통 +1	Starts with the Horn Bow · Pierce +1	characters.gd:155
+한 판 20분 생존	Survive 20 minutes in one run	characters.gd:157
+도윤	Doyun	characters.gd:160
+번개 사슬을 들고 시작 · 경험치 +10%	Starts with Chain Lightning · XP +10%	characters.gd:161
+몬스터 도감 30종	30 monsters in the codex	characters.gd:163
+시나위	Sinawi	codex.gd:13
+특수	Special	codex.gd:13,codex.gd:14,codex.gd:15
+모든 스테이지×난이도 클리어 (24)	Clear every stage × difficulty (24)	codex.gd:138
+할드	Hald	codex.gd:14
+모든 조합에서 별 3개 (72개)	3 stars on every combination (72)	codex.gd:144
+할덴	Halden	codex.gd:15
+덩기	Deonggi	codex.gd:16
+하글	Hagl	codex.gd:24
+이면	Imyeon	codex.gd:24,codex.gd:25,codex.gd:26
+카리아	Karia	codex.gd:25
+브란드	Brandr	codex.gd:26
+케른	Kern	codex.gd:27
+우츠로	Utsuro	codex.gd:28
+발룸	Vallum	codex.gd:29
+세케트	Seket	codex.gd:30
+삼환	Samhwan	codex.gd:31
+데벤	Deben	codex.gd:32
+스카르비	Skarvi	codex.gd:33
+망혼	Lost Soul	codex.gd:38
+흰 수의를 입은 작은 혼. 떼로 몰려오고, 판관이 부르면 벽을 그대로 지나 나타난다	A small soul in a white shroud. Comes in swarms, and when the Judge calls, it drifts straight through walls.	codex.gd:38
+저승 까마귀	Underworld Crow	codex.gd:39
+발이 셋 달린 저승 까마귀. 눈 깜짝할 새에 파고든다	A three-legged crow of the underworld. Darts in before you can blink.	codex.gd:39
+도깨비불	Dokkaebi Fire	codex.gd:40
+푸른 불덩이 요괴. 웅크렸다가 튀어 나간다. 염라가 부르는 졸개도 망혼과 이것들이다	A blue fireball yokai. Crouches, then springs. Yeomra's summoned minions are these and Lost Souls.	codex.gd:40
+업덩이	Karma Lump	codex.gd:41
+죄업이 뭉친 보랏빛 덩어리에 손이 여럿 달렸다. 낮게 웅크렸다가 한달음에 덮친다	A purple lump of sins with many hands. Crouches low, then pounces in one bound.	codex.gd:41
+삼도천 뱀장어	Samdo River Eel	codex.gd:42
+등지느러미에 연꽃 등불을 단 뱀장어. 좌우로 출렁이며 다가온다	An eel with a lotus lantern on its fin. Sways side to side as it comes.	codex.gd:42
+옥졸 창병	Hell Guard Spearman	codex.gd:43
+붉은 갑옷의 옥졸. 큰 방패를 앞세우고 느릿느릿 밀고 온다. 웬만해선 쓰러지지 않는다	A hell guard in red armor. Pushes forward slowly behind a big shield. Hard to bring down.	codex.gd:43
+귀졸 궁수	Underling Archer	codex.gd:44
+해골 탈을 쓴 귀졸. 거리를 두고 돌며 한 발, 부채꼴 세 발, 느린 유도 화살을 번갈아 쏜다	An underworld underling in a skull mask. Circles at range, alternating a single shot, a three-arrow fan, and a slow homing arrow.	codex.gd:44
+우두	Ox-Head	codex.gd:45
+쇠스랑을 든 소머리 옥졸. 멀리서 달려올수록 크고 무겁게 부딪치고, 가까이 오면 줄어든다	An ox-headed hell guard with a pitchfork. The farther it charges from, the bigger and heavier it hits; it shrinks up close.	codex.gd:45
+마면	Horse-Face	codex.gd:46
+쇠사슬 철퇴를 든 말머리 옥졸. 다칠수록 붉게 달아올라 빨라진다	A horse-faced hell guard with a chain flail. Glows red and speeds up as it takes damage.	codex.gd:46
+곡비	Wailing Mourner	codex.gd:47
+흰 상복을 입고 소매로 얼굴을 가린 곡비. 울음이 차오를 때마다 주변 요괴의 상처를 씻어 낸다. 늘 한발 물러서 있다	A mourner in white, face hidden behind her sleeve. Each time her wailing swells, it washes the wounds of nearby yokai. Always keeps a step back.	codex.gd:47
+상여꾼	Bier Bearer	codex.gd:48
+꽃상여를 멘 거구. 아주 느리지만 쓰러질 때 여덟 방향으로 파편을 뿌린다	A giant carrying a flower bier. Very slow, but bursts into shards in eight directions when it falls.	codex.gd:48
+손각시	Maiden Ghost	codex.gd:49
+붉은 혼례복을 입은 처녀 귀신. 가까이 오면 너를 제 쪽으로 끌어당긴다	A maiden ghost in a red wedding robe. Pulls you toward her when you get close.	codex.gd:49
+아귀	Hungry Ghost	codex.gd:50
+배만 부푼 마른 아귀. 살아 있는 동안 쉬지 않고 부푼다. 오래 둘수록 커진다	A gaunt hungry ghost with a swollen belly. Keeps swelling as long as it lives. The longer you leave it, the bigger it gets.	codex.gd:50
+명부 두루마리	Ledger Scroll	codex.gd:51
+살아 움직이는 명부. 탄에 맞으면 절반만 다치고 그만큼 도로 채운다	A living ledger of the dead. Bullets deal only half damage, and it heals back that much.	codex.gd:51
+쌍둥이 차사	Twin Reapers	codex.gd:52
+갓 쓴 쌍둥이 저승차사가 한 몸에 붙어 있다. 쓰러지면 늘 둘로 쪼개진다	Twin underworld reapers in black hats, joined in one body. Always splits in two when it falls.	codex.gd:52
+저승 판관	Underworld Judge	codex.gd:53
+붉은 관복에 붓과 명부를 든 판관. 사라졌다가 바로 곁에 나타나고, 따라오는 탄 세 발을 쏘며 망혼을 불러낸다	A judge in red robes with a brush and ledger. Vanishes and reappears right beside you, fires three homing shots, and calls Lost Souls.	codex.gd:53
+염라	Yeomra	codex.gd:54
+면류관을 쓰고 홀을 든 저승의 왕. 장판이 누구보다 넓고 졸개를 쉴 새 없이 부른다. 체력이 절반 아래로 떨어지면 업경을 띄우고 붉게 달아오른다	The king of the underworld, crowned and holding a scepter. Lays the widest zones of all and summons minions nonstop. Below half HP, raises the Mirror of Karma and burns red.	codex.gd:54
+도르반 궁수와 니오베 방패병이 지키는 지하. 적 체력 ×1.18 · 경험치 ×1.15.	Underground halls held by Dorvan archers and Niobe shieldbearers. Enemy HP ×1.18 · XP ×1.15.	codex.gd:68
+유령 사서의 서고. 적 이동 ×1.16 · 경험치 ×1.25.	A ghost librarian's stacks. Enemy speed ×1.16 · XP ×1.25.	codex.gd:69
+빠른 무리가 몰려든다. 적 이동 ×1.12 · 경험치 ×1.3.	Swift swarms pour in. Enemy speed ×1.12 · XP ×1.3.	codex.gd:72
+염라가 다스리는 길. 망혼 떼와 옥졸이 막아서고, 판관이 길목을 지킨다. 적 체력 ×1.12 · 이동 ×1.08 · 경험치 ×1.3.	The road Yeomra rules. Swarms of Lost Souls and hell guards bar the way, and the Judge holds the pass. Enemy HP ×1.12 · speed ×1.08 · XP ×1.3.	codex.gd:73
+정복  %d / %d      별  %d / %d	Conquest  %d / %d      Stars  %d / %d	codex_screen.gd:219
+이번 레벨: %s	This level: %s	main_cards.gd:1059,main_game.gd:5078
+부채꼴 %d도	Fan %d°	main_cards.gd:1116
+탄환이 커져 판정 범위가 넓어진다	Bigger bullets with a bigger hitbox	main_cards.gd:1190
+경험치 획득 +12% (레벨이 빨리 오른다)	XP gain +12% (level up faster)	main_cards.gd:660
+맞은 적이 느려짐 (레벨이 오르면 더 오래)	Enemies hit are slowed (longer at higher levels)	main_cards.gd:662
+번개가 주변 적으로 튐 (레벨이 오르면 더 많이)	Lightning leaps to nearby enemies (more at higher levels)	main_cards.gd:664
+체력 적은 잡몹 즉시 처치 (레벨이 오르면 기준도 오른다)	Instantly kill low-HP small fry (higher threshold at higher levels)	main_cards.gd:666
+적을 맞히면 체력 회복 (레벨이 오르면 더 많이)	Heal when you hit enemies (more at higher levels)	main_cards.gd:666
+앞을 넓게 후려치는 근접 (레벨이 오르면 빠르고 넓게)	Wide sweeping melee ahead (faster and wider at higher levels)	main_cards.gd:668
+던지면 되돌아오며 관통 (레벨이 오르면 멀리 · 많이)	Thrown, returns and pierces (farther and more at higher levels)	main_cards.gd:668
+주위를 도는 구슬로 타격 (레벨이 오르면 수 · 위력 증가)	Orbs circle and strike (more and stronger at higher levels)	main_cards.gd:669
+가까운 적에 번개 연쇄 (레벨이 오르면 위력 증가)	Chain lightning to nearby enemies (stronger at higher levels)	main_cards.gd:670
+몸 주위 화염 오라로 지속 화상 (레벨이 오르면 넓고 세게)	A fire aura that burns around you (wider and stronger at higher levels)	main_cards.gd:670
+주위를 얼려 피해+둔화 (레벨이 오르면 넓게)	Freezes the area around you for damage and slow (wider at higher levels)	main_cards.gd:671
+발밑 독장판 (레벨이 오르면 넓고 세게)	Poison pool at your feet (wider and stronger at higher levels)	main_cards.gd:671
+적을 쫓는 아군 소환 (레벨이 오르면 수 증가)	Summon allies that chase enemies (more at higher levels)	main_cards.gd:672
+이동 +6% · 검무 지속 +1.5초 · 상승률 증가	Move +6% · Sword Dance duration +1.5s · Faster build-up	main_cards.gd:684
+완  주	COMPLETE	main_game.gd:1649
+던전 · 적 체력 ×1.18 · 경험치 ×1.15	Dungeon · Enemy HP ×1.18 · XP ×1.15	main_game.gd:2196
+도서관 · 적 이동 ×1.16 · 경험치 ×1.25	Library · Enemy speed ×1.16 · XP ×1.25	main_game.gd:2201
+천상계 · 적 이동 ×1.12 · 경험치 ×1.3	Celestial Realm · Enemy speed ×1.12 · XP ×1.3	main_game.gd:2216
+저승길 · 적 체력 ×1.12 · 이동 ×1.08 · 경험치 ×1.3	Underworld Road · Enemy HP ×1.12 · speed ×1.08 · XP ×1.3	main_game.gd:2221
+도박: 소폭 상승	Gamble: small gain	main_game.gd:5736
+도박: 소폭 하락	Gamble: small loss	main_game.gd:5746
+진화: %s	Evolution: %s	main_game.gd:5771
+보물: 능력치 강화	Treasure: stats up	main_game.gd:5777
+융합 	Fused 	pause_menu.gd:329,pause_menu.gd:356
+뒤로	Back	ui_kit.gd:355
+정보	Info	settings.gd:559
+이면: 요괴 서바이버	IMYEON: Yokai Survivor	settings.gd:501
+만든 사람	Credits	settings.gd:579
+개발 · 배급  AN TAEUK	Developer · Publisher  AN TAEUK	settings.gd:580
+글꼴	Fonts	settings.gd:581
+갈무리(Galmuri) · Lee Minseo · SIL Open Font License 1.1 · 게임 안 모든 글자	Galmuri · Lee Minseo · SIL Open Font License 1.1 · all in-game text	settings.gd:582
+Black Han Sans · Zess Type · SIL Open Font License 1.1 · 로고 글자 모양	Black Han Sans · Zess Type · SIL Open Font License 1.1 · logo lettering	settings.gd:583
+엔진	Engine	settings.gd:584
+효과음은 게임 코드로 직접 만든 소리입니다. 음악은 쓰지 않았습니다.	Sound effects are generated by the game's own code. No music is used.	settings.gd:587
+라이선스 전문	License texts	settings.gd:588
+기기가 뜨거워지면 절전으로 · 절전은 탄환 잔상과 파티클도 함께 줄입니다	If your device gets hot, use Power Save · It also trims bullet trails and particles	settings.gd:346
+최종 보스가 하나 더 나타났다	Another final boss appears	main_game.gd:1308
+빙결 파동을 들고 시작 · 특수무기 위력 ×1.15	Starts with Frost Pulse · Special weapon power ×1.15	characters.gd:137
+빙결 파동이 겹겹이 깔려 얼려 세운다	Frost Pulses pile up in layers and freeze enemies in place	main_cards.gd:58
+레벨업 강화를 4개 중 선택 · 10레벨마다 도박 (대개 조금, 드물게 크게 오르거나 내린다)	Choose from 4 upgrades on level-up · Gamble every 10 levels (usually small, rarely a big rise or fall)	characters.gd:68
+매의 눈으로 노린다 · 탄이 적 쪽으로 살짝 휜다	Hawk-eyed aim · Shots curve slightly toward enemies	characters.gd:123
+공격속도	Attack Speed	pause_menu.gd:283
+대기 · 지금 %d	Standby · now %d	pause_menu.gd:546
+획득 골드 %s  (%s별 보너스 +%s 포함)  ·  총 %s	Gold %s  (%sstar bonus +%s included)  ·  Total %s	main_game.gd:1761
+첫 클리어 +%s · 	first clear +%s · 	main_game.gd:1762
+획득 골드 %s G  (완주 보너스 +%s 포함)  ·  총 %s G	Gold earned %s G  (completion bonus +%s included)  ·  Total %s G	main_game.gd:1639
+전부	All	settings.gd:369
+큰 것만	Big only	settings.gd:369
+끄기	Off	settings.gd:369
+내 효과 흐리게	Dim my effects	settings.gd:375
+%s 융합	Fused from %s	main_cards.gd:378
+정식판에서 만날 수 있어요	Available in the full game	character_select.gd:338,character_select.gd:530
+정식판 영웅	Full-game hero	character_select.gd:587
+정식판에서 열려요	Unlocks in the full game	character_select.gd:823
+획득 골드 %s G  ·  총 %s G	Gold earned %s G  ·  Total %s G	main_game.gd:1681
+체험판 끝	Demo Over	main_game.gd:1685
+정식판 찜하기	Wishlist	main_game.gd:3401,main_menu.gd:84
+체험판에서는 첫 스테이지와 영웅 둘, 무한 모드 15분까지	The demo has the first stage, two heroes and 15 minutes of Endless	main_menu.gd:69
+체험판은 여기까지예요.\n정식판 무한 모드는 30분, 최종 보스까지 이어져요.	That's the end of the demo.\nIn the full game, Endless runs 30 minutes up to the final boss.	main_game.gd:1677
+새 버전이 나왔어요	A new version is out	play_update.gd:132
+받기	Get it	play_update.gd:132
+새 버전을 다 받았어요	The new version is ready	play_update.gd:136
+다시 시작하면 새 버전으로 켜져요.	Restart to open the new version.	play_update.gd:136
+다시 시작	Restart	play_update.gd:136
+나중에	Later	play_update.gd:175
+받는 동안에도 계속 플레이할 수 있어요.	You can keep playing while it downloads.	play_update.gd:132
+%s 난이도는 이 스테이지의 앞 난이도를 깨면 열려요	%s unlocks after you clear the lower difficulty on this stage	character_select.gd:845
+A 버튼으로 계속	Press A to continue	main_game.gd:4413
+클릭하거나 Enter 를 눌러 계속	Click or press Enter to continue	main_game.gd:4414
+작게	Small	settings.gd:198
+창 크기	Window Size	settings.gd:300
+자동 맞춤	Fit to Screen	settings.gd:309
+지금 %d×%d 전체 화면 (모니터 해상도)	Now %d×%d fullscreen (monitor resolution)	settings.gd:548
+지금 %d×%d 창	Now %d×%d window	settings.gd:548
+지금 판은 %s 그대로, 다음 판부터 바뀌어요	This run stays on %s. The change applies from your next run	settings.gd:763
+업보	Karma	character_select.gd:142
+업보 최고 %d단계	Best Karma %d	character_select.gd:534
+업보 %d단계 · 골드 +%d%%	Karma %d · Gold +%d%%	character_select.gd:853
+다음은 %s	Next: %s	character_select.gd:857
+업보 %d단계 · 골드 +%d%% · %s	Karma %d · Gold +%d%% · %s	character_select.gd:862
+ 외 %d개	 +%d more	character_select.gd:864
+보호막	Shield	enemy.gd:142
+분열	Split	enemy.gd:142
+저주	Curse	enemy.gd:142
+질주	Swift	enemy.gd:142
+지옥	Hell	game.gd:2337
+적 HP 1.7배 · 잦은 스폰 · 탄막 빠름 · 정예 특성 하나 · 회복 -15% · 골드 +70%	Enemy HP ×1.7 · Frequent spawns · Earlier bullet hell · 1 elite trait · Healing -15% · Gold +70%	game.gd:2342
+HP 2.6배·공격 2.3배 · 24초부터 탄막 · 정예 특성 둘 · 회복 -30% · 골드 +160%	HP ×2.6 · Attack ×2.3 · Bullet hell from 24s · 2 elite traits · Healing -30% · Gold +160%	game.gd:2343
+HP 3.6배 · 공격 3배 · 정예 특성 둘에 더 자주 · 회복 -45% · 골드 +260%	HP ×3.6 · Attack ×3 · 2 elite traits, more elites · Healing -45% · Gold +260%	game.gd:2344
+IMYEON : Yokai Survivor 튕김 기록	IMYEON : Yokai Survivor crash report	game.gd:236
+버전 %s · 켠 시각 %s · 마지막 기록 %s	Version %s · Started %s · Last record %s	game.gd:236
+몹 체력 +20%	Enemy HP +20%	game.gd:2495
+몹 공격력 +20%	Enemy attack +20%	game.gd:2496
+정예가 1.5배 자주 나온다	Elites appear 1.5× as often	game.gd:2497
+회복 -25%	Healing -25%	game.gd:2498
+몹 이동 속도 +10%	Enemy move speed +10%	game.gd:2499
+자석 · 회복 · 시간 멈춤이 1.5배 드물게	Magnet, heal and time stop drop 1.5× less often	game.gd:2500
+보스 체력 +40%	Boss HP +40%	game.gd:2501
+정예 특성 하나 더	One more elite trait	game.gd:2502
+몹 체력 +30% 더	Enemy HP +30% more	game.gd:2503
+몹 공격력 +30% 더	Enemy attack +30% more	game.gd:2504
+── %s 끝 120줄 ──	── last 120 lines of %s ──	game.gd:253
+치명타 상한 %d%% (필중의 눈 재료)	Crit capped at %d%% (Deadeye material)	main_cards.gd:835
+포위진	Encircled	main_game.gd:1000
+요괴 행렬	Yokai Stampede	main_game.gd:1008
+정예 무리	Elite Pack	main_game.gd:1017
+사방탄	Barrage	enemy.gd:142
+%s · 업보 %d	%s · Karma %d	game.gd:2573

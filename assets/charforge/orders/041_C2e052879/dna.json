@@ -1,0 +1,97 @@
+{
+ "id": "C2e052879",
+ "name": "우두",
+ "quote": "저승의 문을 여는 묵직한 발소리.",
+ "race": "저승 요괴 (Underworld Yokai)",
+ "subrace": "축생형 옥졸 (Beast-type Jailer)",
+ "body_structure": "단단하고 육중한 체구",
+ "head_ratio": "2등신",
+ "job": "소머리 옥졸",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "무겁고 둔중함",
+  "거침없는 돌진"
+ ],
+ "face": "넓은 소의 주둥이와 붉은 눈",
+ "eyes": "형광빛을 띠는 밝은 붉은색",
+ "hair": "없음",
+ "ears": "작고 둥근 소의 귀",
+ "horns": "앞으로 굽은 두꺼운 뿔",
+ "tail": "짧고 굵은 소의 꼬리",
+ "wings": "없음",
+ "skin": "채도가 있는 중간 밝기의 회갈색",
+ "outfit": "짙은 황토색의 옥졸 갑주",
+ "gloves": "없음",
+ "shoes": "두꺼운 가죽 장화",
+ "accessories": [
+  "금색 테두리가 둘러진 붉은 천 장식"
+ ],
+ "bag": "없음",
+ "weapon": "끝이 날카로운 쇠스랑",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#8B4513",
+  "#D2B48C",
+  "#FF4500",
+  "#FFD700",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "가죽",
+  "금속",
+  "뼈"
+ ],
+ "silhouette": "앞으로 굽은 거대한 뿔, 넓은 주둥이, 길게 뻗은 쇠스랑의 실루엣",
+ "signature_motion": "무거운 무게감을 실어 앞발을 내딛으며 돌진함",
+ "signature_vfx": "발바닥이 땅에 닿을 때 퍼지는 밝은 황금색 먼지 효과",
+ "unique_features": [
+  "소머리 형태의 얼굴",
+  "끝이 밝게 빛나는 쇠스랑",
+  "금색 테두리 장식"
+ ],
+ "micro_features": [
+  "뿔 끝의 작은 금색 반지",
+  "코 부분의 붉은 문양",
+  "가슴의 작은 금색 방울"
+ ],
+ "visual_en": "A heavy-set bovine head with a wide snout and glowing red eyes sits atop a sturdy, medium-brown body. Large, forward-curving horns are adorned with a small gold ring at the tips. The creature wears thick, ochre-colored leather armor featuring bright gold decorative trim. A long, sharp pitchfork with a glowing white tip is held firmly. A small golden bell hangs from the chest, and a red pattern is visible on the snout. The overall silhouette is dominated by the thick horns and the long, imposing weapon.",
+ "features_en": [
+  "Bovine-shaped head",
+  "Pitchfork with a glowing tip",
+  "Gold-trimmed decorative trim"
+ ],
+ "pose_en": "Stomping forward with heavy, intimidating momentum.",
+ "vfx_en": "Bright golden dust clouds erupting from the ground upon impact.",
+ "weapon_en": "Glowing tipped pitchfork",
+ "item_en": "None",
+ "motion_en": "Heavy rhythmic charging",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "40-0",
+ "lore": "멀리서 달려올수록 크고 무겁게 부딪친다(하글처럼 크기가 바뀐다 — px28 · px56 크기 단계 판).",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "charge"
+ ],
+ "extra_px": [
+  28,
+  56
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "우두",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A bipedal anthropomorphic bull character wearing golden armor.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "99a66772e82e289f33e09dea9344dd1f"
+ }
+}

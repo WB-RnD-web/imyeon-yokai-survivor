@@ -1,0 +1,1 @@
+{"frame_w": 20, "frame_h": 4, "frames": 1, "ms": [100], "scale": "UI x2", "margin": 0, "slice": [1, 1, 1, 1], "stretch": "x", "note": "U4 발밑 체력 막대 20×4 — 채움은 fill_hp 를 1px 안쪽에"}

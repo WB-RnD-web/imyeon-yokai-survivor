@@ -1,0 +1,83 @@
+{
+ "id": "C13ddca16",
+ "name": "할덴",
+ "quote": "무너지는 찰나, 사방으로 흩어지는 파편들.",
+ "race": "지각 요괴",
+ "subrace": "암석 거신",
+ "body_structure": "거구의 바위 덩어리",
+ "head_ratio": "2등신",
+ "job": "폭발하는 파수꾼",
+ "culture": "지하 동굴의 수호자",
+ "personality": [
+  "둔중함",
+  "폭발적인 파괴력",
+  "정적인 압박감"
+ ],
+ "face": "눈 대신 균열 사이로 빛나는 빛",
+ "eyes": "없음",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "머리 위에 솟은 거대한 암석 돌기",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "짙은 청록색의 단단한 암석",
+ "outfit": "금이 간 바위 틈새로 흐르는 마력",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "몸을 감싸는 빛나는 황금색 균열"
+ ],
+ "bag": "없음",
+ "weapon": "몸 자체가 거대한 폭발체",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#2D3E40",
+  "#1A2627",
+  "#E6B422",
+  "#78A083",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "거친 암석",
+  "흐르는 황금빛 마력",
+  "반짝이는 광물"
+ ],
+ "silhouette": "거대한 사각형 형태의 둔중한 몸체, 머리 위의 불규칙한 암석 돌기, 폭발 직전의 균열된 형태",
+ "signature_motion": "천천히 움직이다가 죽는 순간 사방으로 튕겨 나가는 폭발적인 움직임",
+ "signature_vfx": "사방 8방향으로 뻗어 나가는 황금색 빛의 파편과 충격파",
+ "unique_features": [
+  "거대한 바위 몸체",
+  "황금색 마력 균열",
+  "폭발하는 파편 효과"
+ ],
+ "micro_features": [
+  "암석 사이의 작은 빛 알갱이",
+  "바닥에 남는 작은 돌가루",
+  "균열 끝의 밝은 광원"
+ ],
+ "visual_en": "A massive, 2-head tall rock golem facing right. The body is composed of heavy, dark teal stone fragments. Deep, glowing golden cracks run through the entire torso, acting as a bright light source. On top of its head, large, jagged rock protrusions create an uneven silhouette. Small, bright white particles of magical dust drift from the golden cracks. When the character reaches its death state, brilliant golden shards burst outward in eight directions, contrasting sharply against the dark stone body.",
+ "features_en": [
+  "Massive rock body",
+  "Golden magical cracks",
+  "Exploding fragment effect"
+ ],
+ "pose_en": "Standing heavy and immovable, slowly lumbering forward.",
+ "vfx_en": "A sudden burst of bright golden shards and shockwaves expanding in all directions.",
+ "weapon_en": "Self-detonating rocky mass",
+ "item_en": "None",
+ "motion_en": "Slow-paced heavy stomping followed by a sudden explosive burst.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "15-0",
+ "lore": "아주 느린 거구. 쓰러질 때 사방 8방향으로 탄을 터뜨린다.",
+ "px": 52,
+ "colors": 16,
+ "anim_notes": {
+  "death": "bursting apart with bullets flying out in eight directions"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

@@ -1,0 +1,94 @@
+{
+ "id": "Ce9940ba9",
+ "name": "빈 통의 소류",
+ "quote": "채워지지 않는 허기가 너의 숨을 앗아리리라.",
+ "race": "독충 요괴 (Venom Insectoid)",
+ "subrace": "거대 유충 (Giant Larva)",
+ "body_structure": "항아리처럼 팽창된 비대칭형 몸체",
+ "head_ratio": "2등신",
+ "job": "정원 침입자 (Garden Invader)",
+ "culture": "부패의 숲 (Decay Forest)",
+ "personality": [
+  "탐욕스러운",
+  "느긋한",
+  "압도적인"
+ ],
+ "face": "눈이 없는 매끄러운 앞부분과 입에서 새어 나오는 독기",
+ "eyes": "없음",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "끝이 갈라진 징그러운 촉수 꼬리",
+ "wings": "없음",
+ "skin": "번들거리는 보라색과 황금빛 점박이 피부",
+ "outfit": "황금색 화려한 장식구가 박힌 비단 천 띠",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "몸을 감싸는 황금 사슬",
+  "빛나는 독성 보석"
+ ],
+ "bag": "없음",
+ "weapon": "독성 가스 방출 (Poisonous Gas Emission)",
+ "sub_gear": "없음",
+ "special_item": "분열되는 알 (Splitting Eggs)",
+ "palette": [
+  "#4B0082",
+  "#8A2BE2",
+  "#FFD700",
+  "#ADFF2F",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "점액질",
+  "황금",
+  "에메랄드빛 독기"
+ ],
+ "silhouette": "항아리처럼 불룩하고 거대한 몸체, 하단으로 갈수록 좁아지는 형태, 뒤로 길게 뻗은 갈라진 촉수 꼬리, 몸 주변을 떠다니는 황금 장식 입자",
+ "signature_motion": "느릿하게 몸을 흔들며 독 안개를 뿜어내는 움직임",
+ "signature_vfx": "두 겹으로 퍼져나가는 연두색 독성 탄막과 바닥을 덮는 보라색 독 장판",
+ "unique_features": [
+  "항아리처럼 부풀어 오른 거대한 몸집",
+  "황금색 화려한 보석 장식",
+  "갈라진 끝부분을 가진 촉수 꼬리",
+  "사망 시 4마리의 작은 창랑으로 분열"
+ ],
+ "micro_features": [
+  "몸 표면의 빛나는 황금색 점박이",
+  "금색 사슬로 묶인 몸통",
+  "입가에서 흘러내리는 형광 연두색 점액"
+ ],
+ "visual_en": "A massive, pot-shaped larva-like body with a bloated, bloated purple and deep violet skin, featuring bright golden spots and lavish golden ornaments wrapped around its midsection. The creature has a thick, segmented tail ending in a split, fleshy tentacle. A bright neon lime-green fluid drips from its mouth area, contrasting with the dark purple body. Golden chains and large, glowing emerald gemstones are embedded in its skin. Around its heavy body, a radiant golden aura and floating golden particles drift slowly. The creature faces right, presenting a heavy, imposing silhouette with a thick, segmented tail.",
+ "features_en": [
+  "Pot-shaped bloated massive body",
+  "Lavish golden gemstone ornaments",
+  "Split-ended tentacle tail",
+  "Splits into 4 small Changrang upon death"
+ ],
+ "pose_en": "Slowly undulating forward with a heavy, menacing presence.",
+ "vfx_en": "Two layers of expanding lime-green toxic projectiles and a spreading violet poisonous ground puddle.",
+ "weapon_en": "Dual-layered toxic gas bursts",
+ "item_en": "Splitting larvae eggs",
+ "motion_en": "Heavy, rhythmic pulsating movement",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "25-0",
+ "lore": "정원 보스. 돌진하지 않고 느리게 밀고 온다. 독 탄막을 두 겹으로 쏘고 독 장판을 자주 넓게 깐다. 쓰러지면 작은 창랑 4마리로 갈라진다.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance"
+ ],
+ "anim_notes": {
+  "skill": "firing two layers of poison bullets",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground",
+  "death": "splitting apart into four small creatures"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "death_1": "the moment the body explodes into four separate round purple blobs flying apart in four directions with clear gaps between them; the body is no longer one piece and nothing lies on the ground"
+ }
+}

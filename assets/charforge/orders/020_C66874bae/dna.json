@@ -1,0 +1,80 @@
+{
+ "id": "C66874bae",
+ "name": "데벤",
+ "quote": "그 어떤 일격도 나의 껍질을 뚫을 수 없다.",
+ "race": "바위 거북 요괴",
+ "subrace": "지각형(Earth-type)",
+ "body_structure": "단단한 등껍질을 가진 소형 거북",
+ "head_ratio": "2등신",
+ "job": "가디언",
+ "culture": "산맥의 수호자",
+ "personality": [
+  "둔중함",
+  "침착함",
+  "고집스러움"
+ ],
+ "face": "뭉툭하고 단단한 코와 굳게 다문 입",
+ "eyes": "빛나는 에메릿 그린색 눈",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "짧고 뭉툭한 꼬리",
+ "wings": "없음",
+ "skin": "거친 질감의 청록색 피부",
+ "outfit": "황금빛 무늬가 새겨진 짙은 청록색 등껍질",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "등껍질 위를 덮는 빛나는 마법 문양"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#2D5A27",
+  "#4E9F3D",
+  "#A7D08C",
+  "#FFD700",
+  "#F0FFFF"
+ ],
+ "materials": [
+  "단단한 암석",
+  "빛나는 에메랄드",
+  "금속 장식"
+ ],
+ "silhouette": "둥글고 거대한 등껍질, 짧은 다리, 뭉툭한 꼬리, 머리 위의 작은 돌 결정",
+ "signature_motion": "등껍질 속으로 머리를 집어넣으며 몸을 웅크림",
+ "signature_vfx": "충돌 시 등껍질의 황금 문양에서 퍼져나가는 에메랄드빛 충격파",
+ "unique_features": [
+  "거대한 황금색 무늬 등껍질",
+  "머리 위의 빛나는 결정",
+  "에메랄드빛 마법 광채"
+ ],
+ "micro_features": [
+  "등껍질 끝의 작은 돌기",
+  "눈 밑의 작은 흉터",
+  "발톱 끝의 하얀 광택"
+ ],
+ "visual_en": "A small 2-head tall turtle creature facing right. The head features a bright emerald glowing eye and a small floating crystal above it. The body is covered by a massive, thick shell colored in deep forest green with ornate, glowing golden patterns. The skin is a sturdy teal. A short, heavy tail and thick, stump-like legs provide a solid base. The shell's edges are decorated with sharp, rocky protrusions. The entire creature emits a subtle, magical emerald glow from its cracks.",
+ "features_en": [
+  "Massive golden-patterned shell",
+  "Glowing crystal on head",
+  "Emerald magical glow"
+ ],
+ "pose_en": "Standing firmly with a heavy, unmovable stance.",
+ "vfx_en": "A circular emerald shockwave expanding from the shell's golden runes.",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Retracting into the shell to reduce incoming damage.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "19-0",
+ "lore": "아주 단단하다. 한 방 피해를 크게 깎아낸다.",
+ "px": 52,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true
+}

@@ -1,0 +1,92 @@
+{
+ "id": "C15a173bd",
+ "name": "빈 낯의 시울",
+ "quote": "읽히지 않는 문장만이 영원히 남으리라.",
+ "race": "도서관의 수호령",
+ "subrace": "서적 요괴",
+ "body_structure": "반투명한 영체",
+ "head_ratio": "2등신",
+ "job": "지식의 감시자",
+ "culture": "고대 도서관",
+ "personality": [
+  "냉혹한",
+  "신비로운",
+  "지적인"
+ ],
+ "face": "감정이 읽히지 않는 무표정",
+ "eyes": "공허하게 빛나는 눈동자",
+ "hair": "흐르는 듯한 잉크색 머리카락",
+ "ears": "없음",
+ "horns": "종이 조각처럼 날카로운 뿔",
+ "tail": "책장이 펄럭이는 형태의 꼬리",
+ "wings": "펼쳐진 고서 형태의 날개",
+ "skin": "창백한 에메랄드빛 피부",
+ "outfit": "금색 자수가 놓인 남색 도포",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "공중에 떠 있는 황금 펜촉"
+ ],
+ "bag": "없음",
+ "weapon": "시나위를 형상화한 마법 붓",
+ "sub_gear": "주변을 부유하는 고서들",
+ "special_item": "원혼의 문장",
+ "palette": [
+  "Deep Navy",
+  "Pale Emerald",
+  "Rich Gold",
+  "Ink Black",
+  "Luminous White"
+ ],
+ "materials": [
+  "반투명한 영체",
+  "황금 장식",
+  "종이 질감"
+ ],
+ "silhouette": "공중에 떠 있는 거대한 책 날개, 머리 위의 날카로운 종이 뿔, 길게 뻗은 붓 형태의 무기, 펄럭이는 황금빛 망토",
+ "signature_motion": "Teleporting flicker",
+ "signature_vfx": "Three swirling spectral orbs of white light",
+ "unique_features": [
+  "반투명한 영체",
+  "종이 조각 뿔",
+  "책 모양의 날개",
+  "부유하는 고서들",
+  "황금 펜촉 장식"
+ ],
+ "micro_features": [
+  "잉크가 뚝뚝 떨어지는 붓 끝",
+  "책장 사이의 금박 문양",
+  "떠다니는 작은 글자 파편"
+ ],
+ "visual_en": "A translucent, pale emerald-skinned entity with a 2-unit scale body, facing right. On top of the head, sharp paper-like horns made of ink-stained parchment protrude. Large, flowing wings shaped like open ancient books float behind the back, decorated with rich gold ornaments. The character wears a deep navy robe adorned with lavish golden embroidery and a flowing cape that leaves a trail of luminous white particles. Floating around the character are several ancient books and a large, golden quill-like weapon resembling a sinawi brush. Three bright, white spectral orbs orbit the character's back. The overall silhouette is defined by the sharp edges of the paper wings and the bright, glowing golden accents that pierce through the darkness.",
+ "features_en": [
+  "Translucent spectral body",
+  "Paper-shard horns",
+  "Book-shaped wings",
+  "Floating ancient books",
+  "Golden quill ornament"
+ ],
+ "pose_en": "Floating eerily with a calm, detached posture.",
+ "vfx_en": "Three bright white glowing orbs swirling in a circular pattern.",
+ "weapon_en": "Sinawi-style magical calligraphy brush",
+ "item_en": "Floating ancient grimoires",
+ "motion_en": "Instantaneous disappearance and reappearance effect",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "23-0",
+ "lore": "도서관 보스. 반투명하게 어른거린다(투명 처리는 게임이). 돌진 대신 사라졌다가 플레이어 옆에 나타난다. 따라오는 원혼탄 3발을 쏘고 시나위를 불러낸다.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "vanish"
+ ],
+ "anim_notes": {
+  "skill": "firing three homing ghost orbs",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground"
+ },
+ "indexed": true
+}

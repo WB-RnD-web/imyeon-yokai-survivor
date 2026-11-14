@@ -1,0 +1,94 @@
+{
+ "id": "C62e0ff5f",
+ "name": "명부 두루마리",
+ "quote": "지워지지 않는 업보의 문장이 몸을 감싸고 있으니, 죽음조차 나를 다 읽지 못하리라.",
+ "race": "문서 요괴 (Scripture Yokai)",
+ "subrace": "저승 기록물 (Underworld Record)",
+ "body_structure": "길게 말린 종이 뭉치와 부유하는 두루마리 파편들",
+ "head_ratio": "SD",
+ "job": "기록의 수호자",
+ "culture": "한국 저승 설화 (Korean Underworld Folklore)",
+ "personality": [
+  "끈질긴",
+  "기괴한",
+  "단단한"
+ ],
+ "face": "글자가 적힌 거친 종이 질감의 중심부",
+ "eyes": "먹물로 찍어 누른 듯한 붉은 점 하나",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "두루마리 끝자락의 찢어진 꼬리",
+ "wings": "펼쳐진 두루마리 날개",
+ "skin": "짙은 황토색의 오래된 종이 질감",
+ "outfit": "먹물 무늬가 새겨진 두루마리 몸체",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "붉은 인장 낙관",
+  "금색 실로 엮은 매듭"
+ ],
+ "bag": "없음",
+ "weapon": "자체적인 몸체 (두루마리 타격)",
+ "sub_gear": "없음",
+ "special_item": "끊임없이 재생되는 먹물 문양",
+ "palette": [
+  "#4A2C2A (짙은 갈색)",
+  "#D97706 (황토색)",
+  "#EF4444 (붉은 인장색)",
+  "#FDE68A (밝은 금색)",
+  "#2D3748 (먹색)"
+ ],
+ "materials": [
+  "오래된 한지",
+  "말라붙은 먹물",
+  "금박"
+ ],
+ "silhouette": "길게 말린 두루마리가 공중에 떠 있으며, 양옆으로 펼쳐진 종이 날개와 끝이 뾰족한 꼬리, 중앙의 둥근 핵심부",
+ "signature_motion": "몸을 빠르게 회전시키며 주변에 먹물 궤적을 남김",
+ "signature_vfx": "공중에 흩날리는 붉은색 인장 파편과 검은 먹물 불꽃",
+ "unique_features": [
+  "살아 움직이는 두루마리 형태",
+  "몸 전체를 휘감은 구불구불한 먹물 무늬",
+  "반복적으로 재생되는 종이 상처",
+  "중심부의 붉은 낙관 인장"
+ ],
+ "micro_features": [
+  "종이 끝의 미세한 찢어짐",
+  "금색 실 매듭 장식",
+  "공중에 떠다니는 작은 종이 조각"
+ ],
+ "visual_en": "A floating, thick scroll-shaped entity made of deep ochre-colored ancient paper. The body is covered in wavy, dark ink patterns that lack legible text. A prominent, bright red wax seal (stamp) sits at the center of its core, acting as a focal point. The edges of the scroll are frayed with small, golden thread decorations. Two large, wing-like sections of the scroll flare out from the sides, and a long, pointed paper tail follows behind. The entire structure emits a faint, golden glow from the ornate gold trim along the edges.",
+ "features_en": [
+  "Living scroll-shaped body",
+  "Wavy ink patterns covering the body",
+  "Self-regenerating paper tears",
+  "Bright red seal stamp at the center"
+ ],
+ "pose_en": "Floating erratically with the scroll edges fluttering like wings.",
+ "vfx_en": "Splattering dark ink droplets and glowing red seal particles.",
+ "weapon_en": "Spiraling paper mass",
+ "item_en": "Eternal Inkwell",
+ "motion_en": "Expanding and contracting the scroll width",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "46-0",
+ "lore": "탄에 맞으면 절반만 다치고 그만큼 도로 채운다(케른처럼).",
+ "px": 40,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "명부 두루마리",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A floating, winged scroll with a red wax seal.",
+  "legs": false,
+  "arms": false,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "244ab3a139acd5be35f2c119a43d9a6d"
+ }
+}

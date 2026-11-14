@@ -1,0 +1,121 @@
+{
+ "name": "바스락 · 저승길 차림",
+ "quote": "맛있는 향기가 공간의 틈새를 타고 흐르는군요.",
+ "race": "사이보그",
+ "subrace": "동양 판환식 안드로이드",
+ "body_structure": "초소형",
+ "head_ratio": "초소형",
+ "job": "요리사",
+ "culture": "동양 판타지",
+ "personality": [
+  "완벽주의적인",
+  "여유로운",
+  "미식가적인"
+ ],
+ "face": "정갈하고 차분한 인상의 금속 안면",
+ "eyes": "황금빛 빛을 내뿜는 렌즈형 눈",
+ "hair": "짧게 정돈된 금색 광섬유 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "백색 세라믹 및 황금색 금속 프레임",
+ "outfit": "황금색 자수가 놓인 흰색 동양식 요리사 복장",
+ "gloves": "금색 테두리가 있는 짧은 흰색 장갑",
+ "shoes": "황금색 장식이 달린 흰색 짚신 형태의 부츠",
+ "accessories": [
+  "공중에 떠 있는 황금색 조리 도구들"
+ ],
+ "bag": "음식 재료가 담긴 작은 황금색 궤짝",
+ "weapon": "거대한 황금색 웍(Wok)과 에너지 불꽃",
+ "sub_gear": "공중에 부유하는 자동 조리용 젓가락",
+ "special_item": "차원 왜곡을 일으키는 황금 솥뚜껑",
+ "palette": [
+  "#FFD700",
+  "#FFFFFF",
+  "#F0E68C",
+  "#B8860B",
+  "#4A3708"
+ ],
+ "materials": [
+  "Polished Gold",
+  "White Ceramic",
+  "Golden Fiber",
+  "Energy Plasma"
+ ],
+ "silhouette": "머리 위에 떠 있는 거대한 웍과 뒤로 길게 흐르는 황금빛 입자, 부유하는 조리 도구들의 실루엣",
+ "signature_motion": "웍을 휘둘러 공간을 볶아내는 듯한 회전 동작",
+ "signature_vfx": "황금색 균열이 일어나는 공간 왜곡 효과와 흩날리는 금가루 입자",
+ "unique_features": [
+  "공중에 부유하는 황금색 조리 도구들",
+  "차원 왜곡 솥뚜껑",
+  "황금색 광섬유 머리카락",
+  "에너지 불꽃이 일렁이는 거대 웍"
+ ],
+ "micro_features": [
+  "손목의 작은 한자 각인",
+  "장갑 끝의 정교한 금색 문양",
+  "짚신 형태 부츠의 금속 이음새",
+  "요리사 모자의 작은 금색 띠"
+ ],
+ "visual_en": "A tiny, highly detailed cyborg chef with short golden fiber hair and glowing golden lens eyes. The character wears a pristine white oriental chef's outfit adorned with lavish golden embroidery and a flowing golden particle aura. Floating around the head are golden cooking utensils and a massive, radiant golden wok that emits sparks of energy. On the back, a small golden treasure chest serves as a bag. The feet are clad in white straw-style boots with intricate gold metallic joints. The entire silhouette is defined by the large floating wok and the shimmering golden rift effects emanating from the character's center.",
+ "features_en": [
+  "Floating golden cooking utensils",
+  "Dimensional rift lid",
+  "Golden fiber hair",
+  "Energy flame-infused massive wok",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing confidently while spinning a massive golden wok with a calm, professional stance.",
+ "vfx_en": "Golden spatial fractures and shimmering gold dust particles swirling in a circular motion.",
+ "weapon_en": "Radiant Golden Energy Wok",
+ "item_en": "Dimension-warping Golden Lid",
+ "motion_en": "Dynamic wok-flipping rotation",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "전설",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "바스락 · 저승길 차림",
+ "game_slot": "skin/042_C490f8a1a@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "042_C490f8a1a",
+ "parent_body": null,
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/042_C490f8a1a/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "Cc1030177",
+ "body_plan": {
+  "body": "A small, chibi-style human character wearing a large black hat and white traditional clothing.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "8eb2a820cf0c5966672303fe53a07346"
+ }
+}

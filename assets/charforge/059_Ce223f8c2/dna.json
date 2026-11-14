@@ -1,0 +1,81 @@
+{
+ "id": "Ce223f8c2",
+ "name": "브룬-에그릴 (Brun-Egril)",
+ "quote": "바람이 흩어진 지식의 조각을 데려올 것이다.",
+ "race": "언데드",
+ "subrace": "고대 북유럽 망자",
+ "body_structure": "거대형",
+ "head_ratio": "거대형",
+ "job": "학자",
+ "culture": "북유럽 고대 유적",
+ "personality": [
+  "침착함",
+  "탐구욕이 강함",
+  "압도적인 존재감"
+ ],
+ "face": "창백하고 갈라진 피부에 금색 문양이 새겨진 해골 형상",
+ "eyes": "강렬하게 빛나는 황금빛 안광",
+ "hair": "먼지 낀 듯한 갈색의 낡은 가죽 끈과 깃털 장식",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "균열이 간 흙색의 고대 유골",
+ "outfit": "황금 자수가 놓인 묵직한 갈색 모피 망토와 낡은 가죽 로브",
+ "gloves": "금속 징이 박힌 두꺼운 가죽 장갑",
+ "shoes": "무거운 금속판이 덧대어진 털 부츠",
+ "accessories": [
+  "부유하는 황금색 마법 서적"
+ ],
+ "bag": "유물들이 가득 담긴 커다ks한 낡은 가죽 배낭",
+ "weapon": "바람의 마력이 응축된 거대한 황금 지팡이",
+ "sub_gear": "바람을 가르는 마법 깃털",
+ "special_item": "고대 북유럽 룬 문자가 새겨진 황금 나침반",
+ "palette": [
+  "#4B3621",
+  "#8B5A2B",
+  "#D4AF37",
+  "#F5E6BE",
+  "#2A1B0E"
+ ],
+ "materials": [
+  "낡은 가죽",
+  "황금 장식",
+  "거친 모피",
+  "바람의 에테르"
+ ],
+ "silhouette": "거대한 체구, 머리 위로 높게 솟은 깃털 장식, 등 뒤로 길게 휘날리는 무거운 모피 망토, 거대한 황금 지팡이, 옆으로 튀어나온 커다란 배낭",
+ "signature_motion": "지팡이를 땅에 찍으며 주변으로 강력한 회오리를 일으킴",
+ "signature_vfx": "황금빛 가루가 섞인 갈색의 강력한 돌풍",
+ "unique_features": [
+  "부유하는 황금 마법 서적",
+  "거대한 깃털 머리 장식",
+  "금색 균열이 있는 흙색 피부",
+  "뒤로 길게 늘어진 황금색 모피 망토"
+ ],
+ "micro_features": [
+  "가방에 매달린 작은 룬 스톤",
+  "지팡이 끝의 작은 황금 종",
+  "망토 끝의 해진 가죽 조각"
+ ],
+ "visual_en": "A massive undead scholar stands with a heavy presence. The head features large, dusty brown feather ornaments and glowing golden eyes. The skin is a cracked, earthy brown with shimmering gold fissures. Wearing a thick, layered brown fur cape decorated with lavish golden embroidery, the character carries a giant leather backpack overflowing with artifacts. A large, floating golden magic book orbits the upper body. The character holds a massive golden staff topped with swirling wind particles. The feet are encased in heavy, metal-plated fur boots, and the overall silhouette is dominated by the heavy, flowing golden-trimmed cape and the massive, heavy-set frame.",
+ "features_en": [
+  "Floating golden magic book",
+  "Large feather head ornament",
+  "Earthy skin with gold cracks",
+  "Long trailing golden fur cape"
+ ],
+ "pose_en": "Standing tall and immovable, exerting an aura of ancient wisdom.",
+ "vfx_en": "A powerful whirlwind of earthy brown dust and sparkling golden particles.",
+ "weapon_en": "Great Golden Staff of Aeolus",
+ "item_en": "Ancient Runic Compass",
+ "motion_en": "Ground slam creating a localized dust tornado",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "전설",
+ "add_anims": [
+  "idle"
+ ],
+ "colors": 16,
+ "indexed": true
+}

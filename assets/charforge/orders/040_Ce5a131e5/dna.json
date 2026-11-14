@@ -1,0 +1,101 @@
+{
+ "id": "Ce5a131e5",
+ "name": "귀졸 궁수",
+ "quote": "명부에 적힌 이름대로 길을 떠나거라.",
+ "race": "저승 귀물 (Underworld Apparition)",
+ "subrace": "귀졸 (Ghostly Jailer)",
+ "body_structure": "작고 단단한 2등신 체형",
+ "head_ratio": "2등신",
+ "job": "궁수",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "냉혹한",
+  "기계적인",
+  "무표정한"
+ ],
+ "face": "해골 탈을 쓴 얼굴",
+ "eyes": "눈구멍 사이로 빛나는 연두색 안광",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 회색",
+ "outfit": "채도 높은 청록색 저승 관복",
+ "gloves": "짙은 갈색 가죽 장갑",
+ "shoes": "흰색 버선 형태의 신발",
+ "accessories": [
+  "해골 탈",
+  "붉은색 허리띠"
+ ],
+ "bag": "화살이 가득 담긴 등 뒤의 화살통",
+ "weapon": "나무 재질의 전통 활",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#E0F7FA (밝은 연두빛 안광)",
+  "#26A69A (청록색 관복)",
+  "#F5F5F5 (해골 탈)",
+  "#5D4037 (화살통/장갑)",
+  "#FFFFFF (버선/띠)"
+ ],
+ "materials": [
+  "뼈",
+  "나무",
+  "천"
+ ],
+ "silhouette": "해골 탈의 둥근 머리, 등 뒤로 튀어나온 뾰족한 화살통, 활을 든 팔의 각진 형태",
+ "signature_motion": "좌우로 짧게 게처럼 옆으로 이동하며 화살을 발사함",
+ "signature_vfx": "화살이 지나간 자리에 남는 연두색 잔상과 빛무리",
+ "unique_features": [
+  "해골 탈",
+  "등 뒤의 화살통",
+  "연두색 안광"
+ ],
+ "micro_features": [
+  "해골 눈구멍의 빛",
+  "화살통에 꽂힌 깃털",
+  "관복의 붉은색 허리띠"
+ ],
+ "visual_en": "A small 2-stage pixel character wearing a bright white skull mask with glowing light green eyes. The body is dressed in a highly saturated teal Korean traditional official robe, cinched with a thin red belt. On its back, a dark brown quiver filled with white-feathered arrows is visible. The character holds a simple wooden bow. The feet are clad in bright white traditional socks. The overall silhouette is compact, with the white skull and teal robe providing high contrast against dark backgrounds.",
+ "features_en": [
+  "Skull mask",
+  "Quiver on back",
+  "Light green eye glow",
+  "White-feathered arrows",
+  "Red waist belt"
+ ],
+ "pose_en": "Sidestepping laterally while drawing a bow",
+ "vfx_en": "A streak of bright light green light following the arrow's path",
+ "weapon_en": "Wooden traditional bow",
+ "item_en": "Arrow quiver",
+ "motion_en": "Lateral crab-like movement",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "39-0",
+ "lore": "거리를 두고 옆으로 돌며 한 발 · 부채꼴 세 발 · 느린 유도 화살 중 하나를 쏜다(도르반처럼).",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "attack"
+ ],
+ "ranged": true,
+ "anim_notes": {
+  "attack": "drawing its bow and loosing a glowing arrow"
+ },
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "귀졸 궁수",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A small pixelated character with a skull head, wearing a teal tunic and a red belt, carrying arrows on its back.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "17ccd964561b881e65ad8805290dc3b1"
+ }
+}

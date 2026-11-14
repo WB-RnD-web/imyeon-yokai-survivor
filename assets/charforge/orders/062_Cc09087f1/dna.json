@@ -1,0 +1,120 @@
+{
+ "name": "갈기 셋째 마루 · 저승길 차림",
+ "quote": "무너진 낙원의 잔상 속에서, 깨지 않는 꿈을 베어낸다.",
+ "race": "천사",
+ "subrace": "수인 (수사자)",
+ "body_structure": "인간+동물",
+ "head_ratio": "3등신",
+ "job": "닌자",
+ "culture": "포스트 아포칼립스",
+ "personality": [
+  "몽환적인",
+  "신중한",
+  "고결한"
+ ],
+ "face": "강렬한 황금빛 눈동자를 지닌 무표정한 얼굴",
+ "eyes": "빛나는 황금색 안광",
+ "hair": "먼지 묻은 듯한 베이지색 갈색 머리카락",
+ "ears": "동물의 귀가 섞인 쫑긋한 귀",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "깃털 대신 부유하는 황금빛 빛의 파편들",
+ "skin": "건강한 갈색 톤의 피부",
+ "outfit": "낡은 갈색 가죽 닌자복과 찢어진 성스러운 천 조각",
+ "gloves": "금속 장식이 달린 갈색 가죽 건틀릿",
+ "shoes": "발목을 감싸는 낡은 짚신 형태의 부츠",
+ "accessories": [
+  "머리 뒤에 떠 있는 거대한 황금빛 후광"
+ ],
+ "bag": "없음",
+ "weapon": "빛의 잔상이 남는 황금색 단검",
+ "sub_gear": "허리춤에 매달린 부서진 성물 조각",
+ "special_item": "꿈의 가루가 담긴 작은 유리병",
+ "palette": [
+  "#4B3621 (Deep Umber)",
+  "#A67B5B (Dusty Brown)",
+  "#FFD700 (Divine Gold)",
+  "#F5F5DC (Beige)",
+  "#FFFFFF (Pure White)"
+ ],
+ "materials": [
+  "낡은 가죽",
+  "부서진 황금",
+  "빛의 파편",
+  "거친 면직물"
+ ],
+ "silhouette": "머리 뒤의 거대한 원형 후광, 어깨 위로 떠 있는 빛의 파편들, 길게 뻗은 단검의 날카로운 선, 짐승의 귀 실루엣",
+ "signature_motion": "공중에서 회전하며 빛의 잔상을 남기는 참격",
+ "signature_vfx": "몽환적인 황금빛 입자가 흩날리는 잔상 효과",
+ "unique_features": [
+  "거대한 황금빛 후광",
+  "신체 주변을 부유하는 빛의 파편",
+  "동물적 특징이 섞인 귀",
+  "빛나는 황금색 안광"
+ ],
+ "micro_features": [
+  "가죽 갑옷의 갈라진 틈",
+  "허리춤의 깨진 성물",
+  "손목의 금속 링 장식"
+ ],
+ "visual_en": "A small-scale divine ninja with lion-like ears and dusty beige hair. A massive golden halo floats behind the head. Shards of golden light drift around the shoulders. Wearing weathered brown leather ninja attire with tattered beige cloth. The eyes glow with intense golden light. A golden dagger is held in hand, leaving a trail of light. The overall color is dominated by earthy browns and rich divine gold.",
+ "features_en": [
+  "Massive golden halo",
+  "Floating light shards",
+  "Animalistic ears",
+  "Glowing golden eyes",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing in a low, focused ninja stance, ready to dash through a dream.",
+ "vfx_en": "Swirling golden particles and hazy, dream-like light trails.",
+ "weapon_en": "Radiant Golden Dagger",
+ "item_en": "Fragmented Holy Relic",
+ "motion_en": "Dream-shattering whirlwind slash",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "갈기 셋째 마루 · 저승길 차림",
+ "game_slot": "skin/034_C12848050@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "034_C12848050",
+ "parent_body": null,
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/034_C12848050/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "Cc09087f1",
+ "body_plan": {
+  "body": "A small, anthropomorphic lion character wearing a traditional black hat and white robe.",
+  "legs": false,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "135da3e850d354354a2c9b532b866379"
+ }
+}

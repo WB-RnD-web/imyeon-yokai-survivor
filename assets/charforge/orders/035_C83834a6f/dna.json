@@ -1,0 +1,91 @@
+{
+ "id": "C83834a6f",
+ "name": "저승 까마귀",
+ "quote": "삼도천의 물결이 붉게 물들 때, 셋째 발이 네 심장을 짚으리라.",
+ "race": "저승 요괴",
+ "subrace": "사후 조류",
+ "body_structure": "날렵하고 기괴한 삼족 형태",
+ "head_ratio": "2등신",
+ "job": "저승의 정찰병",
+ "culture": "한국 저승 설화 (삼도천/명부)",
+ "personality": [
+  "잔인함",
+  "기민함",
+  "소름 끼치는"
+ ],
+ "face": "붉게 빛나는 작은 눈과 날카로운 부리",
+ "eyes": "강렬한 핏빛 적안",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "깃털이 거친 짙은 회색 날개",
+ "skin": "채도가 있는 남회색 깃털",
+ "outfit": "장식 없는 단순한 깃털 뭉치",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "없음"
+ ],
+ "bag": "없음",
+ "weapon": "날카로운 세 번째 발톱",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#D1D5DB",
+  "#4B5563",
+  "#1F2937",
+  "#EF4444",
+  "#78350F"
+ ],
+ "materials": [
+  "거친 깃털",
+  "단단한 발톱",
+  "빛나는 안광"
+ ],
+ "silhouette": "세 개의 다리, 둥근 몸체, 뾰족한 부리와 날개 끝",
+ "signature_motion": "공중에서 급강하하며 세 번째 다리로 낚아채기",
+ "signature_vfx": "붉은색 잔상이 남는 빠른 이동 궤적",
+ "unique_features": [
+  "세 개의 다리",
+  "붉은 안광",
+  "남회색 몸체"
+ ],
+ "micro_features": [
+  "부리 끝의 미세한 균열",
+  "날개 끝의 붉은 깃털",
+  "발톱의 흰 광택"
+ ],
+ "visual_en": "A small, 28px crow-like creature with a medium-saturated bluish-grey body. It features three distinct legs, with the third leg acting as a sharp striking tool. The eyes glow with a piercing, bright red light. Its wings are thick with dark grey feathers, showing slight red tips. The beak is sharp and dark. The overall silhouette is rounded yet sharp, with a prominent third limb and glowing red eyes that stand out against the dark environment.",
+ "features_en": [
+  "Three legs",
+  "Glowing red eyes",
+  "Bluish-grey body"
+ ],
+ "pose_en": "Perched low, ready to spring forward with sudden speed.",
+ "vfx_en": "A sharp, crimson streak following its rapid dash.",
+ "weapon_en": "Piercing third claw",
+ "item_en": "None",
+ "motion_en": "Sudden downward strike",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "34-0",
+ "lore": "눈 깜짝할 새에 파고든다(아주 빠르게 파고드는 급습형).",
+ "px": 28,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "저승 까마귀",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A pixelated bird-like creature with dark blue feathers, a black beak, and red eyes, featuring wings and two bird legs.",
+  "legs": false,
+  "arms": false,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "b633a6e7c4f93ddceee2620f1e4a7a63"
+ }
+}

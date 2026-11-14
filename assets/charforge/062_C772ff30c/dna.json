@@ -1,0 +1,95 @@
+{
+ "id": "C772ff30c",
+ "name": "아주라-칸 (Azura-Khan)",
+ "quote": "폐허의 끝에서 푸른 잎이 돋아나리라.",
+ "race": "뱀파이어",
+ "subrace": "고대 귀족",
+ "body_structure": "근육형",
+ "head_ratio": "근육형",
+ "job": "사무라이",
+ "culture": "포스트 아포칼립스",
+ "personality": [
+  "고결한",
+  "단호한",
+  "자연을 수호하는"
+ ],
+ "face": "창백한 피부에 날카로운 눈매",
+ "eyes": "빛나는 사파이어 블루",
+ "hair": "길게 흩날리는 백은색 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "매우 창백한 얼음빛 피부",
+ "outfit": "해진 푸른색 깃이 높은 사무라이 갑주와 찢어진 망토",
+ "gloves": "푸른색 가죽 건틀릿",
+ "shoes": "강철 보강이 된 짚신 형태의 부츠",
+ "accessories": [
+  "부서진 청색 보석 장식"
+ ],
+ "bag": "없음",
+ "weapon": "푸른 빛을 내뿜는 거대한 대도(Odachi)",
+ "sub_gear": "공중에 떠 있는 푸른 잎사귀 파편들",
+ "special_item": "생명력을 머금은 푸른 꽃잎",
+ "palette": [
+  "#E0F7FA",
+  "#0288D1",
+  "#01579B",
+  "#FFFFFF",
+  "#263238"
+ ],
+ "materials": [
+  "강철",
+  "비단",
+  "부서진 보석",
+  "마력 깃든 잎사귀"
+ ],
+ "silhouette": "거대한 대도를 비스듬히 든 듬직한 체형, 어깨 위로 흩날리는 길고 뾰족한 머리카락, 뒤로 길게 뻗은 찢어진 망토",
+ "signature_motion": "대도를 크게 휘두르며 주변에 푸른 잎사귀를 흩뿌리는 동작",
+ "signature_vfx": "검의 궤적을 따라 날카롭게 휘감기는 선명한 파란색 나뭇잎 잔상",
+ "unique_features": [
+  "공중에 떠 있는 푸른 마력 잎사귀",
+  "어깨를 덮는 거대한 찢어진 푸른 망토",
+  "눈가에 흐르는 푸른색 혈흔 자국",
+  "부서진 청색 보석이 박힌 갑주"
+ ],
+ "micro_features": [
+  "손목의 은색 붕대",
+  "갑주 사이로 보이는 푸른 꽃 문양",
+  "칼날 끝에 맺힌 푸른 이슬"
+ ],
+ "visual_en": "Long flowing white hair with sapphire blue eyes and blue blood streaks under the eyes. A muscular build wearing heavy, weathered dark blue samurai armor adorned with broken blue gemstones. A tattered, large blue cape flows from the shoulders. Floating, vivid blue magical leaves orbit the body. Holding a massive, glowing blue odachi. The overall look is defined by sharp, high-contrast blue and white tones against dark metallic accents.",
+ "features_en": [
+  "Floating blue magical leaves",
+  "Large tattered blue cape",
+  "Blue blood streaks under eyes",
+  "Armor with broken blue gemstones"
+ ],
+ "pose_en": "Standing firmly in a wide stance, ready to strike with a heavy blade.",
+ "vfx_en": "Sharp, swirling trails of vivid blue leaves following the blade's arc.",
+ "weapon_en": "Glowing Blue Odachi",
+ "item_en": "Vitality Blue Petals",
+ "motion_en": "A powerful sweeping slash that scatters magical leaves.",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "add_anims": [
+  "idle"
+ ],
+ "colors": 16,
+ "indexed": true,
+ "frame_notes": {
+  "entrance_2": "Only the character itself with a few blue flames and sparkles close around it. No box, panel, frame, wall, doorway, pillar or background shape of any kind; the background stays empty"
+ },
+ "pad_frames": {
+  "entrance_2": 1.4
+ },
+ "body_plan": {
+  "body": "A humanoid character with long white hair, wearing blue armor and a blue cape.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "5833093222300e97d271fb26af6ebc54"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "C7c6bfab0",
+ "name": "도르반",
+ "quote": "바람의 궤적을 따라, 멈추지 않는 화살을.",
+ "race": "바람의 정령",
+ "subrace": "기류 수호자",
+ "body_structure": "작고 가벼운 체구",
+ "head_ratio": "2등신",
+ "job": "원거리 사수",
+ "culture": "부유하는 섬의 부족",
+ "personality": [
+  "침착한",
+  "관찰력이 좋은",
+  "경계심이 강한"
+ ],
+ "face": "둥글고 단순한 얼굴",
+ "eyes": "빛나는 에메랄드색 점 눈",
+ "hair": "바람에 흩날리는 연한 하늘색 짧은 머리",
+ "ears": "뾰족하고 작은 귀",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "반투명한 에메랄드빛 날개",
+ "skin": "옅은 미색(Pale Cream)",
+ "outfit": "짙은 청록색의 짧은 상의와 허리띠",
+ "gloves": "없음",
+ "shoes": "가벼운 갈색 가죽 샌들",
+ "accessories": [
+  "에메랄드빛 보석이 박힌 머리띠",
+  "바람의 문양이 새겨진 손목 보호대"
+ ],
+ "bag": "화살통이 달린 작은 허리 가방",
+ "weapon": "에메랄드빛 빛줄기가 흐르는 짧은 활",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#E0F7FA",
+  "#00BFA5",
+  "#006064",
+  "#5D4037",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "반투명한 에너지",
+  "가벼운 가죽",
+  "매끄러운 보석"
+ ],
+ "silhouette": "옆으로 뻗은 짧은 활, 뒤로 휘날리는 깃털 같은 머리카락, 작은 반투명 날개",
+ "signature_motion": "옆으로 미끄러지듯 움직이며 활시위를 당기는 동작",
+ "signature_vfx": "에메랄드빛으로 빛나는 부채꼴 모양의 화살 궤적",
+ "unique_features": [
+  "에메랄드빛 반투명 날개",
+  "빛나는 에메랄드색 눈",
+  "부채꼴로 퍼지는 화살 탄환"
+ ],
+ "micro_features": [
+  "머리띠의 작은 보석",
+  "손목 보호대의 바람 문양",
+  "화살통의 깃털 장식"
+ ],
+ "visual_en": "A 2-head tall sprite facing right. The character has short, wind-blown light cyan hair with an emerald gemstone headband. Small, pointed ears and glowing emerald dot eyes stand out. They wear a dark teal short tunic and a leather belt with a small quiver. On their back, small translucent emerald wings flutter. They hold a short bow glowing with emerald light energy. The character's skin is a pale cream color, and they wear simple brown leather sandals. The entire silhouette is accented by sharp emerald light particles to ensure visibility against dark backgrounds.",
+ "features_en": [
+  "Translucent emerald wings",
+  "Glowing emerald eyes",
+  "Fan-shaped arrow projectiles"
+ ],
+ "pose_en": "Gliding sideways while pulling a glowing bowstring.",
+ "vfx_en": "A fan-shaped burst of glowing emerald light streaks.",
+ "weapon_en": "Short bow with emerald energy flow.",
+ "item_en": "Quiver with feather decorations.",
+ "motion_en": "Sideway dashing and rapid firing.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "6-0",
+ "lore": "원거리 사수. 거리를 두고 옆으로 돌며 한 발, 세 발 부채꼴, 느린 유도탄 중 하나를 쏜다.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "attack"
+ ],
+ "ranged": true,
+ "anim_notes": {
+  "attack": "firing a glowing projectile"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

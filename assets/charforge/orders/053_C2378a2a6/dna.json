@@ -1,0 +1,98 @@
+{
+ "id": "C2378a2a6",
+ "name": "두두",
+ "quote": "자, 뜨겁게 달궈보자고!",
+ "race": "도깨비",
+ "subrace": "신화급 대장장이",
+ "body_structure": "2등신 치비",
+ "head_ratio": "2등신",
+ "job": "도깨비 대장장이",
+ "culture": "한국 설화 (도깨비)",
+ "personality": [
+  "활기찬",
+  "단단한",
+  "열정적인"
+ ],
+ "face": "둥글고 통통한 얼굴",
+ "eyes": "빛나는 금색 눈",
+ "hair": "짧고 삐죽삐죽한 남색 머리카락",
+ "ears": "없음",
+ "horns": "위로 솟은 짧은 금색 뿔",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "건강한 구릿빛 피부",
+ "outfit": "금색 자수가 놓인 짙은 청색 전포",
+ "gloves": "두꺼운 가죽 보호대",
+ "shoes": "단단한 짚신 형태의 장화",
+ "accessories": [
+  "몸 주위를 회전하는 마법 불꽃 조각"
+ ],
+ "bag": "없음",
+ "weapon": "황금빛 빛을 내뿜는 거대한 쇠망치",
+ "sub_gear": "불꽃이 튀는 모루 판",
+ "special_item": "신성한 금속 파편",
+ "palette": [
+  "Deep Navy",
+  "Golden Yellow",
+  "Copper",
+  "Bright Cyan",
+  "White"
+ ],
+ "materials": [
+  "황금",
+  "신성한 불꽃",
+  "무거운 무쇠"
+ ],
+ "silhouette": "거대한 쇠망치를 든 뭉툭하고 단단한 체형",
+ "signature_motion": "망치를 크게 휘둘러 바닥을 내리치는 동작",
+ "signature_vfx": "망치가 땅에 닿을 때 사방으로 퍼지는 밝은 금색 불꽃 파동",
+ "unique_features": [
+  "몸 주위를 떠다니는 마법 불꽃",
+  "빛나는 금색 뿔",
+  "거대한 황금 쇠망치"
+ ],
+ "micro_features": [
+  "망치 머리의 금색 문양",
+  "전포 끝의 은은한 빛",
+  "발치에 튀는 작은 불꽃 잔해"
+ ],
+ "visual_en": "A small 2-head tall chibi Dokkaebi facing right. The character has short, spiky deep navy hair with two small, shining golden horns. Tiny magical fire sparks in bright cyan float around the body. The face features glowing golden eyes on copper skin. Wearing a thick, deep navy traditional Jeonpo with bright gold embroidery and heavy leather wrist guards. Holding a massive, heavy iron hammer that glows with intense golden light. The feet are clad in sturdy, thick-soled straw boots. The entire silhouette is accented by bright, saturated golden highlights that stand out against dark backgrounds.",
+ "features_en": [
+  "Floating magical fire sparks",
+  "Glowing golden horns",
+  "Massive golden hammer"
+ ],
+ "pose_en": "A vigorous stance, leaning forward as if about to strike the anvil.",
+ "vfx_en": "A radiant golden shockwave bursting from the hammer's impact.",
+ "weapon_en": "Golden-glowing heavy iron hammer",
+ "item_en": "Divine metal fragments",
+ "motion_en": "Heavy overhead hammer smash",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "52-0",
+ "lore": "도깨비 대장장이 — 두드려 금을 낸다, 근접. 무기 방망이 · 망치.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "idle"
+ ],
+ "indexed": true,
+ "game_name": "두두",
+ "contrast": "both",
+ "concept": "이 게임 세계(요괴 · 이면 — 한국 설화) 영웅. 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "frame_notes": {},
+ "no_halo": true,
+ "anchor_edits": [
+  "Remove the glowing halo ring floating above the head completely. Keep everything else exactly the same: face, hair, horns, ears, outfit, colors, weapon, pose and size."
+ ],
+ "body_plan": {
+  "body": "A small, humanoid character with blue hair, horns, and dark clothing.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "07379e583d9e66cfe82a6e69c59180c5"
+ }
+}

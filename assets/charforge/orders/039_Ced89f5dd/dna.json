@@ -1,0 +1,96 @@
+{
+ "id": "Ced89f5dd",
+ "name": "옥졸 창병",
+ "quote": "명부의 명을 받들어, 길을 막아서는 자는 모두 압송하리라.",
+ "race": "저승 차사",
+ "subrace": "옥졸 (Jailer)",
+ "body_structure": "단단하고 묵직한 체형",
+ "head_ratio": "2등신",
+ "job": "중갑 창병",
+ "culture": "한국 저승 설화 (K-Underworld)",
+ "personality": [
+  "무뚝뚝함",
+  "단호함",
+  "흔들림 없는"
+ ],
+ "face": "감정이 없는 무표정한 얼굴",
+ "eyes": "창백한 안광이 서린 눈",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 회색빛 피부",
+ "outfit": "붉은색 장식이 달린 짙은 검정색 갑옷",
+ "gloves": "가죽 장갑",
+ "shoes": "무거운 징 박힌 장화",
+ "accessories": [
+  "문양이 새겨진 거대한 방패"
+ ],
+ "bag": "없음",
+ "weapon": "삼지창",
+ "sub_gear": "방패",
+ "special_item": "없음",
+ "palette": [
+  "#5A0F0F",
+  "#B3201E",
+  "#E0443A",
+  "#2A2A2A",
+  "#FFD700"
+ ],
+ "materials": [
+  "무거운 철제",
+  "낡은 가죽",
+  "붉은 비단"
+ ],
+ "silhouette": "거대한 사각형 방패를 앞세운 둔중한 체형, 위로 솟은 삼지창의 날카로운 끝, 붉은색 갑옷의 테두리",
+ "signature_motion": "방패를 낮게 깔고 천천히 전진하며 돌진하는 동작",
+ "signature_vfx": "삼지창 끝에서 뿜어져 나오는 짧고 강렬한 황금빛 불꽃",
+ "unique_features": [
+  "거대한 사각형 방패",
+  "삼지창",
+  "붉은색 갑옷 테두리",
+  "황금색 안광"
+ ],
+ "micro_features": [
+  "방패 가장자리의 금색 문양",
+  "갑옷의 붉은색 장식 띠",
+  "삼지창 끝의 빛나는 황금색 포인트"
+ ],
+ "visual_en": "A heavy-set jailer wearing bright crimson red lacquered armor plates with dark iron trim and gold rivets. The character holds a massive, rectangular dark metal shield in front, decorated with small golden patterns on the edges. A sharp, three-pronged trident is gripped in the other hand, with its tips glowing in a bright golden light. The face is a pale, expressionless mask with piercing golden eyes that stand out against the dark helmet. The feet are clad in heavy, spiked black boots. The overall silhouette is dominated by the large shield and the sharp vertical lines of the trident, with bright gold and red accents providing high visibility against dark backgrounds.",
+ "features_en": [
+  "Massive rectangular shield",
+  "Trident",
+  "Crimson armor trim",
+  "Golden glowing eyes"
+ ],
+ "pose_en": "A slow, unstoppable march, pushing forward with a heavy shield.",
+ "vfx_en": "A sudden burst of golden sparks from the trident's tips.",
+ "weapon_en": "Golden-tipped Trident",
+ "item_en": "Patterned Greatshield",
+ "motion_en": "Shield-bash advance",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "38-0",
+ "lore": "방패를 앞세우고 느릿느릿 밀고 온다(느리고 단단한 탱커). 정예 판(px72)으로도 나온다.",
+ "px": 52,
+ "colors": 16,
+ "extra_px": [
+  72
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "옥졸 창병",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A humanoid character in red plate armor holding a shield and a trident.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "f5dca100cc7a0981be23426bc40101e0"
+ }
+}

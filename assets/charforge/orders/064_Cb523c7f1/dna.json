@@ -1,0 +1,127 @@
+{
+ "name": "뒷불 새디 · 저승길 차림",
+ "quote": "성스러운 기계의 혈액이 쏟아지리라.",
+ "race": "천사",
+ "subrace": "신성 기계 생명체",
+ "body_structure": "근육형",
+ "head_ratio": "근육형",
+ "job": "기사",
+ "culture": "SF/신성 기술",
+ "personality": [
+  "맹목적인",
+  "강렬한",
+  "파괴적인"
+ ],
+ "face": "무표정한 금속 마스크",
+ "eyes": "빛나는 백색 광원",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "빛의 파편으로 이루어진 기하학적 날개",
+ "skin": "매끄러운 백색 합금",
+ "outfit": "중갑주 형태의 신성 슈트",
+ "gloves": "강철 건틀릿",
+ "shoes": "중량감 있는 부츠",
+ "accessories": [
+  "머리 뒤에 떠 있는 황금빛 광륜"
+ ],
+ "bag": "없음",
+ "weapon": "플라즈마 대검",
+ "sub_gear": "부유하는 6개의 빛의 파편",
+ "special_item": "혈액형 에너지를 방출하는 코어",
+ "palette": [
+  "#FFFFFF (Pure White)",
+  "#FFD700 (Divine Gold)",
+  "#FF0000 (Blood Red)",
+  "#00F2FF (Plasma Cyan)",
+  "#2E2E2E (Dark Chrome)"
+ ],
+ "materials": [
+  "백색 세라믹",
+  "황금 합금",
+  "발광 플라즈마"
+ ],
+ "silhouette": "거대한 기하학적 날개와 육중한 대검, 머리 뒤의 커다란 광륜과 주변을 부유하는 작은 파편들",
+ "signature_motion": "대검을 바닥에 내리찍으며 주변으로 붉은 에너지를 폭발시킴",
+ "signature_vfx": "선명한 핏빛 입자가 광륜에서 뿜어져 나와 궤적을 남김",
+ "unique_features": [
+  "기하학적 빛의 날개",
+  "머리 뒤의 거대한 황금 광륜",
+  "주변을 부유하는 6개의 빛 파편",
+  "붉은 혈액형 에너지 방출"
+ ],
+ "micro_features": [
+  "갑옷 틈새의 붉은 빛",
+  "광륜의 회전하는 톱니 디테일",
+  "건틀릿의 미세한 발광 라인"
+ ],
+ "visual_en": "A muscular metallic humanoid with pure white ceramic armor and heavy gold plating. A large, glowing golden halo floats behind the head. Six small, bright cyan fragments orbit the body. Massive, geometric wings made of shattered light extend from the back. The character holds a heavy plasma greatsword that emits intense blood-red energy. Glowing red light leaks from the gaps in the heavy chrome gauntlets and boots. The overall silhouette is dominated by the radiant halo and the sharp, fragmented wing structure.",
+ "features_en": [
+  "Geometric light wings",
+  "Large golden halo",
+  "Six floating light fragments",
+  "Blood-red energy emission",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing in a heavy, imposing stance with the greatsword planted in the ground.",
+ "vfx_en": "Splattering patterns of vivid crimson light and plasma sparks.",
+ "weapon_en": "Plasma Greatsword",
+ "item_en": "Blood-type Energy Core",
+ "motion_en": "Heavy ground slam with an energy shockwave.",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "role_before": "잡몹",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "뒷불 새디 · 저승길 차림",
+ "game_slot": "skin/027_Cdb7a9b38@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "027_Cdb7a9b38",
+ "parent_body": {
+  "body": "A humanoid robotic character with white and gold armor, large white wings, and a helmeted head.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "b38fd84956160357cf55c4d5de83f2c2"
+ },
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/027_Cdb7a9b38/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "Cb523c7f1",
+ "body_plan": {
+  "body": "A humanoid character wearing a white robe and a black wide-brimmed hat, holding two large red and gold swords.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "0cb740cbf0d38190cbc5507dff0ca586"
+ }
+}

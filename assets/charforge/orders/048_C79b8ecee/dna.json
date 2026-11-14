@@ -1,0 +1,100 @@
+{
+ "id": "C79b8ecee",
+ "name": "쌍둥이 차사",
+ "quote": "이승의 인연은 여기까지다.",
+ "race": "저승 귀물 (Underworld Apparition)",
+ "subrace": "차사 (Grim Reaper)",
+ "body_structure": "어깨를 맞붙인 쌍둥이 형태",
+ "head_ratio": "2등신",
+ "job": "저승 집행자",
+ "culture": "한국 저승 설화",
+ "personality": [
+  "냉혹함",
+  "기계적임",
+  "분리되는 위협"
+ ],
+ "face": "창백한 백색 피부에 붉은 입술",
+ "eyes": "안광이 번뜩이는 형광 연두색 눈",
+ "hair": "검은색 갓 아래로 흘러내린 짧은 머리",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 백색",
+ "outfit": "금색 자수가 놓인 밝은 회색 한복 도포",
+ "gloves": "없음",
+ "shoes": "검은색 꽃신",
+ "accessories": [
+  "머리 위에 얹은 커다란 검은 갓",
+  "어깨를 잇는 밝은 빛의 사슬"
+ ],
+ "bag": "없음",
+ "weapon": "형광 연두색 빛을 내뿜는 긴 쇠사슬 낫",
+ "sub_gear": "저승의 명부(두루마리)",
+ "special_item": "영혼을 묶는 사슬",
+ "palette": [
+  "#FFFFFF",
+  "#98FB98",
+  "#FFD700",
+  "#4B0082",
+  "#2F4F4F"
+ ],
+ "materials": [
+  "비단",
+  "금속",
+  "영적 에너지"
+ ],
+ "silhouette": "커다란 갓의 챙과 어깨를 잇는 두 명의 실루엣, 길게 뻗은 낫의 곡선",
+ "signature_motion": "몸이 좌우로 갈라지며 두 개의 작은 차사로 분열함",
+ "signature_vfx": "분열 시 발생하는 밝은 연두색 영혼의 파편",
+ "unique_features": [
+  "어깨를 붙인 쌍둥이 구조",
+  "분열 가능한 신체",
+  "형광 연두색 눈",
+  "금색 자수 도포"
+ ],
+ "micro_features": [
+  "갓에 달린 붉은 술",
+  "사슬 끝의 작은 방울",
+  "도포 끝의 구름 문양"
+ ],
+ "visual_en": "A twin-bodied entity with pale white skin, wearing a large black traditional Gat hat with a bright red tassel. The twins are joined at the shoulders by a glowing neon green magical chain. They wear light grey Hanbok robes adorned with ornate gold embroidery and cloud patterns. Their eyes glow intensely with a piercing neon green light. Each twin holds a long, curved scythe made of dark metal, trailing bright neon green spiritual energy. The silhouette is defined by the wide brim of the hats and the interconnected shoulder structure, with bright gold and neon green accents standing out sharply against the dark environment.",
+ "features_en": [
+  "Twin-bodied structure joined at shoulders",
+  "Splittable body",
+  "Neon green glowing eyes",
+  "Gold-trimmed light grey robes"
+ ],
+ "pose_en": "Standing side-by-side, rigidly connected, looking forward with a menacing glare.",
+ "vfx_en": "Explosive shards of neon green spiritual light during split.",
+ "weapon_en": "Neon green glowing chain scythe",
+ "item_en": "Scroll of the Underworld",
+ "motion_en": "Splitting into two smaller individual entities",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "47-0",
+ "lore": "쓰러지면 늘 둘로 쪼개진다(발룸처럼 — 쪼개진 졸개 판 px36).",
+ "px": 52,
+ "colors": 16,
+ "extra_px": [
+  36
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "쌍둥이 차사",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A small, stylized humanoid character wearing a large wide-brimmed hat and a long grey robe.",
+  "legs": false,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "c7f47ce54c2816ede0e84ef74505a969"
+ },
+ "frame_notes": {
+  "hit_0": "Flinching backward from a hit, a few small green sparks near its chest, the whole body clearly visible in its own colors"
+ }
+}

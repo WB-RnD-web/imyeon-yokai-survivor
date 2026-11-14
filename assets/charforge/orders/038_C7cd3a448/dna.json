@@ -1,0 +1,91 @@
+{
+ "id": "C7cd3a448",
+ "name": "삼도천 뱀장어",
+ "quote": "흐르는 물결을 따라, 저승의 길을 닦으러 왔나니.",
+ "race": "수룡류 요괴",
+ "subrace": "저승의 물고기",
+ "body_structure": "다리가 없는 긴 유선형 몸체",
+ "head_ratio": "2등신",
+ "job": "삼도러 (길 안내자)",
+ "culture": "한국 저승 설화",
+ "personality": [
+  "몽환적인",
+  "무심한",
+  "유연한"
+ ],
+ "face": "눈이 없는 듯 흐릿한 형태",
+ "eyes": "연꽃 등불의 빛이 투영된 빛나는 점",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "길고 끝이 뾰족한 뱀장어 꼬리",
+ "wings": "없음",
+ "skin": "투명한 푸른빛이 감도는 물빛 비늘",
+ "outfit": "없음",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "등지느러미에 걸린 연꽃 등불"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "연꽃 등불",
+ "palette": [
+  "#E0F7FA",
+  "#4DD0E1",
+  "#006064",
+  "#FFD54F",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "물빛 비늘",
+  "반투명한 지느러미",
+  "빛나는 꽃잎"
+ ],
+ "silhouette": "길게 늘어진 유선형 몸체, 등 부분에 튀어나온 둥근 연꽃 형태, 꼬리의 뾰족한 끝",
+ "signature_motion": "좌우로 너울거리며 출렁이는 움직임",
+ "signature_vfx": "등지불에서 번지는 은은한 노란색 빛무리",
+ "unique_features": [
+  "연꽃 등불이 달린 등지느러미",
+  "투명한 물빛 몸체",
+  "다리가 없는 뱀장어 형태"
+ ],
+ "micro_features": [
+  "지느러미 끝의 하얀 물거품",
+  "비늘 사이의 미세한 빛 반사",
+  "등불 아래 떠다니는 작은 꽃잎"
+ ],
+ "visual_en": "A long, slender eel-like body with translucent cyan scales. The creature lacks legs, moving with a serpentine shape. On its dorsal fin, a small, glowing golden lotus lantern is perched, casting a bright light. The head features a faint, glowing white dot representing eyes. The tail tapers into a sharp, pointed tip. The entire body has a watery, shimmering effect with subtle white bubbles along the edges of its fins.",
+ "features_en": [
+  "Lotus lantern on dorsal fin",
+  "Translucent water-colored body",
+  "Legless eel-shaped body"
+ ],
+ "pose_en": "Swaying rhythmically like a wave in a dark river.",
+ "vfx_en": "Soft yellow glow emanating from the lotus lantern.",
+ "weapon_en": "None",
+ "item_en": "Lotus Lantern",
+ "motion_en": "Undulating side to side like a flowing river.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "37-0",
+ "lore": "출렁이며 다가온다(너울처럼 좌우로 흔들며).",
+ "px": 28,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "삼도천 뱀장어",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A serpentine, fish-like creature with scales, fins, and a tail, featuring a glowing lotus on its back.",
+  "legs": false,
+  "arms": false,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "76663a8d35ef6ef8b526f5b20910c916"
+ }
+}

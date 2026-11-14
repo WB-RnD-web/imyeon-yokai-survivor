@@ -1,0 +1,38 @@
+{
+ "transparent_index": 0,
+ "palette": [
+  "#120c10",
+  "#3d1f22",
+  "#5a3030",
+  "#7a5422",
+  "#c4913a",
+  "#f0d488",
+  "#b49a64",
+  "#e8d6a4",
+  "#fff6d8",
+  "#8c2018",
+  "#d8442e",
+  "#3a5ca8",
+  "#2f7a48",
+  "#6cc070",
+  "#ff8a2a"
+ ],
+ "names": [
+  "ink",
+  "lac",
+  "lac_hi",
+  "brass_d",
+  "brass",
+  "brass_hi",
+  "paper_d",
+  "paper",
+  "paper_hi",
+  "cin_d",
+  "cin",
+  "indigo",
+  "jade_d",
+  "jade",
+  "orange"
+ ],
+ "note": "U5 · U6 작은 아이콘 한 벌 팔레트 — 모든 아이콘이 같은 번호. 인덱스 0 투명."
+}

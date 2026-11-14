@@ -1,0 +1,88 @@
+{
+ "id": "Cc2a9ffbe",
+ "name": "세케트",
+ "quote": "놓치지 않을 거야, 네 영혼까지.",
+ "race": "령(Ghost)",
+ "subrace": "인력의 유령",
+ "body_structure": "하반신이 연기로 흩어지는 부유형",
+ "head_ratio": "2등신",
+ "job": "포식자 (Predator)",
+ "culture": "망각의 영역",
+ "personality": [
+  "집착적인",
+  "기분 나쁜",
+  "끈질긴"
+ ],
+ "face": "단 하나의 커다란 눈",
+ "eyes": "빛나는 형광 연두색 눈동자",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "반투명한 청보라색 안개",
+ "outfit": "낡은 붕대 조각",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "목에 걸린 낡은 은색 방울"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "인력의 구체",
+ "palette": [
+  "Deep Violet",
+  "Midnight Blue",
+  "Pale Lavender",
+  "Neon Lime Green",
+  "Silver"
+ ],
+ "materials": [
+  "연기",
+  "반투명한 에너지",
+  "금속"
+ ],
+ "silhouette": "커다란 외눈, 하단이 흩어지는 유령 형태, 중심부의 밝은 빛",
+ "signature_motion": "플레이어를 향해 몸을 길게 늘리며 돌진함",
+ "signature_vfx": "중심에서 뻗어 나오는 형광 연두색의 소용돌이 파동",
+ "unique_features": [
+  "단 하나의 커다란 외눈",
+  "하반신이 연기로 흩어지는 형태",
+  "중심부의 형광 연두색 핵",
+  "플레이어를 끌어당기는 인력 효과"
+ ],
+ "micro_features": [
+  "눈동자의 미세한 빛 번짐",
+  "몸 주변을 떠도는 작은 안개 입자",
+  "목에 달린 작은 은색 방울"
+ ],
+ "visual_en": "A floating ghost entity facing right, featuring a single large eye with a glowing neon lime green pupil. The upper body is a semi-transparent midnight blue and deep violet mass, while the lower body dissolves into wispy, dark lavender smoke. A bright neon lime green core glows intensely at the center of its eye and torso. A small silver bell hangs loosely around its neck, and tiny fragments of light drift around the trailing smoke tail.",
+ "features_en": [
+  "Single large eye",
+  "Lower body dissolving into smoke",
+  "Glowing neon lime green core",
+  "Gravity-pulling effect"
+ ],
+ "pose_en": "Floating eerily while leaning forward as if lunging.",
+ "vfx_en": "Swirling ripples of neon lime green energy expanding outward.",
+ "weapon_en": "None",
+ "item_en": "Glowing gravity orb",
+ "motion_en": "Lunging forward with a stretching, spectral movement",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "12-0",
+ "lore": "가까이 오면 플레이어를 자기 쪽으로 끌어당긴다.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "skill"
+ ],
+ "anim_notes": {
+  "skill": "pulling the target toward itself with a strong dragging force"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

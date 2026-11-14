@@ -1,0 +1,129 @@
+{
+ "name": "울레아 · 저승길 차림",
+ "quote": "서릿발 아래, 붉은 불꽃이 타오르리라.",
+ "race": "요괴",
+ "subrace": "북부 빙령족",
+ "body_structure": "초소형",
+ "head_ratio": "2등신",
+ "job": "전사",
+ "culture": "북유럽 신화 기반 요괴 문화",
+ "personality": [
+  "강인한",
+  "냉철한",
+  "고결한"
+ ],
+ "face": "강렬한 눈빛의 어린 얼굴",
+ "eyes": "날카롭고 빛나는 진홍색 눈",
+ "hair": "눈부신 백금색의 짧은 숏컷",
+ "ears": "끝이 살짝 뾰족한 귀",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 얼음빛 피부",
+ "outfit": "진홍색과 금색 자수가 놓인 두꺼운 북부 가죽 갑옷",
+ "gloves": "금색 테두리가 둘러진 붉은 가죽 장갑",
+ "shoes": "털 장식이 달린 무거운 금속 장화",
+ "accessories": [
+  "얼음 결정이 박힌 황금 목걸이"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 얼음 결정이 박힌 붉은 대검",
+ "sub_gear": "어깨에 걸친 붉은색 모피 망토",
+ "special_item": "서리꽃 문양의 황금 브로치",
+ "palette": [
+  "Crimson Red",
+  "Golden Yellow",
+  "Frost White",
+  "Deep Charcoal",
+  "Ice Blue"
+ ],
+ "materials": [
+  "진홍색 가죽",
+  "황금 장식",
+  "얼음 결정",
+  "북부 모피"
+ ],
+ "silhouette": "거대한 대검의 무게감, 풍성한 어깨 모피, 뾰족한 머리카락, 빛나는 금색 장신구",
+ "signature_motion": "대검을 땅에 꽂으며 주변에 얼음 파편을 흩뿌리는 동작",
+ "signature_vfx": "진홍색 불꽃이 섞인 차가운 백색 얼음 파편의 소용돌이",
+ "unique_features": [
+  "거대한 얼음 결정 대검",
+  "어깨를 덮는 풍성한 붉은 모피 망토",
+  "황금색 얼음 파편 오라",
+  "금색 자수가 놓인 진홍색 갑옷"
+ ],
+ "micro_features": [
+  "귀 끝의 작은 금색 반지",
+  "장화의 얼음 결정 장식",
+  "망토 끝의 흩날리는 눈가루 입자"
+ ],
+ "visual_en": "A tiny, 40px warrior with platinum blonde short hair and sharp crimson eyes. She wears heavy crimson leather armor adorned with lavish golden embroidery and a thick, voluminous red fur mantle over her shoulders. A massive greatsword, embedded with glowing frost crystals, rests on her back. Her pale skin contrasts with the deep crimson and bright gold of her outfit. Small frost particles and golden light embers float around her heavy metal boots, which are decorated with tiny ice shards. The entire silhouette is defined by the heavy, jagged shape of the crystalline sword and the rounded, rich texture of the red fur.",
+ "features_en": [
+  "Massive ice-crystal greatsword",
+  "Golden frost particle aura",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing firm with a wide stance, gripping the hilt of the heavy sword.",
+ "vfx_en": "A few sharp ice-blue shards flying forward with small crimson sparks",
+ "weapon_en": "Crystal-embedded Crimson Claymore",
+ "item_en": "Frost-flower Golden Brooch",
+ "motion_en": "Heavy downward slam creating an icy shockwave",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "전설",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "울레아 · 저승길 차림",
+ "game_slot": "skin/078_C673ad3ee@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "078_C673ad3ee",
+ "parent_body": null,
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/078_C673ad3ee/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "Cec50a56b",
+ "body_plan": {
+  "body": "A small, chibi-style humanoid character wearing a large black hat and a long white robe.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "bb0d998fc3ae37c31ba98339a349fe6f"
+ },
+ "frame_notes": {
+  "entrance_1": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "entrance_2": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "skill_0": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "skill_1": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "skill_2": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "ultimate_0": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "ultimate_1": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible",
+  "ultimate_2": "Bold bright ice-blue energy streaks and small sparkles fly around it, the white robe, black gat and face clearly visible"
+ },
+ "vfx_en_old": "Swirling shards of frost-white ice infused with crimson sparks."
+}

@@ -1,0 +1,111 @@
+{
+ "id": "Cfb423a15",
+ "name": "봉인의 오르빈",
+ "quote": "끊어진 봉인이 다시금 고동치기 시작한다.",
+ "race": "고대 신성수 (Ancient Sacred Beast)",
+ "subrace": "결계의 수호자 (Seal Guardian)",
+ "body_structure": "거대한 황금빛 뿔과 빛나는 문양이 새겨진 맹수형",
+ "head_ratio": "2등신",
+ "job": "봉인의 집행자",
+ "culture": "잊혀진 성역의 문명",
+ "personality": [
+  "엄격한",
+  "위엄 있는",
+  "파괴적인"
+ ],
+ "face": "자비 없는 금빛 안광",
+ "eyes": "눈동자 없이 빛나는 밝은 에메랄드색 안광",
+ "hair": "백색의 흐르는 듯한 갈기",
+ "ears": "없음",
+ "horns": "거대하고 층층이 쌓인 황금빛 뿔",
+ "tail": "빛의 입자가 흩날리는 긴 꼬리",
+ "wings": "등 뒤로 퍼지는 6개의 빛나는 마법 문양 날개",
+ "skin": "짙은 청록색의 매끄러운 가죽",
+ "outfit": "황금 장식으로 덮인 백색의 성스러운 갑주",
+ "gloves": "없음",
+ "shoes": "황금 발톱",
+ "accessories": [
+  "공중에 떠 있는 6개의 황금색 봉인석"
+ ],
+ "bag": "없음",
+ "weapon": "빛의 파동을 방출하는 거대한 황금 낫",
+ "sub_gear": "주변을 휘감는 에메랄드빛 마력 오라",
+ "special_item": "주기적으로 폭발하는 봉인의 파편",
+ "palette": [
+  "Deep Teal",
+  "Bright Emerald",
+  "Pure White",
+  "Royal Gold",
+  "Pale Silver"
+ ],
+ "materials": [
+  "황금",
+  "에메랄드",
+  "성스러운 마력"
+ ],
+ "silhouette": "거대한 층층 뿔, 6개의 날개 형태의 문양, 거대한 낫, 휘날리는 긴 꼬리",
+ "signature_motion": "주변을 크게 베어 넘기는 광역 공격",
+ "signature_vfx": "6.5초마다 바닥에서 솟구치는 거대한 에메랄드빛 충격파",
+ "unique_features": [
+  "거대하고 층층이 쌓인 황금 뿔",
+  "6개의 빛나는 마법 문양 날개",
+  "공중에 떠 있는 6개의 황금색 봉인석",
+  "에메랄드빛으로 빛나는 눈"
+ ],
+ "micro_features": [
+  "백색 갈기 끝의 금빛 장식",
+  "갑주 사이로 흐르는 에메랄드빛 문양",
+  "꼬리 끝의 빛나는 입자"
+ ],
+ "visual_en": "A massive, multi-layered golden horn rises from a head with glowing emerald eyes and flowing white mane. Six radiant, patterned light wings spread from the back of a deep teal beastly body, accompanied by six floating golden seal stones. The creature wears ornate white and gold armor, with an emerald-patterned glow seeping through the cracks. A long tail trailing bright particles sweeps the ground. A giant, heavy golden scythe is held firmly, casting a strong radiant aura of bright emerald and gold, making the silhouette unmistakable even in darkness.",
+ "features_en": [
+  "Massive layered golden horns",
+  "Six radiant magical pattern wings",
+  "Six floating golden seal stones",
+  "Glowing emerald eyes"
+ ],
+ "pose_en": "Standing majestically while preparing a wide-sweeping slash.",
+ "vfx_en": "A massive, expanding emerald-colored shockwave bursting from the ground.",
+ "weapon_en": "Giant Golden Scythe of Sealing",
+ "item_en": "Floating Golden Seal Stones",
+ "motion_en": "Wide-area sweeping slash attack",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "27-0",
+ "lore": "보스 공통 패턴에 더해 6.5초마다 주변을 크게 베는 광역 공격을 한다.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge",
+  "attack"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground",
+  "attack": "a huge sweeping slash all around its body"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "entrance_2": "the whole effect ends inside the picture with empty background above the head; nothing touches the top edge",
+  "ultimate_2": "the same three-quarter view as the input image; both large wings are spread wide behind the body and the scythe is held clearly in its hand",
+  "skill_1": "Every part of the character and every effect ends well inside the picture, with empty background visible along all four edges. Both wing tips stay fully inside the picture"
+ },
+ "anim_frames": {
+  "ultimate": 2
+ },
+ "pad_frames": {
+  "skill_1": 1.6
+ },
+ "body_plan": {
+  "body": "A humanoid dragon-like character with wings, horns, and a tail, wearing white and gold armor.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "5804fa8270f2be0e79a507d2717f99e3"
+ }
+}

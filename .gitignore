@@ -1,0 +1,14 @@
+# Godot
+.godot/
+*.translation
+export_credentials.cfg
+
+# Build output
+build/
+signed/
+*.zip
+*.sha256
+
+# OS
+.DS_Store
+Thumbs.db

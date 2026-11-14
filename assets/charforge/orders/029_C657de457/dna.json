@@ -1,0 +1,104 @@
+{
+ "id": "C657de457",
+ "name": "불씨 이오네",
+ "quote": "꺼지지 않는 불꽃의 끝을 보아라.",
+ "race": "화염 정령 (Flame Elemental)",
+ "subrace": "태양의 파편 (Solar Fragment)",
+ "body_structure": "반투명한 불꽃의 형태와 황금 장식의 결합",
+ "head_ratio": "2등신",
+ "job": "봉인된 태양의 수호자",
+ "culture": "고대 태양 문명",
+ "personality": [
+  "오만함",
+  "파괴적",
+  "고결함"
+ ],
+ "face": "자신만만한 미소",
+ "eyes": "타오르는 듯한 밝은 노란색 안광",
+ "hair": "흐르는 듯한 유동적인 불꽃 형태의 머리카락",
+ "ears": "없음",
+ "horns": "황금색 태양 문양이 새겨진 뿔",
+ "tail": "불꽃 꼬리",
+ "wings": "빛의 파편으로 이루어진 날개",
+ "skin": "짙은 오렌지색과 화이트 에너지가 섞인 피부",
+ "outfit": "화려한 황금 갑주와 붉은색 비단 망토",
+ "gloves": "황금 팔찌",
+ "shoes": "불꽃으로 이루어진 발",
+ "accessories": [
+  "태양의 보석이 박힌 왕관"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 태양의 구체 (Solar Orb)",
+ "sub_gear": "빛의 파편 띠",
+ "special_item": "태양의 핵",
+ "palette": [
+  "#FFD700",
+  "#FF4500",
+  "#FF8C00",
+  "#FFFFFF",
+  "#4B0082"
+ ],
+ "materials": [
+  "황금",
+  "불꽃",
+  "빛의 결정"
+ ],
+ "silhouette": "머리의 거대한 태양 왕관, 등 뒤의 날카로운 빛의 날개, 거대한 구체 무기, 길게 뻗은 불꽃 꼬리",
+ "signature_motion": "공중으로 떠오르며 주변에 강력한 빛의 파동을 방출함",
+ "signature_vfx": "황금빛 태양 입자가 소용돌이치며 흩어지는 효과",
+ "unique_features": [
+  "거대한 태양의 구체 무기",
+  "태양 문양의 황금 뿔",
+  "빛의 파편 날개",
+  "타오르는 불꽃 꼬리"
+ ],
+ "micro_features": [
+  "왕관의 작은 보석",
+  "날개 끝의 빛나는 입자",
+  "갑주의 태양 각인"
+ ],
+ "visual_en": "A 2-head tall chibi flame entity facing right. The head features a large golden solar crown with small embedded jewels and glowing golden horns. The eyes are brilliant white-yellow sparks. The hair is composed of flowing, vibrant orange and deep red flames. On the back, sharp wings made of white light fragments expand wide. The body is a translucent deep orange, wearing heavy, lavish golden armor with sun engravings. A long, flowing cape of crimson silk trails behind, accompanied by a bright, flickering flame tail. The character holds a massive, radiant golden solar orb that emits intense white light. Golden bracelets adorn the arms, and the feet are composed of pure, bright yellow fire.",
+ "features_en": [
+  "Massive solar orb weapon",
+  "Golden horns with sun patterns",
+  "Wings of light fragments",
+  "Burning flame tail"
+ ],
+ "pose_en": "Floating regally while gripping a massive orb, looking down with pride.",
+ "vfx_en": "Swirling golden solar particles and intense white light flares.",
+ "weapon_en": "Radiant Solar Orb",
+ "item_en": "Solar Core",
+ "motion_en": "Solar Nova Burst",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "28-0",
+ "lore": "보스 공통 패턴만 있다(돌진·탄막·예고 장판·졸개 소환). 생김새와 성격은 자유.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "hit_0": "Every part of the character and every effect ends well inside the picture, with empty background visible along all four edges. The fireball stays small and close to the body"
+ },
+ "pad_frames": {
+  "hit_0": 1.5
+ },
+ "body_plan": {
+  "body": "A small, humanoid character with fiery hair, golden armor, and white wings, holding a ball of fire.",
+  "legs": true,
+  "arms": true,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "be400a506fb1ca195b8a986306c82212"
+ }
+}

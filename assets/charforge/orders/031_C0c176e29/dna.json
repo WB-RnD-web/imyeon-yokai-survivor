@@ -1,0 +1,94 @@
+{
+ "id": "C0c176e29",
+ "name": "얼음 정령",
+ "quote": "차가운 냉기가 길을 밝히리라.",
+ "race": "빙결 정령",
+ "subrace": "결정체 요괴",
+ "body_structure": "부유하는 결정체",
+ "head_ratio": "SD",
+ "job": "서포트 펫",
+ "culture": "빙하의 영역",
+ "personality": [
+  "차분한",
+  "도도한",
+  "냉철한"
+ ],
+ "face": "감정이 없는 무표정",
+ "eyes": "빛나는 하늘색 눈동자",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "반투명한 짙은 남색 결정",
+ "outfit": "없음",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "떠다니는 얼음 파편",
+  "빛나는 눈송이 문양"
+ ],
+ "bag": "없음",
+ "weapon": "얼음 탄환 발사체",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#1A237E",
+  "#3949AB",
+  "#82B1FF",
+  "#E1F5FE",
+  "#FFFFFF",
+  "#00E5FF"
+ ],
+ "materials": [
+  "얼음",
+  "유리",
+  "빛"
+ ],
+ "silhouette": "중심이 큰 육각형 결정체와 주변을 감싸며 회전하는 작은 파편들의 불규칙한 형태",
+ "signature_motion": "자신의 중심축을 기준으로 천천히 회전하며 주변 파편들이 궤도를 그리며 돕니다.",
+ "signature_vfx": "중심에서 뿜어져 나오는 선명한 하늘색 빛의 냉기 파동",
+ "unique_features": [
+  "다리 없는 부유형 결정체",
+  "회전하는 얼음 파크 조각",
+  "빛나는 하늘색 눈동자",
+  "주변을 도는 눈송이 파편"
+ ],
+ "micro_features": [
+  "결정 모서리의 하얀 성에",
+  "중심부의 밝은 빛",
+  "작은 얼음 결정 가루"
+ ],
+ "visual_en": "A floating, multifaceted hexagonal crystal core in deep navy blue, surrounded by rotating sharp ice shards in bright sky blue. The center of the crystal features a single, glowing cyan eye that pierntrates the dark. Small, sparkling white frost particles drift around the main body. The edges of the shards are tipped with pure white frost, creating a sharp contrast. The entire entity lacks limbs, instead composed of jagged, translucent blue geometric shapes that emit a soft, light cyan glow from within the core, accompanied by tiny floating snowflake accents.",
+ "features_en": [
+  "Limb-less floating crystal",
+  "Rotating ice shards",
+  "Glowing cyan eye",
+  "Orbiting snowflake fragments"
+ ],
+ "pose_en": "Floating steadily and rotating slowly toward the right.",
+ "vfx_en": "Sharp, fast-moving cyan ice projectiles shooting outwards from the core.",
+ "weapon_en": "Frost Bolt",
+ "item_en": "None",
+ "motion_en": "Orbital rotation of surrounding shards",
+ "genre": "survivor",
+ "role": "펫",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "30-0",
+ "lore": "플레이어 곁에서 얼음탄을 쏜다.",
+ "px": 32,
+ "colors": 16,
+ "add_anims": [
+  "attack"
+ ],
+ "ranged": true,
+ "anim_notes": {
+  "attack": "shooting an ice bolt"
+ },
+ "tier_extras": false,
+ "indexed": true,
+ "anchor_edits": [
+  "[from walk_0] Make this character standing still in a relaxed neutral pose, side view facing right, full body, both feet on the ground. Keep its crystal head, body, colors and every detail exactly the same."
+ ]
+}

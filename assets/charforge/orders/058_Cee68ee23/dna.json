@@ -1,0 +1,136 @@
+{
+ "name": "리콜 · 저승길 차림",
+ "quote": "바람이 너의 숨통을 조여올 것이다.",
+ "race": "인간",
+ "subrace": "매사냥꾼",
+ "body_structure": "건장한 체격",
+ "head_ratio": "2등신",
+ "job": "매사냥꾼 영웅",
+ "culture": "유목 민족",
+ "personality": [
+  "냉철한",
+  "결단력 있는",
+  "야생적인"
+ ],
+ "face": "날카로운 눈매",
+ "eyes": "매의 눈처럼 빛나는 밝은 노란색 눈",
+ "hair": "헝클어진 갈색 머리",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "그을린 구리빛 피부",
+ "outfit": "회청색(#74849c) 두건과 짧은 망토, 가죽 토시",
+ "gloves": "가죽 토시",
+ "shoes": "짙은 갈색 가죽 부츠",
+ "accessories": [
+  "매를 쥐기 위한 가죽 장갑"
+ ],
+ "bag": "없음",
+ "weapon": "사냥용 단검",
+ "sub_gear": "거대한 매",
+ "special_item": "없음",
+ "palette": [
+  "#74849c",
+  "#F5F5DC",
+  "#8B4513",
+  "#FFD700",
+  "#E9967A"
+ ],
+ "materials": [
+  "가죽",
+  "깃털",
+  "천"
+ ],
+ "silhouette": "회청색 두건을 쓴 작은 체구, 머리 크기만한 거대한 매의 실루엣, 팔에 매달린 깃털 뭉치, 짧은 망토",
+ "signature_motion": "대시할 때 매가 날아오르며 전방으로 돌진함",
+ "signature_vfx": "매의 날갯짓을 따라 흩날리는 밝은 황금색 깃털 잔상",
+ "unique_features": [
+  "머리 크기만한 거대한 매",
+  "회청색 두건",
+  "밝은 노란색 눈",
+  "가죽 토시를 낀 팔"
+ ],
+ "micro_features": [
+  "매의 크림색 깃털 끝부분",
+  "두건의 거친 질감",
+  "단검의 금속 광택"
+ ],
+ "visual_en": "A small 2-unit ratio hunter wearing a muted blue-grey (#74849 cloth) hood and a short cape. His eyes shine with a bright, piercing golden yellow (#FFD700) that stands out in the dark. On his arm, covered by a thick brown leather bracer, sits a massive hawk, nearly as large as his head, featuring distinct cream and dark brown feathers. He wears rugged earth-toned leather gear and sturdy boots. The hawk's large silhouette and bright eye-catching yellow accents on the hunter's face and the hawk's talons provide high visibility against dark backgrounds.",
+ "features_en": [
+  "Human face with a small nose and mouth under the hood",
+  "Plain blue-grey cloth hood without any pattern",
+  "Small brown-and-cream hawk perched on the forearm",
+  "Leather bracer on the forearm",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing alert with a focused gaze, ready to command the hawk.",
+ "vfx_en": "A few brown and cream feathers scattering and drifting in the air.",
+ "weapon_en": "Hunting dagger",
+ "item_en": "None",
+ "motion_en": "The hawk soars forward during a dash, leading the hunter's path.",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "lore": "매사냥꾼 영웅. 매가 함께 싸운다 — 탄이 늘 조금씩 휘어 적을 찾아간다. 대시할 때마다 매가 날아올라 함께 앞으로 나간다. 무한 모드를 완주하면 열리는 영웅.",
+ "px": 40,
+ "colors": 16,
+ "anim_notes": {
+  "walk": "the falcon stays perched on its raised forearm. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird",
+  "idle": "the falcon perched on its shoulder. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird",
+  "hit": "the falcon still perched on its arm, flapping. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird",
+  "death": "collapsing to the ground while the falcon lands beside it. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird",
+  "skill": "the falcon taking off from its arm and flying forward together with it, the falcon clearly visible. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird. The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "vfx": "a few brown and cream feathers scattering in the air",
+  "entrance": "the falcon swooping down and landing on its leather-gloved forearm. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird. The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "the falcon spreading its wings wide and circling once above its head, the falcon clearly visible. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird. The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "emote": "proudly raising the forearm with the falcon perched on it. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird",
+  "portrait": "upper body with the falcon perched on its shoulder. Its hood is a plain blue-grey cloth hood with no eyes, no beak and no bird features on it; the person's human face is clearly visible under the hood, exactly like the reference. The hawk is a separate small brown bird"
+ },
+ "indexed": true,
+ "contrast": "both",
+ "game_name": "리콜 · 저승길 차림",
+ "game_slot": "skin/033_Cbd1f2384@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "variant_of": "033_Cbd1f2384",
+ "parent_body": {
+  "body": "A small, pixelated humanoid character wearing a dark blue hood and brown traveling gear, accompanied by a small dark bird.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "9ed324eadf20bbc64b83b03aecf74d32"
+ },
+ "derive": {
+  "from": "/home/wadi/charforge/orders/imyeon/survivor/033_Cbd1f2384/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "Cee68ee23",
+ "body_plan": {
+  "body": "A human-like character wearing a large black hat and white robes, holding a bird and a dagger.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "31917b1ba5ef62354fa98a4aba6e0a6f"
+ }
+}

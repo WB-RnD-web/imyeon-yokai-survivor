@@ -1,0 +1,87 @@
+{
+ "id": "C3ed4ce2f",
+ "name": "회전 오브",
+ "quote": "스르륵, 궤도를 그리는 빛의 파편.",
+ "race": "마력 결정체",
+ "subrace": "부유형 정령",
+ "body_structure": "구형",
+ "head_ratio": "SD",
+ "job": "방어형 펫",
+ "culture": "마법 공학",
+ "personality": [
+  "무심한",
+  "정교한",
+  "기계적인"
+ ],
+ "face": "없음",
+ "eyes": "없음",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "매끄러운 보랏빛 보석 질감",
+ "outfit": "없음",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "회전하는 금속 링",
+  "빛나는 마력 핵"
+ ],
+ "bag": "없음",
+ "weapon": "자기장 궤도 링",
+ "sub_gear": "마력 잔해",
+ "special_item": "반사용 마력 막",
+ "palette": [
+  "#2D1B4E",
+  "#7B52AB",
+  "#C48BFF",
+  "#FFFFFF",
+  "#00FFCC"
+ ],
+ "materials": [
+  "보석",
+  "금속",
+  "에너지"
+ ],
+ "silhouette": "중심의 둥근 구체와 그 주위를 도는 얇고 날카로운 고리 궤도",
+ "signature_motion": "중심 구체를 축으로 금속 링이 빠르게 회전하며 궤적을 남김",
+ "signature_vfx": "궤도를 따라 흐르는 청록색(Cyan)의 짧은 빛 잔상",
+ "unique_features": [
+  "중심부의 밝은 청록색 핵",
+  "불균형하게 기울어진 금속 궤도",
+  "궤도 끝에 매달린 작은 파편"
+ ],
+ "micro_features": [
+  "궤도 표면의 미세한 균열",
+  "핵 주변의 작은 빛 입자",
+  "금속 링의 마모된 질감"
+ ],
+ "visual_en": "A floating spherical orb made of deep violet gemstone, featuring a brilliant cyan glowing core at its center. A thin, sharp metallic ring in bright silver orbits the sphere at an uneven angle, with a tiny fragment of light trailing from its edge. The orb's surface shows fine cracks, and small cyan particles of mana drift around the central core. The entire object is encased in a sharp, rotating metallic halo that catches the light.",
+ "features_en": [
+  "Bright cyan glowing core",
+  "Unbalanced tilted metallic orbit",
+  "Small fragment hanging from the orbit"
+ ],
+ "pose_en": "Spinning rapidly in a fixed orbital path",
+ "vfx_en": "Cyan energy trails following the rotating ring",
+ "weapon_en": "Magnetic Orbit Ring",
+ "item_en": "Mana Fragment",
+ "motion_en": "Orbital rotation",
+ "genre": "survivor",
+ "role": "펫",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "31-0",
+ "lore": "플레이어 주위를 도는 구슬. 진화하면 적 탄을 쳐낸다. 캐릭터가 아니라 빛나는 구슬 모양이어도 된다.",
+ "px": 32,
+ "colors": 16,
+ "add_anims": [
+  "idle"
+ ],
+ "anim_notes": {
+  "idle": "a glowing orb spinning, its sparkle at a different position"
+ },
+ "tier_extras": false,
+ "indexed": true
+}

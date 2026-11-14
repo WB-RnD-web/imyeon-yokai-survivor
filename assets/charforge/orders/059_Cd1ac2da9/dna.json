@@ -1,0 +1,119 @@
+{
+ "name": "타르한 · 저승길 차림",
+ "quote": "달빛이 가라앉는 곳에 죽음만이 남으리라.",
+ "race": "빙령수 (Frost-Wraithkin)",
+ "subrace": "월식의 혈통",
+ "body_structure": "거대형",
+ "head_ratio": "거대형",
+ "job": "암살자",
+ "culture": "북유럽 설원 부족",
+ "personality": [
+  "냉혹한",
+  "침착한",
+  "위엄 있는"
+ ],
+ "face": "창백한 얼음색 피부와 날카로운 턱선",
+ "eyes": "차가운 은청색 눈동자",
+ "hair": "진홍색과 검은색이 섞인 길고 거친 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 빙결색",
+ "outfit": "금색 장식이 박힌 진홍색 가죽 갑옷과 두꺼운 북유럽풍 모피 망토",
+ "gloves": "검은색 가죽 장갑",
+ "shoes": "금속 징이 박힌 묵직한 부츠",
+ "accessories": [
+  "황금빛 월식 펜던트"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 은색 곡도 (Scimitar)",
+ "sub_gear": "달빛을 머금은 은빛 단검",
+ "special_item": "월식의 정수",
+ "palette": [
+  "#8B0000",
+  "#FFD700",
+  "#E0E0E0",
+  "#1A1A1A",
+  "#4A0000"
+ ],
+ "materials": [
+  "진홍색 가죽",
+  "황금 장식",
+  "은색 금속",
+  "북극곰 모피"
+ ],
+ "silhouette": "거대한 모피 망토와 길게 뻗은 곡도의 비대칭적 실루엣, 육중한 체구",
+ "signature_motion": "곡도를 크게 휘두르며 주변에 은빛 잔상을 남기는 회전 베기",
+ "signature_vfx": "검은 달의 형태를 그리며 퍼져나가는 진홍색 달빛 파동",
+ "unique_features": [
+  "거대한 진홍색 모피 망토",
+  "황금빛 월식 문양",
+  "은빛으로 빛나는 거대 곡도",
+  "발자국마다 남는 서리 입자"
+ ],
+ "micro_features": [
+  "망토 끝의 금색 자수",
+  "단검에 박힌 작은 루비",
+  "장갑의 은색 징"
+ ],
+ "visual_en": "A massive silhouette featuring a heavy crimson fur cloak adorned with lavish golden ornaments. The character has pale frost-colored skin and long, coarse hair in deep crimson and black. A large, glowing silver scimitar is held in one hand, reflecting a bright lunar light. The eyes are piercing silver-blue. At the waist, a small silver dagger with a tiny ruby glints. The heavy boots are reinforced with metallic studs, and a golden lunar pendant hangs prominently over the dark leather armor. Faint frost particles drift from the heavy hem of the cloak.",
+ "features_en": [
+  "Golden lunar crest",
+  "Glowing silver scimitar",
+  "Frost particles at footsteps",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing tall and imposing, poised to strike with a heavy, menacing stance.",
+ "vfx_en": "A crescent-shaped wave of deep crimson and silver light expanding outwards.",
+ "weapon_en": "Great Silver Scimitar",
+ "item_en": "Essence of Eclipse",
+ "motion_en": "Wide sweeping lunar slash",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "전설",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "타르한 · 저승길 차림",
+ "game_slot": "skin/116_C264c2876@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "116_C264c2876",
+ "parent_body": null,
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/116_C264c2876/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "Cd1ac2da9",
+ "body_plan": {
+  "body": "A humanoid character with blue skin, long dark red hair, wearing a wide-brimmed black hat and white robes.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "b5b616b4a02e992276017a4231e2ad8b"
+ }
+}

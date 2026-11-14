@@ -1,0 +1,112 @@
+{
+ "id": "C76e057ef",
+ "name": "볼케 형제",
+ "quote": "서로를 지탱하는 뜨거운 혈맹, 그 무게를 견뎌라!",
+ "race": "화염수인 (Fire Beastkin)",
+ "subrace": "용암 거인 (Magma Giant Kin)",
+ "body_structure": "형의 어깨 위에 동생이 올라탄 이층 구조의 거대한 체구",
+ "head_ratio": "2등신",
+ "job": "용암동굴의 지배자 (Lava Cavern Overlord)",
+ "culture": "용암의 혈맹 문화 (Magma Bloodline)",
+ "personality": [
+  "강력한 형제애",
+  "공격적인 돌격성",
+  "압도적인 위압감"
+ ],
+ "face": "화염에 그을린 거친 피부와 분노로 이글거리는 눈빛",
+ "eyes": "타오르는 듯한 밝은 노란색 안광",
+ "hair": "흐르는 용암처럼 붉고 뜨거운 에너지 형태의 갈기",
+ "ears": "없음",
+ "horns": "뒤로 굽은 거대한 흑색 뿔",
+ "tail": "불꽃이 튀는 굵은 꼬리",
+ "wings": "없음",
+ "skin": "짙은 붉은색과 타버린 듯한 암적색 피부",
+ "outfit": "황금색 장식이 박힌 거친 가죽 갑옷과 불타는 망토",
+ "gloves": "금속 질감이 느껴지는 황금색 건틀릿",
+ "shoes": "용암이 굳은 듯한 검은 암석 장화",
+ "accessories": [
+  "어깨를 덮는 화려한 황금 장신구와 티로 소환용 마법 펜던트"
+ ],
+ "bag": "없음",
+ "weapon": "거대한 용암 둔기 (Magma Mace)",
+ "sub_gear": "동생을 지탱하는 어깨 보호대",
+ "special_item": "티로를 부르는 붉은 보석 펜던트",
+ "palette": [
+  "#FFD700",
+  "#FF4500",
+  "#8B0000",
+  "#2F4F4F",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "용암",
+  "황금",
+  "검은 암석",
+  "불꽃"
+ ],
+ "silhouette": "형의 거대한 상체 위에 작은 동생이 얹혀 있는 비대칭적 이층 실루엣, 휘날리는 거대한 망토, 뒤로 뻗은 굵은 꼬리와 뿔, 거대한 둔기",
+ "signature_motion": "바닥을 내리찍으며 동생과 함께 전방으로 돌진하는 급습",
+ "signature_vfx": "돌진 경로를 따라 퍼지는 밝은 노란색의 화염 파편과 불꽃 잔상",
+ "unique_features": [
+  "어깨 위에 올라탄 작은 동생",
+  "화려한 황금 장식 갑옷",
+  "빛나는 밝은 노란색 안광",
+  "흐르는 용암 형태의 머리카락",
+  "불꽃이 튀는 꼬리"
+ ],
+ "micro_features": [
+  "갑옷의 작은 황금 문양",
+  "펜던트에 박힌 작은 붉은 보석",
+  "발밑에 남는 타버린 발자국"
+ ],
+ "visual_en": "A massive 2-head tall silhouette facing right, featuring a large elder brother carrying a smaller brother on his shoulder. The elder brother has dark reddish skin, large black horns, and flowing lava-like bright orange hair. He wears lavish golden ornaments and a heavy dark red cape that emits glowing particles. The smaller brother sits atop the shoulder, wearing a matching small golden helm. The elder brother's eyes glow with a brilliant bright yellow light. He grips a heavy, glowing magma mace. His thick tail leaves a trail of sparks. The entire character is adorned with intricate golden plating on his gauntlets and chest, contrasting against the dark volcanic tones.",
+ "features_en": [
+  "Smaller brother riding on the shoulder",
+  "Lavish golden armored ornaments",
+  "Brilliant bright yellow glowing eyes",
+  "Flowing lava-shaped hair",
+  "Spitting flame tail"
+ ],
+ "pose_en": "A powerful forward-leaning aggressive dash pose",
+ "vfx_en": "Explosive bright yellow magma splashes and floating embers",
+ "weapon_en": "Great Magma Mace",
+ "item_en": "Tiro Summoning Pendant",
+ "motion_en": "Heavy ground-slam charging strike",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "전설",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "24-0",
+ "lore": "용암동굴 보스. 몸 하나·판정 하나로 움직이는 한 캐릭터 — 형이 동생을 어깨에 태운 모습(팀 결정 10/3). 빠른 급습 위주이고, 닿으면 체력을 빨아들인다. 티로 4마리를 자주 부른다.",
+ "px": 112,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "vfx": "a field of flames spreading across the ground, abstract flames only",
+  "entrance_2": "only flames rise around the character; there is no gate, doorway, arch, pillar or wall anywhere, and the flames end well inside the picture with empty background on all four sides",
+  "skill_1": "Every part of the character and every effect ends well inside the picture, with empty background visible along all four edges. The flame blast is shorter and stays inside the picture"
+ },
+ "anchor_edits": [
+  "Recolor only the small younger brother who sits on the big brother's left shoulder: make his whole body, hair and clothes bright yellow and gold so he clearly stands apart from the big brother. Keep the big brother's dark red armor and flames, the pose, the sizes and everything else exactly the same."
+ ],
+ "body_plan": {
+  "body": "A muscular, humanoid demon-like character with horns and fiery features, wearing ornate red and gold armor.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "b5ea93d0a50f3781d694bc72a32f0878"
+ },
+ "pad_frames": {
+  "skill_1": 1.6
+ }
+}

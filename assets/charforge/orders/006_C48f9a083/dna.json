@@ -1,0 +1,88 @@
+{
+ "id": "C48f9a083",
+ "name": "창랑",
+ "quote": "낮게 웅크린 푸른 그림자가 덮치기 전, 마지막으로 보라색 안광을 보라.",
+ "race": "요괴 (Yokai)",
+ "subrace": "늑대 요괴 (Wolf Yokai)",
+ "body_structure": "낮게 웅크린 짐승형",
+ "head_ratio": "2등신",
+ "job": "돌진형 잡몹",
+ "culture": "숲의 부정한 파수꾼",
+ "personality": [
+  "공격적인",
+  "군집적인",
+  "야생의"
+ ],
+ "face": "날카로운 입매와 빛나는 안광",
+ "eyes": "밝은 보라색의 작은 점 같은 눈",
+ "hair": "진한 청록색의 거친 털",
+ "ears": "뒤로 젖혀진 뾰족한 귀",
+ "horns": "없음",
+ "tail": "두툼하고 짧은 꼬리",
+ "wings": "없음",
+ "skin": "짙은 쪽빛 피부",
+ "outfit": "털 자체로 이루어진 야생의 외형",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "목 주변의 밝은 보라색 털 장식"
+ ],
+ "bag": "없음",
+ "weapon": "날카로운 송곳니",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#1A3C40",
+  "#2D5A5E",
+  "#4B8B8E",
+  "#A020F0",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "거친 털",
+  "단단한 발톱"
+ ],
+ "silhouette": "낮게 웅크린 늑대의 형상, 뒤로 젖혀진 귀, 짧고 굵은 꼬리, 돌진하기 직전의 무게중심이 낮은 실루엣",
+ "signature_motion": "웅크린 자세에서 갑자기 앞으로 튀어나가는 돌격",
+ "signature_vfx": "돌진 경로를 따라 남는 잔상 같은 보라색 안광 궤적",
+ "unique_features": [
+  "진한 청록색 털",
+  "밝은 보라색 안광",
+  "낮게 웅크린 체형",
+  "사후 분열(둘로 갈라짐)"
+ ],
+ "micro_features": [
+  "귀 끝의 보라색 포인트",
+  "입가의 흰색 송곳니",
+  "발끝의 날카로운 발톱"
+ ],
+ "visual_en": "A low-slung, 2-head-tall wolf yokai facing right. The body is covered in thick, deep teal fur with a heavy, crouched silhouette. A small, bright purple glow emanates from its tiny eye, acting as a piercing focal point. The creature has pointed ears swept backward and a short, sturdy tail. Sharp white fangs protrude slightly from its dark muzzle, and small white claws are visible at the tips of its paws. The overall form is compact and dense, designed to be recognizable even when swarming.",
+ "features_en": [
+  "Deep teal fur",
+  "Bright purple glowing eye",
+  "Low-crouched posture",
+  "Post-death splitting"
+ ],
+ "pose_en": "Crouching low, ready to spring forward in a sudden dash.",
+ "vfx_en": "A swift streak of bright purple light following the dash path.",
+ "weapon_en": "Sharp, predatory fangs",
+ "item_en": "None",
+ "motion_en": "Sudden explosive forward lunge",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "희귀",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "5-0",
+ "lore": "가장 흔한 기본 몹. 절반은 웅크렸다가 돌진한다. 정원에서는 죽으면 둘로 갈라지고, 보스 소류가 쓰러지면 작은 창랑 4마리가 나온다.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "charge"
+ ],
+ "extra_px": [
+  28,
+  56
+ ],
+ "tier_extras": false,
+ "indexed": true
+}

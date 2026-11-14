@@ -1,0 +1,123 @@
+{
+ "name": "일곱 맹세의 갈덴 · 저승길 차림",
+ "quote": "얼어붙은 영혼에 뜨거운 불꽃을!",
+ "race": "강시",
+ "subrace": "북유럽 빙결 강시",
+ "body_structure": "둥근형",
+ "head_ratio": "2등신",
+ "job": "소환사",
+ "culture": "북유럽 요툰 헤리티지",
+ "personality": [
+  "강인한 의지",
+  "차분함",
+  "신비로운"
+ ],
+ "face": "창백하고 차가운 도자기 같은 피부",
+ "eyes": "타오르는 듯한 밝은 하늘색 눈동자",
+ "hair": "눈부시게 밝은 스카이 블루 색상의 짧은 픽셀 헤어",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "매우 밝은 미색의 창백한 피부",
+ "outfit": "북유럽 룬 문자가 새겨진 짙은 파란색 털 코트와 흰색 룬 자수 튜닉",
+ "gloves": "털 장식이 달린 두꺼운 흰색 가죽 장갑",
+ "shoes": "룬 문자가 빛나는 짙은 남색 부츠",
+ "accessories": [
+  "몸 주변을 떠다니는 빛나는 푸른색 마법 불꽃 파편들"
+ ],
+ "bag": "없음",
+ "weapon": "룬 문자가 새겨진 푸른색 마법 지팡이",
+ "sub_gear": "떠다니는 빙결 마법 정령",
+ "special_item": "하늘색 불꽃이 일렁이는 영혼의 룬",
+ "palette": [
+  "#E0F7FA",
+  "#0288D1",
+  "#01579B",
+  "#FFFFFF",
+  "#FFAB40"
+ ],
+ "materials": [
+  "마법적인 빛",
+  "차가운 얼음",
+  "타오르는 불꽃"
+ ],
+ "silhouette": "둥글고 통통한 체형, 머리 위로 떠다니는 마법 입자들, 길고 굵은 지팡이, 털 장식이 부풀어 오른 코트 실루엣",
+ "signature_motion": "지팡이를 휘둘러 주변에 푸른 불꽃을 방출하는 동작",
+ "signature_vfx": "스카이 블루 색상의 강렬한 화염이 소용돌이치는 모습",
+ "unique_features": [
+  "떠다니는 푸른 불꽃 파편",
+  "룬 문자가 새겨진 털 코트",
+  "빛나는 하늘색 눈동자"
+ ],
+ "micro_features": [
+  "코트 끝의 하얀 털 장식",
+  "지팡이 끝의 작은 룬 각인",
+  "장갑 손목의 은색 매듭"
+ ],
+ "visual_en": "A round-bodied character with pale, porcelain skin. The head features bright sky-blue short hair and glowing sky-blue eyes. Wearing a thick, deep blue fur-trimmed coat adorned with white rune patterns and a white tunic. Large, thick white fur gloves cover the hands. The lower body consists of dark navy boots with glowing blue runes. Around the body, numerous bright sky-blue magical flame fragments float dynamically. A long, sturdy magic staff with glowing runes is held, and a small icy spirit floats nearby, all rendered in high-saturation blue tones.",
+ "features_en": [
+  "Floating sky-blue flame fragments",
+  "Glowing sky-blue eyes",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing firmly with the staff pointed downwards, surrounded by swirling blue embers.",
+ "vfx_en": "Swirling surges of intense sky-blue flames and sparkling frost particles.",
+ "weapon_en": "Rune-engraved Azure Staff",
+ "item_en": "Soul Rune of Blue Flame",
+ "motion_en": "Orbital summoning of blue flame fragments",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "일곱 맹세의 갈덴 · 저승길 차림",
+ "game_slot": "skin/083_C0d356e3c@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "083_C0d356e3c",
+ "parent_body": {
+  "body": "A small, humanoid character with blue hair, wearing a blue and white outfit with a fur collar, standing upright.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "e4abc57b4472d467fc3c6e816ea0ac79"
+ },
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/083_C0d356e3c/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "C2234e742",
+ "body_plan": {
+  "body": "A small, humanoid character wearing a large black hat and white robes.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "13df31f3e2ad5091bd6b0adaace3a285"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "transparent_index": 0,
+ "palette": [
+  "#120c10",
+  "#2a1518",
+  "#3d1f22",
+  "#5a3030",
+  "#7a5422",
+  "#c4913a",
+  "#f0d488",
+  "#b49a64",
+  "#e8d6a4",
+  "#fff6d8",
+  "#8c2018",
+  "#d8442e",
+  "#3a5ca8",
+  "#8a4ab0",
+  "#6a6068"
+ ],
+ "names": [
+  "ink",
+  "lac_d",
+  "lac",
+  "lac_hi",
+  "brass_d",
+  "brass",
+  "brass_hi",
+  "paper_d",
+  "paper",
+  "paper_hi",
+  "cin_d",
+  "cin",
+  "indigo",
+  "purple",
+  "gray"
+ ],
+ "note": "UI 부품 한 벌 팔레트 — 모든 부품이 같은 번호. 인덱스 0 투명."
+}

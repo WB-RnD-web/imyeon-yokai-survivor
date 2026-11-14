@@ -1,0 +1,108 @@
+{
+ "id": "C1754b5d3",
+ "name": "아홉널 그로크",
+ "quote": "모든 파편이 모여, 완성된 재앙이 되리라.",
+ "race": "융합체 (Amalgamation)",
+ "subrace": "기괴한 괴수 (Abyssal Chimera)",
+ "body_structure": "수많은 작은 괴물들이 뭉쳐 거대한 구형에 가까운 형상을 이룬 형태",
+ "head_ratio": "2등신",
+ "job": "군집 융합 보스 (Swarm Fusion Boss)",
+ "culture": "혼돈의 핵 (Core of Chaos)",
+ "personality": [
+  "압도적인",
+  "무자비한",
+  "통제 불능의",
+  "거대한"
+ ],
+ "face": "수십 개의 눈이 무질서하게 박힌 일그러진 면면",
+ "eyes": "각기 다른 크기와 빛을 내뿜는 다수의 눈들",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "주변에 떠다니는 뾰족한 뼈 조각들",
+ "tail": "여러 마리의 꼬리가 엉킨 거대한 촉수 뭉치",
+ "wings": "없음",
+ "skin": "짙은 보라색과 형광 연두색이 뒤섞인 유기적 질감",
+ "outfit": "없음",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "떠다니는 마력의 파편들"
+ ],
+ "bag": "없음",
+ "weapon": "중심부에서 뿜어져 나오는 중력파 탄막",
+ "sub_gear": "주변을 공전하는 작은 괴물 파편들",
+ "special_item": "융합의 핵 (The Singularity Core)",
+ "palette": [
+  "#2E0854",
+  "#7B2CBF",
+  "#00FF41",
+  "#FFFFFF",
+  "#FF0055"
+ ],
+ "materials": [
+  "점액질",
+  "마력 결정",
+  "뼈 파편"
+ ],
+ "silhouette": "중심이 비대하게 큰 구체 형태, 사방으로 뻗어 나가는 날카로운 뼈 조각과 엉킨 꼬리 뭉치, 주변을 에워싼 작은 파편들의 후광",
+ "signature_motion": "화면 전체를 가로지르는 거대한 돌진 후 사방으로 파편을 폭발시키며 확장됨",
+ "signature_vfx": "형광 연두색의 중력파가 중심에서부터 원형으로 퍼져나가며 주변 적들을 빨아들임",
+ "unique_features": [
+  "수십 개의 눈이 박힌 거대한 구체 몸체",
+  "몸 주변을 공전하는 마력 파편 후광",
+  "끝없이 엉킨 다수의 꼬리 촉수",
+  "충돌 시 발생하는 강력한 충격파"
+ ],
+ "micro_features": [
+  "눈동자마다 다른 빛의 크기",
+  "파편 끝의 날카로운 뼈 질감",
+  "몸체 표면의 기포와 점액 흐름"
+ ],
+ "visual_en": "A massive, spherical body composed of fused dark purple and deep violet organic masses, featuring dozens of glowing eyes of various sizes. A bright neon green aura emanates from the central singularity core, surrounded by a halo of sharp, white bone fragments and floating magical shards. Multiple thick, intertwined tails made of dark violet tentacles lash out from the base. The entire entity is accented with vibrant magenta energy pulses. The silhouette is dominated by a heavy, central weight with chaotic, sharp elements orbiting the core, all facing right.",
+ "features_en": [
+  "Massive spherical body with dozens of eyes",
+  "Halo of floating magical fragments",
+  "Intertwined multiple tail tentacles",
+  "Powerful impact shockwaves"
+ ],
+ "pose_en": "A heavy, menacing stance, lunging forward with unstoppable momentum.",
+ "vfx_en": "Expanding concentric rings of neon green gravity waves and magenta sparks.",
+ "weapon_en": "Singularity gravity pulse",
+ "item_en": "Core of Chaos",
+ "motion_en": "Massive forward charge followed by an omnidirectional burst",
+ "genre": "survivor",
+ "role": "보스",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "22-0",
+ "lore": "화면에 몹이 너무 많이 쌓이면 전부 뭉쳐서 생겨나는 융합 보스. 돌진과 사방 탄막을 쓰고, 닿으면 기절시키고, 밀리지 않는다.",
+ "px": 144,
+ "colors": 16,
+ "add_anims": [
+  "entrance",
+  "charge"
+ ],
+ "anim_notes": {
+  "skill": "firing a barrage of glowing bullets outward",
+  "ultimate": "slamming a glowing warning circle onto the ground and summoning minions",
+  "vfx": "a glowing red warning circle on the ground",
+  "entrance": "forming from many small monsters clumping together into one giant body"
+ },
+ "indexed": true,
+ "frame_notes": {
+  "vfx": "concentric glowing rings with eye-shaped patterns on the ground, abstract shapes only",
+  "entrance_1": "It keeps exactly the same body as the reference: a huge purple brain-like head with glowing green spots and tentacles below. No human body, no cape, no cloak, no human legs or head",
+  "hit_0": "Every part of the character and every effect ends well inside the picture, with empty background visible along all four edges. No grey or flat-edged shapes; the green light stays small and close to the body"
+ },
+ "pad_frames": {
+  "hit_0": 1.5
+ },
+ "body_plan": {
+  "body": "A purple, amorphous creature with a large, bulbous head containing glowing green eyes and a bright core, featuring two thick limbs and two large tentacles.",
+  "legs": false,
+  "arms": true,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "ee578840e217b661c3071b3a9b41e03b"
+ }
+}

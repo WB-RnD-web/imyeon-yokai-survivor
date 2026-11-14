@@ -1,0 +1,48 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="IMYEON : Yokai Survivor"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.0706, 0.0471, 0.0627, 1)
+boot_splash/stretch_mode=4
+boot_splash/use_filter=false
+boot_splash/image="res://assets/brand/splash.png"
+config/icon="res://icon.png"
+config/windows_native_icon="res://assets/brand/icon.ico"
+
+[autoload]
+
+G="*res://scripts/game.gd"
+Ads="*res://scripts/ads.gd"
+SteamHub="*res://scripts/steam.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation="landscape"
+
+[gui]
+
+theme/default_font_antialiasing=0
+theme/default_font_hinting=0
+theme/default_font_subpixel_positioning=0
+theme/custom="res://assets/fonts/ui_theme.tres"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.14, 0.15, 0.2, 1)

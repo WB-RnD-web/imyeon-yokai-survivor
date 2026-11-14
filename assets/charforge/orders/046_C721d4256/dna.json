@@ -1,0 +1,97 @@
+{
+ "id": "C721d4256",
+ "name": "아귀",
+ "quote": "채워도 채워지지 않는 허기뿐이다.",
+ "race": "아귀 (Hungry Ghost)",
+ "subrace": "식인 요괴 (Gluttonous Yokai)",
+ "body_structure": "극도로 마른 팔다리와 비정상적으로 부푼 복부",
+ "head_ratio": "2등신",
+ "job": "포식자 (Predator)",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "탐욕스러운",
+  "굶주린",
+  "기괴한"
+ ],
+ "face": "창백하고 뼈만 남은 얼굴",
+ "eyes": "빛나는 형광 연두색 눈동자",
+ "hair": "헝클어진 검은 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 회색빛 피부",
+ "outfit": "해진 누더기 천",
+ "gloves": "없음",
+ "shoes": "맨발",
+ "accessories": [
+  "금색 귀금속 조각이 박힌 쇠사슬"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "반짝이는 식량 파편",
+ "palette": [
+  "#F0F0F0",
+  "#A0A0A0",
+  "#202020",
+  "#ADFF2F",
+  "#FFD700"
+ ],
+ "materials": [
+  "창백한 살점",
+  "낡은 헝겊",
+  "빛나는 마력"
+ ],
+ "silhouette": "바늘처럼 가는 목과 매우 거대한 원형의 복부, 비정상적으로 긴 팔다리",
+ "signature_motion": "배를 움켜쥐며 주변을 더듬는 듯한 기괴한 움직임",
+ "signature_vfx": "복부에서 새어 나오는 형광 연두색의 일렁이는 아우라",
+ "unique_features": [
+  "바늘처럼 가는 목",
+  "비정상적으로 부푼 배",
+  "금색 쇠사슬 장식",
+  "형광 연두색 눈"
+ ],
+ "micro_features": [
+  "입가에 묻은 빛나는 액체",
+  "해진 옷 사이의 뼈마디",
+  "손끝의 날카로운 손톱"
+ ],
+ "visual_en": "A tiny 40px character with a needle-thin neck and a massive, bloated spherical abdomen. The skin is a pale, deathly grey. The eyes glow with a piercing neon lime green, contrasting against the dark, dishemented black hair. Thin, spindly arms and legs extend from the bloated torso, with sharp claws at the fingertips. A small piece of golden chain is wrapped around the swollen belly, glinting with a bright yellow light. The mouth area features a small smear of glowing lime liquid. The overall silhouette is top-heavy and grotesque, emphasizing the immense size of the stomach compared to the skeletal limbs.",
+ "features_en": [
+  "Needle-thin neck",
+  "Abnormally bloated belly",
+  "Golden chain accessory",
+  "Neon lime eyes"
+ ],
+ "pose_en": "Cowering and clutching the bloated stomach with a ravenous expression",
+ "vfx_en": "A pulsating neon lime green glow emanating from the bloated belly",
+ "weapon_en": "None",
+ "item_en": "Glowing food fragments",
+ "motion_en": "Twitching and lunging forward with hungry spasms",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "45-0",
+ "lore": "살아 있는 동안 쉬지 않고 부푼다(카리아처럼 — px64 · px88 크기 단계 판).",
+ "px": 40,
+ "colors": 16,
+ "extra_px": [
+  64,
+  88
+ ],
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "아귀",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A small, grey-skinned humanoid character with long black hair, glowing green eyes, and a large protruding belly adorned with a gold chain.",
+  "legs": true,
+  "arms": true,
+  "weapon": false,
+  "upright": true,
+  "anchor_md5": "b70f9d03398a7a8a7a8534a4067f1a69"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "Cc7136e4f",
+ "name": "곡비",
+ "quote": "흐느낌 끝에 맺힌 눈물이 상처를 씻으리라.",
+ "race": "령 (Ghost)",
+ "subrace": "곡비 (Wailing Spirit)",
+ "body_structure": "작고 왜소한 여인의 형상",
+ "head_ratio": "2등신",
+ "job": "곡비 (Wailing Mourner)",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "애처로운",
+  "슬픈",
+  "자비로운"
+ ],
+ "face": "소매로 입가를 가렸으나 슬픔이 서린 눈매가 보임",
+ "eyes": "슬픔에 젖은 젖은 눈",
+ "hair": "헝클어진 흑발",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 연보랏빛",
+ "outfit": "짙은 비취색과 붉은 자수가 놓인 상복",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "머리에 꽂은 붉은 꽃핀"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "영혼을 씻는 곡소리",
+ "palette": [
+  "#F4F1EA",
+  "#C9C4B8",
+  "#2B2B2B",
+  "#D93B3B",
+  "#BFE6FF"
+ ],
+ "materials": [
+  "비단",
+  "빛나는 영기"
+ ],
+ "silhouette": "소매로 얼굴 아래를 가린 둥근 머리, 아래로 넓게 퍼지는 상복의 실루엣, 머리의 작은 꽃핀",
+ "signature_motion": "몸을 떨며 슬프게 흐느끼는 동작",
+ "signature_vfx": "주변으로 퍼져나가는 연한 하늘색의 파동",
+ "unique_features": [
+  "얼굴 하단을 가린 넓은 소매",
+  "머리의 붉은 꽃핀",
+  "자줏빛 도는 비취색 의복",
+  "주변을 정화하는 빛의 파동"
+ ],
+ "micro_features": [
+  "의복 끝의 금색 자수",
+  "눈가에 맺힌 작은 빛의 눈물",
+  "헝클어진 머리카락 끝의 보랏빛"
+ ],
+ "visual_en": "A small 2-head tall spirit with messy black hair adorned with a bright red flower pin. Her face is partially hidden by the wide, flowing sleeves of a plain white hemp mourning hanbok (sobok), leaving only her sorrowful, glistening eyes visible. A rough white hemp hood and a straw rope belt mark her as a professional mourner; the white cloth has light grey creases and shadows. A pale light blue magical glow emanates from her hands as she weeps, creating soft ripples in the air. The outfit is clearly white so she reads instantly on a dark floor and never looks like the red-clad bride ghost.",
+ "features_en": [
+  "Wide sleeves covering the lower face",
+  "Red flower pin on the head",
+  "Jade-colored traditional attire",
+  "Light blue purifying wave"
+ ],
+ "pose_en": "Standing with slumped shoulders, trembling slightly while mourning.",
+ "vfx_en": "Soft light blue circular ripples expanding outward.",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Rhythmic sobbing motion with a subtle body sway.",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "42-0",
+ "lore": "늘 플레이어와 거리를 두고, 2.2초마다 울음으로 주변 요괴의 상처를 씻는다(할드처럼 주변 몹 치유).",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "skill",
+  "vfx"
+ ],
+ "anim_notes": {
+  "skill": "wailing with its sleeves raised while a soft healing light spreads to nearby allies",
+  "vfx": "a soft round pale healing glow"
+ },
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "곡비",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A small, crying humanoid character wearing a white hooded robe with a red flower decoration.",
+  "legs": false,
+  "arms": true,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "c06bf2135b463557e70754ef219a4fa6"
+ }
+}

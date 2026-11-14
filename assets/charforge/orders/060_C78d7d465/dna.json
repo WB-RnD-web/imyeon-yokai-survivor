@@ -1,0 +1,151 @@
+{
+ "name": "랑데 · 저승길 차림",
+ "quote": "파도에 휩쓸린 강철도 결국 황금의 달을 품는다.",
+ "race": "로봇",
+ "subrace": "기계 도깨비",
+ "body_structure": "장신",
+ "head_ratio": "장신",
+ "job": "해적",
+ "culture": "한국 설화 기반 기계 문명",
+ "personality": [
+  "호탕한",
+  "탐욕스러운",
+  "강인한"
+ ],
+ "face": "금속제 도깨비 가면 형태의 얼굴",
+ "eyes": "황금빛으로 빛나는 단일 렌즈",
+ "hair": "없음",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "황동색 금속 및 짙은 갈색 도자기 재질",
+ "outfit": "해적의 코트와 한국 전통 갑주가 결합된 형태",
+ "gloves": "금색 장식이 박힌 갈색 가죽 장갑",
+ "shoes": "묵직한 쇠로 된 짚신 형태의 장화",
+ "accessories": [
+  "달 모양의 펜던트",
+  "황금색 닻 장식"
+ ],
+ "bag": "보물 상자가 달린 커다란 궤짝 배낭",
+ "weapon": "거대한 닻 모양의 대검",
+ "sub_gear": "조선식 환도 형태의 단검",
+ "special_item": "달빛을 머금은 황금 나침반",
+ "palette": [
+  "#4B3621",
+  "#8B4513",
+  "#D4AF37",
+  "#FFD700",
+  "#2F2F2F"
+ ],
+ "materials": [
+  "황동",
+  "칠기",
+  "가죽",
+  "강철"
+ ],
+ "silhouette": "거대한 닻 모양의 무기와 뒤로 휘날리는 커다란 궤짝 배낭, 위압적인 장신의 실루엣",
+ "signature_motion": "대검을 바닥에 찍으며 주변으로 황금빛 파동을 일으킴",
+ "signature_vfx": "검은 밤하늘에 떠오르는 황금빛 초승달 형상의 파편",
+ "unique_features": [
+  "닻 모양의 대검",
+  "커다란 보물 궤짝 배낭",
+  "황금색 달빛 오라",
+  "도깨비 가면 얼굴"
+ ],
+ "micro_features": [
+  "가방에 매달린 작은 엽전",
+  "장갑 끝의 톱니바퀴 디테일",
+  "장화의 쇠사슬 장식"
+ ],
+ "visual_en": "A tall robotic figure wearing a dark brown brass mask with a single glowing golden eye. The character wears a heavy, layered dark brown leather pirate coat adorned with lavish golden ornaments and a flowing golden-edged cape. On its back, an oversized wooden treasure chest bag is strapped, decorated with small golden coins. The character holds a massive, heavy anchor-shaped greatsword made of dark iron and gold. The boots are heavy metallic straw-style boots with dangling golden chains. A strong, radiant golden aura flows from the joints, leaving a trail of golden crescent moon particles.",
+ "features_en": [
+  "Anchor-shaped greatsword",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "pose_en": "Standing tall and imposing, leaning heavily on a massive anchor sword with a wide, confident stance.",
+ "vfx_en": "A few golden crescent slashes flying forward and small amber sparks",
+ "weapon_en": "Golden Anchor Greatsword",
+ "item_en": "Treasure Chest Backpack",
+ "motion_en": "Heavy anchor slam with golden shockwaves",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "전설",
+ "colors": 16,
+ "indexed": true,
+ "game_name": "랑데 · 저승길 차림",
+ "game_slot": "skin/105_C4e1ef8ba@jeoseung",
+ "only_anims": [
+  "idle",
+  "walk",
+  "hit",
+  "death",
+  "skill",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait",
+  "vfx"
+ ],
+ "order": "이면 : 요괴 서바이버",
+ "variant_of": "105_C4e1ef8ba",
+ "parent_body": null,
+ "derive": {
+  "from": "/home/wadi/charforge/games/survivor/105_C4e1ef8ba/frames/anchor.png",
+  "prompt": "Keep this exact same character: the same face, head, hair, body shape, size, pose and skin, and the same hands holding the same weapon in the same place. Change only the clothing and accessories to an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality. Keep the body colors readable on both dark stone and light grey floors (not all black, not all white). Full body, three-quarter view facing right."
+ },
+ "anim_notes": {
+  "skill": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "ultimate": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it",
+  "entrance": "The character's face stays clearly visible and lit with both eyes showing, not covered or darkened by the effect, flames or smoke. Only the character and its effect on an empty background: no walls, arches, doorways, portals, pillars or floor behind it"
+ },
+ "add_anims": [
+  "idle",
+  "entrance",
+  "ultimate",
+  "emote",
+  "portrait"
+ ],
+ "id": "C78d7d465",
+ "body_plan": {
+  "body": "A humanoid character wearing a white robe and a large black hat, standing upright.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "4e7b829170f1972664398689474ae95f"
+ },
+ "frame_notes": {
+  "entrance_1": "Only two or three thin golden crescent streaks near its weapon; most of the picture around the character stays empty, the white robe and black gat clearly outlined",
+  "entrance_2": "Bold golden energy streaks and small sparks fly around it, the white robe, black gat and face clearly visible",
+  "skill_0": "Bold golden energy streaks and small sparks fly around it, the white robe, black gat and face clearly visible",
+  "skill_1": "Only two or three thin golden crescent streaks near its weapon; most of the picture around the character stays empty, the white robe and black gat clearly outlined",
+  "skill_2": "Only two or three thin golden crescent streaks near its weapon; most of the picture around the character stays empty, the white robe and black gat clearly outlined",
+  "ultimate_0": "Only two or three thin golden crescent streaks near its weapon; most of the picture around the character stays empty, the white robe and black gat clearly outlined",
+  "ultimate_1": "Only two or three thin golden crescent streaks near its weapon; most of the picture around the character stays empty, the white robe and black gat clearly outlined",
+  "ultimate_2": "Bold golden energy streaks and small sparks fly around it, the white robe, black gat and face clearly visible",
+  "entrance_0": "Only two or three thin golden crescent streaks near its weapon; most of the picture around the character stays empty, the white robe, black gat and bare face clearly outlined"
+ },
+ "vfx_en_old": "Swirling shards of golden crescent moons and dark amber dust.",
+ "frame_text": {
+  "entrance_1": "landing dramatically, anything loose on its body (cloth, hair, fur) still flowing, a few small sparks at its feet",
+  "skill_1": "unleashing its signature skill forward, the effect flying out in front of it",
+  "skill_2": "holding its pose as the signature skill effect reaches full size in front of it",
+  "ultimate_0": "charging its ultimate ability, a few energy streaks circling its weapon",
+  "ultimate_1": "unleashing its ultimate ability, the effect flying out in front of it",
+  "entrance_0": "stepping into view with a few small sparks at its feet, its whole body solid and clearly drawn",
+  "entrance_2": "standing in a heroic entrance pose, fully formed, a few small sparks around it",
+  "skill_0": "gathering power for its signature skill, a small glow forming at its weapon",
+  "ultimate_2": "at the peak of its ultimate ability, a bold effect in front of it and small sparks around it"
+ },
+ "features_en_old": [
+  "Anchor-shaped greatsword",
+  "Oversized treasure chest bag",
+  "Golden moonlight aura",
+  "Goblin mask face",
+  "Underworld Road outfit: an Underworld Road outfit for the new update: white Korean mourning clothes, a black gat hat of an underworld reaper (jeoseung saja) and small ledger (myeongbu) ornaments, matched to its own weapon and personality"
+ ],
+ "anchor_edits": [
+  "10/10: 칸들이 원래 105 의 도깨비 탈 · 궤짝 · 달 오라를 다시 그려 앵커(맨얼굴 · 궤짝 없음)와 달랐다 — 유지 목록에서 빼고 전 칸 다시"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "transparent_index": 0,
+ "palette": [
+  "#1a1020",
+  "#84581c",
+  "#93805f",
+  "#949494",
+  "#bd9f69",
+  "#b3b2af",
+  "#cbb27d",
+  "#c3bcaa",
+  "#c9c3b4",
+  "#dbd4c0",
+  "#ece6d2",
+  "#f6f3e9",
+  "#fbfbfb",
+  "#ffffff"
+ ],
+ "note": "인덱스 0 은 투명, 1부터 이 순서."
+}

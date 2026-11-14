@@ -1,0 +1,105 @@
+{
+ "id": "Cbf95af9f",
+ "name": "물결",
+ "quote": "깊은 바다의 끝까지 꿰뚫어 주마.",
+ "race": "인간 (Human)",
+ "subrace": "해녀 (Haenyeo)",
+ "body_structure": "작고 단단한 체구",
+ "head_ratio": "2등신",
+ "job": "해녀 작살꾼 (Spear Diver)",
+ "culture": "한국 설화 (Korean Folklore)",
+ "personality": [
+  "결단력 있는",
+  "침착한",
+  "강인한"
+ ],
+ "face": "단호한 입매",
+ "eyes": "강렬한 에메랄드빛 눈동자",
+ "hair": "물에 젖은 듯한 진한 남색 단발",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "건강한 구릿빛 피부",
+ "outfit": "진한 청색의 잠수복 형태의 한복 저고리",
+ "gloves": "없음",
+ "shoes": "맨발",
+ "accessories": [
+  "빛나는 진주 머리핀"
+ ],
+ "bag": "작살이 꽂힌 낡은 망사 주머니",
+ "weapon": "빛나는 푸른 보석이 박힌 은색 작살",
+ "sub_gear": "없음",
+ "special_item": "떠다니는 신성한 물방울",
+ "palette": [
+  "#002B5B",
+  "#008080",
+  "#E0FFFF",
+  "#FFD700",
+  "#FFFFFF"
+ ],
+ "materials": [
+  "은색 금속",
+  "투명한 물방울",
+  "빛나는 진주"
+ ],
+ "silhouette": "긴 작살을 든 단단한 체구, 몸 주변을 떠다니는 작은 물방울 조각들",
+ "signature_motion": "작살을 뒤로 젖혔다가 앞으로 강하게 찌르는 동작",
+ "signature_vfx": "작살이 지나간 자리에 남는 푸른빛의 물결 궤적과 터지는 물보라",
+ "unique_features": [
+  "떠다니는 마력 물방울",
+  "보석이 박힌 작살",
+  "빛나는 진주 머리핀"
+ ],
+ "micro_features": [
+  "젖은 머리카락 끝의 물기",
+  "작살 끝의 에메랄드 빛",
+  "망사 주머니의 매듭"
+ ],
+ "visual_en": "A small 2-head tall character facing right. Dark navy wet short hair decorated with a glowing white pearl hairpin. Deep bronze skin with intense emerald eyes. Wearing a dark teal traditional Korean top. Small, luminous cyan magical water droplets float around the body. Holding a long, bright silver spear tipped with a brilliant cyan gemstone. A small mesh bag with a single harpoon attached hangs at the waist. The overall silhouette is sharp and brightly accented with cyan and gold to stand out against dark backgrounds.",
+ "features_en": [
+  "Floating magical water droplets",
+  "Gem-encrusted spear",
+  "Glowing pearl hairpin"
+ ],
+ "pose_en": "Standing in a firm, ready-to-strike stance, eyes focused forward.",
+ "vfx_en": "A few bold teal water streaks shooting forward and small droplets",
+ "weapon_en": "Silver Harpoon with Cyan Gem",
+ "item_en": "Floating Magical Droplets",
+ "motion_en": "Powerful forward thrusting motion",
+ "genre": "survivor",
+ "role": "주인공",
+ "tier": "신화",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "54-0",
+ "lore": "해녀 작살꾼 — 멀리 꿰뚫는다. 무기 작살.",
+ "px": 40,
+ "colors": 16,
+ "add_anims": [
+  "idle"
+ ],
+ "indexed": true,
+ "game_name": "물결",
+ "contrast": "both",
+ "concept": "이 게임 세계(요괴 · 이면 — 한국 설화) 영웅. 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "frame_notes": {
+  "skill_0": "A few bold curved teal water streaks and small droplets swirl around it, the whole body and face clearly visible",
+  "skill_2": "A few bold curved teal water streaks and small droplets swirl around it, the whole body and face clearly visible",
+  "ultimate_0": "A few bold curved teal water streaks and small droplets swirl around it, the whole body and face clearly visible",
+  "ultimate_1": "A few bold curved teal water streaks and small droplets swirl around it, the whole body and face clearly visible"
+ },
+ "no_halo": true,
+ "anchor_edits": [
+  "Remove the glowing halo ring floating above the head completely. Keep everything else exactly the same: face, hair, horns, ears, outfit, colors, weapon, pose and size.",
+  "10/8 19시 후광 빼기 다시(뿔이 생긴 첫 편집 대신) — 원래 앵커에서 시드 21"
+ ],
+ "body_plan": {
+  "body": "A humanoid character with dark skin, blue hair, and green eyes, wearing a green and white garment.",
+  "legs": true,
+  "arms": true,
+  "weapon": true,
+  "upright": true,
+  "anchor_md5": "c559d42b608229d900f7fc28860faf63"
+ },
+ "vfx_en_old": "Swirling cyan water trails and bright white splashes."
+}

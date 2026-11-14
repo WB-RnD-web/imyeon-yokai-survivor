@@ -1,0 +1,90 @@
+{
+ "id": "C6eefadd1",
+ "name": "망혼",
+ "quote": "길을 잃었으니, 너도 함께 가자.",
+ "race": "망령 (Wraith)",
+ "subrace": "저승의 떠돌이 (Wandering Soul)",
+ "body_structure": "흐릿한 하반신을 가진 작은 영혼",
+ "head_ratio": "2등신",
+ "job": "길 잃은 혼령",
+ "culture": "한국 저승 설화 (Korean Underworld)",
+ "personality": [
+  "정처 없음",
+  "몽롱함",
+  "떼로 몰려다님"
+ ],
+ "face": "감정이 없는 무표정",
+ "eyes": "흐릿한 눈동자",
+ "hair": "헝클어진 짧은 머리",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "흐릿한 연기 꼬리",
+ "wings": "없음",
+ "skin": "창백한 청록색",
+ "outfit": "해진 흰 수의",
+ "gloves": "없음",
+ "shoes": "없음",
+ "accessories": [
+  "없음"
+ ],
+ "bag": "없음",
+ "weapon": "없음",
+ "sub_gear": "없음",
+ "special_item": "없음",
+ "palette": [
+  "#2C3E50",
+  "#5D6D7E",
+  "#AAB7B8",
+  "#D5DBDB",
+  "#00FFCC"
+ ],
+ "materials": [
+  "반투명한 연기",
+  "거친 면직물"
+ ],
+ "silhouette": "머리 위로 솟은 헝클어진 머리카락, 하반신이 없는 흐릿한 꼬리 형태, 헐렁한 수의 실루동",
+ "signature_motion": "좌우로 빠르게 흔들거리며 파도치듯 전진함",
+ "signature_vfx": "발치에서 피어오르는 청록색 연기 잔상",
+ "unique_features": [
+  "하반신이 없는 흐릿한 꼬리",
+  "해진 흰 수의",
+  "청록색 빛의 눈동자"
+ ],
+ "micro_features": [
+  "머리카락 끝의 흐릿한 입자",
+  "수의 끝단의 찢어진 자국",
+  "꼬리 주변의 작은 연기 방울"
+ ],
+ "visual_en": "A small 2-head tall spirit with messy dark slate hair and glowing cyan eyes. The entity wears a tattered, off-white shroud made of heavy fabric, showing visible greyish frayed edges. Instead of legs, a wispy, translucent tail of dark teal smoke drifts downwards. The upper body is a pale cyan-grey, contrasting with the dark navy shadows of the tattered clothing. A bright cyan glow emanates from the eyes and small floating particles around the head, making it visible against dark dungeon floors.",
+ "features_en": [
+  "Wispy smoke tail",
+  "Tattered white shroud",
+  "Glowing cyan eyes"
+ ],
+ "pose_en": "Floating erratically while swaying side to side in a rapid wave-like pattern.",
+ "vfx_en": "A trail of bright cyan misty particles following the movement.",
+ "weapon_en": "None",
+ "item_en": "None",
+ "motion_en": "Rapid rhythmic swaying",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "일반",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "33-0",
+ "lore": "떼로 몰려온다(티로처럼 좌우로 흔들며 몰려오는 가장 빠른 떼 몹).",
+ "px": 28,
+ "colors": 16,
+ "tier_extras": false,
+ "indexed": true,
+ "game_name": "망혼",
+ "contrast": "both",
+ "concept": "저승길 — 한국 저승 설화(저승차사 · 옥졸 · 삼도천 · 명부 · 염라). 무섭되 이 게임의 2~3등신 치비 도트, 어두운 돌바닥과 밝은 회색 바닥 둘 다에서 보이는 몸 색.",
+ "body_plan": {
+  "body": "A blue-skinned humanoid character with dark hair, wearing a white cloak, featuring a large fish-like tail instead of lower legs.",
+  "legs": false,
+  "arms": true,
+  "weapon": false,
+  "upright": false,
+  "anchor_md5": "3454156a5f6cb612defea98b6883b06f"
+ }
+}

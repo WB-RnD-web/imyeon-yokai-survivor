@@ -1,0 +1,88 @@
+{
+ "id": "C9cce876b",
+ "name": "우츠로",
+ "quote": "비어버린 껍데기에 남은 것은 오직 굶주림뿐이다.",
+ "race": "요괴",
+ "subrace": "허기진 악귀",
+ "body_structure": "기괴하게 비대해진 상체와 가느다란 사지",
+ "head_ratio": "2등신",
+ "job": "포식자",
+ "culture": "버려진 사찰의 망령",
+ "personality": [
+  "공허함",
+  "폭발적인 식탐",
+  "광기"
+ ],
+ "face": "입이 비정상적으로 크게 찢어진 얼굴",
+ "eyes": "초점 없는 형광 연두색 눈",
+ "hair": "헝클어진 잿빛 머리카락",
+ "ears": "없음",
+ "horns": "없음",
+ "tail": "없음",
+ "wings": "없음",
+ "skin": "창백한 보라색 피부",
+ "outfit": "해진 낡은 붉은색 승복",
+ "gloves": "없음",
+ "shoes": "맨발",
+ "accessories": [
+  "부서진 염주"
+ ],
+ "bag": "없음",
+ "weapon": "커다란 뼈 몽둥이",
+ "sub_gear": "없음",
+ "special_item": "빛나는 연두색 구슬",
+ "palette": [
+  "#E0E0E0",
+  "#7B2CBF",
+  "#9D4EDD",
+  "#FF0040",
+  "#CCFF00"
+ ],
+ "materials": [
+  "거친 천",
+  "부서진 뼈",
+  "빛나는 마력"
+ ],
+ "silhouette": "거대한 입의 실루엣, 몽둥이를 든 비대칭 체형, 흩날리는 머리카락",
+ "signature_motion": "체력이 낮아지면 몸을 떨며 더 빠르게 돌진함",
+ "signature_vfx": "입 주변에서 뿜어져 나오는 형광 연두색 안개",
+ "unique_features": [
+  "비정상적으로 큰 입",
+  "빛나는 연두색 눈",
+  "부서진 염주",
+  "붉게 달아오르는 피부"
+ ],
+ "micro_features": [
+  "입가에 묻은 액체",
+  "해진 옷단",
+  "염주에 걸린 작은 뼈 조각"
+ ],
+ "visual_en": "A small 2-unit scale creature facing right, featuring an unnaturally large gaping mouth with glowing neon lime eyes. The head is covered in messy ash-grey hair, with a pale purple skin tone. It wears a tattered, deep crimson monk robe decorated with ornate gold trims. Around its neck, a broken Buddhist prayer bead string hangs loosely. It holds a massive, thick white bone club. As its health decreases, the skin turns a bright, angry red, and the neon lime eyes glow much more intensely.",
+ "features_en": [
+  "Unnaturally large mouth",
+  "Glowing neon lime eyes",
+  "Broken prayer beads",
+  "Reddening skin"
+ ],
+ "pose_en": "Lurching forward with a hungry, manic expression.",
+ "vfx_en": "Swirling neon lime mist emanating from the mouth.",
+ "weapon_en": "Massive bone club",
+ "item_en": "Glowing lime bead",
+ "motion_en": "Erratic, high-speed lunging",
+ "genre": "survivor",
+ "role": "잡몹",
+ "tier": "영웅",
+ "order": "이면 : 요괴 서바이버",
+ "order_key": "17-0",
+ "lore": "체력이 깎일수록 빨라진다(최대 1.9배).",
+ "px": 52,
+ "colors": 16,
+ "stages": [
+  "체력이 깎여 분노한 모습 — 몸이 붉게 달아오르고 더 거칠어 보인다"
+ ],
+ "stage_anims": [
+  "walk"
+ ],
+ "tier_extras": false,
+ "indexed": true
+}
