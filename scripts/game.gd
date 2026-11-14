@@ -165,6 +165,7 @@ var run_mode: String = "endless"
 var mode_chosen: bool = false     # 이번 실행에서 출격 준비로 모드를 한 번 골랐는가(저장 안 함) — 처음엔 스테이지 탭으로 연다
 var stage_sel: int = 0            # 스테이지 모드에서 고른 스테이지(0~5, 5 = 저승길)
 var stage_prog: Dictionary = {}   # "c_<stage>_<diff>" -> true (클리어 기록, 저장 지속)
+var endless_prog: Dictionary = {}   # 11/14 무한 기록 · 무한 별 (난이도별) — 아래 「무한 기록」 절
 # ── 킬 콤보 (S1): 짧은 간격 연속 처치 → 카운터/사운드 상승 ──
 var combo: int = 0
 var combo_t: float = 0.0
@@ -197,7 +198,7 @@ static func is_demo() -> bool:
 ## 스팀 플레이 보고: 「무한 모드 도중 강제 종료」. 봇 판(헤드리스 10판 · 화면 그리기 센 빌드 30분)으로는 판 도중 튕김이
 ## 안 났다. 플레이어 PC 에서 다시 나면 짚을 수 있게, 판 도중 상태를 10초마다 적고 정상 종료를 표시한다.
 ## 다음에 켰을 때 정상 종료 표시가 없으면 그 상태와 직전 로그 끝부분을 user://crash_reports/ 에 남긴다.
-const GAME_VERSION: String = "1.4.0"
+const GAME_VERSION: String = "1.5.0"
 const SESSION_PATH: String = "user://session.cfg"
 var crash_reports_new: int = 0   # 이번에 켜면서 새로 남긴 튕김 기록 수
 
@@ -398,6 +399,7 @@ func _load_save(path: String = SAVE_PATH) -> void:
 		ui_scale_idx = int(cfg.get_value("data", "ui_scale", -1))
 		cam_zoom_idx = int(cfg.get_value("data", "cam_zoom", -1))
 		stage_prog = cfg.get_value("data", "stage_prog", {})
+		endless_prog = cfg.get_value("data", "endless_prog", {})
 		quests = cfg.get_value("data", "quests", {})
 		perf_idx = int(cfg.get_value("data", "perf", -1))
 		stick_idx = int(cfg.get_value("data", "stick", -1))
@@ -469,6 +471,7 @@ func save_game(path: String = SAVE_PATH) -> void:
 	cfg.set_value("data", "ui_scale", ui_scale_idx)
 	cfg.set_value("data", "cam_zoom", cam_zoom_idx)
 	cfg.set_value("data", "stage_prog", stage_prog)
+	cfg.set_value("data", "endless_prog", endless_prog)
 	cfg.set_value("data", "quests", quests)
 	cfg.set_value("data", "perf", perf_idx)
 	cfg.set_value("data", "stick", stick_idx)
@@ -1107,6 +1110,83 @@ func mark_stage_clear(i: int, d: int) -> int:
 
 func first_clear_gold(i: int, d: int) -> int:
 	return int(round(120.0 * float(i + 1) * [1.0, 1.6, 2.6, 4.2, 6.0][clampi(d, 0, DIFF_MAX)]))
+
+
+## ── 11/14 무한 기록 · 무한 별 ──
+## 이용자: 「무한 모드엔 왜 별 같은 게 안 뜨나 · 깨거나 보스를 잡아도 쌓이는 게 없다」.
+##   스테이지 별(6 × 4 × 3 = 72)은 그대로 두고, 무한에는 난이도(쉬움~지옥)마다 별 0~3 을 따로 둔다.
+##   매기는 법은 스테이지와 같다(clear_stars) — 완주 1 · 사신을 90초 안에 잡으면 2 · 60초 안에 안 맞고 잡으면 3.
+##   그래서 무한 별은 난이도 다섯 × 3 = 15 개다.
+##   endless_prog 키: "c_<d>" 완주 · "s_<d>" 별 · "t_<d>" 사신 최단(초) · "k_<d>" 완주 판 최다 처치 · "b_<d>" 가장 오래 버틴 초(못 깬 판 포함)
+const ENDLESS_STAR_MAX: int = 15
+
+func endless_cleared(d: int) -> bool:
+	return endless_prog.has("c_%d" % d)
+
+
+func endless_stars(d: int) -> int:
+	return int(endless_prog.get("s_%d" % d, 0))
+
+
+func endless_best_boss(d: int) -> float:
+	return float(endless_prog.get("t_%d" % d, 0.0))
+
+
+func endless_best_kills(d: int) -> int:
+	return int(endless_prog.get("k_%d" % d, 0))
+
+
+func endless_best_time(d: int) -> int:
+	return int(endless_prog.get("b_%d" % d, 0))
+
+
+func endless_star_total() -> int:
+	var n: int = 0
+	for d in DIFF_MAX + 1:
+		n += endless_stars(d)
+	return n
+
+
+## 무한 판이 끝날 때(완주 · 사망 둘 다) 버틴 시간을 그 난이도 기록에 남긴다. 기록이 올랐으면 true.
+func note_endless_time(d: int, sec: int) -> bool:
+	if sec <= endless_best_time(d):
+		return false
+	endless_prog["b_%d" % d] = sec
+	return true
+
+
+## 무한 완주 기록 — 별 · 사신 최단 · 처치는 올랐을 때만 덮어쓴다(못 한 판이 기록을 깎지 않게).
+## 결과 창이 배지를 고르도록 전과 후를 돌려준다. 도전과제 판정은 run_ended() 가 한다.
+func mark_endless_clear(d: int) -> Dictionary:
+	var first: bool = not endless_cleared(d)
+	var prev_star: int = endless_stars(d)
+	var prev_t: float = endless_best_boss(d)
+	var star: int = clear_stars(boss_fight_t, no_hit_boss)
+	endless_prog["c_%d" % d] = true
+	if star > prev_star:
+		endless_prog["s_%d" % d] = star
+	var faster: bool = boss_fight_t > 0.0 and (prev_t <= 0.0 or boss_fight_t < prev_t)
+	if faster:
+		endless_prog["t_%d" % d] = boss_fight_t
+	if kills > endless_best_kills(d):
+		endless_prog["k_%d" % d] = kills
+	stats["endless_d%d" % d] = 1
+	stat_max("endless_stars", endless_star_total())
+	return {"first": first, "star": star, "prev_star": prev_star, "faster": faster and prev_t > 0.0}
+
+
+## 난이도마다 처음 완주하면 따는 도전과제(매우어려움은 예전부터 있던 endless_hard 가 맡는다).
+const ENDLESS_CLEAR_ACH: Array = ["ENDLESS_CLEAR_EASY", "ENDLESS_CLEAR_NORMAL", "ENDLESS_CLEAR_HARD", "endless_hard", "ENDLESS_CLEAR_HELL"]
+
+## 그 난이도를 처음 완주하면 받는 골드(영웅 고르는 곳 「첫 완주 +NG」). 이미 딴 도전과제면 0.
+func endless_first_gold(d: int) -> int:
+	var id: String = String(ENDLESS_CLEAR_ACH[clampi(d, 0, DIFF_MAX)])
+	if achievements.has(id):
+		return 0
+	for a: Dictionary in Codex.ACHIEVEMENTS:
+		if String(a["id"]) == id:
+			return int(a.get("gold", 0))
+	return 0
 
 
 ## 스테이지 모드 적 체력/피해 추가 배수 (티어 배수와 곱연산).
@@ -2302,6 +2382,7 @@ var harness_speed: float = 1.0
 var reaper_t0: float = 0.0   # 무한 최종 보스(사신)가 처음 나온 시각 — 사신들은 여기서부터 분마다 세진다(Enemy._reaper_sync)
 var harness_final_hp: float = 0.0   # --botrun --finalhp=N: 무한 최종 보스 체력을 N 으로(안 죽게 두고 화력을 잰다)
 var harness_nodmg: bool = false   # --botrun --nodmg: 받은 피해를 세기만 한다(player.take_damage)
+var harness_oldchain: bool = false   # --dmgshare --oldchain: 11/14 고치기 전 연쇄 식(앞뒤 비교용)
 var deploy_ms: int = 0      # 16차 4-3: 출격을 누른 시각(씬을 다시 불러도 남게 G 에)
 var boot_menu_ms: int = 0
 

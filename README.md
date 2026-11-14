@@ -5,7 +5,7 @@ A pixel-art survivor roguelike set in a Korean yokai underworld. Pick a hero, su
 - Steam: https://store.steampowered.com/app/5428620/
 - Free Windows build: see [Releases](https://github.com/WB-RnD-web/imyeon-yokai-survivor/releases)
 - Engine: Godot 4.7.1 (GL Compatibility)
-- Current version: 1.4.0
+- Current version: 1.5.0
 
 The Steam release and the builds on this page come from the same source. The Steam release additionally ships [GodotSteam](https://godotsteam.com/) and Valve's `steam_api64.dll` for achievements and cloud saves. Those two files are not part of this repository.
 

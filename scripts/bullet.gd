@@ -454,7 +454,17 @@ func _nearest_other() -> Enemy:
 	return best
 
 
-## 연쇄 번개: 명중 지점 주변의 적 N마리에게 분할 피해 + 번개 아크
+## 연쇄 번개: 명중 지점 주변의 적 N마리에게 옮겨 가며 약해지는 피해 + 번개 아크
+## ★ 11/14 이용자 보고(무한 쉬움 30분 · Lv142): 결과 표에서 연쇄가 총피해의 63% 로 융합 무기 넷을 다 합친 것보다 컸다.
+##   예전 식은 옮겨 붙는 적마다 한 발의 (0.35 + 0.05×Lv) 를 그대로 줘서, 몹이 빽빽한 무한 후반엔
+##   명중 한 번마다 한 발의 Lv×(0.35+0.05×Lv) = 5단계 3.0배 · 구미호의 꼬리 6단계 3.9배가 더 들어갔다.
+##   관통 · 튕김 명중마다 또 터지니 레일건 같은 융합 무기의 피해가 「연쇄」 줄로 넘어가 보였다.
+##   첫 번째로 옮겨 가는 피해를 한 발의 (0.25 + 0.03×Lv) 로 낮추고 한 번 옮길 때마다 0.55배씩 약해지게 한다.
+##   명중 한 번에 더 들어가는 몫이 1단계 0.28 · 3단계 0.63 · 5단계 0.84 · 6단계 0.93배가 된다(예전 0.40 · 1.5 · 3.0 · 3.9).
+##   감전 5단계 0.45배보다는 여전히 세다 — 대신 몰려 있을 때만 들어가고 보스 혼자면 0 이다.
+##   --dmgshare 로 앞뒤를 잰다(--oldchain = 예전 식).
+const CHAIN_FALLOFF: float = 0.55
+
 func _chain_zap(from: Enemy) -> void:
 	var origin: Vector2 = from.global_position
 	var cand: Array = []
@@ -470,10 +480,13 @@ func _chain_zap(from: Enemy) -> void:
 	cand.sort_custom(func(a: Dictionary, b: Dictionary) -> bool: return float(a["d"]) < float(b["d"]))
 	var cnt: int = mini(_fx_chain, cand.size())
 	var prev: Vector2 = origin
+	var amt: float = _dmg * ((0.35 + 0.05 * float(_fx_chain)) if G.harness_oldchain else (0.25 + 0.03 * float(_fx_chain)))
 	for i in cnt:
 		var e: Enemy = cand[i]["e"]
 		_hit.append(e)  # 중복 타격/관통 재소모 방지
-		e.take_damage(_dmg * (0.35 + 0.05 * float(_fx_chain)), (e.global_position - origin).normalized(), false, "b_chain")
+		e.take_damage(amt, (e.global_position - origin).normalized(), false, "b_chain")
+		if not G.harness_oldchain:
+			amt *= CHAIN_FALLOFF
 		_chain_arc(prev, e.global_position)
 		prev = e.global_position
 

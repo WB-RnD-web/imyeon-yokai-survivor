@@ -797,6 +797,15 @@ func _update_diff_visual() -> void:
 		var midx: int = i - 1
 		var selected: bool = (midx < 0 and not stage_mode) or (stage_mode and midx == _sel_mode)
 		UiKit.tab(mb, selected)
+		if midx < 0:
+			# 11/14 무한 별: 스테이지 칸처럼 — 한 난이도라도 완주했으면 빈 별, 다섯 다 완주했으면 찬 별
+			var eclr: int = 0
+			for d in G.DIFF_MAX + 1:
+				if G.endless_cleared(d):
+					eclr += 1
+			var eic: String = "" if eclr == 0 else ("star_empty" if eclr < G.DIFF_MAX + 1 else "star_full")
+			mb.icon = UiParts.icon_tex(eic, 16) if eic != "" else null
+			mb.icon_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 		if midx >= 0:
 			var open: bool = G.stage_unlocked(midx, 0)
 			# 16차 U5: 「· 잠김」 · 「☆」 · 「★」 글자 → 자물쇠 · 빈 별(일부 클리어) · 찬 별(난이도 넷 다) 16px
@@ -822,7 +831,8 @@ func _update_diff_visual() -> void:
 		var locked: bool = not _diff_open(i)
 		b.disabled = locked
 		b.text = I18n.t(String(G.DIFF_NAMES[i]))
-		var dic: String = "lock" if locked else ("star_full" if stage_mode and G.stage_cleared(_sel_mode, i) else "")
+		var clr: bool = G.stage_cleared(_sel_mode, i) if stage_mode else G.endless_cleared(i)   # 11/14: 무한도 완주한 난이도에 별
+		var dic: String = "lock" if locked else ("star_full" if clr else "")
 		b.icon = UiParts.icon_tex(dic, 16) if dic != "" else null
 		b.icon_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 		UiKit.choice(b, i == _sel_diff)
@@ -839,7 +849,7 @@ func _update_diff_visual() -> void:
 			if _sel_diff < _want_diff:
 				txt = I18n.t("%s 난이도는 이 스테이지의 앞 난이도를 깨면 열려요") % I18n.t(String(G.DIFF_NAMES[_want_diff])) + "\n" + txt
 		else:
-			txt = I18n.t("무한 모드 · 30분 최종 보스까지 생존\n") + txt
+			txt = _endless_line(di) + "\n" + txt
 		# 11/7 업보: 한 줄만 더한다(단계 · 골드 · 마지막으로 더해진 제약). 전부는 업보 칸에 마우스를 올리면.
 		var kon: bool = G.karma_unlocked()
 		if _karma_box != null:
@@ -860,6 +870,29 @@ func _update_diff_visual() -> void:
 				_karma_lbl.text = kline
 		_diff_desc_lbl.text = txt
 		_diff_desc_lbl.add_theme_color_override("font_color", DIFF_COLORS[di].lightened(0.2))
+
+
+## 11/14 무한 기록 한 줄 — 스테이지 줄(「STAGE 1 … · 첫 클리어 +NG」)과 같은 자리 · 같은 길이로.
+##   완주했으면 별 · 최종 보스 최단 · 무한 별 합, 아직이면 첫 완주 골드 · 가장 오래 버틴 시간.
+##   ★ 이 줄은 자동 줄바꿈이 없어 길면 화면이 옆으로 늘어난다(11/7 영웅 화면 가로 넘침) — 항목을 넷 넘게 붙이지 말 것.
+func _endless_line(d: int) -> String:
+	var parts: PackedStringArray = []
+	if G.endless_cleared(d):
+		parts.append(I18n.t("무한 완주함"))
+		parts.append(I18n.t("별 %d/3") % G.endless_stars(d))
+		var bt: float = G.endless_best_boss(d)
+		if bt > 0.0:
+			parts.append(I18n.t("최종 보스 %02d:%02d") % [int(bt) / 60, int(bt) % 60])
+	else:
+		parts.append(I18n.t("무한 모드 · 30분 최종 보스까지 생존"))
+		var fg: int = G.endless_first_gold(d)
+		if fg > 0:
+			parts.append(I18n.t("첫 완주 +%sG") % G.gold_str(fg))
+		var bs: int = G.endless_best_time(d)
+		if bs > 0:
+			parts.append(I18n.t("최고 %02d:%02d") % [bs / 60, bs % 60])
+	parts.append(I18n.t("무한 별 %d/%d") % [G.endless_star_total(), G.ENDLESS_STAR_MAX])
+	return " · ".join(parts)
 
 
 func _pick(def: Dictionary) -> void:

@@ -138,7 +138,7 @@ const ACHIEVEMENTS: Array = [
 	{"id": "stage_all", "name": "완전 정복", "desc": "모든 스테이지×난이도 클리어 (24)", "stat": "stages_cleared", "need": 24, "gold": 600},
 	# ── 실력으로만 따는 것들 — 누적 카운터만 있던 목록의 반대편 ──
 	{"id": "endless_clear", "name": "무한의 끝", "desc": "무한 모드 최종 보스 처치", "stat": "endless_clears", "need": 1, "gold": 500},
-	{"id": "endless_hard", "name": "끝의 끝", "desc": "무한 모드를 '매우어려움'으로 완주", "stat": "endless_hard", "need": 1, "gold": 900},
+	{"id": "endless_hard", "name": "끝의 끝", "desc": "무한 모드를 '매우어려움'으로 완주", "stat": "endless_hard", "need": 1, "gold": 10000},  # 11/14: 900 → 난이도별 완주 사다리(1,500 · 3,000 · 6,000 · 10,000 · 20,000)에 맞춤
 	{"id": "star_20", "name": "별을 모으다", "desc": "클리어 별 20개 획득", "stat": "best_stars", "need": 20, "gold": 250},
 	{"id": "star_45", "name": "별하늘", "desc": "클리어 별 45개 획득", "stat": "best_stars", "need": 45, "gold": 700},
 	{"id": "star_60", "name": "만천의 별", "desc": "모든 조합에서 별 3개 (72개)", "stat": "best_stars", "need": 72, "gold": 1500},  # id 는 스팀 도전과제 이름이라 그대로
@@ -147,4 +147,19 @@ const ACHIEVEMENTS: Array = [
 	{"id": "combo_300", "name": "끊기지 않는다", "desc": "한 판에서 콤보 300 달성", "stat": "best_combo", "need": 300, "gold": 260},
 	{"id": "fusion_3run", "name": "삼중 융합", "desc": "한 판에서 융합 3종 완성", "stat": "best_run_fusions", "need": 3, "gold": 400},
 	{"id": "yokai_all", "name": "이면을 보다", "desc": "이면 요괴 도감 전부 수집", "stat": "yokai_seen", "need": -3, "gold": 450},  # need -3 = 이면 요괴 수 (몹을 늘려도 자동 반영)
+	# ── 11/14 무한 진행 · 누적 보상 (이용자 「무한은 깨도 쌓이는 게 없다 · 보스를 잡아도 누적 보상이 없다」) ──
+	# ★ id 는 스팀 도전과제 API 이름 그대로이고, 스팀 인벤토리 아이템이 「ach:<id>」 로 붙는다 — 바꾸지 말 것.
+	#   매우어려움 완주는 예전 endless_hard 가 맡는다(같은 조건을 둘로 만들지 않는다).
+	{"id": "ENDLESS_CLEAR_EASY", "name": "첫 새벽", "desc": "무한 모드를 쉬움으로 완주", "stat": "endless_d0", "need": 1, "gold": 1500},
+	{"id": "ENDLESS_CLEAR_NORMAL", "name": "긴 밤을 건너다", "desc": "무한 모드를 보통으로 완주", "stat": "endless_d1", "need": 1, "gold": 3000},
+	{"id": "ENDLESS_CLEAR_HARD", "name": "사신과 마주 서다", "desc": "무한 모드를 어려움으로 완주", "stat": "endless_d2", "need": 1, "gold": 6000},
+	{"id": "ENDLESS_CLEAR_HELL", "name": "지옥 끝까지", "desc": "무한 모드를 지옥으로 완주", "stat": "endless_d4", "need": 1, "gold": 20000},
+	{"id": "ENDLESS_STARS_5", "name": "무한의 별", "desc": "무한 별 5개 획득", "stat": "endless_stars", "need": 5, "gold": 3000},
+	{"id": "ENDLESS_STARS_10", "name": "저승 별자리", "desc": "무한 별 10개 획득", "stat": "endless_stars", "need": 10, "gold": 8000},
+	{"id": "ENDLESS_STARS_15", "name": "꺼지지 않는 별", "desc": "무한 별 15개 모두 획득", "stat": "endless_stars", "need": 15, "gold": 20000},
+	{"id": "BOSS_50", "name": "퇴마의 길", "desc": "누적 보스 50 처치", "stat": "total_bosses", "need": 50, "gold": 2000},
+	{"id": "BOSS_200", "name": "퇴마사", "desc": "누적 보스 200 처치", "stat": "total_bosses", "need": 200, "gold": 6000},
+	{"id": "BOSS_500", "name": "백귀를 멈추다", "desc": "누적 보스 500 처치", "stat": "total_bosses", "need": 500, "gold": 15000},
+	{"id": "ENDLESS_CLEARS_5", "name": "다섯 번의 새벽", "desc": "무한 모드 누적 5회 완주", "stat": "endless_clears", "need": 5, "gold": 5000},
+	{"id": "ENDLESS_CLEARS_20", "name": "새벽을 세는 사람", "desc": "무한 모드 누적 20회 완주", "stat": "endless_clears", "need": 20, "gold": 15000},
 ]

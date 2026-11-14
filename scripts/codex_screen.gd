@@ -254,6 +254,24 @@ func _build_conquest() -> void:
 		_content.add_child(row)
 		for i in G.STAGE_NAMES.size():
 			row.add_child(_conquest_cell(i, d))
+	# 11/14 무한 줄 — 난이도 다섯 칸에 별 · 사신 최단 · 최다 처치(못 깬 난이도는 가장 오래 버틴 시간).
+	#   이용자 「무한 모드엔 왜 별 같은 게 안 뜨나」. 별 규칙은 스테이지와 같고 보스전 시계는 30분 최종 보스(사신)다.
+	#   ★ 무한 별 합은 이 머리줄에 적는다 — 위 진행 줄(정복 · 별)에 붙였더니 영어에서 탭 줄이 1598 로 화면을 넘었다(--uifit).
+	_content.add_child(UiKit.header(I18n.t("무한  ·  별 %d / %d") % [G.endless_star_total(), G.ENDLESS_STAR_MAX], UiKit.ACCENT, 19))
+	# 맨 위 안내 줄에 이어 붙였더니 영어에서 줄 하나가 1,500 폭이 되어 도감 화면이 옆으로 넘쳤다(--uifit) — 무한 줄 바로 아래 짧게
+	var elead := Label.new()
+	elead.text = "무한은 30분 최종 보스와 싸운 시간으로 센다."
+	UiFont.apply(elead, 14)
+	elead.add_theme_color_override("font_color", UiKit.TEXT_DIM)
+	elead.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_content.add_child(elead)
+	var erow := GridContainer.new()
+	erow.columns = G.DIFF_MAX + 1
+	erow.add_theme_constant_override("h_separation", 8)
+	erow.add_theme_constant_override("v_separation", 8)
+	_content.add_child(erow)
+	for d2 in G.DIFF_MAX + 1:
+		erow.add_child(_endless_cell(d2))
 
 
 const _DIFF_COLS: Array = ["62d162", "54c6ff", "ff9f43", "ff5a5a", "b44dff"]
@@ -295,6 +313,32 @@ func _conquest_cell(i: int, d: int) -> Control:
 		var kb: int = G.stage_best_kills(i, d)
 		_cq_lbl(vb, I18n.t("최단 보스전 %02d:%02d") % [int(bt) / 60, int(bt) % 60], 12, UiKit.TEXT_DIM)
 		_cq_lbl(vb, I18n.t("최다 처치 %s") % G.gold_str(kb), 12, UiKit.TEXT_DIM)
+	return panel
+
+
+func _endless_cell(d: int) -> Control:
+	var cleared: bool = G.endless_cleared(d)
+	var col: Color = _diff_color(d) if cleared else UiKit.PANEL_BORDER
+	var panel := UiKit.make_panel(col)
+	panel.custom_minimum_size = Vector2(164, 0)
+	panel.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	var small: StyleBoxTexture = UiParts.box("panel_small", 2, 0, 8.0)
+	if small != null:
+		panel.add_theme_stylebox_override("panel", small)
+	var vb := VBoxContainer.new()
+	vb.add_theme_constant_override("separation", 2)
+	panel.add_child(vb)
+	_cq_lbl(vb, I18n.t(String(G.DIFF_NAMES[d])), 17, col.lightened(0.2) if cleared else UiKit.TEXT_DIM)
+	if cleared:
+		vb.add_child(UiParts.stars(G.endless_stars(d), 3, 12))
+		var bt: float = G.endless_best_boss(d)
+		_cq_lbl(vb, I18n.t("최종 보스 %02d:%02d") % [int(bt) / 60, int(bt) % 60], 12, UiKit.TEXT_DIM)
+		_cq_lbl(vb, I18n.t("최다 처치 %s") % G.gold_str(G.endless_best_kills(d)), 12, UiKit.TEXT_DIM)
+	else:
+		_cq_lbl(vb, I18n.t("미완주"), 18, UiKit.TEXT_DIM)
+		var bs: int = G.endless_best_time(d)
+		if bs > 0:
+			_cq_lbl(vb, I18n.t("최고 %02d:%02d") % [bs / 60, bs % 60], 12, UiKit.TEXT_DIM)
 	return panel
 
 

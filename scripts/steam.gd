@@ -1,5 +1,5 @@
 extends Node
-## 스팀 연동 — 도전과제 27종을 스팀 계정에 올린다.
+## 스팀 연동 — 도전과제(codex.gd ACHIEVEMENTS)를 스팀 계정에 올리고, 도전과제에 붙은 인벤토리 수집품을 받는다(11/14).
 ##
 ## ★ 이 파일의 제1원칙은 ads.gd 와 같다: 스팀이 없어도 게임은 멀쩡해야 한다.
 ##   GodotSteam 미설치(안드로이드·웹·헤드리스 하니스), 스팀 클라이언트 꺼짐,
@@ -24,6 +24,7 @@ const DEMO_APP_ID: int = 5438980   # 19차(10/13) 체험판 앱 · 디포 543898
 var _steam: Object = null
 var _ok: bool = false
 var _pump: bool = false     # run_callbacks 를 직접 돌려야 하는 빌드인가
+var _promo_due: int = 0     # 11/14 수집품: 이 시각(ms)이 지나면 grantPromoItems 를 한 번 부른다(0 = 예약 없음)
 
 
 func _ready() -> void:
@@ -77,14 +78,42 @@ func _ready() -> void:
 	if G.is_demo():
 		return   # 체험판 앱에는 도전과제가 없다 — 본편에서 딴다
 	G.achievement_unlocked.connect(_on_unlocked)
+	# 11/14 수집품: 도전과제가 스팀 서버에 저장됐다는 신호가 오면 promo 아이템을 받으러 간다
+	for sig: String in ["user_achievement_stored", "user_stats_stored"]:
+		if _steam.has_signal(sig):
+			_steam.connect(sig, _on_stored)
 	# 이미 딴 것들을 밀어 올린다. 스팀 연동 전에 딴 도전과제, 또는 모바일에서
 	# 옮겨온 세이브가 있으면 스팀 쪽만 비어 있게 되므로 시작할 때 한 번 맞춘다.
 	_backfill()
+	_promo_due = Time.get_ticks_msec() + 2000   # 시작할 때 한 번 — 업데이트 전에 딴 도전과제의 수집품도 여기서 받는다
 
 
 func _process(_delta: float) -> void:
 	if _ok and _pump:
 		_steam.call("run_callbacks")
+	if _promo_due > 0 and Time.get_ticks_msec() >= _promo_due:
+		_promo_due = 0
+		grant_promos()
+
+
+## ── 11/14 스팀 인벤토리 수집품 ──
+## 도전과제마다 수집품 하나가 스팀웍스 아이템 정의의 promo 규칙 「ach:<도전과제 API 이름>」 으로 붙는다.
+##   게임은 「받을 자격이 있는 promo 아이템을 다 달라」(ISteamInventory::GrantPromoItems)를 부르기만 하고,
+##   어느 업적에 무엇을 줄지 · 한 번만 줄지는 스팀이 정한다. 아이템 정의 · 그림은 스팀웍스에 올린다.
+##   인벤토리 함수가 없는 GodotSteam 판이거나 스팀이 없거나 체험판이면 조용히 건너뛴다.
+##   (돌려받는 결과 핸들은 쓰지 않는다 — 판마다 몇 번뿐이라 DestroyResult 를 안 불러도 남는 건 작다)
+func grant_promos() -> void:
+	if not _ok or G.is_demo() or not _steam.has_method("grantPromoItems"):
+		return
+	_steam.call("grantPromoItems")
+	if OS.is_debug_build():
+		print("[Steam] grantPromoItems")
+
+
+## user_achievement_stored(5개 인자) · user_stats_stored(2개 인자) 둘 다 받는다. 업적이 여럿 한꺼번에 저장되면
+##   신호도 여럿 오니, 마지막 신호 1.5초 뒤에 한 번만 부른다.
+func _on_stored(_a: Variant = null, _b: Variant = null, _c: Variant = null, _d: Variant = null, _e: Variant = null) -> void:
+	_promo_due = Time.get_ticks_msec() + 1500
 
 
 ## 오버레이가 열리면 판을 멈춘다 — GodotSteam 판마다 인자 수가 달라(active 하나 · 셋) 나머지는 기본값으로 받는다.

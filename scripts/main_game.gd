@@ -1624,6 +1624,9 @@ func _on_endless_clear() -> void:
 		G.stat_add("swift_clears", 1)
 	G.stat_max("best_time", int(G.time_alive))
 	G.stat_max("best_combo", G.combo_best)
+	# 11/14 무한 별 · 기록(난이도별). run_ended 보다 먼저 — 그 안의 도전과제 판정이 무한 별 · 난이도 완주를 본다.
+	var rec: Dictionary = G.mark_endless_clear(G.difficulty)
+	G.note_endless_time(G.difficulty, int(G.time_alive))
 	var bonus: int = G.add_gold_bonus(800 * (G.difficulty + 1))
 	var earned: int = G.run_gold
 	G.bank_run_gold()
@@ -1639,11 +1642,31 @@ func _on_endless_clear() -> void:
 			I18n.t("   무피격 격파") if G.no_hit_boss else ""],
 		I18n.t("획득 골드 %s G  (완주 보너스 +%s 포함)  ·  총 %s G") % [G.gold_str(earned), G.gold_str(bonus), G.gold_str(G.total_gold)],
 	]
-	UiKit.set_wrapped(_victory_lbl, String(lines[0]), 20, true)   # 11/5: 항목 사이에서만 · 고르게 꺾는다
-	if _vic_stars != null:
-		_vic_stars.visible = false
+	# 11/14: 무한에도 별(스테이지와 같은 규칙) · 기록 배지. 예전엔 별 줄을 숨기고 「무한 완주 · 쉬움」 한 줄뿐이었다
+	#   (이용자 「무한 모드엔 왜 별 같은 게 안 뜨나」).
+	var badges: Array = []
+	if bool(rec.get("first", false)):
+		badges.append(I18n.t("첫 완주"))
+	elif int(rec.get("star", 0)) > int(rec.get("prev_star", 0)):
+		badges.append(I18n.t("최고 등급"))
+	if bool(rec.get("faster", false)):
+		badges.append(I18n.t("최단 기록"))
+	if G.no_hit_boss:
+		badges.append(I18n.t("무피격"))
+	badges.append(I18n.t("무한 별 %d/%d") % [G.endless_star_total(), G.ENDLESS_STAR_MAX])
 	_res_summary(_vic_sum)
-	UiKit.set_wrapped(_vic_gold, _keep_items(String(lines[3])), 20, true)
+	# 배지가 붙으면 스테이지 줄보다 길다 — 아래 요약(시간 · 처치 · 레벨 · 콤보) 폭에서 꺾는다. 안 그러면 이 한 줄이
+	#   판을 옆으로 밀어 1280×720 영어에서 「메인 메뉴」 단추가 화면 밖으로 나갔다(--resultfit).
+	#   ★ 요약 칸의 최소 폭은 여기서 못 잰다 — 방금 queue_free 한 옛 칸이 프레임 끝까지 남아 두 배(894)로 나온다.
+	#   요약 넷(시간 · 처치 · 레벨 · 최고 콤보)이 한국어 · 영어 다 460 안팎이라 그 폭으로 둔다.
+	var lw: float = 470.0
+	UiKit.set_wrapped(_victory_lbl, "%s   · %s" % [String(lines[0]), "  · ".join(badges)], 20, true, lw)   # 11/5: 항목 사이에서만 · 고르게 꺾는다
+	if _vic_stars != null:
+		for c in _vic_stars.get_children():
+			c.queue_free()
+		_vic_stars.add_child(UiParts.stars(int(rec.get("star", 1)), 3, 16))
+		_vic_stars.visible = true
+	UiKit.set_wrapped(_vic_gold, _keep_items(String(lines[3])), 20, true, 600.0)   # 11/14: 영어 한 줄 794 가 판을 1332 로 밀었다 — 스테이지 줄(592)처럼 꺾는다
 	_res_unlocks(_vic_unl)
 	_fill_dmg_table(_vic_table)
 	_victory_next.disabled = true
@@ -3943,10 +3966,18 @@ const _DMG_NAMES: Dictionary = {
 const _DMG_ICONS: Dictionary = {"dot_burn": "b_fire", "dot_poison": "b_poison", "dash": "dashcd", "thorns": "thorns"}
 
 
+## 11/14: 융합이 얹어 주는 탄막 6단계(구미호의 꼬리 = 연쇄 6 · 폭풍군주 = 감전 6)는 재료 카드가 사라진 뒤의 힘이라
+##   그 융합 줄에 합친다. 따로 세우면 「연쇄」가 1등으로 서서 「융합 무기보다 일반 연쇄가 세다」로 읽혔다(이용자 보고).
+##   무기 재료(부채 → 구미호의 꼬리)를 융합 이름으로 합치는 것과 같은 규칙이다.
+const _DMG_FUSED_ELEM: Dictionary = {"b_chain": "evo_ninetail", "b_shock": "evo_tempest"}
+
+
 func _dmg_show_id(k: String) -> String:
 	var p: Player = G.player as Player if G.player != null and is_instance_valid(G.player) else null
 	if p == null:
 		return k
+	if _DMG_FUSED_ELEM.has(k) and _evolved.has(String(_DMG_FUSED_ELEM[k])):
+		return String(_DMG_FUSED_ELEM[k])
 	var base: String = k.substr(3) if k.begins_with("wp_") else k
 	var evo: String = String(p.fused_marks.get(base, ""))
 	return evo if evo != "" else k
@@ -5942,6 +5973,8 @@ func _on_player_died() -> void:
 	if _stage_done:
 		return  # 스테이지 클리어 패널이 이미 떠 있으면 게임오버 처리 안 함
 	_update_hud_scale()  # 스테일 크기 방어 (S3)
+	# 11/14 무한 기록: 못 깬 판도 그 난이도에서 가장 오래 버틴 시간을 남긴다(영웅 고르는 곳 · 정복 현황에 나온다)
+	var rec_up: bool = G.run_mode == "endless" and not G.is_demo() and G.note_endless_time(G.difficulty, int(G.time_alive))
 	var earned: int = G.run_gold
 	G.bank_run_gold()
 	G.run_ended()  # 도전과제 기록 갱신(생존시간/레벨/판수) + 저장
@@ -5953,6 +5986,8 @@ func _on_player_died() -> void:
 		_gameover.visible = true
 		return
 	lbl.text = _keep_items(I18n.t("획득 골드 %s  ·  총 %s") % [G.gold_str(earned), G.gold_str(G.total_gold)])
+	if rec_up:
+		lbl.text = _keep_items(I18n.t("무한 %s 최고 기록 %02d:%02d") % [G.diff_label(), int(G.time_alive) / 60, int(G.time_alive) % 60]) + "\n" + lbl.text
 	UiFont.apply(lbl, 20)
 	lbl.add_theme_color_override("font_color", UiParts.PAPER_D)
 	_res_summary(_go_sum)

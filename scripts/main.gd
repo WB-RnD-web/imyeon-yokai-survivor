@@ -63,6 +63,9 @@ func _dev_dispatch(uargs: PackedStringArray) -> bool:
 		if (a as String).begins_with("--botrun"):
 			_botrun_flow(lp_diff, lp_dur)
 			return true
+		if (a as String) == "--dmgshare":
+			_dmgshare_flow(lp_diff, lp_dur)
+			return true
 		if (a as String).begins_with("--physprof"):
 			_physprof_flow(int((a as String).get_slice("=", 1)) if "=" in (a as String) else 200)
 			return true
@@ -3025,6 +3028,19 @@ func _herofit_flow() -> void:
 	# 11/7: 업보 칸 · 설명 줄이 나오는 상태(저승길 클리어 · 업보 10)로 잰다 — 가장 긴 설명 줄
 	G.stage_prog["c_%d_0" % (G.STAGE_NAMES.size() - 1)] = 1
 	G.karma = G.KARMA_MAX
+	# 11/14 --endlesstab: 「무한」 탭 · 지옥으로 연다. 무한 기록 줄의 가장 긴 경우 — 지옥은 아직 못 깼고
+	#   (첫 완주 +20,000G · 최고 29:59) 나머지 넷은 별 3개씩(무한 별 12/15). 이 줄은 자동 줄바꿈이 없어 길면 화면이 옆으로 늘어난다.
+	if "--endlesstab" in OS.get_cmdline_user_args():
+		G.stage_prog["c_0_3"] = 1   # 무한 지옥 열림(어느 스테이지든 매우어려움 클리어)
+		G.endless_prog = {"b_4": 1799}
+		for d4 in 4:
+			G.endless_prog["c_%d" % d4] = true
+			G.endless_prog["s_%d" % d4] = 3
+			G.endless_prog["t_%d" % d4] = 59.0
+		G.achievements.erase("ENDLESS_CLEAR_HELL")
+		G.mode_chosen = true
+		G.run_mode = "endless"
+		G.diff_pref = G.DIFF_MAX
 	DirAccess.make_dir_recursive_absolute("user://herofit")
 	_main_menu.close()
 	_char_select.open()
@@ -4258,7 +4274,9 @@ func _resultfit_flow() -> void:
 	var vr: Rect2 = get_viewport().get_visible_rect()
 	var fails: int = 0
 	for sc: String in ["clear", "endless", "gameover"]:
-		G.run_mode = "endless" if sc == "endless" else "stage"
+		# 11/14: 게임오버도 무한으로 — 무한이면 「무한 매우어려움 최고 기록 08:00」 줄이 하나 더 붙는다(가장 긴 경우)
+		G.run_mode = "stage" if sc == "clear" else "endless"
+		G.difficulty = 3
 		G.stage_sel = 0
 		get_tree().paused = false
 		_begin_run(Characters.defs()[0])
@@ -4271,6 +4289,11 @@ func _resultfit_flow() -> void:
 		G.run_gold = 99999
 		G.run_dmg = {"wp_balanced": 9.0e6, "wpn_fire": 8.0e6, "wpn_chain": 7.0e6, "evo_reaper": 6.0e6,
 			"wpn_ice": 5.0e6, "wpn_orb": 4.0e6, "wp_fan": 3.0e6, "b_fire": 2.0e6}
+		# 11/14 무한 완주 줄의 가장 긴 경우 — 전에 별 1개 · 사신 300초로 깼던 난이도를 별 3개 · 45초 · 무피격으로 다시 깬다
+		#   (배지 「최고 등급 · 최단 기록 · 무피격 · 무한 별 n/15」 넷이 다 붙는다)
+		G.endless_prog = {"c_3": true, "s_3": 1, "t_3": 300.0}
+		G.boss_fight_t = 45.0
+		G.no_hit_boss = true
 		match sc:
 			"clear":
 				_on_stage_clear()
@@ -4342,6 +4365,13 @@ func _uifit_flow() -> void:
 		G.meta[mid2] = G.meta_max(mid2)
 	for ad: Dictionary in Accessories.DEFS:
 		G.meta["acc_own_" + String(ad["id"])] = 1
+	# 11/14 도감 정복 현황의 무한 줄 — 넷은 완주(별 3 · 사신 00:59 · 처치 999,999), 지옥은 못 깬 채 최고 29:59
+	G.endless_prog = {"b_4": 1799}
+	for d4 in 4:
+		G.endless_prog["c_%d" % d4] = true
+		G.endless_prog["s_%d" % d4] = 3
+		G.endless_prog["t_%d" % d4] = 59.0
+		G.endless_prog["k_%d" % d4] = 999999
 	var bad: Array = []
 	var screens: Array = [
 		["메인 메뉴", func() -> void: pass],
@@ -5578,6 +5608,83 @@ func _botrun_flow(diff: int, dur: float) -> void:
 		get_tree().paused = false
 		get_tree().reload_current_scene()
 		return
+	get_tree().quit(0)
+
+
+## ──────────────── 무한 후반 무기별 피해 몫 (--dmgshare) ────────────────
+## 11/14 이용자 보고: 무한 쉬움 30분(Lv142)에서 연쇄 63% · 폭풍군주 15% · 레일건 9% — 「융합 무기보다 일반 연쇄가 세다」.
+##   이용자 판과 같은 빌드(밸런스 소총 + 구미호의 꼬리 · 레일건 · 폭풍군주 · 필중의 눈)를 쥐여 주고, 무한 판을 --t0 초 ·
+##   레벨 --lv 에서 시작해 --dur 초 동안 받은 피해 없이 돌린 뒤 결과 표와 같은 몫(G.run_dmg, 융합 이름으로 합침)을 찍는다.
+##   --oldchain 은 고치기 전 연쇄 식. 봇 판은 시드마다 크게 흔들리니 시드 3~4개로 앞뒤를 견준다.
+##   실행: ... --headless --path . -- --dmgshare --diff=0 --fast=6 --seed=1 --dur=120 [--t0=1200] [--lv=120] [--oldchain]
+func _dmgshare_flow(diff: int, dur: float) -> void:
+	await get_tree().create_timer(0.3).timeout
+	var t0: float = 1200.0
+	var lv: int = 120
+	for ua: String in OS.get_cmdline_user_args():
+		if ua.begins_with("--t0="):
+			t0 = float(ua.get_slice("=", 1))
+		elif ua.begins_with("--lv="):
+			lv = int(ua.get_slice("=", 1))
+		elif ua == "--oldchain":
+			G.harness_oldchain = true
+	G.no_save = true
+	G.run_mode = "endless"
+	G.difficulty = diff
+	G.aim_mode = 0
+	G.harness_speed = maxf(1.0, _lp_fast)
+	var base_tps: int = int(ProjectSettings.get_setting("physics/common/physics_ticks_per_second", 60))
+	Engine.physics_ticks_per_second = int(base_tps * G.harness_speed)
+	Engine.max_physics_steps_per_frame = int(8 * G.harness_speed)
+	_begin_run(Characters.def_of("base"))
+	await get_tree().process_frame
+	var p := G.player as Player
+	G.harness_nodmg = true
+	p.xp_mult = 0.0   # 빌드를 고정한다 — 레벨업 카드가 끼면 앞뒤 판의 빌드가 달라진다
+	for b: Array in [["evo_ninetail", ["wp_fan", "b_chain"]], ["evo_railcannon", ["wp_heavy", "b_big"]],
+			["evo_tempest", ["wpn_chain", "b_shock"]], ["evo_deadeye", ["wp_rapid", "crit"]]]:
+		for m: String in (b[1] as Array):
+			_fp_grant(p, m, 6)
+		_apply_upgrade(String(b[0]))
+	_fp_grant(p, "wp_balanced", 5)
+	for _k in 9:
+		_apply_upgrade("dmg")
+	for _k in 8:
+		_apply_upgrade("rate")
+	G.level = lv
+	G.time_alive = t0
+	G.run_dmg.clear()
+	if _lp_fast > 1.0:
+		Engine.time_scale = _lp_fast
+	var k0: int = G.kills
+	var mob_max: int = 0
+	var t_real: int = Time.get_ticks_msec()
+	while G.time_alive < t0 + dur and G.running:
+		if _chest_panel != null and is_instance_valid(_chest_panel):
+			_close_chest_panel()
+			await get_tree().process_frame
+			continue
+		if _levelup_root.visible:
+			_auto_pick()
+			await get_tree().process_frame
+			continue
+		_bal_step()
+		mob_max = maxi(mob_max, _enemy_count())
+		await get_tree().create_timer(0.08).timeout
+	Engine.time_scale = 1.0
+	var merged: Dictionary = {}
+	var total: float = 0.0
+	for k in G.run_dmg.keys():
+		var sid: String = _dmg_show_id(String(k))
+		merged[sid] = float(merged.get(sid, 0.0)) + float(G.run_dmg[k])
+		total += float(G.run_dmg[k])
+	var keys: Array = merged.keys()
+	keys.sort_custom(func(x: Variant, y: Variant) -> bool: return float(merged[x]) > float(merged[y]))
+	print("[DMGSHARE] %s · 난이도 %d · %d초부터 %d초 · Lv%d · 처치 %d · 몹 최대 %d · 총피해 %s · 실시간 %.0f초" % [
+		"예전 연쇄" if G.harness_oldchain else "지금 연쇄", diff, int(t0), int(dur), lv, G.kills - k0, mob_max,
+		_short_num(total), float(Time.get_ticks_msec() - t_real) / 1000.0])
+	for k in keys:
+		print("[DMGSHARE]   %-10s %5.1f%%  %s" % [_dmg_name(String(k)), 100.0 * float(merged[k]) / maxf(1.0, total), _short_num(float(merged[k]))])
 	get_tree().quit(0)
 
 
