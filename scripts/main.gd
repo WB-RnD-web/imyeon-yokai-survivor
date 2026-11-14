@@ -66,6 +66,9 @@ func _dev_dispatch(uargs: PackedStringArray) -> bool:
 		if (a as String) == "--dmgshare":
 			_dmgshare_flow(lp_diff, lp_dur)
 			return true
+		if (a as String) == "--lagprof":
+			_lagprof_flow(lp_diff, lp_dur)
+			return true
 		if (a as String).begins_with("--physprof"):
 			_physprof_flow(int((a as String).get_slice("=", 1)) if "=" in (a as String) else 200)
 			return true
@@ -5685,6 +5688,247 @@ func _dmgshare_flow(diff: int, dur: float) -> void:
 		_short_num(total), float(Time.get_ticks_msec() - t_real) / 1000.0])
 	for k in keys:
 		print("[DMGSHARE]   %-10s %5.1f%%  %s" % [_dmg_name(String(k)), 100.0 * float(merged[k]) / maxf(1.0, total), _short_num(float(merged[k]))])
+	get_tree().quit(0)
+
+
+## --lagprof --lagoff=hide_mobs,hide_gems,hide_bul,hide_bg,hide_dmg,hide_hud: 그 갈래를 화면에서만 숨긴다(계산은 그대로).
+##   숨겼을 때 줄어든 GPU · 드로우 콜이 그 갈래의 그리기 몫이다.
+func _lag_hide() -> void:
+	var off: Dictionary = G.lag_off
+	if off.is_empty():
+		return
+	var groups: Dictionary = {"hide_mobs": "enemy", "hide_gems": "xpgem", "hide_bul": "bullet", "hide_coin": "coin"}
+	for k: String in groups:
+		if off.has(k):
+			for n in get_tree().get_nodes_in_group(String(groups[k])):
+				if n is CanvasItem:
+					(n as CanvasItem).visible = false
+	if off.has("hide_bg") and _bg != null and is_instance_valid(_bg):
+		(_bg as CanvasItem).visible = false
+	if off.has("hide_dmg"):
+		for c in get_children():
+			if c is DamageNumber:
+				(c as CanvasItem).visible = false
+	if off.has("hide_hud"):
+		for c in get_children():
+			if c is CanvasLayer and (c as CanvasLayer).layer > 0:
+				(c as CanvasLayer).visible = false
+
+
+var _lag_added: Dictionary = {}   # --lagprof: 이번 프레임에 새로 붙은 노드(스크립트 · 클래스별)
+
+func _lag_on_added(n: Node) -> void:
+	var sc: Script = n.get_script()
+	var k: String = sc.resource_path.get_file().get_basename() if sc != null else n.get_class()
+	_lag_added[k] = int(_lag_added.get(k, 0)) + 1
+
+
+## ── 11/14 「무한 후반 렉」 재기(--lagprof) ──
+## 이용자 조건(무한 쉬움 · 25~30분 · Lv120~142 · 융합 넷 · 구미호의 꼬리 연쇄 6)을 --dmgshare 와 같은 빌드로 세우고,
+## 화면을 그리는 창 빌드에서 실제 프레임 간격을 잰다(성능 모니터는 1초 최댓값이라 안 쓴다 — 메모 godot-perf-monitor-is-max).
+##   --diff=0 --dur=90 [--t0=1500] [--lv=130] [--warm=8] [--lagoff=a,b,...] [--perfidx=N]
+##   --lagoff 는 원인 순위를 매기려고 한 갈래씩 끈다: 아래 G.lag_off 를 읽는 곳 참고.
+## 끝에 [LAGPROF] JSON 한 줄(평균 · 1% 낮은 · 가장 긴 프레임 · 렌더 CPU/GPU · 드로우 콜 · 노드 · 몹 · 탄)과
+## 30초 구간별 평균(오래 켤수록 느려지는지)을 찍는다.
+func _lagprof_flow(diff: int, dur: float) -> void:
+	# 헤드리스로 돌리면 그리기가 빠진 CPU(스크립트 · 물리) 몫만 남는다 — 창 빌드와 견줘 GPU 몫을 가른다
+	await get_tree().create_timer(0.5).timeout
+	var t0: float = 1500.0
+	var lv: int = 130
+	var warm: float = 8.0
+	for ua: String in OS.get_cmdline_user_args():
+		if ua.begins_with("--t0="):
+			t0 = float(ua.get_slice("=", 1))
+		elif ua.begins_with("--lv="):
+			lv = int(ua.get_slice("=", 1))
+		elif ua.begins_with("--warm="):
+			warm = float(ua.get_slice("=", 1))
+		elif ua.begins_with("--lagoff="):
+			for k: String in ua.get_slice("=", 1).split(","):
+				G.lag_off[k] = true
+		elif ua.begins_with("--perfidx="):
+			G.perf_idx = int(ua.get_slice("=", 1))
+			G.apply_perf()
+	seed(4303)
+	G.no_save = true
+	G.run_mode = "endless"
+	G.difficulty = diff
+	G.aim_mode = 0
+	_main_menu.close()
+	_begin_run(Characters.def_of("base"))
+	await _cf_wait_unpaused(1.0)
+	var p := G.player as Player
+	G.harness_nodmg = true
+	p.xp_mult = 0.0
+	for b: Array in [["evo_ninetail", ["wp_fan", "b_chain"]], ["evo_railcannon", ["wp_heavy", "b_big"]],
+			["evo_tempest", ["wpn_chain", "b_shock"]], ["evo_deadeye", ["wp_rapid", "crit"]]]:
+		for m: String in (b[1] as Array):
+			_fp_grant(p, m, 6)
+		_apply_upgrade(String(b[0]))
+	_fp_grant(p, "wp_balanced", 5)
+	for _k in 9:
+		_apply_upgrade("dmg")
+	for _k in 8:
+		_apply_upgrade("rate")
+	G.level = lv
+	G.time_alive = t0
+	# 몹이 차오를 때까지 기다린다(이 동안은 안 잰다)
+	var w0: int = Time.get_ticks_msec()
+	while float(Time.get_ticks_msec() - w0) / 1000.0 < warm:
+		await get_tree().process_frame
+		if _levelup_root.visible:
+			_auto_pick()
+		if _chest_panel != null and is_instance_valid(_chest_panel):
+			_close_chest_panel()
+	var vp_rid: RID = get_viewport().get_viewport_rid()
+	RenderingServer.viewport_set_measure_render_time(vp_rid, true)
+	var frames: PackedFloat32Array = PackedFloat32Array()
+	var rcpu: float = 0.0
+	var rgpu: float = 0.0
+	var draws: float = 0.0
+	var n_s: int = 0
+	var samp: Dictionary = {"mobs": 0, "bul": 0, "ebul": 0, "nodes": 0, "pairs": 0}
+	var samp_max: Dictionary = {"mobs": 0, "bul": 0, "ebul": 0, "nodes": 0, "pairs": 0}
+	var samp_n: int = 0
+	var win: Array = []          # 30초 구간 [프레임 수, 합 ms, 노드 평균]
+	var win_f: int = 0
+	var win_ms: float = 0.0
+	var win_nodes: int = 0
+	var win_ns: int = 0
+	var start: int = Time.get_ticks_usec()
+	var last: int = start
+	var t_samp: float = 0.0
+	var t_bot: float = 0.0
+	var t_win: float = 0.0
+	var k0: int = G.kills
+	var spikes: Array = []
+	get_tree().node_added.connect(_lag_on_added)
+	var last_nodes: int = int(Performance.get_monitor(Performance.OBJECT_NODE_COUNT))
+	var last_kills: int = G.kills
+	while float(Time.get_ticks_usec() - start) / 1.0e6 < dur and G.running:
+		await get_tree().process_frame
+		var now: int = Time.get_ticks_usec()
+		var ms: float = float(now - last) / 1000.0
+		last = now
+		frames.append(ms)
+		win_f += 1
+		win_ms += ms
+		# 긴 프레임이 무엇과 같이 왔나: 노드 수 변화 · 처치 수 변화 · 웨이브
+		var nn: int = int(Performance.get_monitor(Performance.OBJECT_NODE_COUNT))
+		if ms > 40.0:
+			var ak: Array = _lag_added.keys()
+			ak.sort_custom(func(x: Variant, y: Variant) -> bool: return int(_lag_added[x]) > int(_lag_added[y]))
+			var top: Array = []
+			for k in ak.slice(0, 4):
+				top.append("%s×%d" % [k, int(_lag_added[k])])
+			spikes.append([snappedf(float(now - start) / 1.0e6, 0.01), snappedf(ms, 0.1), nn - last_nodes, G.kills - last_kills, _enemy_count(), " ".join(top)])
+		_lag_added.clear()
+		last_nodes = nn
+		last_kills = G.kills
+		rcpu += RenderingServer.viewport_get_measured_render_time_cpu(vp_rid)
+		rgpu += RenderingServer.viewport_get_measured_render_time_gpu(vp_rid)
+		draws += Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)
+		n_s += 1
+		var el: float = float(now - start) / 1.0e6
+		if _levelup_root.visible:
+			_auto_pick()
+		if _chest_panel != null and is_instance_valid(_chest_panel):
+			_close_chest_panel()
+		if el - t_bot >= 0.08:
+			t_bot = el
+			_bal_step()
+		if el - t_samp >= 0.5:
+			t_samp = el
+			_lag_hide()
+			var s: Dictionary = {
+				"mobs": _enemy_count(),
+				"bul": get_tree().get_nodes_in_group("bullet").size(),
+				"ebul": get_tree().get_nodes_in_group("ebullet").size(),
+				"nodes": int(Performance.get_monitor(Performance.OBJECT_NODE_COUNT)),
+				"pairs": int(Performance.get_monitor(Performance.PHYSICS_2D_COLLISION_PAIRS)),
+			}
+			for k: String in s:
+				samp[k] = int(samp[k]) + int(s[k])
+				samp_max[k] = maxi(int(samp_max[k]), int(s[k]))
+			samp_n += 1
+			win_nodes += int(s["nodes"])
+			win_ns += 1
+		if el - t_win >= 30.0:
+			t_win = el
+			win.append([win_f, snappedf(1000.0 * float(win_f) / maxf(1.0, win_ms), 0.1), int(float(win_nodes) / maxf(1.0, float(win_ns)))])
+			win_f = 0
+			win_ms = 0.0
+			win_nodes = 0
+			win_ns = 0
+	var sorted: PackedFloat32Array = frames.duplicate()
+	sorted.sort()
+	var total_ms: float = 0.0
+	for v in frames:
+		total_ms += v
+	var nf: int = maxi(1, sorted.size())
+	var avg: Dictionary = {}
+	for k: String in samp:
+		avg[k] = int(float(samp[k]) / maxf(1.0, float(samp_n)))
+	var out: Dictionary = {
+		"lagoff": ",".join(PackedStringArray(G.lag_off.keys())), "diff": diff, "t0": t0, "lv": lv, "secs": dur,
+		"res": "%dx%d" % [DisplayServer.window_get_size().x, DisplayServer.window_get_size().y], "perf_level": G.perf_level(),
+		"frames": frames.size(), "avg_fps": snappedf(1000.0 * float(frames.size()) / maxf(1.0, total_ms), 0.1),
+		"low1_fps": snappedf(1000.0 / maxf(0.001, sorted[int(float(nf) * 0.99)]), 0.1),
+		"p50_ms": snappedf(sorted[int(float(nf) * 0.5)], 0.01), "worst_ms": snappedf(sorted[nf - 1], 0.1),
+		"over_33ms": frames.size() - sorted.bsearch(33.4), "over_50ms": frames.size() - sorted.bsearch(50.0),
+		"ms_render_cpu": snappedf(rcpu / maxf(1.0, n_s), 0.01), "ms_render_gpu": snappedf(rgpu / maxf(1.0, n_s), 0.01),
+		"draw_calls": int(draws / maxf(1.0, n_s)), "avg": avg, "max": samp_max, "kills": G.kills - k0,
+		"windows": win, "gpu": RenderingServer.get_video_adapter_name(),
+	}
+	print("[LAGPROF] " + JSON.stringify(out))
+	for ua: String in OS.get_cmdline_user_args():
+		if ua.begins_with("--lagshot="):   # 끝 장면을 그림으로(고친 뒤 모양이 같은지 눈으로 본다)
+			get_viewport().get_texture().get_image().save_png(ua.get_slice("=", 1))
+	spikes.sort_custom(func(x: Array, y: Array) -> bool: return float(x[1]) > float(y[1]))
+	for sp in spikes.slice(0, 10):
+		print("[LAGSPIKE] %6.2f초 %6.1fms 노드%+d 처치%+d 몹%d  새로 생긴 것: %s" % sp)
+	# 무엇이 그려지는가: 보이는 CanvasItem 을 스크립트(없으면 클래스) · 재질 유무로 센다
+	var tally: Dictionary = {}
+	var stack: Array = [get_tree().root]
+	while not stack.is_empty():
+		var nd: Node = stack.pop_back()
+		for c in nd.get_children():
+			stack.append(c)
+		if nd is CanvasItem and (nd as CanvasItem).is_visible_in_tree():
+			var sc: Script = nd.get_script()
+			var key: String = (sc.resource_path.get_file() if sc != null else nd.get_class())
+			if (nd as CanvasItem).material != null:
+				key += "+mat"
+			if nd is CanvasItem and (nd as CanvasItem).get_parent() != null and (nd.get_parent().get_script() != null):
+				key += " < " + (nd.get_parent().get_script() as Script).resource_path.get_file()
+			tally[key] = int(tally.get(key, 0)) + 1
+	var tk: Array = tally.keys()
+	tk.sort_custom(func(x: Variant, y: Variant) -> bool: return int(tally[x]) > int(tally[y]))
+	for i in mini(28, tk.size()):
+		print("[LAGTREE] %5d  %s" % [int(tally[tk[i]]), tk[i]])
+	# CanvasLayer 별(HUD 등): 보이는 그림 수 · 재질 수 · 화면 면적 큰 것
+	for cl in get_children():
+		if not (cl is CanvasLayer) or not (cl as CanvasLayer).visible:
+			continue
+		var cnt: int = 0
+		var mats: int = 0
+		var big: Array = []
+		var st: Array = [cl]
+		while not st.is_empty():
+			var nd2: Node = st.pop_back()
+			for c in nd2.get_children():
+				st.append(c)
+			if nd2 is CanvasItem and (nd2 as CanvasItem).is_visible_in_tree():
+				cnt += 1
+				if (nd2 as CanvasItem).material != null:
+					mats += 1
+				if nd2 is Control:
+					var r: Rect2 = (nd2 as Control).get_global_rect()
+					if r.get_area() > 1280.0 * 720.0 * 0.15:
+						var sc2: Script = nd2.get_script()
+						big.append("%s %dx%d a%.2f%s" % [nd2.name, int(r.size.x), int(r.size.y), (nd2 as CanvasItem).modulate.a,
+							(" " + sc2.resource_path.get_file()) if sc2 != null else ""])
+		print("[LAGLAYER] layer %d %s · 보이는 그림 %d · 재질 %d · 큰 판 %s" % [(cl as CanvasLayer).layer, cl.name, cnt, mats, str(big.slice(0, 8))])
 	get_tree().quit(0)
 
 

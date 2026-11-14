@@ -105,6 +105,10 @@ func _tier_radius() -> float:
 
 func _ready() -> void:
 	add_to_group("xpgem")
+	# 11/14 「무한 후반 렉」: 구슬을 몹 아래 한 층(z -4)에 모은다. 예전엔 몹과 생긴 순서대로 섞여 그려져서
+	#   구슬(같은 그림 한 장)과 몹 몸이 번갈아 나올 때마다 묶음 그리기가 끊겼다. 바닥에 떨어진 것이라 몹 아래가 자연스럽다.
+	if not G.lag_off.has("old_z"):
+		z_index = -4
 	_build_art()
 	# 드랍 팝
 	scale = Vector2(0.1, 0.1)

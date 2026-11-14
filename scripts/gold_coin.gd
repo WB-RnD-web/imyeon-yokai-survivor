@@ -31,6 +31,8 @@ static func spawn(parent: Node, pos: Vector2, value: int) -> void:
 
 func _ready() -> void:
 	add_to_group("coin")
+	if not G.lag_off.has("old_z"):
+		z_index = -4   # 11/14: 구슬과 같은 층 — 몹 그림 사이에 끼어 묶음 그리기를 끊지 않게(xp_gem.gd)
 	_px = FxLib.sprite("ui/pickup", "coin", true)
 	if _px != null:
 		add_child(_px)

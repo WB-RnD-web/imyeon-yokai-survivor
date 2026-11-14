@@ -338,14 +338,49 @@ func _try_sprite() -> bool:
 	#   사람 형태는 원의 25% 만 덮기 때문에 나머지 창백한 부분이 그대로 드러나서,
 	#   "캐릭터가 뚫려서 뒤가 보인다"로 읽혔다(실플레이 리포트 + 확대 검증).
 	#   이제 발밑에 납작한 그림자 하나만 둔다 — 대비도 살고 원반도 안 보인다.
-	var shadow := Polygon2D.new()
-	shadow.polygon = G.regular_polygon(16, radius * 0.72)
-	shadow.color = Color(0.02, 0.02, 0.04, 0.40)
-	shadow.scale = Vector2(1.15, 0.42)                 # 납작하게 = 바닥에 드리운 그림자
-	shadow.position = Vector2(0, radius * 0.86)
-	_inner.add_child(shadow)
+	_inner.add_child(_make_shadow())   # 납작한 타원 = 바닥에 드리운 그림자
 	_inner.add_child(_sprite)
 	return true
+
+
+## 11/14 「무한 후반 렉」: 발밑 그림자를 바닥 바로 위 한 층(z -10)으로 내린다.
+##   예전엔 몹마다 「그림자(색 다각형) → 몸(테두리 재질 그림)」이 번갈아 그려져서 묶음 그리기가 몹마다 두 번 끊겼다
+##   (몹 296 · 드로우 콜 1,100 중 몹 몫 650). 그림자를 한 층에 모으면 그림자끼리 · 같은 몹 몸끼리 묶인다.
+##   그림자가 다른 몹 몸 위에 겹쳐 그려지던 것도 같이 없어진다(바닥에 붙은 게 맞다). 바닥(-100) · 바닥 장식(-50) 위.
+##   z 는 부모 기준이라 몹(0)은 -10, 영웅(6)은 -4 — 둘 다 바닥 장식 위 · 몸 아래다.
+##   ★ 층만 모아서는 드로우 콜이 거의 안 준다 — Godot 2D 는 Polygon2D 를 하나씩 따로 그린다.
+##   그래서 그림자를 공용 원판 그림 한 장(Sprite2D)으로 바꾼다. 같은 그림 · 재질 없음이라 한 층의 그림자가 한 번에 그려진다.
+##   모양 · 크기 · 색은 예전 16각형(반지름 r×0.72, 가로 1.15 · 세로 0.42, 검정 40%)과 같다. 가장자리만 살짝 부드럽다.
+const SHADOW_Z: int = -10
+const _SHADOW_PX: int = 64
+static var _shadow_tex: Texture2D = null
+
+func _make_shadow() -> Node2D:
+	if G.lag_off.has("old_shadow"):
+		var poly := Polygon2D.new()
+		poly.polygon = G.regular_polygon(16, radius * 0.72)
+		poly.color = Color(0.02, 0.02, 0.04, 0.40)
+		poly.scale = Vector2(1.15, 0.42)
+		poly.position = Vector2(0, radius * 0.86)
+		return poly
+	if _shadow_tex == null:
+		var img := Image.create(_SHADOW_PX, _SHADOW_PX, false, Image.FORMAT_RGBA8)
+		var c: float = float(_SHADOW_PX) * 0.5
+		for y in _SHADOW_PX:
+			for x in _SHADOW_PX:
+				var d: float = Vector2(float(x) + 0.5 - c, float(y) + 0.5 - c).length()
+				img.set_pixel(x, y, Color(1, 1, 1, clampf(c - d, 0.0, 1.0)))   # 가장자리 한 픽셀만 섞인 단단한 원판
+		_shadow_tex = ImageTexture.create_from_image(img)
+	var s := Sprite2D.new()
+	s.texture = _shadow_tex
+	s.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+	var d0: float = radius * 0.72 * 2.0 / float(_SHADOW_PX)
+	s.scale = Vector2(1.15 * d0, 0.42 * d0)
+	s.position = Vector2(0, radius * 0.86)
+	s.modulate = Color(0.02, 0.02, 0.04, 0.40)
+	s.z_index = SHADOW_Z
+	s.visible = not G.lag_off.has("hide_shadow")   # --lagprof 원인 재기 전용
+	return s
 
 
 ## ── 캐릭터 에셋 모드 ──
@@ -365,12 +400,7 @@ func _try_cf() -> bool:
 	_cf_lift = _lift_gamma((a0["tex"] as Texture2D).resource_path)
 	if not cf_palette.is_empty() and not CharForge.palette(cf_id).is_empty():
 		_cf_pal_tex = CharForge.palette_texture(cf_palette)
-	var shadow := Polygon2D.new()
-	shadow.polygon = G.regular_polygon(16, radius * 0.72)
-	shadow.color = Color(0.02, 0.02, 0.04, 0.40)
-	shadow.scale = Vector2(1.15, 0.42)
-	shadow.position = Vector2(0, radius * 0.86)
-	_inner.add_child(shadow)
+	_inner.add_child(_make_shadow())
 	_sprite = Sprite2D.new()
 	_sprite.centered = false
 	_sprite.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST

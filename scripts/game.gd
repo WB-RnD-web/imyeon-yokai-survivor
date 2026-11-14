@@ -2112,10 +2112,27 @@ func fx_budget() -> bool:
 	if f != _fx_frame:
 		_fx_frame = f
 		_fx_count = 0
+		# 11/14 「무한 후반 렉」: 프레임당 14개는 초당 840개까지 허락해서, 몹이 빽빽한 무한 후반(연쇄 6 · 폭풍군주)엔
+		#   0.2~0.4초짜리 불꽃 · 번개 선이 화면에 300개 넘게 겹쳐 있었다(GT 710 · 1080p 에서 그리기가 프레임의 대부분).
+		#   초당 채우는 양에 상한을 둔다(토큰 통). 초반 · 스테이지처럼 맞는 수가 적을 땐 그대로이고,
+		#   빽빽할 때만 동시에 떠 있는 효과가 대략 FX_RATE × 0.3초 + FX_BURST 개로 묶인다.
+		var now: int = Time.get_ticks_msec()
+		var dt: float = clampf(float(now - _fx_tok_ms) / 1000.0, 0.0, 0.25)
+		_fx_tok_ms = now
+		_fx_tokens = minf(FX_BURST * fx_scale(), _fx_tokens + FX_RATE * fx_scale() * dt)
 	if _fx_count >= int(float(FX_BUDGET) * fx_scale()):
 		return false
+	if _fx_tokens < 1.0 and not lag_off.has("old_fx"):
+		return false
+	_fx_tokens -= 1.0
 	_fx_count += 1
 	return true
+
+
+const FX_RATE: float = 220.0   # 11/14: 초당 새 임팩트 효과 상한(표준 · 고급 기준, 절전은 fx_scale 배)
+const FX_BURST: float = 20.0   # 한꺼번에 몰려도 이만큼은 바로 낸다(보스 처치 · 폭발 한 번은 그대로 보이게). 40 이면 느린 프레임 뒤 한 프레임에 효과 40개가 몰려 다시 느려졌다
+var _fx_tokens: float = 20.0
+var _fx_tok_ms: int = 0
 
 
 var wfx_legacy: bool = false   # 검사(--crowdshot=…:old) 전용: 예전처럼 임팩트 예산을 같이 쓴다
@@ -2383,6 +2400,7 @@ var reaper_t0: float = 0.0   # 무한 최종 보스(사신)가 처음 나온 시
 var harness_final_hp: float = 0.0   # --botrun --finalhp=N: 무한 최종 보스 체력을 N 으로(안 죽게 두고 화력을 잰다)
 var harness_nodmg: bool = false   # --botrun --nodmg: 받은 피해를 세기만 한다(player.take_damage)
 var harness_oldchain: bool = false   # --dmgshare --oldchain: 11/14 고치기 전 연쇄 식(앞뒤 비교용)
+var lag_off: Dictionary = {}         # --lagprof --lagoff=a,b: 11/14 후반 렉 원인 순위용으로 한 갈래씩 끈다(하니스 전용)
 var deploy_ms: int = 0      # 16차 4-3: 출격을 누른 시각(씬을 다시 불러도 남게 G 에)
 var boot_menu_ms: int = 0
 
