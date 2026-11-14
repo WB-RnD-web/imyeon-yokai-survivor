@@ -20,13 +20,13 @@ jobs:
 
       - name: Install Godot and export templates
         run: |
-          base="https://github.com/godotengine/godot-builds/releases/download/$4.7.1-stable"
-          curl -fsSL -o godot.zip "$base/Godot_v$4.7.1-stable_linux.x86_64.zip"
+          base="https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}-stable"
+          curl -fsSL -o godot.zip "$base/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
           unzip -q godot.zip
-          mv "Godot_v$4.7.1-stable_linux.x86_64" "$RUNNER_TEMP/godot"
+          mv "Godot_v${GODOT_VERSION}-stable_linux.x86_64" "$RUNNER_TEMP/godot"
           rm godot.zip
-          curl -fsSL -o templates.tpz "$base/Godot_v$4.7.1-stable_export_templates.tpz"
-          tpl="$HOME/.local/share/godot/export_templates/$4.7.1.stable"
+          curl -fsSL -o templates.tpz "$base/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          tpl="$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.stable"
           mkdir -p "$tpl"
           unzip -q templates.tpz -d "$RUNNER_TEMP/tpl"
           mv "$RUNNER_TEMP"/tpl/templates/* "$tpl/"
